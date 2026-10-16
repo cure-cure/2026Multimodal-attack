@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="基于图像与文本多证据融合的多模态大模型越狱攻击检测演示"
+    />
+    <title>多证据融合越狱检测</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <a class="brand" href="#workspace" aria-label="返回检测工作区">
+        <svg class="brand-mark" viewBox="0 0 40 44" aria-hidden="true">
+          <path d="M20 2 36 8v12c0 10-6.6 17.2-16 22C10.6 37.2 4 30 4 20V8Z" />
+          <path class="brand-cut" d="M20 10v23c5.2-3.1 8-7.3 8-13V13Z" />
+        </svg>
+        <span>多证据融合越狱检测</span>
+      </a>
+      <nav aria-label="主要导航">
+        <a class="nav-link active" href="#workspace">单条检测</a>
+        <a class="nav-link" href="#module-status">接口状态</a>
+        <a class="nav-link" href="#batch-guide">批量预测</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="workspace" class="workspace-section" aria-labelledby="workspace-title">
+        <div class="section-heading">
+          <span class="heading-rule" aria-hidden="true"></span>
+          <div>
+            <h1 id="workspace-title">图文输入检测</h1>
+          </div>
+        </div>
+
+        <div class="workspace-frame">
+          <form id="detect-form" class="input-pane">
+            <div class="field-group compact-field">
+              <label for="sample-id">样本编号</label>
+              <input id="sample-id" name="sample_id" value="val-001" maxlength="128" required />
+              <p class="field-note">示例证据可使用 val-001 至 val-008</p>
+            </div>
+
+            <div class="field-group">
+              <label for="image-input">上传图片</label>
+              <label id="drop-zone" class="drop-zone" for="image-input">
+                <input
+                  id="image-input"
+                  name="image"
+                  type="file"
+                  accept="image/png,image/jpeg,image/webp,image/bmp"
+                />
+                <span class="preview-wrap" id="preview-wrap" hidden>
+                  <img id="image-preview" alt="待检测图片预览" />
+                </span>
+                <span class="upload-copy">
+                  <svg viewBox="0 0 32 32" aria-hidden="true">
+                    <path d="M16 22V7m0 0-6 6m6-6 6 6M7 20a6 6 0 0 0 1 11h16a6 6 0 0 0 1-11 9 9 0 0 0-17-2" />
+                  </svg>
+                  <strong>点击上传或拖拽图片到此处</strong>
+                  <span>支持 PNG、JPG、WEBP、BMP，单张不超过 10 MB</span>
+                </span>
+              </label>
+            </div>
+
+            <div class="field-group text-field">
+              <label for="user-text">用户文字</label>
+              <textarea id="user-text" name="user_text" maxlength="5000">请对图片内容进行安全性检查。</textarea>
+              <span class="counter"><span id="text-count">16</span>/5000</span>
+            </div>
+
+            <div id="form-error" class="message error-message" role="alert" hidden></div>
+            <button id="submit-button" class="primary-button" type="submit">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7Z" /></svg>
+              <span>开始检测</span>
+            </button>
+          </form>
+
+          <section class="result-pane" aria-labelledby="result-title" aria-live="polite">
+            <h2 id="result-title">检测结果</h2>
+            <div id="result-summary" class="result-summary pending">
+              <div class="verdict-block">
+                <span class="summary-label">判定</span>
+                <strong id="verdict">等待检测</strong>
+              </div>
+              <div class="score-block">
+                <span class="summary-label">风险分数</span>
+                <div class="score-number"><strong id="risk-score">--</strong><span>/ 1.00</span></div>
+                <div class="meter" aria-hidden="true"><span id="risk-meter"></span></div>
+                <div class="meter-scale"><span>0</span><span id="threshold-label">阈值 --</span><span>1.0</span></div>
+              </div>
+            </div>
+
+            <div class="evidence-header">
+              <h3>证据来源</h3>
+              <span id="mode-label">完整融合</span>
+            </div>
+            <div class="evidence-list">
+              <article class="evidence-row">
+                <span class="evidence-icon blue" aria-hidden="true">文</span>
+                <div class="evidence-content">
+                  <div class="evidence-title"><strong>用户文字</strong><span id="score-user">--</span></div>
+                  <p id="detail-user">提交后显示 C 的用户文字风险证据。</p>
+                </div>
+              </article>
+              <article class="evidence-row">
+                <span class="evidence-icon green" aria-hidden="true">字</span>
+                <div class="evidence-content">
+                  <div class="evidence-title"><strong>OCR 文字</strong><span id="score-ocr">--</span></div>
+                  <p id="detail-ocr">提交后显示 B 的 OCR 结果与 C 的对应分数。</p>
+                </div>
+              </article>
+              <article class="evidence-row">
+                <span class="evidence-icon amber" aria-hidden="true">图</span>
+                <div class="evidence-content">
+                  <div class="evidence-title"><strong>视觉异常</strong><span id="score-visual">--</span></div>
+                  <p id="detail-visual">视觉异常只作为辅助证据，不单独决定风险。</p>
+                </div>
+              </article>
+              <article class="evidence-row">
+                <span class="evidence-icon violet" aria-hidden="true">联</span>
+                <div class="evidence-content">
+                  <div class="evidence-title"><strong>跨模态关联</strong><span id="score-cross">--</span></div>
+                  <p id="detail-cross">D 将计算图中文字与用户文字的关联和风险协同。</p>
+                </div>
+              </article>
+            </div>
+            <div id="warning-box" class="message warning-message" hidden></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="batch-guide" class="batch-guide" aria-labelledby="batch-title">
+        <div>
+          <h2 id="batch-title">批量预测</h2>
+          <p>命令行入口按样本编号合并 A 的清单、B 的图像证据和 C 的文本证据，并输出三种方案供 A 统一评测。</p>
+        </div>
+        <code>python -m mm_jailbreak_guard compare --help</code>
+      </section>
+    </main>
+
+    <footer id="module-status" class="status-rail">
+      <div class="status-inner">
+        <div class="module-state" data-module="B">
+          <span class="status-dot" aria-hidden="true"></span>
+          <strong>B 图像模块</strong><span class="status-value">检查中</span><small></small>
+        </div>
+        <div class="module-state" data-module="C">
+          <span class="status-dot" aria-hidden="true"></span>
+          <strong>C 文本模块</strong><span class="status-value">检查中</span><small></small>
+        </div>
+        <div class="module-state" data-module="D">
+          <span class="status-dot" aria-hidden="true"></span>
+          <strong>D 融合模块</strong><span class="status-value">检查中</span><small></small>
+        </div>
+        <button id="records-button" class="records-button" type="button">查看最近记录</button>
+      </div>
+      <div id="records-panel" class="records-panel" hidden>
+        <div class="records-head"><strong>最近检测记录</strong><button id="records-close" type="button">关闭</button></div>
+        <div id="records-list"></div>
+      </div>
+    </footer>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "config_id": "bootstrap-unvalidated-v1",
+  "trained_on_split": null,
+  "algorithm": "manual_weighted_late_fusion",
+  "visual_weight_cap": 0.2,
+  "modes": {
+    "user_text_only": {
+      "threshold": 0.5,
+      "weights": {
+        "user_text_score": 1.0
+      }
+    },
+    "user_text_ocr": {
+      "threshold": 0.5,
+      "weights": {
+        "user_text_score": 0.35,
+        "ocr_text_score": 0.25,
+        "combined_text_score": 0.25,
+        "cross_modal_score": 0.15
+      }
+    },
+    "full": {
+      "threshold": 0.5,
+      "weights": {
+        "user_text_score": 0.25,
+        "ocr_text_score": 0.2,
+        "combined_text_score": 0.25,
+        "visual_score": 0.1,
+        "cross_modal_score": 0.2
+      }
+    }
+  },
+  "selection": {
+    "status": "bootstrap_only",
+    "note": "正式实验必须使用 validation 划分重新运行 fit；不得使用 test 调参。"
+  }
+}

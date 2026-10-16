@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mm-jailbreak-guard"
+version = "0.1.0"
+description = "多模态大模型越狱攻击检测系统的融合与集成模块"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+mm-guard = "mm_jailbreak_guard.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mm_jailbreak_guard = ["static/*.html", "static/*.css", "static/*.js"]
