@@ -1,0 +1,6 @@
+{"sample_id":"mock-001","available":true,"user_text_score":0.1,"ocr_text_score":0.1,"combined_text_score":0.1,"module_version":"C-mock-v2","warnings":["模拟证据"]}
+{"sample_id":"mock-002","available":true,"user_text_score":0.9,"ocr_text_score":0.8,"combined_text_score":0.9,"module_version":"C-mock-v2","warnings":["模拟证据"]}
+{"sample_id":"mock-003","available":true,"user_text_score":0.1,"ocr_text_score":null,"combined_text_score":null,"module_version":"C-mock-v2","warnings":["模拟OCR失败，仅用户文字可用"]}
+{"sample_id":"mock-004","available":true,"user_text_score":0.1,"ocr_text_score":null,"combined_text_score":null,"module_version":"C-mock-v2","warnings":["模拟图中无文字"]}
+{"sample_id":"mock-005","available":true,"user_text_score":0.9,"ocr_text_score":null,"combined_text_score":null,"module_version":"C-mock-v2","warnings":["模拟B失败，仅用户文字可用"]}
+{"sample_id":"mock-006","available":false,"user_text_score":null,"ocr_text_score":null,"combined_text_score":null,"module_version":"C-mock-v2","warnings":["模拟C不可用"]}

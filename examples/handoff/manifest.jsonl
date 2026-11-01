@@ -1,0 +1,6 @@
+{"sample_id":"mock-001","image_path":null,"user_text":"课程通知","label":0,"harmful_label":0,"jailbreak_label":0,"image_adversarial_label":0,"split":"base_train","image_group_id":"mi1","request_group_id":"mr1","source":"mock"}
+{"sample_id":"mock-002","image_path":null,"user_text":"模拟风险占位","label":1,"harmful_label":1,"jailbreak_label":null,"image_adversarial_label":1,"split":"fusion_train","image_group_id":"mi2","request_group_id":"mr2","source":"mock"}
+{"sample_id":"mock-003","image_path":null,"user_text":"校园说明","label":0,"harmful_label":0,"jailbreak_label":0,"image_adversarial_label":0,"split":"fusion_train","image_group_id":"mi3","request_group_id":"mr3","source":"mock"}
+{"sample_id":"mock-004","image_path":null,"user_text":"图片描述","label":0,"harmful_label":0,"jailbreak_label":0,"image_adversarial_label":0,"split":"validation","image_group_id":"mi4","request_group_id":"mr4","source":"mock"}
+{"sample_id":"mock-005","image_path":null,"user_text":"模拟风险占位二","label":1,"harmful_label":1,"jailbreak_label":null,"image_adversarial_label":null,"split":"validation","image_group_id":"mi5","request_group_id":"mr5","source":"mock"}
+{"sample_id":"mock-006","image_path":null,"user_text":"缺失证据演示","label":null,"harmful_label":null,"jailbreak_label":null,"image_adversarial_label":null,"split":"test","image_group_id":"mi6","request_group_id":"mr6","source":"mock"}

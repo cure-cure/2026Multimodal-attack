@@ -16,6 +16,14 @@ from .fusion import FusionEngine
 from .providers import provider_status
 
 
+def image_decision(image: ImageEvidence) -> dict[str, Any] | None:
+    if image.cider is None:
+        return None
+    c = image.cider
+    return {"statistic": c.statistic, "statistic_name": c.statistic_name,
+            "threshold": c.threshold, "comparison": c.comparison, "config_id": c.config_id}
+
+
 @dataclass(slots=True, frozen=True)
 class DetectionReport:
     request: DetectionRequest
@@ -50,6 +58,8 @@ class DetectionReport:
             "warnings": list(fusion.warnings),
             "module_versions": self.module_versions,
             "fusion_config_id": fusion.fusion_config_id,
+            "prediction_target": "image_adversarial" if fusion.mode == "image_only" else "overall_risk",
+            "image_decision": image_decision(self.image_evidence) if fusion.mode == "image_only" else None,
         }
 
 

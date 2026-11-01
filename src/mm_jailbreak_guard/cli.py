@@ -8,10 +8,12 @@ from typing import Any
 
 from . import __version__
 from .contracts import DetectionRequest
-from .fusion import FusionBundle, FusionEngine, TuningExample, build_feature_vector, fit_bundle
+from .fusion import FusionBundle, FusionEngine, TuningExample, build_feature_vector, fit_bundle, MODE_FEATURES, PRIMARY_MODES
 from .io import load_jsonl, write_json, write_jsonl
 from .pipeline import DetectionPipeline
 from .providers import make_image_provider, make_text_provider
+from .handoff import validate_handoff
+from .pipeline import image_decision
 
 
 def _add_upstream_arguments(parser: argparse.ArgumentParser) -> None:
@@ -28,8 +30,13 @@ def build_parser() -> argparse.ArgumentParser:
         prog="mm-guard", description="第十题 D 模块：多证据融合与系统集成"
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
+    check_parser = subparsers.add_parser("validate", help="校验四类划分、分组隔离及 B/C 离线交接文件")
+    check_parser.add_argument("--manifest", required=True)
+    check_parser.add_argument("--image-evidence")
+    check_parser.add_argument("--text-evidence")
+    check_parser.set_defaults(handler=_validate)
 
-    fit_parser = subparsers.add_parser("fit", help="只在验证集拟合三种融合模式")
+    fit_parser = subparsers.add_parser("fit", help="旧原型：验证集网格搜索，仅供模拟或明确记录的基线实验")
     fit_parser.add_argument("--manifest", required=True)
     _add_upstream_arguments(fit_parser)
     fit_parser.add_argument("--output", required=True)
@@ -41,7 +48,7 @@ def build_parser() -> argparse.ArgumentParser:
     batch_parser.add_argument("--manifest", required=True)
     _add_upstream_arguments(batch_parser)
     batch_parser.add_argument("--config", required=True)
-    batch_parser.add_argument("--mode", choices=("user_text_only", "user_text_ocr", "full"), default="full")
+    batch_parser.add_argument("--mode", choices=tuple(MODE_FEATURES), default="full")
     batch_parser.add_argument("--output", required=True)
     batch_parser.set_defaults(handler=_batch)
 
@@ -77,6 +84,12 @@ def _request_from_record(record: dict[str, Any], manifest_path: Path) -> Detecti
     )
 
 
+def _validate(args: argparse.Namespace) -> int:
+    result = validate_handoff(args.manifest, args.image_evidence, args.text_evidence)
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    return 0
+
+
 def _load_manifest(path: str) -> tuple[Path, list[dict[str, Any]]]:
     manifest = Path(path).resolve()
     return manifest, load_jsonl(manifest, unique_key="sample_id")
@@ -90,6 +103,7 @@ def _providers(args: argparse.Namespace):
 
 
 def _fit(args: argparse.Namespace) -> int:
+    print("提示：fit 是旧原型的验证集网格搜索，不代替新计划的 fusion_train 训练及 validation 选阈值。", file=sys.stderr)
     manifest_path, records = _load_manifest(args.manifest)
     if not records:
         raise ValueError("验证集清单为空")
@@ -157,9 +171,11 @@ def _compare(args: argparse.Namespace) -> int:
         request = _request_from_record(record, manifest_path)
         image, text = pipeline.collect_evidence(request)
         schemes = {}
-        for mode in ("user_text_only", "user_text_ocr", "full"):
+        for mode in PRIMARY_MODES:
             fusion = pipeline.fusion_engine.fuse(request, image, text, mode)
             schemes[mode] = {
+                "prediction_target": "image_adversarial" if mode == "image_only" else "overall_risk",
+                "image_decision": image_decision(image) if mode == "image_only" else None,
                 "prediction": fusion.prediction,
                 "label_name": fusion.label_name,
                 "risk_score": fusion.risk_score,

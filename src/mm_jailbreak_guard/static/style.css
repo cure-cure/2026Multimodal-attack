@@ -296,3 +296,4 @@ input:focus, textarea:focus { border-color: var(--blue); box-shadow: 0 0 0 3px r
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
 }
+select { width: 100%; padding: 10px; border: 1px solid #d2dae6; border-radius: 6px; background: white; color: #203b60; }

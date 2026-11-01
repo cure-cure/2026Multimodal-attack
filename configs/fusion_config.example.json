@@ -4,6 +4,8 @@
   "algorithm": "manual_weighted_late_fusion",
   "visual_weight_cap": 0.2,
   "modes": {
+    "image_only": {"threshold": 0.5, "weights": {"visual_score": 1.0}},
+    "text_only": {"threshold": 0.5, "weights": {"user_text_score": 0.4, "ocr_text_score": 0.3, "combined_text_score": 0.3}},
     "user_text_only": {
       "threshold": 0.5,
       "weights": {
@@ -32,6 +34,6 @@
   },
   "selection": {
     "status": "bootstrap_only",
-    "note": "正式实验必须使用 validation 划分重新运行 fit；不得使用 test 调参。"
+    "note": "未验证固定基线，仅用于模拟联调。新路线在fusion_train训练、validation选阈值；原型fit不代替该流程。图像模式优先使用B提供的原始阈值。"
   }
 }

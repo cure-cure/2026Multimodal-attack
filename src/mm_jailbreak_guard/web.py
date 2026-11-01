@@ -162,7 +162,7 @@ def make_handler(pipeline: DetectionPipeline, audit_log: JsonlAuditLog):
                     image_path=temp_path,
                     image_name=image_name,
                 )
-                report = pipeline.detect(request, mode="full")
+                report = pipeline.detect(request, mode=_field_text(fields, "mode") or "full")
                 payload = report.as_dict(include_upstream=True)
                 audit_log.append(
                     {

@@ -13,6 +13,8 @@ from .contracts import DetectionRequest, EvidenceItem, FusionResult, ImageEviden
 
 
 MODE_FEATURES: dict[str, tuple[str, ...]] = {
+    "image_only": ("visual_score",),
+    "text_only": ("user_text_score", "ocr_text_score", "combined_text_score"),
     "user_text_only": ("user_text_score",),
     "user_text_ocr": (
         "user_text_score",
@@ -29,6 +31,7 @@ MODE_FEATURES: dict[str, tuple[str, ...]] = {
     ),
 }
 TEXT_FEATURES = {"user_text_score", "ocr_text_score", "combined_text_score"}
+PRIMARY_MODES = ("image_only", "text_only", "full")
 
 
 def _clip(value: float) -> float:
@@ -63,8 +66,9 @@ def build_feature_vector(
     text_available = text.available
     overlap = text_overlap(request.user_text, image.ocr_text) if image_available else 0.0
     user_score = text.user_text_score if text_available else None
-    ocr_score = text.ocr_text_score if text_available and image_available else None
-    combined_score = text.combined_text_score if text_available and image_available else None
+    ocr_available = image_available and image.ocr_status == "success"
+    ocr_score = text.ocr_text_score if text_available and ocr_available else None
+    combined_score = text.combined_text_score if text_available and ocr_available else None
 
     cross_score: float | None = None
     if ocr_score is not None and (user_score is not None or combined_score is not None):
@@ -124,7 +128,7 @@ class FusionBundle:
     selection: dict[str, Any]
 
     def __post_init__(self) -> None:
-        missing = set(MODE_FEATURES) - set(self.modes)
+        missing = {"user_text_only", "user_text_ocr", "full"} - set(self.modes)
         extra = set(self.modes) - set(MODE_FEATURES)
         if missing:
             raise ValueError(f"融合配置缺少模式：{sorted(missing)}")
@@ -184,14 +188,27 @@ class FusionEngine:
             raise ValueError("上下游 sample_id 与请求不一致")
 
         features = build_feature_vector(request, image, text)
-        config = self.bundle.modes[mode]
+        config = self.bundle.modes.get(mode)
+        if config is None:
+            config = (ModeConfig(0.5, {"visual_score": 1.0}) if mode == "image_only"
+                      else ModeConfig(0.5, {"user_text_score": 0.4, "ocr_text_score": 0.3,
+                                           "combined_text_score": 0.3}))
+        allowed = set(MODE_FEATURES[mode])
+        # 重合度只用于解释，不加入权重；含 OCR 的模式仍需将它返回给页面。
+        if mode in {"full", "text_only", "user_text_ocr"}:
+            allowed.add("text_overlap")
+        features = {name: value if name in allowed else None for name, value in features.items()}
         warnings = list(image.warnings) + list(text.warnings)
+        if mode == "image_only":
+            warnings.append("仅图像输出针对图像对抗扰动，不代表图文整体风险；CIDER 仍使用用户文字作为语义参照")
+            if image.cider is None:
+                warnings.append("缺少 CIDER 证据；visual_score 仅作图像分数基线，不能宣称为 CIDER 复现")
         missing = [name for name in config.weights if features.get(name) is None]
         if missing:
             warnings.append("缺失证据已从本次融合中移除：" + ", ".join(missing))
 
         has_text_score = any(features.get(name) is not None for name in TEXT_FEATURES)
-        if not has_text_score:
+        if not has_text_score and mode != "image_only":
             return FusionResult(
                 sample_id=request.sample_id,
                 label_name="insufficient_evidence",
@@ -211,6 +228,16 @@ class FusionEngine:
             if weight > 0 and features.get(name) is not None
         }
         total_weight = sum(usable.values())
+        if mode == "image_only" and image.cider is not None:
+            c = image.cider
+            prediction = int(c.statistic >= c.threshold if c.comparison == "ge" else c.statistic <= c.threshold)
+            return FusionResult(request.sample_id, "risk" if prediction else "normal",
+                                prediction, image.visual_score, config.threshold, mode,
+                                features, {"visual_score": 1.0} if image.visual_score is not None else {},
+                                image.evidence if prediction else (), tuple(warnings + ["判定使用 B 的原始统计量阈值，见 image_evidence.cider"]),
+                                self.bundle.config_id,
+                                {"statistic": c.statistic, "statistic_name": c.statistic_name,
+                                 "threshold": c.threshold, "comparison": c.comparison, "config_id": c.config_id})
         if total_weight <= 0:
             return FusionResult(
                 sample_id=request.sample_id,
@@ -233,6 +260,10 @@ class FusionEngine:
         sources = self._select_sources(
             prediction, score, config.threshold, features, image, text
         )
+        if mode == "image_only":
+            sources = [item for item in sources if item.source in {"image", "visual_score", "cider"}]
+        elif mode != "full":
+            sources = [item for item in sources if item.source not in {"image", "visual_score", "cider"}]
         return FusionResult(
             sample_id=request.sample_id,
             label_name="risk" if prediction else "normal",
@@ -381,14 +412,14 @@ def tune_mode(
         weights = {name: part / units for name, part in zip(features, parts)}
         if mode == "full" and weights.get("visual_score", 0.0) > visual_weight_cap + 1e-9:
             continue
-        if not any(weights.get(name, 0.0) > 0 for name in TEXT_FEATURES):
+        if mode != "image_only" and not any(weights.get(name, 0.0) > 0 for name in TEXT_FEATURES):
             continue
         sample_scores: list[tuple[int, float]] = []
         for example in examples:
             score = _weighted_score(example.features, weights)
-            if score is not None and any(
+            if score is not None and (mode == "image_only" or any(
                 example.features.get(name) is not None for name in TEXT_FEATURES
-            ):
+            )):
                 sample_scores.append((example.label, score))
         if len(sample_scores) != len(examples):
             continue
@@ -425,6 +456,11 @@ def fit_bundle(
     modes: dict[str, ModeConfig] = {}
     mode_metrics: dict[str, Any] = {}
     for mode in MODE_FEATURES:
+        if mode == "image_only":
+            # 图像扰动标签与整体风险标签不同，禁止用整体 label 调图像阈值。
+            modes[mode] = ModeConfig(0.5, {"visual_score": 1.0})
+            mode_metrics[mode] = {"status": "unvalidated_use_B_threshold"}
+            continue
         modes[mode], mode_metrics[mode] = tune_mode(
             examples,
             mode,

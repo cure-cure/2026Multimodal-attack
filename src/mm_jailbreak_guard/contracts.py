@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
+import math
 from typing import Any, Protocol, runtime_checkable
 
 
@@ -93,6 +94,36 @@ class EvidenceItem:
 
 
 @dataclass(slots=True, frozen=True)
+class CiderEvidence:
+    """B 提供的可追溯中间证据；D 不在此复现 CIDER。"""
+    similarities: tuple[float, ...]
+    statistic: float
+    statistic_name: str
+    threshold: float
+    comparison: str
+    config_id: str
+    reproduction: str
+
+    def __post_init__(self) -> None:
+        if len(self.similarities) < 2:
+            raise ValueError("CIDER 至少提供原图和一个去噪阶段的相似度")
+        for value in (*self.similarities, self.statistic, self.threshold):
+            if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
+                raise ValueError("CIDER 原始统计量必须是有限数值")
+        if self.comparison not in {"ge", "le"}:
+            raise ValueError("CIDER comparison 必须是 ge 或 le")
+        if not self.statistic_name or not self.config_id:
+            raise ValueError("CIDER 需提供 statistic_name 和 config_id")
+        if self.reproduction not in {"original", "adapted", "mock"}:
+            raise ValueError("CIDER reproduction 必须是 original/adapted/mock")
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> "CiderEvidence":
+        return cls(tuple(data["similarities"]), data["statistic"], str(data["statistic_name"]),
+                   data["threshold"], str(data["comparison"]), str(data["config_id"]), str(data["reproduction"]))
+
+
+@dataclass(slots=True, frozen=True)
 class ImageEvidence:
     sample_id: str
     available: bool
@@ -104,6 +135,7 @@ class ImageEvidence:
     evidence: tuple[EvidenceItem, ...] = ()
     warnings: tuple[str, ...] = ()
     module_version: str = "unknown"
+    cider: CiderEvidence | None = None
 
     def __post_init__(self) -> None:
         if not self.sample_id or not self.sample_id.strip():
@@ -120,6 +152,7 @@ class ImageEvidence:
             or self.visual_score is not None
             or self.visual_features
             or self.regions
+            or self.cider is not None
         ):
             raise ValueError("图像模块不可用时不得携带 OCR 或视觉分数")
 
@@ -150,6 +183,7 @@ class ImageEvidence:
             evidence=tuple(EvidenceItem.from_dict(x) for x in data.get("evidence", ())),
             warnings=tuple(str(x) for x in data.get("warnings", ())),
             module_version=str(data.get("module_version", "unknown")),
+            cider=CiderEvidence.from_dict(data["cider"]) if data.get("cider") is not None else None,
         )
 
     def as_dict(self) -> dict[str, Any]:
@@ -237,6 +271,7 @@ class FusionResult:
     risk_sources: tuple[EvidenceItem, ...] = ()
     warnings: tuple[str, ...] = ()
     fusion_config_id: str = "unknown"
+    decision_rule: dict[str, Any] | None = None
 
     def __post_init__(self) -> None:
         if self.label_name not in VALID_LABELS:
@@ -247,7 +282,9 @@ class FusionResult:
         _score(self.threshold, "FusionResult.threshold", optional=False)
 
     def as_dict(self) -> dict[str, Any]:
-        return asdict(self)
+        data = asdict(self)
+        data["prediction_target"] = "image_adversarial" if self.mode == "image_only" else "overall_risk"
+        return data
 
 
 @runtime_checkable

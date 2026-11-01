@@ -29,5 +29,5 @@ if (-not $PythonCommand) {
 
 & $PythonCommand @PythonPrefix -m mm_jailbreak_guard web `
   --config (Join-Path $ProjectRoot "configs\fusion_config.example.json") `
-  --image-evidence (Join-Path $ProjectRoot "examples\image_evidence.validation.jsonl") `
-  --text-evidence (Join-Path $ProjectRoot "examples\text_evidence.validation.jsonl")
+  --image-evidence (Join-Path $ProjectRoot "examples\handoff\image_evidence.jsonl") `
+  --text-evidence (Join-Path $ProjectRoot "examples\handoff\text_evidence.jsonl")

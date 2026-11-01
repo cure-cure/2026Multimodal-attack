@@ -1,82 +1,34 @@
-# 基础融合算法说明
+# D 当前基础融合算法
 
-## 算法位置与自主实现范围
+负责人D。自主代码位于 `src/mm_jailbreak_guard/fusion.py`：text_overlap、build_feature_vector、FusionEngine.fuse。未调用现成分类器。课件对应关系仍待核对，本文件不声明已经满足课程算法核验。
 
-D 的自主实现位于 `src/mm_jailbreak_guard/fusion.py`，没有调用现成分类器、自动调参库或外部模型。实现包含三部分：跨模态关联特征、缺失证据下的加权后融合、验证集网格搜索。
+## 输入与关联特征
 
-## 输入特征
+B提供visual_score，C提供user_text_score、ocr_text_score、combined_text_score，均为[0,1]且越高越风险。缺失用null。只有OCR状态为success时使用OCR和组合分数。
 
-融合层使用五个归一化分数：
-
-- `user_text_score`：C 输出的用户文字风险。
-- `ocr_text_score`：C 输出的 OCR 文字风险。
-- `combined_text_score`：C 输出的用户文字与 OCR 组合风险。
-- `visual_score`：B 输出的视觉异常分数。
-- `cross_modal_score`：D 根据文字关联与风险协同计算的跨模态分数。
-
-另外输出 `text_overlap` 用于解释，但不直接作为独立权重项。
-
-## 跨模态关联
-
-先对用户文字和 OCR 文字做大小写归一、空白压缩，并提取字符二元组。两个集合的 Jaccard 系数为：
+对用户文字和OCR文字进行小写及空白归一，取字符二元组集合，计算Jaccard重合度。启发式公式：
 
 ```text
 overlap = |G_user ∩ G_ocr| / |G_user ∪ G_ocr|
+synergy = sqrt(combined_text_score * max(user_text_score, ocr_text_score))
+concealment = max(0, ocr_text_score - user_text_score) * (1 - overlap)
+cross_modal_score = clip(0.7 * synergy * (0.75 + 0.25 * overlap) + 0.3 * concealment, 0, 1)
 ```
 
-风险协同项由组合文字风险和用户、OCR 中较高的风险构成：
+空集合时overlap取0。缺少部分文本分数时按代码中的回退计算；缺少必要分数则cross_modal_score为null。该启发式不是语义模型，其有效性须用真实数据验证。text_overlap保留在含OCR模式的解释输出中，不作为独立加权项。
 
-```text
-synergy = sqrt(combined_text_score × max(user_text_score, ocr_text_score))
-```
+## 判定与模式
 
-当 OCR 风险明显高于用户文字且两段文字重合度低时，增加“图中隐藏风险”信号：
+固定融合按可用正权重重新归一：`score = Σ(w_i*x_i)/Σ(w_i)`，分数达到阈值判风险。当前示例权重及0.5阈值未经过真实验证。
 
-```text
-concealment = max(0, ocr_text_score - user_text_score) × (1 - overlap)
-```
+- image_only：有CIDER时按B提供的原始统计量、比较方向和阈值判断；原始值保留在decision_rule/image_decision。不使用C分数，目标为图像对抗扰动。无CIDER时仅作为visual_score基线并警告。
+- text_only：只用C三类文本分数，不用视觉或D协同分数。
+- full：图像、三类文本及D协同特征融合，目标为整体风险。缺少全部文本证据时拒绝只凭视觉异常作整体判断。
 
-最终跨模态分数：
+缺少当前模式全部有效分数时输出prediction=null、insufficient_evidence。缺失分量会记录警告。完整配置的视觉名义权重上限为0.2；缺失后重新归一的有效权重可能提高，必须结合effective_weights解释，不把有噪声直接当越狱。
 
-```text
-cross_modal_score = clip(0.7 × synergy × (0.75 + 0.25 × overlap)
-                         + 0.3 × concealment, 0, 1)
-```
+## 训练边界与评测
 
-该特征不识别危险关键词，不替代 C 的文本检测；它只描述两路证据是否相互增强或存在可疑差异。
+保留的fit是验证集网格搜索基线工具，不是最新版要求的可训练融合实现。新路线在fusion_train拟合参数、validation选阈值，具体候选和阶段见[FUSION_ROADMAP.md](FUSION_ROADMAP.md)。
 
-## 加权后融合
-
-对模式允许的可用特征做凸组合：
-
-```text
-risk_score = Σ(w_i × x_i) / Σ(w_i)
-prediction = 1, if risk_score >= threshold, else 0
-```
-
-若某项上游证据缺失，算法只在剩余可用权重上重新归一，并把缺失项写入警告。模块声明 `available: false` 时，其分数不会进入特征向量；接口层也会拒绝“不可用但仍携带分数”的矛盾记录。若模式所需的文本证据全部缺失，返回 `insufficient_evidence`，不把“未知”误写成“正常”。
-
-视觉噪声仅是辅助线索。完整融合模式中 `visual_score` 的候选权重上限为 `0.20`，因此图片有噪声不能单独主导最终结论。
-
-## 验证集选参
-
-`fit` 入口手写枚举非负权重组合，权重之和为 1；再遍历固定阈值候选。每个方案独立选择参数：
-
-1. 仅用户文字：只搜索阈值。
-2. 用户文字加 OCR 文字：搜索文本与跨模态权重、阈值，不使用视觉分数。
-3. 完整融合：搜索全部权重和阈值，并施加视觉权重上限。
-
-主目标是验证集平衡准确率，平局时依次比较 F1、准确率和阈值离 0.5 的距离。平衡准确率能减弱类别不均衡对普通准确率的掩盖。
-
-程序有两层防泄漏检查：命令语义固定为验证集拟合；清单中只要出现 `split: "test"` 就拒绝运行。拟合后的配置记录训练划分、样本数、目标值、搜索步长和生成时间，便于复现。
-
-## 三种方案的公平对比
-
-三种方案共享同一批样本、同一上游证据文件和同一份冻结配置，只改变允许进入融合器的特征集合。D 输出逐样本预测；准确率、误报、漏报等最终指标由 A 的统一评测脚本计算，避免多个模块各自统计造成口径不一致。
-
-## 局限与后续替换
-
-- 字符二元组重合度是轻量关联基线，无法表示深层语义关系。
-- 加权和便于解释，但不能自动表达复杂非线性交互。
-- 示例配置尚未经过正式验证集训练，只用于把流程跑通。
-- B、C 正式交付后，应先冻结版本，再由验证集重新拟合配置；测试集只运行最终预测。
+compare使用同一批证据输出三模式，但仅图像的真值是image_adversarial_label，其余为整体label，不能混用准确率。D交逐条结果，A统一计算正式指标。模拟数据只作软件验证，不报告检测成绩。

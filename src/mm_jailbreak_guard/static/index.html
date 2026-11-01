@@ -37,10 +37,19 @@
 
         <div class="workspace-frame">
           <form id="detect-form" class="input-pane">
+            <div class="field-group">
+              <label for="mode">检测模式</label>
+              <select id="mode" name="mode">
+                <option value="full">完整融合</option>
+                <option value="image_only">仅图像分支（对抗扰动）</option>
+                <option value="text_only">仅文字分支（含 OCR 文字）</option>
+              </select>
+              <p class="field-note">离线示例按样本编号回放模拟结果；上传图文不会重新计算分数。</p>
+            </div>
             <div class="field-group compact-field">
               <label for="sample-id">样本编号</label>
-              <input id="sample-id" name="sample_id" value="val-001" maxlength="128" required />
-              <p class="field-note">示例证据可使用 val-001 至 val-008</p>
+              <input id="sample-id" name="sample_id" value="mock-001" maxlength="128" required />
+              <p class="field-note">示例证据可使用 mock-001 至 mock-006</p>
             </div>
 
             <div class="field-group">

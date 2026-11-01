@@ -1,0 +1,6 @@
+{"sample_id":"mock-001","available":true,"ocr_status":"success","ocr_text":"课程通知","visual_score":0.1,"module_version":"B-mock-v2","warnings":["模拟证据"]}
+{"sample_id":"mock-002","available":true,"ocr_status":"success","ocr_text":"模拟占位文字","visual_score":0.9,"cider":{"similarities":[0.3,0.4,0.6],"statistic":0.3,"statistic_name":"mock_max_minus_original","threshold":0.2,"comparison":"ge","config_id":"B-mock-config","reproduction":"mock"},"evidence":[{"source":"cider","description":"模拟阶段变化较大，仅演示接口","score":0.9}],"module_version":"B-mock-v2","warnings":["模拟证据"]}
+{"sample_id":"mock-003","available":true,"ocr_status":"failed","ocr_text":"","visual_score":0.1,"module_version":"B-mock-v2","warnings":["模拟OCR失败，图像分支仍可用"]}
+{"sample_id":"mock-004","available":true,"ocr_status":"no_text","ocr_text":"","visual_score":0.1,"module_version":"B-mock-v2","warnings":["模拟证据"]}
+{"sample_id":"mock-005","available":false,"ocr_status":"failed","visual_score":null,"module_version":"B-mock-v2","warnings":["模拟图片加载失败"]}
+{"sample_id":"mock-006","available":false,"ocr_status":"unavailable","visual_score":null,"module_version":"B-mock-v2","warnings":["模拟B不可用"]}

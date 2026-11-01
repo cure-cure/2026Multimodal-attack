@@ -50,10 +50,15 @@ function renderResult(report) {
   const text = report.text_evidence;
   const summary = document.querySelector("#result-summary");
   const labels = { risk: "风险", normal: "正常", insufficient_evidence: "证据不足" };
+  setText("#mode-label", {image_only: "仅图像：对抗扰动", text_only: "仅文字", full: "完整融合"}[fusion.mode] || fusion.mode);
   summary.className = `result-summary ${fusion.label_name === "risk" ? "risk" : fusion.label_name === "insufficient_evidence" ? "insufficient" : "normal"}`;
   setText("#verdict", labels[fusion.label_name] || fusion.label_name);
   setText("#risk-score", scoreText(fusion.risk_score));
   setText("#threshold-label", `阈值 ${fusion.threshold.toFixed(2)}`);
+  if (fusion.decision_rule) {
+    const rule = fusion.decision_rule;
+    setText("#threshold-label", `${rule.statistic_name}: ${rule.statistic.toFixed(3)}；风险条件 ${rule.comparison === "ge" ? "≥" : "≤"} ${rule.threshold}`);
+  }
   document.querySelector("#risk-meter").style.width = `${Math.round((fusion.risk_score || 0) * 100)}%`;
   setText("#score-user", scoreText(fusion.component_scores.user_text_score));
   setText("#score-ocr", scoreText(fusion.component_scores.ocr_text_score));
