@@ -13,3 +13,43 @@ runtime/
 outputs/
 data/raw/
 data/private/
+
+
+# Downloaded or restricted source data
+public_sources/
+images/
+raw_images/
+
+# Private labels, manifests, and split artifacts
+work/
+entries.csv
+sources.csv
+backups/
+output/A_private_DO_NOT_SHARE/
+
+# Team data package and extracted package
+output/team_dataset_v1.zip
+output/team_dataset_v1/
+output/cider_review/
+output/cider_ready/
+output/cider_image_inventory.csv
+output/cider_scan.txt
+
+# Local audit inventories that may contain machine paths or source mappings
+output/public_audit/images.csv
+output/public_audit/missing_pairs.csv
+output/public_audit/versions.csv
+output/public_audit/summary.json
+output/public_audit/split_statistics.csv
+
+# Local editor and OS files
+*.log
+*.tmp
+~$*
+Thumbs.db
+Desktop.ini
+
+# Private working notes and course source documents
+Codex.md
+README_从零操作.md
+老师要求及组长分工/
