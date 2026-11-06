@@ -29,6 +29,6 @@ cross_modal_score = clip(0.7 * synergy * (0.75 + 0.25 * overlap) + 0.3 * conceal
 
 ## 训练边界与评测
 
-保留的fit是验证集网格搜索基线工具，不是最新版要求的可训练融合实现。新路线在fusion_train拟合参数、validation选阈值，具体候选和阶段见[FUSION_ROADMAP.md](FUSION_ROADMAP.md)。
+保留的fit是验证集网格搜索实验工具。正式新入口train-fusion已实现D手写逻辑回归：fusion_train拟合参数、validation选阈值，算法和训练边界见[FUSION_ROADMAP.md](FUSION_ROADMAP.md)。固定配置的有效权重用于加权解释；逻辑回归不返回归一化effective_weights，而在decision_rule保存偏置与各特征的logit_contributions（阈值前贡献），正值增加风险、负值降低风险。二者不能混作同一种权重。
 
 compare使用同一批证据输出三模式，但仅图像的真值是image_adversarial_label，其余为整体label，不能混用准确率。D交逐条结果，A统一计算正式指标。模拟数据只作软件验证，不报告检测成绩。

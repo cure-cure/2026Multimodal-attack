@@ -55,9 +55,22 @@ function renderResult(report) {
   setText("#verdict", labels[fusion.label_name] || fusion.label_name);
   setText("#risk-score", scoreText(fusion.risk_score));
   setText("#threshold-label", `阈值 ${fusion.threshold.toFixed(2)}`);
-  if (fusion.decision_rule) {
+  if (fusion.decision_rule && fusion.decision_rule.statistic_name) {
     const rule = fusion.decision_rule;
     setText("#threshold-label", `${rule.statistic_name}: ${rule.statistic.toFixed(3)}；风险条件 ${rule.comparison === "ge" ? "≥" : "≤"} ${rule.threshold}`);
+  }
+  const rule = fusion.decision_rule;
+  const elapsed = typeof report.elapsed_ms === "number" ? `；处理耗时 ${report.elapsed_ms.toFixed(1)} ms` : "";
+  if (rule && rule.logit_contributions) {
+    const names = {user_text_score: "用户文字", ocr_text_score: "OCR文字", combined_text_score: "组合文字", visual_score: "图像", cross_modal_score: "协同"};
+    const contributions = Object.entries(rule.logit_contributions).map(([key, value]) => {
+      const missing = key.endsWith("_missing");
+      const name = names[missing ? key.slice(0, -8) : key] || key;
+      return `${name}${missing ? "缺失状态" : ""} ${value >= 0 ? "+" : ""}${value.toFixed(3)}`;
+    }).join("；");
+    setText("#fusion-explanation", `自主逻辑回归${elapsed}。以下是阈值前的证据贡献，正值增加风险，负值降低风险：${contributions}；偏置 ${rule.bias.toFixed(3)}。`);
+  } else {
+    setText("#fusion-explanation", `${fusion.mode === "image_only" ? "图像分支判定" : "固定加权融合"}${elapsed}`);
   }
   document.querySelector("#risk-meter").style.width = `${Math.round((fusion.risk_score || 0) * 100)}%`;
   setText("#score-user", scoreText(fusion.component_scores.user_text_score));

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
+from time import perf_counter
 from typing import Any
 
 from . import __version__
@@ -31,12 +32,14 @@ class DetectionReport:
     text_evidence: TextEvidence
     fusion: FusionResult
     module_versions: dict[str, str]
+    elapsed_ms: float = 0.0
 
     def as_dict(self, *, include_upstream: bool = True) -> dict[str, Any]:
         data: dict[str, Any] = {
             "request": self.request.as_dict(),
             "fusion": self.fusion.as_dict(),
             "module_versions": self.module_versions,
+            "elapsed_ms": self.elapsed_ms,
         }
         if include_upstream:
             data["image_evidence"] = self.image_evidence.as_dict()
@@ -52,6 +55,8 @@ class DetectionReport:
             "risk_score": fusion.risk_score,
             "threshold": fusion.threshold,
             "mode": fusion.mode,
+            "elapsed_ms": self.elapsed_ms,
+            "decision_rule": fusion.decision_rule,
             "component_scores": fusion.component_scores,
             "effective_weights": fusion.effective_weights,
             "risk_sources": [asdict(item) for item in fusion.risk_sources],
@@ -75,6 +80,7 @@ class DetectionPipeline:
         self.fusion_engine = fusion_engine
 
     def detect(self, request: DetectionRequest, mode: str = "full") -> DetectionReport:
+        started = perf_counter()
         image, text = self.collect_evidence(request)
         fusion = self.fusion_engine.fuse(request, image, text, mode)
         return DetectionReport(
@@ -87,6 +93,7 @@ class DetectionPipeline:
                 "C": text.module_version,
                 "D": f"D-{__version__}",
             },
+            elapsed_ms=round((perf_counter()-started)*1000, 3),
         )
 
     def collect_evidence(

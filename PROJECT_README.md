@@ -1,6 +1,6 @@
 # D 模块运行说明
 
-当前交付为第三周接口与系统框架，依据最新《题目十分工与DDL计划.md》。项目入口见[README](README.md)，成员交接见[交接说明](docs/WEEK3_HANDOFF.md)。
+当前D交付包含第四周自主训练代码和系统框架，依据最新《题目十分工与DDL计划.md》。项目入口见[README](README.md)，详细训练与接入命令见[第四周交付](docs/WEEK4_D_DELIVERY.md)。
 
 ## 环境与示例
 
@@ -47,6 +47,6 @@ python -m mm_jailbreak_guard batch --manifest data/manifest.test.jsonl --image-e
 
 ## 融合与进度
 
-已实现固定加权融合、启发式关联特征、异常处理及批量/页面框架。`fit`是保留的验证集网格搜索基线工具，会拒绝非validation划分；它不代替新计划的fusion_train训练、validation选阈值。正式可训练融合尚待课件核对及第四周实现，见[融合路线](docs/FUSION_ROADMAP.md)。
+已实现固定加权融合、手写逻辑回归、启发式关联特征、异常处理及批量/页面框架。`train-fusion`在fusion_train训练、validation/val选阈值；`adapt-manifest`读取A分组CSV生成新清单；`collect-evidence`缓存B/C输出；compare的--baseline-config支持同证据固定融合对照。`fit`仍为独立网格搜索实验工具，不代替train-fusion。课件对应仍待核验，算法见[融合路线](docs/FUSION_ROADMAP.md)。
 
-真实B/C接入、正式训练、评测指标及真实演示尚未完成。A维护数据及真值并统一评测；D不实现B/C算法、不重新划分数据。运行输出和日志分别写入outputs/、runtime/，均被忽略。仓库只维护一套当前版本代码与说明，不放PPT、讲稿、课程原文或旧版备份。
+运行 `python scripts/check_d_workflow.py` 可生成outputs/D_mock/learned.json及模拟预测。页面脚本支持 `-ConfigPath outputs/D_mock/learned.json`。真实B/C接入、真实稳定分数训练、评测指标及真实演示尚未完成。A维护数据及真值并统一评测；D不实现B/C算法、不重新划分数据。输出和日志分别写入outputs/、runtime/，均被忽略。

@@ -7,6 +7,8 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 
 from mm_jailbreak_guard.fusion import FusionBundle, FusionEngine
+from mm_jailbreak_guard.fusion import TuningExample, MODE_FEATURES
+from mm_jailbreak_guard.learned_fusion import LearnedFusionEngine, train_bundle
 from mm_jailbreak_guard.io import JsonlAuditLog
 from mm_jailbreak_guard.pipeline import DetectionPipeline
 from mm_jailbreak_guard.providers import JsonlImageProvider, JsonlTextProvider
@@ -30,7 +32,14 @@ class WebRequestTests(unittest.TestCase):
                 base = f"http://127.0.0.1:{server.server_port}"
                 with urlopen(base, timeout=5) as response:
                     self.assertIn('name="mode"', response.read().decode("utf-8"))
-                for mode in ("image_only", "text_only", "full"):
+                training = [TuningExample(str(i), label, dict.fromkeys(MODE_FEATURES['full'], score))
+                            for i, (label, score) in enumerate(((0, .05), (0, .15), (1, .85), (1, .95)))]
+                validation = [TuningExample('val-'+e.sample_id, e.label, e.features) for e in training]
+                learned = LearnedFusionEngine(train_bundle(training, validation, pipeline.fusion_engine.bundle,
+                                                          provenance={}, epochs=150))
+                fixed = pipeline.fusion_engine
+                for algorithm, mode in ((a, m) for a in ('fixed', 'learned') for m in ('image_only', 'text_only', 'full')):
+                    pipeline.fusion_engine = fixed if algorithm == 'fixed' else learned
                     fields = {"sample_id": "mock-002", "user_text": "模拟风险占位", "mode": mode}
                     body = "".join(f'--check\r\nContent-Disposition: form-data; name="{key}"\r\n\r\n{value}\r\n'
                                    for key, value in fields.items()) + "--check--\r\n"

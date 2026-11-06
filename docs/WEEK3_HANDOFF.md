@@ -1,5 +1,7 @@
 # D 第三周交接说明
 
+本文是第三周交接记录；当前第四周新增实现及最新限制见[WEEK4_D_DELIVERY.md](WEEK4_D_DELIVERY.md)，下文当时的待开发状态不代替当前状态。
+
 依据：工作区最新版《题目十分工与DDL计划.md》（第三周10月26日—11月1日，第四周11月2—8日），课程《2026多媒体大作业题目.docx》。仓库 https://github.com/cure-cure/2026Multimodal-attack 。此文件随D当前交付版本维护；实际版本以Git提交为准。
 
 ## D 可交付内容

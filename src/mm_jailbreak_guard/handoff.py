@@ -3,13 +3,12 @@ from collections import Counter
 from .contracts import ImageEvidence, TextEvidence
 from .io import load_jsonl
 
-SPLITS = {"base_train", "fusion_train", "validation", "test"}
+SPLITS = {"base_train", "fusion_train", "validation", "val", "test"}
 REQUIRED_FIELDS = ("sample_id", "image_path", "user_text", "split", "source",
                    "image_group_id", "request_group_id")
 
 
-def validate_handoff(manifest, image_path=None, text_path=None):
-    records = load_jsonl(manifest, unique_key="sample_id")
+def validate_manifest_records(records):
     if not records:
         raise ValueError("交接清单为空")
     owners = {}
@@ -30,6 +29,7 @@ def validate_handoff(manifest, image_path=None, text_path=None):
         split = row.get("split")
         if not isinstance(split, str) or split not in SPLITS:
             raise ValueError(f"{sid}: split 必须是 {sorted(SPLITS)}")
+        split = "validation" if split == "val" else split
         for label in ("label", "harmful_label", "jailbreak_label", "image_adversarial_label"):
             value = row.get(label)
             if value is not None and (type(value) is not int or value not in {0, 1}):
@@ -42,6 +42,11 @@ def validate_handoff(manifest, image_path=None, text_path=None):
             if token in owners and owners[token] != split:
                 raise ValueError(f"跨划分泄漏：{key}={group}")
             owners[token] = split
+
+
+def validate_handoff(manifest, image_path=None, text_path=None):
+    records = load_jsonl(manifest, unique_key="sample_id")
+    validate_manifest_records(records)
     ids = {r["sample_id"] for r in records}
     for path, cls in ((image_path, ImageEvidence), (text_path, TextEvidence)):
         if path is None:

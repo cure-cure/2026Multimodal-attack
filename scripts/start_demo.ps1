@@ -1,9 +1,11 @@
 param(
-  [string]$PythonPath
+  [string]$PythonPath,
+  [string]$ConfigPath
 )
 
 $ErrorActionPreference = "Stop"
 $ProjectRoot = Split-Path -Parent $PSScriptRoot
+if (-not $ConfigPath) { $ConfigPath = Join-Path $ProjectRoot "configs\fusion_config.example.json" }
 $env:PYTHONPATH = Join-Path $ProjectRoot "src"
 $env:PYTHONDONTWRITEBYTECODE = "1"
 
@@ -28,6 +30,6 @@ if (-not $PythonCommand) {
 }
 
 & $PythonCommand @PythonPrefix -m mm_jailbreak_guard web `
-  --config (Join-Path $ProjectRoot "configs\fusion_config.example.json") `
+  --config $ConfigPath `
   --image-evidence (Join-Path $ProjectRoot "examples\handoff\image_evidence.jsonl") `
   --text-evidence (Join-Path $ProjectRoot "examples\handoff\text_evidence.jsonl")

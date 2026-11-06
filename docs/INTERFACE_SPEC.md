@@ -2,6 +2,8 @@
 
 接口版本：v2。以工作区最新版《题目十分工与DDL计划.md》为准。本文为D交付的对接提案，成员确认见 [第三周交接表](WEEK3_HANDOFF.md)。
 
+第四周扩展：支持val别名和A分组CSV适配，新增collect-evidence/train-fusion入口，见[复现说明](WEEK4_D_DELIVERY.md)。训练输出配置可被原有batch/compare/web加载。预测新增elapsed_ms耗时；逻辑回归decision_rule包含algorithm、bias、logit_contributions，effective_weights为空（系数不是归一化融合权重）。compare可通过--baseline-config同时输出fixed_baseline_schemes，重用同一份B/C证据。原始CIDER阈值仍见image_decision/decision_rule，不与逻辑回归贡献字段混用。
+
 CIDER依据：[正式论文及元数据](https://aclanthology.org/2024.findings-emnlp.803/)、[作者代码](https://github.com/PandragonXIII/CIDER)。本文扩展字段是本组工程接口，不是作者代码原生输出格式，B负责适配并记录复现差异。
 
 本文档定义 A、B、C、D 之间的最小稳定接口。目标是让各模块独立开发、按样本编号对齐，并在不修改彼此核心算法的情况下完成集成。

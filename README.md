@@ -6,6 +6,8 @@
 
 ## 成员从这里开始
 
+- [D第四周本地交付与复现](docs/WEEK4_D_DELIVERY.md)：自主训练、A数据适配、证据缓存和固定/训练融合对比。
+
 - [第三周交接清单与待确认事项](docs/WEEK3_HANDOFF.md)：A、B、C分别需要读取、确认和提交什么。
 - [统一接口 v2](docs/INTERFACE_SPEC.md)：样本清单、B/C 输出、CIDER 证据、模式与评测目标。
 - [数据用途及隔离约定](docs/DATA_PROTOCOL.md)：基础训练、融合训练、验证、测试四类划分。
@@ -13,7 +15,7 @@
 - [运行说明](PROJECT_README.md)：启动、批量预测和测试命令。
 - [模拟交接包](examples/handoff/README.md)：含正常、风险、OCR失败和模块失败样例。
 
-当前可运行的是模拟证据流程，未接入真实 B/C 模型，不具有正式检测指标。模拟文件不用于报告成绩。自主算法是否对应课件仍需提供课件核对；成员确认尚未完成。
+当前D已实现固定融合与手写逻辑回归训练，模拟训练、验证选阈值、页面和批量流程可运行；A/C代码已同步，但真实B/C权重及证据尚未在本机完成接入，不具有正式检测指标。模拟文件不用于报告成绩。算法课件对应和成员确认仍待完成。
 
 ## 快速检查
 
@@ -24,6 +26,7 @@ $env:PYTHONPATH = "$PWD\src"
 python -m mm_jailbreak_guard validate --manifest examples/handoff/manifest.jsonl --image-evidence examples/handoff/image_evidence.jsonl --text-evidence examples/handoff/text_evidence.jsonl
 python -m mm_jailbreak_guard compare --manifest examples/handoff/manifest.jsonl --image-evidence examples/handoff/image_evidence.jsonl --text-evidence examples/handoff/text_evidence.jsonl --config configs/fusion_config.example.json --output outputs/mock-comparison.jsonl
 python -m unittest discover -s tests -v
+python scripts/check_d_workflow.py
 ```
 
 演示页面：`powershell -ExecutionPolicy Bypass -File scripts/start_demo.ps1`，访问 http://127.0.0.1:8000 。页面支持仅图像、仅文字、完整融合；仅图像针对图像对抗扰动，CIDER仍以用户文字为语义参照。
