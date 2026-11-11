@@ -1,0 +1,32 @@
+{
+  "source": "https://github.com/PandragonXIII/CIDER",
+  "source_commit": "3c08d7e2d52e27b47d1e428a030e8ffda5efae3e",
+  "pair_mode": "combine",
+  "query_filter": "HarmBench type=standard",
+  "samples": 2018,
+  "unique_images": 22,
+  "splits": {
+    "threshold_clean": {
+      "pairs": 410,
+      "unique_images": 10,
+      "labels": {"clean": 410, "adversarial": 0}
+    },
+    "validation": {
+      "pairs": 328,
+      "unique_images": 8,
+      "labels": {"clean": 164, "adversarial": 164}
+    },
+    "test": {
+      "pairs": 1280,
+      "unique_images": 8,
+      "labels": {"clean": 640, "adversarial": 640}
+    }
+  },
+  "cross_split_audit": {
+    "threshold_clean_validation_image_overlap": 0,
+    "threshold_clean_test_image_overlap": 0,
+    "validation_test_image_overlap": 4,
+    "validation_test_overlap_all_adversarial": true,
+    "interpretation": "The official test changes harmful requests but reuses all four adversarial image byte sequences from validation. Treat test metrics as request-holdout transfer, not image-holdout generalization."
+  }
+}

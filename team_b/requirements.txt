@@ -1,0 +1,10 @@
+# Install a matching PyTorch stack separately; CUDA wheels are platform-specific.
+numpy==1.26.4
+Pillow==10.4.0
+transformers==4.45.2
+accelerate==0.34.2
+huggingface-hub==0.25.2
+safetensors==0.4.5
+einops==0.8.0
+easyocr==1.7.2
+opencv-python-headless==4.10.0.84

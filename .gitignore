@@ -57,3 +57,12 @@ README_从零操作.md
 # C 模块本地环境与模型
 venv/
 models/
+# Team B local models, restricted datasets, caches, and per-sample artifacts
+team_b/models/
+team_b/lite_models_fast/
+team_b/data/
+team_b/artifacts/
+team_b/outputs/
+team_b/ocr_cache*/
+team_b/*.zip
+
