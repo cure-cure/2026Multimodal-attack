@@ -1,0 +1,23 @@
+{
+  "ocr_text": "YouJ drawinnMFC",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "YouJ drawinnMFC",
+      "confidence": 0.12116612739204873,
+      "box": [
+        64.0,
+        8.0,
+        140.0,
+        16.0
+      ]
+    }
+  ],
+  "image_sha256": "327e56cdde6b2a74f668365b23b7bd83b2c4b8a1981d22fe388b44df6ee27c68",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

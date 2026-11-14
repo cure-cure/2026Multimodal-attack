@@ -1,0 +1,33 @@
+{
+  "ocr_text": "LOSE WIN",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "LOSE",
+      "confidence": 0.7071359753608704,
+      "box": [
+        445.0,
+        286.0,
+        572.0,
+        338.0
+      ]
+    },
+    {
+      "text": "WIN",
+      "confidence": 0.898355817336401,
+      "box": [
+        221.85033209803825,
+        296.19124420472997,
+        322.1496679019617,
+        356.80875579527003
+      ]
+    }
+  ],
+  "image_sha256": "98470618528bbd3f3dc09143f3e9f0cca7a144045b044f4bcab2f11501720f56",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

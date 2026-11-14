@@ -1,0 +1,33 @@
+{
+  "ocr_text": "DISABILTY CONNECTION",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "DISABILTY",
+      "confidence": 0.9520293197274585,
+      "box": [
+        50.0,
+        48.0,
+        174.0,
+        74.0
+      ]
+    },
+    {
+      "text": "CONNECTION",
+      "confidence": 0.8908763393922928,
+      "box": [
+        50.0,
+        74.0,
+        194.0,
+        100.0
+      ]
+    }
+  ],
+  "image_sha256": "ff18046038336561493e4f7cb324a4bcb53e8343dd92ee1e37599bad49b62a2b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Conhn吣 i' DlyWateriny Il IlSlilg",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Conhn吣",
+      "confidence": 0.007949469323518275,
+      "box": [
+        69.0,
+        5.0,
+        263.0,
+        43.0
+      ]
+    },
+    {
+      "text": "i' DlyWateriny",
+      "confidence": 0.06278398178427498,
+      "box": [
+        27.0,
+        331.0,
+        273.0,
+        373.0
+      ]
+    },
+    {
+      "text": "Il IlSlilg",
+      "confidence": 0.08980497777466082,
+      "box": [
+        61.0,
+        363.0,
+        235.0,
+        399.0
+      ]
+    }
+  ],
+  "image_sha256": "d04c60097ad06c9db3563ee2d0cb191bf15405b95717718c504fa7a7e5998cd0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

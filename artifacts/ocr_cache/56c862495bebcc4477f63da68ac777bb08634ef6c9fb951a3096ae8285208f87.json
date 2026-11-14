@@ -1,0 +1,33 @@
+{
+  "ocr_text": "咖咽C:0 TP0刚T60",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "咖咽C:0",
+      "confidence": 6.744031762208495e-07,
+      "box": [
+        19.0,
+        5.0,
+        404.0,
+        66.0
+      ]
+    },
+    {
+      "text": "TP0刚T60",
+      "confidence": 0.0006175216521720198,
+      "box": [
+        23.0,
+        287.0,
+        399.0,
+        351.0
+      ]
+    }
+  ],
+  "image_sha256": "56c862495bebcc4477f63da68ac777bb08634ef6c9fb951a3096ae8285208f87",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

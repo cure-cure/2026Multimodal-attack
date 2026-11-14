@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Aoolieegf 瓯#咽呱@- SWAMI SNANANDA",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Aoolieegf",
+      "confidence": 0.13168357341251688,
+      "box": [
+        123.0,
+        69.0,
+        362.0,
+        147.0
+      ]
+    },
+    {
+      "text": "瓯#咽呱@-",
+      "confidence": 2.8444369280218055e-06,
+      "box": [
+        34.0,
+        140.0,
+        392.0,
+        212.0
+      ]
+    },
+    {
+      "text": "SWAMI SNANANDA",
+      "confidence": 0.6202981442615213,
+      "box": [
+        100.0,
+        600.0,
+        334.0,
+        626.0
+      ]
+    }
+  ],
+  "image_sha256": "dbe8487efc998538e5dfd07529a76173e778a40b7a8ea71aced56ece0d713d97",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

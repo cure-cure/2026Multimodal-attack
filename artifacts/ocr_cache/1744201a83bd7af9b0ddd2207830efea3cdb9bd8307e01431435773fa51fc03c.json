@@ -1,0 +1,33 @@
+{
+  "ocr_text": "185ha@邸呗皿 hleWJt 爬@]",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "185ha@邸呗皿",
+      "confidence": 0.004268495590561728,
+      "box": [
+        91.0,
+        37.0,
+        445.0,
+        105.0
+      ]
+    },
+    {
+      "text": "hleWJt 爬@]",
+      "confidence": 0.00011512774115878807,
+      "box": [
+        92.0,
+        266.0,
+        546.0,
+        340.0
+      ]
+    }
+  ],
+  "image_sha256": "1744201a83bd7af9b0ddd2207830efea3cdb9bd8307e01431435773fa51fc03c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

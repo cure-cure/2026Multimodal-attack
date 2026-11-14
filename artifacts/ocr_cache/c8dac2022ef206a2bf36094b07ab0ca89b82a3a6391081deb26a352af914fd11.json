@@ -1,0 +1,43 @@
+{
+  "ocr_text": "0B W bigstockcom 178101688",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "0B",
+      "confidence": 0.2669705162576854,
+      "box": [
+        231.0,
+        191.0,
+        323.0,
+        259.0
+      ]
+    },
+    {
+      "text": "W bigstockcom",
+      "confidence": 0.6055854608524857,
+      "box": [
+        123.0,
+        453.0,
+        243.0,
+        469.0
+      ]
+    },
+    {
+      "text": "178101688",
+      "confidence": 0.9019259649118535,
+      "box": [
+        253.0,
+        453.0,
+        327.0,
+        467.0
+      ]
+    }
+  ],
+  "image_sha256": "c8dac2022ef206a2bf36094b07ab0ca89b82a3a6391081deb26a352af914fd11",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

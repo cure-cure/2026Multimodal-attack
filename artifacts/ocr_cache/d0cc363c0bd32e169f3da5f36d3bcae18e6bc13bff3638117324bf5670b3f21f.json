@@ -1,0 +1,33 @@
+{
+  "ocr_text": "吣[':吣陬] IIRTIN",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "吣[':吣陬]",
+      "confidence": 7.421330085068456e-07,
+      "box": [
+        0.0,
+        594.0,
+        547.0,
+        658.0
+      ]
+    },
+    {
+      "text": "IIRTIN",
+      "confidence": 0.006091772724875075,
+      "box": [
+        72.0,
+        650.0,
+        468.0,
+        701.0
+      ]
+    }
+  ],
+  "image_sha256": "d0cc363c0bd32e169f3da5f36d3bcae18e6bc13bff3638117324bf5670b3f21f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "BOTOP W bigstockcom 150646046",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BOTOP",
+      "confidence": 0.029816967122680886,
+      "box": [
+        129.0,
+        133.0,
+        319.0,
+        201.0
+      ]
+    },
+    {
+      "text": "W bigstockcom",
+      "confidence": 0.6824731143540206,
+      "box": [
+        123.0,
+        337.0,
+        243.0,
+        353.0
+      ]
+    },
+    {
+      "text": "150646046",
+      "confidence": 0.9951717541856219,
+      "box": [
+        253.0,
+        335.0,
+        327.0,
+        351.0
+      ]
+    }
+  ],
+  "image_sha256": "b8c1536d9c65437900e4c7911827c71d431362bc9bc17b6ff33c8fbb2d8e9b36",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

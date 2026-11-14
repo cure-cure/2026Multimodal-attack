@@ -1,0 +1,73 @@
+{
+  "ocr_text": "E [IIWARE Zinc。 Immune Support Soie BJor N CryIn otloh I",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "E [IIWARE",
+      "confidence": 0.3157432881432541,
+      "box": [
+        609.0,
+        548.0,
+        708.0,
+        565.0
+      ]
+    },
+    {
+      "text": "Zinc。",
+      "confidence": 0.9411545947529818,
+      "box": [
+        593.0,
+        585.0,
+        727.0,
+        645.0
+      ]
+    },
+    {
+      "text": "Immune Support",
+      "confidence": 0.7817728881552678,
+      "box": [
+        595.0,
+        647.0,
+        720.0,
+        673.0
+      ]
+    },
+    {
+      "text": "Soie",
+      "confidence": 0.03644673153758049,
+      "box": [
+        643.0,
+        695.0,
+        677.0,
+        709.0
+      ]
+    },
+    {
+      "text": "BJor",
+      "confidence": 0.12474638968706131,
+      "box": [
+        638.0,
+        707.0,
+        677.0,
+        721.0
+      ]
+    },
+    {
+      "text": "N CryIn otloh I",
+      "confidence": 0.13627771015135595,
+      "box": [
+        609.0,
+        745.0,
+        713.0,
+        759.0
+      ]
+    }
+  ],
+  "image_sha256": "2f0a072b814935adf144759aec1e12630b5e0925b95c5f56fc6f7ca577fdbffe",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

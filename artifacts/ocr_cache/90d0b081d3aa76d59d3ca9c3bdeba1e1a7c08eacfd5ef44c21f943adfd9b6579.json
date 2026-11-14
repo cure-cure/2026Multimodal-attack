@@ -1,0 +1,43 @@
+{
+  "ocr_text": "UCNNIWI MTIOINI FICT-oO06",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "UCNNIWI",
+      "confidence": 0.032040320168360684,
+      "box": [
+        676.0,
+        698.0,
+        720.0,
+        706.0
+      ]
+    },
+    {
+      "text": "MTIOINI",
+      "confidence": 0.1293670136250954,
+      "box": [
+        682.0,
+        706.0,
+        718.0,
+        714.0
+      ]
+    },
+    {
+      "text": "FICT-oO06",
+      "confidence": 0.08795998086333712,
+      "box": [
+        663.0,
+        719.0,
+        738.0,
+        746.0
+      ]
+    }
+  ],
+  "image_sha256": "90d0b081d3aa76d59d3ca9c3bdeba1e1a7c08eacfd5ef44c21f943adfd9b6579",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

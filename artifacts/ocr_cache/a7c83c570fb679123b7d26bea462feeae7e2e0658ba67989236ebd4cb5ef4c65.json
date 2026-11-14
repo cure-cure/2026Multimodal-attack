@@ -1,0 +1,213 @@
+{
+  "ocr_text": "LEGALLY REDUCE TABLES FROH CAMPONE * BUTIONS。. LEGALLY TAX BURDEN TO ZERO with Our Offshore Solutions! ONCS TONC y FRNS NOW The ent the Incio | Dabe Nimw Slat or AmbicG Douctiars andl tats and Svarles are Caperfite: Sttfrogy: Rstatatt the Giit hevont Enday Tax Tax, Bhong。 Staganents I baclas to heclurtloar ol Flonace to Fpsln Cur sttranper deors Of Our OBAII Chteslried alt Alnck 劭 Inlneegony 司 Inon the aervatup Stark extertfal to strarllont Is more daveihed and braffegrs;and anply an Balllded for TlH Agendnate ouor WOI 7bA The pallmHle nancs ol tiolr Toxe; Copatally help that anl aliperites antlvtties, Cafely Forlcee duh rint mist tenolnglal mome cornethera brtamally Or reY qumogd the tbarlly Ious to Tcada 比 orary theer te Wflte the wenfting t0 lia Ipatets to thol derare enl and and alll purtactfonf. Cef baller hou gnlllp heards。",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "LEGALLY REDUCE TABLES",
+      "confidence": 0.8088684627641003,
+      "box": [
+        91.0,
+        57.0,
+        927.0,
+        125.0
+      ]
+    },
+    {
+      "text": "FROH CAMPONE * BUTIONS。.",
+      "confidence": 0.19823556549439933,
+      "box": [
+        51.0,
+        120.0,
+        1015.0,
+        195.0
+      ]
+    },
+    {
+      "text": "LEGALLY TAX BURDEN",
+      "confidence": 0.7872515940960096,
+      "box": [
+        77.0,
+        265.0,
+        809.0,
+        333.0
+      ]
+    },
+    {
+      "text": "TO",
+      "confidence": 0.7179950818579182,
+      "box": [
+        829.0,
+        271.0,
+        927.0,
+        333.0
+      ]
+    },
+    {
+      "text": "ZERO",
+      "confidence": 0.9663099050521851,
+      "box": [
+        99.0,
+        310.0,
+        965.0,
+        639.0
+      ]
+    },
+    {
+      "text": "with Our Offshore Solutions!",
+      "confidence": 0.7926419123770769,
+      "box": [
+        338.0,
+        606.0,
+        942.0,
+        656.0
+      ]
+    },
+    {
+      "text": "ONCS",
+      "confidence": 0.13452428579330444,
+      "box": [
+        399.0,
+        671.0,
+        459.0,
+        691.0
+      ]
+    },
+    {
+      "text": "TONC",
+      "confidence": 0.34382471442222595,
+      "box": [
+        472.0,
+        668.0,
+        526.0,
+        692.0
+      ]
+    },
+    {
+      "text": "y",
+      "confidence": 0.015432340686763135,
+      "box": [
+        555.0,
+        673.0,
+        619.0,
+        689.0
+      ]
+    },
+    {
+      "text": "FRNS NOW",
+      "confidence": 0.6802931298627257,
+      "box": [
+        323.0,
+        778.0,
+        702.0,
+        852.0
+      ]
+    },
+    {
+      "text": "The ent the Incio | Dabe Nimw Slat or AmbicG Douctiars andl tats and Svarles are Caperfite: Sttfrogy: Rstatatt the Giit hevont Enday Tax Tax, Bhong。",
+      "confidence": 0.12031088338778233,
+      "box": [
+        34.0,
+        920.0,
+        990.0,
+        945.0
+      ]
+    },
+    {
+      "text": "Staganents",
+      "confidence": 0.5068935037348287,
+      "box": [
+        44.0,
+        938.0,
+        121.0,
+        958.0
+      ]
+    },
+    {
+      "text": "I baclas to heclurtloar ol Flonace to Fpsln Cur sttranper deors Of Our OBAII Chteslried",
+      "confidence": 0.14280071251868978,
+      "box": [
+        127.0,
+        939.0,
+        687.0,
+        957.0
+      ]
+    },
+    {
+      "text": "alt Alnck 劭 Inlneegony 司 Inon the aervatup",
+      "confidence": 0.08364552320603048,
+      "box": [
+        693.0,
+        937.0,
+        987.0,
+        957.0
+      ]
+    },
+    {
+      "text": "Stark extertfal to strarllont Is more daveihed and braffegrs;and anply an Balllded for TlH Agendnate ouor WOI 7bA",
+      "confidence": 0.14855596390011055,
+      "box": [
+        39.0,
+        953.0,
+        801.0,
+        974.0
+      ]
+    },
+    {
+      "text": "The pallmHle nancs ol tiolr",
+      "confidence": 0.5526818988152759,
+      "box": [
+        807.0,
+        953.0,
+        989.0,
+        973.0
+      ]
+    },
+    {
+      "text": "Toxe; Copatally help that anl aliperites antlvtties, Cafely Forlcee duh rint mist tenolnglal mome cornethera brtamally Or reY qumogd the",
+      "confidence": 0.11983521012399108,
+      "box": [
+        69.0,
+        968.0,
+        953.0,
+        989.0
+      ]
+    },
+    {
+      "text": "tbarlly Ious to Tcada",
+      "confidence": 0.24437819989940524,
+      "box": [
+        49.0,
+        987.0,
+        187.0,
+        1003.0
+      ]
+    },
+    {
+      "text": "比 orary theer te Wflte the",
+      "confidence": 0.13255909691999787,
+      "box": [
+        193.0,
+        987.0,
+        367.0,
+        1003.0
+      ]
+    },
+    {
+      "text": "wenfting t0 lia Ipatets to thol derare enl and and alll purtactfonf. Cef baller hou gnlllp heards。",
+      "confidence": 0.09396296628072627,
+      "box": [
+        367.0,
+        982.0,
+        980.0,
+        1006.0
+      ]
+    }
+  ],
+  "image_sha256": "a7c83c570fb679123b7d26bea462feeae7e2e0658ba67989236ebd4cb5ef4c65",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

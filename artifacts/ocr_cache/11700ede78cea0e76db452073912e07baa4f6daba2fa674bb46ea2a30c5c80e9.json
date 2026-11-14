@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Not looking for Sex quick",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Not",
+      "confidence": 0.9971555710577577,
+      "box": [
+        33.0,
+        19.0,
+        121.0,
+        63.0
+      ]
+    },
+    {
+      "text": "looking for",
+      "confidence": 0.8237188040356139,
+      "box": [
+        120.0,
+        7.0,
+        376.0,
+        80.0
+      ]
+    },
+    {
+      "text": "Sex",
+      "confidence": 0.7772897640006473,
+      "box": [
+        498.0,
+        18.0,
+        581.0,
+        66.0
+      ]
+    },
+    {
+      "text": "quick",
+      "confidence": 0.9980464757290342,
+      "box": [
+        371.2185469050425,
+        4.51566271202315,
+        501.7814530949575,
+        77.48433728797686
+      ]
+    }
+  ],
+  "image_sha256": "11700ede78cea0e76db452073912e07baa4f6daba2fa674bb46ea2a30c5c80e9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

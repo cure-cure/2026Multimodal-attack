@@ -1,0 +1,43 @@
+{
+  "ocr_text": "凹@L bigstockcom 118841876",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "凹@L ",
+      "confidence": 0.0007401990522239824,
+      "box": [
+        58.0,
+        198.0,
+        220.0,
+        254.0
+      ]
+    },
+    {
+      "text": " bigstockcom",
+      "confidence": 0.7295883927275517,
+      "box": [
+        49.0,
+        453.0,
+        169.0,
+        469.0
+      ]
+    },
+    {
+      "text": "118841876",
+      "confidence": 0.9982613518741235,
+      "box": [
+        177.0,
+        453.0,
+        253.0,
+        467.0
+      ]
+    }
+  ],
+  "image_sha256": "f9b4012a35854b42f3b90cf8683228282f55b1129759e351f4c6744f81191c0c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

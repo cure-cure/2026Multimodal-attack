@@ -1,0 +1,23 @@
+{
+  "ocr_text": "NO SIGNAI",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "NO SIGNAI",
+      "confidence": 0.5265742987124611,
+      "box": [
+        4077.0,
+        1506.0,
+        4381.0,
+        1581.0
+      ]
+    }
+  ],
+  "image_sha256": "8449e536fa99105f0437abbe1fe19446adef9de9beddf67979024001e633a90b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

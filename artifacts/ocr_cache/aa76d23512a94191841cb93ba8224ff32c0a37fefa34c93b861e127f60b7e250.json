@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Jsfjllrl'",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Jsfjllrl'",
+      "confidence": 0.18552870032439503,
+      "box": [
+        5.0,
+        570.0,
+        94.0,
+        600.0
+      ]
+    }
+  ],
+  "image_sha256": "aa76d23512a94191841cb93ba8224ff32c0a37fefa34c93b861e127f60b7e250",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "阳B]0 aythlng toat UoBsn'thelon to 切@皿",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "阳B]0",
+      "confidence": 0.00048529906780458987,
+      "box": [
+        355.0,
+        75.0,
+        533.0,
+        113.0
+      ]
+    },
+    {
+      "text": "aythlng toat UoBsn'thelon to 切@皿",
+      "confidence": 0.021691501856952306,
+      "box": [
+        63.0,
+        394.0,
+        537.0,
+        433.0
+      ]
+    }
+  ],
+  "image_sha256": "99ad030554af79a61239b157342f4b34a4d1f75d1621958315a297be477de2b3",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "』:皿0N[眍 #邸[I#呦皿B血咽",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "』:皿0N[眍",
+      "confidence": 7.227742372023126e-08,
+      "box": [
+        36.0,
+        0.0,
+        434.0,
+        50.0
+      ]
+    },
+    {
+      "text": "#邸[I#呦皿B血咽",
+      "confidence": 6.496071338918024e-07,
+      "box": [
+        26.0,
+        418.0,
+        444.0,
+        468.0
+      ]
+    }
+  ],
+  "image_sha256": "a8dd5bdd30cb894b2346d0db867dcaaa623266581589526a075b6a1c3ccf077b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

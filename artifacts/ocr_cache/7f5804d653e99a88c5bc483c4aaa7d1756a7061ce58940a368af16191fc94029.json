@@ -1,0 +1,43 @@
+{
+  "ocr_text": "@1\" 血@1 TUIO「.]",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@1\"",
+      "confidence": 7.391026744166711e-06,
+      "box": [
+        57.0,
+        1.0,
+        261.0,
+        43.0
+      ]
+    },
+    {
+      "text": "血@1",
+      "confidence": 0.0037207187878418734,
+      "box": [
+        49.0,
+        253.0,
+        251.0,
+        295.0
+      ]
+    },
+    {
+      "text": "TUIO「.]",
+      "confidence": 0.037196104758155754,
+      "box": [
+        247.0,
+        287.0,
+        297.0,
+        300.0
+      ]
+    }
+  ],
+  "image_sha256": "7f5804d653e99a88c5bc483c4aaa7d1756a7061ce58940a368af16191fc94029",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

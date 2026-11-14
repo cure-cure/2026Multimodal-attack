@@ -1,0 +1,43 @@
+{
+  "ocr_text": "IMN。 bigstock com 345953095",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "IMN。",
+      "confidence": 0.09711908549070358,
+      "box": [
+        123.0,
+        315.0,
+        159.0,
+        327.0
+      ]
+    },
+    {
+      "text": "bigstock com",
+      "confidence": 0.679189960156091,
+      "box": [
+        156.0,
+        312.0,
+        243.0,
+        331.0
+      ]
+    },
+    {
+      "text": "345953095",
+      "confidence": 0.7682376255527975,
+      "box": [
+        253.0,
+        313.0,
+        327.0,
+        329.0
+      ]
+    }
+  ],
+  "image_sha256": "4c064451db6c3ad7f9f5a8bd8ccb9cbd6df05c84c386d23e8490c9ab0f51d1b8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

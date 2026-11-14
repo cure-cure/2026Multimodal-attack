@@ -1,0 +1,73 @@
+{
+  "ocr_text": "BLOOD PRESSURE SUPPORT Herbal Blend HOW.lpaning NET 2249]",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BLOOD",
+      "confidence": 0.9958568020433719,
+      "box": [
+        445.0,
+        549.0,
+        583.0,
+        591.0
+      ]
+    },
+    {
+      "text": "PRESSURE",
+      "confidence": 0.997152395868625,
+      "box": [
+        427.0,
+        592.0,
+        601.0,
+        628.0
+      ]
+    },
+    {
+      "text": "SUPPORT",
+      "confidence": 0.9965302524170732,
+      "box": [
+        434.0,
+        626.0,
+        591.0,
+        666.0
+      ]
+    },
+    {
+      "text": "Herbal Blend",
+      "confidence": 0.8669453075220951,
+      "box": [
+        479.0,
+        681.0,
+        553.0,
+        695.0
+      ]
+    },
+    {
+      "text": "HOW.lpaning",
+      "confidence": 0.3642010702818565,
+      "box": [
+        473.0,
+        707.0,
+        559.0,
+        723.0
+      ]
+    },
+    {
+      "text": "NET 2249]",
+      "confidence": 0.3278893755480927,
+      "box": [
+        485.0,
+        737.0,
+        547.0,
+        751.0
+      ]
+    }
+  ],
+  "image_sha256": "525a24ae753ce5524fac4ddf25594af03885b459ef5aa226f57114fcb20b5876",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

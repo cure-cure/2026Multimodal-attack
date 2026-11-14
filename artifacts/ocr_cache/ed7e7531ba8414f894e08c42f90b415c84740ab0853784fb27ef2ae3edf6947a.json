@@ -1,0 +1,43 @@
+{
+  "ocr_text": "FD SAU IANDVMANI SPBGIAL",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "FD SAU",
+      "confidence": 0.08631164875550987,
+      "box": [
+        556.0,
+        478.0,
+        829.0,
+        552.0
+      ]
+    },
+    {
+      "text": "IANDVMANI",
+      "confidence": 0.052075452551582184,
+      "box": [
+        530.0,
+        548.0,
+        858.0,
+        622.0
+      ]
+    },
+    {
+      "text": "SPBGIAL",
+      "confidence": 0.39485329791985435,
+      "box": [
+        576.0,
+        616.0,
+        816.0,
+        692.0
+      ]
+    }
+  ],
+  "image_sha256": "ed7e7531ba8414f894e08c42f90b415c84740ab0853784fb27ef2ae3edf6947a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

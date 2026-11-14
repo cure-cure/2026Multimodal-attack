@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Roolsr ( OUEBR",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Roolsr (",
+      "confidence": 0.22929026486805232,
+      "box": [
+        214.0,
+        478.0,
+        280.0,
+        502.0
+      ]
+    },
+    {
+      "text": "OUEBR",
+      "confidence": 0.3277579233521835,
+      "box": [
+        236.06927321394346,
+        416.2516854477569,
+        276.93072678605654,
+        437.7483145522431
+      ]
+    }
+  ],
+  "image_sha256": "28774afd007883da0d7d2af877c216c1d57f6e985633d1f409b85cd298fda04e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

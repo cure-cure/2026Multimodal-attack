@@ -1,0 +1,53 @@
+{
+  "ocr_text": "slcywalker SOLOS SOUIrCe SlCwalker",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "slcywalker",
+      "confidence": 0.9076104431482388,
+      "box": [
+        55.0,
+        463.0,
+        131.0,
+        481.0
+      ]
+    },
+    {
+      "text": "SOLOS",
+      "confidence": 0.9789467794311625,
+      "box": [
+        23.0,
+        493.0,
+        75.0,
+        513.0
+      ]
+    },
+    {
+      "text": "SOUIrCe",
+      "confidence": 0.41369568824264025,
+      "box": [
+        23.0,
+        529.0,
+        73.0,
+        545.0
+      ]
+    },
+    {
+      "text": "SlCwalker",
+      "confidence": 0.37379737803116553,
+      "box": [
+        77.0,
+        529.0,
+        151.0,
+        545.0
+      ]
+    }
+  ],
+  "image_sha256": "777975ec5a01eeb4efba7742711bcab2fd12ebb6fe8f89708382e8ea775b6d1d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

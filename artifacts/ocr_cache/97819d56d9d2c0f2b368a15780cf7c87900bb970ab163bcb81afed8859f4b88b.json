@@ -1,0 +1,33 @@
+{
+  "ocr_text": "USIS THE BIBBEST TERROST AROUNOTIEW",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "USIS THE BIBBEST",
+      "confidence": 0.4444135171151229,
+      "box": [
+        13.0,
+        5.0,
+        232.0,
+        46.0
+      ]
+    },
+    {
+      "text": "TERROST AROUNOTIEW ",
+      "confidence": 0.0580888782946336,
+      "box": [
+        5.0,
+        47.0,
+        249.0,
+        89.0
+      ]
+    }
+  ],
+  "image_sha256": "97819d56d9d2c0f2b368a15780cf7c87900bb970ab163bcb81afed8859f4b88b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

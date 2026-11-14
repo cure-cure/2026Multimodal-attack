@@ -1,0 +1,23 @@
+{
+  "ocr_text": "WCI",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WCI",
+      "confidence": 0.5534043456382843,
+      "box": [
+        79.0,
+        39.0,
+        115.0,
+        77.0
+      ]
+    }
+  ],
+  "image_sha256": "820182fb01c39712f57aaf1bdacfd29b42c14c7ae9fe7d83dd4b5ecea0befe12",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

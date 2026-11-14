@@ -1,0 +1,43 @@
+{
+  "ocr_text": "TISIINESR [ 皿99 QNNEITTNE 0}",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "TISIINESR",
+      "confidence": 0.5280871195881783,
+      "box": [
+        483.0,
+        565.0,
+        555.0,
+        581.0
+      ]
+    },
+    {
+      "text": "[ 皿99",
+      "confidence": 0.05504273860411922,
+      "box": [
+        448.0,
+        580.0,
+        586.0,
+        628.0
+      ]
+    },
+    {
+      "text": "QNNEITTNE 0}",
+      "confidence": 0.0056173305878510545,
+      "box": [
+        471.0,
+        621.0,
+        565.0,
+        635.0
+      ]
+    }
+  ],
+  "image_sha256": "fcf280337be5ad63352f1505e3043fd363e68995b3faca0d5494171fb0359d85",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

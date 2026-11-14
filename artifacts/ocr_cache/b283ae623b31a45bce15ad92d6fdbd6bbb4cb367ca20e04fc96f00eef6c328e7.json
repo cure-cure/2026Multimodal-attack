@@ -1,0 +1,63 @@
+{
+  "ocr_text": "25 TIT 皿0 UIUSuu; TWI",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "25",
+      "confidence": 0.0550484688261562,
+      "box": [
+        464.0,
+        606.0,
+        502.0,
+        614.0
+      ]
+    },
+    {
+      "text": "TIT",
+      "confidence": 0.039649470384060734,
+      "box": [
+        618.0,
+        646.0,
+        650.0,
+        652.0
+      ]
+    },
+    {
+      "text": "皿0",
+      "confidence": 0.00017761150813110955,
+      "box": [
+        589.0,
+        651.0,
+        689.0,
+        687.0
+      ]
+    },
+    {
+      "text": "UIUSuu;",
+      "confidence": 0.005502368321998224,
+      "box": [
+        484.0,
+        680.0,
+        528.0,
+        688.0
+      ]
+    },
+    {
+      "text": "TWI",
+      "confidence": 0.03050224253247635,
+      "box": [
+        605.0,
+        683.0,
+        671.0,
+        697.0
+      ]
+    }
+  ],
+  "image_sha256": "b283ae623b31a45bce15ad92d6fdbd6bbb4cb367ca20e04fc96f00eef6c328e7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

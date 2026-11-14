@@ -1,0 +1,33 @@
+{
+  "ocr_text": "叽B JBT皿I",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "叽B",
+      "confidence": 0.002138125132976134,
+      "box": [
+        32.0,
+        0.0,
+        180.0,
+        50.0
+      ]
+    },
+    {
+      "text": "JBT皿I",
+      "confidence": 0.022174009714631192,
+      "box": [
+        29.0,
+        189.0,
+        203.0,
+        231.0
+      ]
+    }
+  ],
+  "image_sha256": "2af82b1c4dc7d176545610c61b63703452c244e1e22d62ab1cc5b6e6e7e755e8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Ials Uay Womans day",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Ials Uay",
+      "confidence": 0.22405855519700427,
+      "box": [
+        61.0,
+        0.0,
+        125.0,
+        13.0
+      ]
+    },
+    {
+      "text": "Womans day",
+      "confidence": 0.9128399606315991,
+      "box": [
+        55.0,
+        101.0,
+        135.0,
+        115.0
+      ]
+    }
+  ],
+  "image_sha256": "9b1a5317968f70e1b791b7a0cd92f09bf169fd0445c33bf4e7324885d78dded8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Hide Cash Incme! Avoid Raper Trail Tax Evasio",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Hide Cash Incme!",
+      "confidence": 0.7201880906022773,
+      "box": [
+        212.0,
+        240.0,
+        874.0,
+        363.0
+      ]
+    },
+    {
+      "text": "Avoid Raper Trail",
+      "confidence": 0.507825670137746,
+      "box": [
+        213.0,
+        360.0,
+        810.0,
+        507.0
+      ]
+    },
+    {
+      "text": "Tax Evasio",
+      "confidence": 0.43213779567094207,
+      "box": [
+        382.0,
+        540.0,
+        702.0,
+        621.0
+      ]
+    }
+  ],
+  "image_sha256": "872f12d1ebbefc812be88c691b2cdb04019c27eb416952983789f186802401d4",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

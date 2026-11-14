@@ -1,0 +1,73 @@
+{
+  "ocr_text": "Payday Loans Online No Credit Check, 1 Hour Approval: TLoDowI Apply Now Poyment",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Payday Loans Online",
+      "confidence": 0.7034614102251151,
+      "box": [
+        230.0,
+        278.0,
+        752.0,
+        354.0
+      ]
+    },
+    {
+      "text": "No Credit Check, 1 Hour",
+      "confidence": 0.59320655210717,
+      "box": [
+        220.0,
+        354.0,
+        794.0,
+        428.0
+      ]
+    },
+    {
+      "text": "Approval:",
+      "confidence": 0.6825024477697323,
+      "box": [
+        383.0,
+        435.0,
+        636.0,
+        514.0
+      ]
+    },
+    {
+      "text": "TLoDowI",
+      "confidence": 0.0377979941663072,
+      "box": [
+        554.0,
+        588.0,
+        654.0,
+        614.0
+      ]
+    },
+    {
+      "text": "Apply Now",
+      "confidence": 0.8431384244097472,
+      "box": [
+        353.0,
+        597.0,
+        475.0,
+        633.0
+      ]
+    },
+    {
+      "text": "Poyment",
+      "confidence": 0.7204663548083139,
+      "box": [
+        565.0,
+        611.0,
+        648.0,
+        641.0
+      ]
+    }
+  ],
+  "image_sha256": "42ae68cbdbce55e1efd0ff4a2901cbd1f7c3ce1d811aaabe4d1b3a2bf4797655",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

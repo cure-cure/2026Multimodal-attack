@@ -1,0 +1,53 @@
+{
+  "ocr_text": "@ m 。HT WNNBIESNICACOM ANDREAS H BIESNICH",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@",
+      "confidence": 0.671140853203056,
+      "box": [
+        526.0,
+        960.0,
+        552.0,
+        986.0
+      ]
+    },
+    {
+      "text": " m 。HT",
+      "confidence": 0.048861213354230146,
+      "box": [
+        560.0,
+        957.0,
+        774.0,
+        988.0
+      ]
+    },
+    {
+      "text": "WNNBIESNICACOM",
+      "confidence": 0.044204858695517005,
+      "box": [
+        14.0,
+        988.0,
+        260.0,
+        1014.0
+      ]
+    },
+    {
+      "text": "ANDREAS H BIESNICH",
+      "confidence": 0.5750876362737618,
+      "box": [
+        491.0,
+        984.0,
+        771.0,
+        1014.0
+      ]
+    }
+  ],
+  "image_sha256": "86f8dc58fe21659e740173c3d01906c753968d39e12a343bb9a82f52ea8e6e6d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

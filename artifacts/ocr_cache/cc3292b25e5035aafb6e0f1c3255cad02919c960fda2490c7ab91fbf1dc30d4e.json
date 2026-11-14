@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Omar Q: Fake Age 40。 Sda",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Omar Q: Fake",
+      "confidence": 0.6537123109232138,
+      "box": [
+        502.0,
+        660.0,
+        688.0,
+        712.0
+      ]
+    },
+    {
+      "text": "Age 40。",
+      "confidence": 0.6205743372063162,
+      "box": [
+        548.0,
+        702.0,
+        660.0,
+        752.0
+      ]
+    },
+    {
+      "text": "Sda",
+      "confidence": 0.10116422629702584,
+      "box": [
+        729.0,
+        791.0,
+        761.0,
+        805.0
+      ]
+    }
+  ],
+  "image_sha256": "cc3292b25e5035aafb6e0f1c3255cad02919c960fda2490c7ab91fbf1dc30d4e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

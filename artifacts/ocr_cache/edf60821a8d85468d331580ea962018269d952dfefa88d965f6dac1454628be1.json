@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Ds WVeih Una d1e Kunstler",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Ds",
+      "confidence": 0.8875053635547289,
+      "box": [
+        291.0,
+        567.0,
+        321.0,
+        581.0
+      ]
+    },
+    {
+      "text": "WVeih Una",
+      "confidence": 0.21258251923578894,
+      "box": [
+        325.0,
+        567.0,
+        403.0,
+        581.0
+      ]
+    },
+    {
+      "text": "d1e",
+      "confidence": 0.4374399057994893,
+      "box": [
+        407.0,
+        567.0,
+        435.0,
+        581.0
+      ]
+    },
+    {
+      "text": "Kunstler",
+      "confidence": 0.14021111759099353,
+      "box": [
+        439.0,
+        567.0,
+        509.0,
+        581.0
+      ]
+    }
+  ],
+  "image_sha256": "edf60821a8d85468d331580ea962018269d952dfefa88d965f6dac1454628be1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

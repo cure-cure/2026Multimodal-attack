@@ -1,0 +1,33 @@
+{
+  "ocr_text": "10364 j-223",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "10364",
+      "confidence": 0.99369163532868,
+      "box": [
+        485.0,
+        331.0,
+        557.0,
+        351.0
+      ]
+    },
+    {
+      "text": "j-223",
+      "confidence": 0.12227829728210132,
+      "box": [
+        496.0,
+        584.0,
+        552.0,
+        608.0
+      ]
+    }
+  ],
+  "image_sha256": "7c8f67f523c784da8c3683280af64526bf5bc3e7a5aaa5bcd691d1d5334f0fb7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

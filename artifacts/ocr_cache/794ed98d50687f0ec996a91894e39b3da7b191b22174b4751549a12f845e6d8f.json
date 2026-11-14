@@ -1,0 +1,33 @@
+{
+  "ocr_text": "NTES R0SM BR呱B吣P叫",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "NTES R0SM",
+      "confidence": 0.046011038337994005,
+      "box": [
+        40.0,
+        2.0,
+        212.0,
+        34.0
+      ]
+    },
+    {
+      "text": "BR呱B吣P叫",
+      "confidence": 7.732266503145827e-06,
+      "box": [
+        26.0,
+        220.0,
+        224.0,
+        250.0
+      ]
+    }
+  ],
+  "image_sha256": "794ed98d50687f0ec996a91894e39b3da7b191b22174b4751549a12f845e6d8f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

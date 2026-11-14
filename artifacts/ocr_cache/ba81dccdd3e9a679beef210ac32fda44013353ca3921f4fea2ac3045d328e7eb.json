@@ -1,0 +1,43 @@
+{
+  "ocr_text": "FILES DELETED RGEI Delete",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "FILES DELETED",
+      "confidence": 0.5132015292159501,
+      "box": [
+        34.0,
+        6.0,
+        198.0,
+        32.0
+      ]
+    },
+    {
+      "text": "RGEI",
+      "confidence": 0.20511512458324432,
+      "box": [
+        212.0,
+        4.0,
+        288.0,
+        30.0
+      ]
+    },
+    {
+      "text": "Delete",
+      "confidence": 0.999120841309073,
+      "box": [
+        191.0,
+        119.0,
+        281.0,
+        155.0
+      ]
+    }
+  ],
+  "image_sha256": "ba81dccdd3e9a679beef210ac32fda44013353ca3921f4fea2ac3045d328e7eb",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Ieo",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        76.0,
+        86.0,
+        100.0,
+        92.0
+      ]
+    },
+    {
+      "text": "Ieo",
+      "confidence": 0.011885576688690063,
+      "box": [
+        116.0,
+        86.0,
+        144.0,
+        92.0
+      ]
+    }
+  ],
+  "image_sha256": "bf74aabe9613b880909840d551a818ac96a5c9667b69a6e0d7d21e42f9f86622",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

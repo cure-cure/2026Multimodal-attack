@@ -1,0 +1,23 @@
+{
+  "ocr_text": "World Relisions Notes",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "World Relisions Notes",
+      "confidence": 0.7170456032832494,
+      "box": [
+        123.0,
+        178.0,
+        259.0,
+        195.0
+      ]
+    }
+  ],
+  "image_sha256": "132f3f1dfae2a8c8fe2a97724d965991c765040b57ed9a390e5844409b519204",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

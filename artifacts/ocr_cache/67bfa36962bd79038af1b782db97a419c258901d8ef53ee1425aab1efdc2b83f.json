@@ -1,0 +1,63 @@
+{
+  "ocr_text": "Not every disability is Visible。",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Not",
+      "confidence": 0.9960956564367234,
+      "box": [
+        285.0,
+        107.0,
+        353.0,
+        145.0
+      ]
+    },
+    {
+      "text": "every",
+      "confidence": 0.5669920137055781,
+      "box": [
+        283.0,
+        155.0,
+        387.0,
+        193.0
+      ]
+    },
+    {
+      "text": "disability",
+      "confidence": 0.848992546136641,
+      "box": [
+        278.0,
+        182.0,
+        449.0,
+        236.0
+      ]
+    },
+    {
+      "text": "is",
+      "confidence": 0.9581323174571855,
+      "box": [
+        281.0,
+        233.0,
+        323.0,
+        273.0
+      ]
+    },
+    {
+      "text": "Visible。",
+      "confidence": 0.7139010288095435,
+      "box": [
+        283.0,
+        277.0,
+        417.0,
+        315.0
+      ]
+    }
+  ],
+  "image_sha256": "67bfa36962bd79038af1b782db97a419c258901d8ef53ee1425aab1efdc2b83f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

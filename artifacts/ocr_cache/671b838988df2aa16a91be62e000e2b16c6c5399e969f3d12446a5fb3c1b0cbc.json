@@ -1,0 +1,53 @@
+{
+  "ocr_text": "阳lD T bigstockcom 131332727",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "阳lD",
+      "confidence": 0.00019483313155805476,
+      "box": [
+        52.0,
+        152.0,
+        339.0,
+        240.0
+      ]
+    },
+    {
+      "text": "T",
+      "confidence": 0.08777563797254118,
+      "box": [
+        96.0,
+        456.0,
+        130.0,
+        464.0
+      ]
+    },
+    {
+      "text": "bigstockcom",
+      "confidence": 0.9459012571192617,
+      "box": [
+        129.0,
+        453.0,
+        215.0,
+        469.0
+      ]
+    },
+    {
+      "text": "131332727",
+      "confidence": 0.9999526336147204,
+      "box": [
+        225.0,
+        451.0,
+        299.0,
+        467.0
+      ]
+    }
+  ],
+  "image_sha256": "671b838988df2aa16a91be62e000e2b16c6c5399e969f3d12446a5fb3c1b0cbc",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "faitk",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "faitk",
+      "confidence": 0.38618839434167607,
+      "box": [
+        108.0,
+        122.0,
+        448.0,
+        271.0
+      ]
+    }
+  ],
+  "image_sha256": "a605293c89fbd1b81f3bea21c8d54ae27131437f755227314851fd03bfd97f30",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

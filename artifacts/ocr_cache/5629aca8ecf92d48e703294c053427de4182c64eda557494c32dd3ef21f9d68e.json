@@ -1,0 +1,43 @@
+{
+  "ocr_text": "SIGEN XYZ 0055 QNCMR 006",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SIGEN",
+      "confidence": 0.15328313945057662,
+      "box": [
+        325.0,
+        663.0,
+        373.0,
+        675.0
+      ]
+    },
+    {
+      "text": "XYZ 0055",
+      "confidence": 0.3751058183091066,
+      "box": [
+        289.0,
+        675.0,
+        401.0,
+        711.0
+      ]
+    },
+    {
+      "text": "QNCMR 006",
+      "confidence": 0.546268929163966,
+      "box": [
+        315.0,
+        705.0,
+        385.0,
+        723.0
+      ]
+    }
+  ],
+  "image_sha256": "5629aca8ecf92d48e703294c053427de4182c64eda557494c32dd3ef21f9d68e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

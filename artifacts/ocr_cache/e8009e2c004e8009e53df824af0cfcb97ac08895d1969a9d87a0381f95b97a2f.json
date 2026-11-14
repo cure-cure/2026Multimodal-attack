@@ -1,0 +1,123 @@
+{
+  "ocr_text": "LEGALLY 咫圆凹@8 Y@0思 TAX BURDEN ZBR(O @ &@B8叫@[ SOLUTIONS! We hgh ourton burge Bande 4 Llegal brandbork sepu .thim Whth fox asta Of scind to reguaring them eta rahive soled rapliat CO. Then argnes, frad antalt sbnould Gt Hot noltaltimer poter with worrsequptioncour",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "LEGALLY",
+      "confidence": 0.7080627016631906,
+      "box": [
+        93.0,
+        49.0,
+        937.0,
+        209.0
+      ]
+    },
+    {
+      "text": "咫圆凹@8 Y@0思",
+      "confidence": 4.1701415012520056e-05,
+      "box": [
+        88.0,
+        205.0,
+        931.0,
+        319.0
+      ]
+    },
+    {
+      "text": "TAX BURDEN",
+      "confidence": 0.5467988632081469,
+      "box": [
+        100.0,
+        313.0,
+        927.0,
+        430.0
+      ]
+    },
+    {
+      "text": "ZBR(O",
+      "confidence": 0.046282650634079964,
+      "box": [
+        79.0,
+        433.0,
+        952.0,
+        656.0
+      ]
+    },
+    {
+      "text": "@ &@B8叫@[",
+      "confidence": 6.309812908212528e-05,
+      "box": [
+        114.0,
+        656.0,
+        926.0,
+        760.0
+      ]
+    },
+    {
+      "text": "SOLUTIONS!",
+      "confidence": 0.9907770757516666,
+      "box": [
+        122.0,
+        762.0,
+        928.0,
+        884.0
+      ]
+    },
+    {
+      "text": "We hgh ourton burge Bande 4 Llegal brandbork sepu .thim Whth fox asta Of scind",
+      "confidence": 0.24471690905427218,
+      "box": [
+        138.0,
+        915.0,
+        888.0,
+        946.0
+      ]
+    },
+    {
+      "text": "to reguaring them",
+      "confidence": 0.734425795390693,
+      "box": [
+        288.0,
+        940.0,
+        472.0,
+        966.0
+      ]
+    },
+    {
+      "text": "eta rahive soled rapliat CO.",
+      "confidence": 0.5031874520564164,
+      "box": [
+        478.0,
+        940.0,
+        736.0,
+        966.0
+      ]
+    },
+    {
+      "text": "Then argnes, frad antalt sbnould Gt",
+      "confidence": 0.34265191508914844,
+      "box": [
+        120.0,
+        960.0,
+        468.0,
+        990.0
+      ]
+    },
+    {
+      "text": "Hot noltaltimer poter with worrsequptioncour",
+      "confidence": 0.5042168150089865,
+      "box": [
+        467.0,
+        949.0,
+        909.0,
+        992.0
+      ]
+    }
+  ],
+  "image_sha256": "e8009e2c004e8009e53df824af0cfcb97ac08895d1969a9d87a0381f95b97a2f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

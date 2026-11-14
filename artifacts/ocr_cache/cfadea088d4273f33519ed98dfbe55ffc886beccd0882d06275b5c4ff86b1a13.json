@@ -1,0 +1,33 @@
+{
+  "ocr_text": "CHOOSE YOUR WEAPON",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CHOOSE",
+      "confidence": 0.9904208570961099,
+      "box": [
+        17.0,
+        35.0,
+        277.0,
+        95.0
+      ]
+    },
+    {
+      "text": "YOUR WEAPON",
+      "confidence": 0.8260131060132415,
+      "box": [
+        9.0,
+        273.0,
+        281.0,
+        313.0
+      ]
+    }
+  ],
+  "image_sha256": "cfadea088d4273f33519ed98dfbe55ffc886beccd0882d06275b5c4ff86b1a13",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

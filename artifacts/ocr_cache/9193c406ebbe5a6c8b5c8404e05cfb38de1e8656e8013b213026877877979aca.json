@@ -1,0 +1,33 @@
+{
+  "ocr_text": "[呦8~B凹吮86 J0ar Oulyhalr baCB 皿0C",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "[呦8~B凹吮86",
+      "confidence": 1.8118540461671907e-06,
+      "box": [
+        4.0,
+        98.0,
+        420.0,
+        154.0
+      ]
+    },
+    {
+      "text": "J0ar Oulyhalr baCB 皿0C",
+      "confidence": 0.0006404032637967674,
+      "box": [
+        89.0,
+        467.0,
+        745.0,
+        531.0
+      ]
+    }
+  ],
+  "image_sha256": "9193c406ebbe5a6c8b5c8404e05cfb38de1e8656e8013b213026877877979aca",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

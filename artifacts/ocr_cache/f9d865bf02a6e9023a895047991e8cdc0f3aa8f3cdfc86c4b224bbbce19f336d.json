@@ -1,0 +1,23 @@
+{
+  "ocr_text": "T'FNRTTIDTACUJIER STIC RTAULE C Cs",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "T'FNRTTIDTACUJIER STIC RTAULE C Cs",
+      "confidence": 0.005296673620626291,
+      "box": [
+        128.0,
+        246.0,
+        390.0,
+        254.0
+      ]
+    }
+  ],
+  "image_sha256": "f9d865bf02a6e9023a895047991e8cdc0f3aa8f3cdfc86c4b224bbbce19f336d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

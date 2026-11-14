@@ -1,0 +1,33 @@
+{
+  "ocr_text": "GWilg 跖",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "GWilg",
+      "confidence": 0.06895755639963178,
+      "box": [
+        85.0,
+        187.0,
+        217.0,
+        231.0
+      ]
+    },
+    {
+      "text": "跖",
+      "confidence": 0.0002131399680874481,
+      "box": [
+        84.0,
+        222.0,
+        218.0,
+        270.0
+      ]
+    }
+  ],
+  "image_sha256": "c4cdbe1247461f9d0c145d87ab3072c763a0e449a4a7a45ced8a4fb01b67be39",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

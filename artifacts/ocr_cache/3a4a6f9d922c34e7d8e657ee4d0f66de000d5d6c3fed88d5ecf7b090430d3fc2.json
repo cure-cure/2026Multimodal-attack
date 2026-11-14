@@ -1,0 +1,43 @@
+{
+  "ocr_text": "』56『『 [@哑.R LI",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "』56『『",
+      "confidence": 1.9951219746019864e-06,
+      "box": [
+        71.0,
+        73.0,
+        497.0,
+        135.0
+      ]
+    },
+    {
+      "text": "[@哑.R",
+      "confidence": 1.0676384541697525e-05,
+      "box": [
+        15.0,
+        120.0,
+        555.0,
+        186.0
+      ]
+    },
+    {
+      "text": "LI",
+      "confidence": 0.00033235270166195364,
+      "box": [
+        98.0,
+        628.0,
+        480.0,
+        752.0
+      ]
+    }
+  ],
+  "image_sha256": "3a4a6f9d922c34e7d8e657ee4d0f66de000d5d6c3fed88d5ecf7b090430d3fc2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

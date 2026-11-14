@@ -1,0 +1,53 @@
+{
+  "ocr_text": "勿0爬e91&C0R~ Upvote Goda IlTI",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "勿0爬e91&C0R~",
+      "confidence": 2.1109657117019683e-05,
+      "box": [
+        111.0,
+        0.0,
+        755.0,
+        57.0
+      ]
+    },
+    {
+      "text": "Upvote",
+      "confidence": 0.47320300661915216,
+      "box": [
+        275.0,
+        261.0,
+        363.0,
+        297.0
+      ]
+    },
+    {
+      "text": "Goda",
+      "confidence": 0.14615682351043568,
+      "box": [
+        292.0,
+        286.0,
+        350.0,
+        316.0
+      ]
+    },
+    {
+      "text": "IlTI",
+      "confidence": 0.05021588131785393,
+      "box": [
+        4.0,
+        488.0,
+        54.0,
+        496.0
+      ]
+    }
+  ],
+  "image_sha256": "f9a76edc5c3f63e4047b487df1a9452870a8c29b6a550c637f5dd9e64e6dcd6d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

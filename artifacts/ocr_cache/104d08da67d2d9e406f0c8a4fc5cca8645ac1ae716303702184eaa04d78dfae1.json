@@ -1,0 +1,53 @@
+{
+  "ocr_text": "NOIIWNBMOTINES 崩跚 Jo [",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "NOIIWNBMOTINES",
+      "confidence": 0.19236079267461476,
+      "box": [
+        24.0,
+        126.0,
+        216.0,
+        158.0
+      ]
+    },
+    {
+      "text": "崩跚",
+      "confidence": 2.1982202108751546e-05,
+      "box": [
+        20.0,
+        143.0,
+        197.0,
+        199.0
+      ]
+    },
+    {
+      "text": "Jo",
+      "confidence": 0.0003760090184619374,
+      "box": [
+        46.0,
+        170.0,
+        122.0,
+        198.0
+      ]
+    },
+    {
+      "text": "[",
+      "confidence": 0.004149511124416583,
+      "box": [
+        186.0,
+        148.0,
+        234.0,
+        178.0
+      ]
+    }
+  ],
+  "image_sha256": "104d08da67d2d9e406f0c8a4fc5cca8645ac1ae716303702184eaa04d78dfae1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

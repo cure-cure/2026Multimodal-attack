@@ -1,0 +1,43 @@
+{
+  "ocr_text": "B8.四~e?皿 衄0心l jijefegenerator net",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "B8.四~e?皿",
+      "confidence": 1.2992819718447646e-05,
+      "box": [
+        9.0,
+        0.0,
+        388.0,
+        43.0
+      ]
+    },
+    {
+      "text": "衄0心l",
+      "confidence": 5.252165283309296e-05,
+      "box": [
+        89.0,
+        325.0,
+        313.0,
+        393.0
+      ]
+    },
+    {
+      "text": "jijefegenerator net",
+      "confidence": 0.24713249042498464,
+      "box": [
+        243.0,
+        379.0,
+        400.0,
+        400.0
+      ]
+    }
+  ],
+  "image_sha256": "5e02288a7cde54a8d3eaa5778a28a9bbb469c88d106643c3132b2e255bc8ec2b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

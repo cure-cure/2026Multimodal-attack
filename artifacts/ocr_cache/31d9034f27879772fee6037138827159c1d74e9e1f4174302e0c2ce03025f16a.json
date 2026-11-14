@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Disability Confident employers",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Disability",
+      "confidence": 0.8162339784299991,
+      "box": [
+        149.0,
+        57.0,
+        452.0,
+        159.0
+      ]
+    },
+    {
+      "text": "Confident",
+      "confidence": 0.9996926945776029,
+      "box": [
+        143.0,
+        146.0,
+        460.0,
+        222.0
+      ]
+    },
+    {
+      "text": "employers",
+      "confidence": 0.8342852404328601,
+      "box": [
+        141.0,
+        229.0,
+        465.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "31d9034f27879772fee6037138827159c1d74e9e1f4174302e0c2ce03025f16a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

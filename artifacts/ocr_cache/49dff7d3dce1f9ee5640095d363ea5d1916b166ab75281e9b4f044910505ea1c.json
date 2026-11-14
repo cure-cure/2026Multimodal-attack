@@ -1,0 +1,133 @@
+{
+  "ocr_text": "MAKE A COMMITMENT_ PREVENTION 吓 CRUELTY TO ANIMALS IONTI Pledgeto Prevent Animal Cruelty。 AMERICAN HUMANE TRSTUSERVE You CAN make a difference in the lives of animals. Join the pledge。",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "MAKE",
+      "confidence": 0.9969319105148315,
+      "box": [
+        166.0,
+        26.0,
+        232.0,
+        50.0
+      ]
+    },
+    {
+      "text": "A COMMITMENT_",
+      "confidence": 0.557600300027379,
+      "box": [
+        236.0,
+        26.0,
+        418.0,
+        50.0
+      ]
+    },
+    {
+      "text": "PREVENTION 吓",
+      "confidence": 0.2328739949859616,
+      "box": [
+        91.0,
+        79.0,
+        503.0,
+        167.0
+      ]
+    },
+    {
+      "text": "CRUELTY TO ANIMALS",
+      "confidence": 0.27652731919224366,
+      "box": [
+        12.0,
+        168.0,
+        585.0,
+        260.0
+      ]
+    },
+    {
+      "text": "IONTI",
+      "confidence": 0.127365875437615,
+      "box": [
+        201.0,
+        261.0,
+        397.0,
+        347.0
+      ]
+    },
+    {
+      "text": "Pledgeto",
+      "confidence": 0.996993182598826,
+      "box": [
+        118.0,
+        582.0,
+        300.0,
+        637.0
+      ]
+    },
+    {
+      "text": "Prevent",
+      "confidence": 0.9781847386026833,
+      "box": [
+        129.0,
+        643.0,
+        277.0,
+        685.0
+      ]
+    },
+    {
+      "text": "Animal Cruelty。 ",
+      "confidence": 0.7930905478760162,
+      "box": [
+        64.0,
+        694.0,
+        343.0,
+        747.0
+      ]
+    },
+    {
+      "text": "AMERICAN",
+      "confidence": 0.8340700902757628,
+      "box": [
+        930.0,
+        884.0,
+        1080.0,
+        916.0
+      ]
+    },
+    {
+      "text": "HUMANE",
+      "confidence": 0.9775282691544435,
+      "box": [
+        929.0,
+        925.0,
+        1080.0,
+        961.0
+      ]
+    },
+    {
+      "text": "TRSTUSERVE",
+      "confidence": 0.33951500136215557,
+      "box": [
+        953.0,
+        959.0,
+        1061.0,
+        975.0
+      ]
+    },
+    {
+      "text": "You CAN make a difference in the lives of animals. Join the pledge。",
+      "confidence": 0.44493186354306435,
+      "box": [
+        181.0,
+        1004.0,
+        953.0,
+        1041.0
+      ]
+    }
+  ],
+  "image_sha256": "49dff7d3dce1f9ee5640095d363ea5d1916b166ab75281e9b4f044910505ea1c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

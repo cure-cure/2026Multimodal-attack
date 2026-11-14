@@ -1,0 +1,53 @@
+{
+  "ocr_text": "5 T10 | InI! bigstock com 420133996",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "5 T10 |",
+      "confidence": 0.5680802638900725,
+      "box": [
+        132.0,
+        60.0,
+        210.0,
+        86.0
+      ]
+    },
+    {
+      "text": "InI!",
+      "confidence": 0.08014563471078873,
+      "box": [
+        2.0,
+        304.0,
+        32.0,
+        312.0
+      ]
+    },
+    {
+      "text": "bigstock com",
+      "confidence": 0.6466407880574411,
+      "box": [
+        35.0,
+        301.0,
+        121.0,
+        319.0
+      ]
+    },
+    {
+      "text": "420133996",
+      "confidence": 0.9996459568079692,
+      "box": [
+        131.0,
+        301.0,
+        205.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "e5bc38e73c7855994bcd70cb911e1c5a7999ae12ce8aadf56f547f8b0fa7f06e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

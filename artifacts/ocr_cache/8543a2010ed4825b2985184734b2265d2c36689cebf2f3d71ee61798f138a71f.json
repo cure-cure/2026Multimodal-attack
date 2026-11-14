@@ -1,0 +1,33 @@
+{
+  "ocr_text": "SofraYorJshi 幺",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SofraYorJshi",
+      "confidence": 0.35710800963147626,
+      "box": [
+        392.0,
+        356.0,
+        616.0,
+        404.0
+      ]
+    },
+    {
+      "text": "幺",
+      "confidence": 0.07199011776602848,
+      "box": [
+        159.2406271054049,
+        190.01350150311063,
+        462.7593728945951,
+        535.9864984968893
+      ]
+    }
+  ],
+  "image_sha256": "8543a2010ed4825b2985184734b2265d2c36689cebf2f3d71ee61798f138a71f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

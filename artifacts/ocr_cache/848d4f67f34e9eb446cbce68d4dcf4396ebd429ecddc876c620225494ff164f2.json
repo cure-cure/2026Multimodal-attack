@@ -1,0 +1,33 @@
+{
+  "ocr_text": "METHAMPHETAMINE OOHSN",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "METHAMPHETAMINE",
+      "confidence": 0.998867383275192,
+      "box": [
+        121.25487394919689,
+        6.651705097487434,
+        297.7451260508031,
+        90.34829490251256
+      ]
+    },
+    {
+      "text": "OOHSN",
+      "confidence": 0.23726179059872707,
+      "box": [
+        179.31671842700024,
+        91.3437079701774,
+        273.68328157299976,
+        143.6562920298226
+      ]
+    }
+  ],
+  "image_sha256": "848d4f67f34e9eb446cbce68d4dcf4396ebd429ecddc876c620225494ff164f2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

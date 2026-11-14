@@ -1,0 +1,43 @@
+{
+  "ocr_text": "SUSHI ROLLS NOTGENOER ROLES",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SUSHI",
+      "confidence": 0.9897836644224443,
+      "box": [
+        26.0,
+        0.0,
+        188.0,
+        54.0
+      ]
+    },
+    {
+      "text": "ROLLS",
+      "confidence": 0.8922476636586899,
+      "box": [
+        28.0,
+        38.0,
+        190.0,
+        94.0
+      ]
+    },
+    {
+      "text": "NOTGENOER ROLES",
+      "confidence": 0.7011856247767779,
+      "box": [
+        29.0,
+        179.0,
+        181.0,
+        199.0
+      ]
+    }
+  ],
+  "image_sha256": "1e80ff1acd61bd0a20e6a93f92e30613d12ca21c5e6e16241c4e314d57c66e6a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

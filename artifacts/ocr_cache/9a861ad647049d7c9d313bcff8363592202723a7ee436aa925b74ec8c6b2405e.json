@@ -1,0 +1,43 @@
+{
+  "ocr_text": "@咖0叨@唧g四 :咽 IISIISISIsrTTJs",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@咖0叨@唧g四",
+      "confidence": 2.546196085114232e-06,
+      "box": [
+        34.0,
+        238.0,
+        268.0,
+        270.0
+      ]
+    },
+    {
+      "text": ":咽",
+      "confidence": 0.0018025431728487197,
+      "box": [
+        108.0,
+        268.0,
+        194.0,
+        300.0
+      ]
+    },
+    {
+      "text": "IISIISISIsrTTJs",
+      "confidence": 0.007300903792150782,
+      "box": [
+        187.0,
+        287.0,
+        297.0,
+        300.0
+      ]
+    }
+  ],
+  "image_sha256": "9a861ad647049d7c9d313bcff8363592202723a7ee436aa925b74ec8c6b2405e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

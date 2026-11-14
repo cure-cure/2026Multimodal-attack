@@ -1,0 +1,443 @@
+{
+  "ocr_text": "C m R Ook WNtr FueroLoho Uorpcy TTTC Guaranteed 500% RIO i24 hours! 'Invite friendlsand watchyour money muliply。 TCIoI VSIZ Guarantedl Group [ HnllLc UOJ Ch ss@ We Prwratc qtllmmfel KOOIJnle buoks ATIS CrT0Ltrlon 80CU 5TI JAAu [ CTcs 8|Tru 9n FRRsperr CILITro Wa bComnob Vnee NotnytamOir EJ Ut6 I VcAK Fol Latn U TI Deteallts 0t WDm Cl M oI Fdnsst N RaI 7! [AsTUT] Ri Ro",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        124.0,
+        238.0,
+        152.0,
+        244.0
+      ]
+    },
+    {
+      "text": "C",
+      "confidence": 0.4449640573313083,
+      "box": [
+        166.0,
+        238.0,
+        206.0,
+        244.0
+      ]
+    },
+    {
+      "text": "m",
+      "confidence": 0.006399816132912406,
+      "box": [
+        216.0,
+        238.0,
+        252.0,
+        244.0
+      ]
+    },
+    {
+      "text": "R",
+      "confidence": 0.028970471470316284,
+      "box": [
+        256.0,
+        256.0,
+        290.0,
+        264.0
+      ]
+    },
+    {
+      "text": "Ook",
+      "confidence": 0.006146682059275865,
+      "box": [
+        628.0,
+        254.0,
+        664.0,
+        262.0
+      ]
+    },
+    {
+      "text": "WNtr",
+      "confidence": 0.014402741566300392,
+      "box": [
+        262.0,
+        278.0,
+        288.0,
+        286.0
+      ]
+    },
+    {
+      "text": "FueroLoho",
+      "confidence": 0.06115961043725851,
+      "box": [
+        340.0,
+        278.0,
+        388.0,
+        286.0
+      ]
+    },
+    {
+      "text": "Uorpcy",
+      "confidence": 0.04947023368640155,
+      "box": [
+        638.0,
+        278.0,
+        672.0,
+        286.0
+      ]
+    },
+    {
+      "text": "TTTC",
+      "confidence": 0.006547386758029461,
+      "box": [
+        710.0,
+        278.0,
+        764.0,
+        284.0
+      ]
+    },
+    {
+      "text": "Guaranteed 500% RIO",
+      "confidence": 0.9905027839363638,
+      "box": [
+        275.0,
+        321.0,
+        738.0,
+        373.0
+      ]
+    },
+    {
+      "text": "i24 hours!",
+      "confidence": 0.668555654353255,
+      "box": [
+        396.0,
+        371.0,
+        634.0,
+        420.0
+      ]
+    },
+    {
+      "text": "'Invite friendlsand watchyour money muliply。",
+      "confidence": 0.4418183503711914,
+      "box": [
+        387.0,
+        431.0,
+        766.0,
+        458.0
+      ]
+    },
+    {
+      "text": "TCIoI",
+      "confidence": 0.08431306124678249,
+      "box": [
+        266.0,
+        454.0,
+        304.0,
+        462.0
+      ]
+    },
+    {
+      "text": "VSIZ",
+      "confidence": 0.2125044459761138,
+      "box": [
+        252.0,
+        460.0,
+        308.0,
+        484.0
+      ]
+    },
+    {
+      "text": "Guarantedl Group",
+      "confidence": 0.874866587463797,
+      "box": [
+        379.0,
+        492.0,
+        487.0,
+        510.0
+      ]
+    },
+    {
+      "text": "[",
+      "confidence": 0.7766604354213911,
+      "box": [
+        640.0,
+        496.0,
+        672.0,
+        502.0
+      ]
+    },
+    {
+      "text": "HnllLc",
+      "confidence": 0.034518884444808856,
+      "box": [
+        694.0,
+        496.0,
+        734.0,
+        502.0
+      ]
+    },
+    {
+      "text": "UOJ",
+      "confidence": 0.009632325260165433,
+      "box": [
+        744.0,
+        494.0,
+        766.0,
+        502.0
+      ]
+    },
+    {
+      "text": "Ch",
+      "confidence": 0.10596741546950202,
+      "box": [
+        432.0,
+        510.0,
+        462.0,
+        516.0
+      ]
+    },
+    {
+      "text": "ss@ We",
+      "confidence": 8.520082929920046e-05,
+      "box": [
+        680.0,
+        538.0,
+        708.0,
+        544.0
+      ]
+    },
+    {
+      "text": "Prwratc qtllmmfel KOOIJnle buoks",
+      "confidence": 0.05569728796288871,
+      "box": [
+        251.0,
+        538.0,
+        437.0,
+        551.0
+      ]
+    },
+    {
+      "text": "ATIS",
+      "confidence": 0.012084399349987507,
+      "box": [
+        332.0,
+        554.0,
+        362.0,
+        560.0
+      ]
+    },
+    {
+      "text": "CrT0Ltrlon",
+      "confidence": 0.01142384581152358,
+      "box": [
+        628.0,
+        568.0,
+        688.0,
+        576.0
+      ]
+    },
+    {
+      "text": "80CU",
+      "confidence": 0.03327557444572449,
+      "box": [
+        746.0,
+        568.0,
+        782.0,
+        574.0
+      ]
+    },
+    {
+      "text": "5TI",
+      "confidence": 0.07408531241090667,
+      "box": [
+        638.0,
+        580.0,
+        660.0,
+        586.0
+      ]
+    },
+    {
+      "text": "JAAu",
+      "confidence": 0.018027251586318016,
+      "box": [
+        306.0,
+        586.0,
+        352.0,
+        592.0
+      ]
+    },
+    {
+      "text": "[",
+      "confidence": 0.34576734148890864,
+      "box": [
+        378.0,
+        586.0,
+        400.0,
+        592.0
+      ]
+    },
+    {
+      "text": "CTcs",
+      "confidence": 0.11413667351007462,
+      "box": [
+        279.0,
+        609.0,
+        305.0,
+        621.0
+      ]
+    },
+    {
+      "text": "8|Tru",
+      "confidence": 0.0043870664382717325,
+      "box": [
+        338.0,
+        610.0,
+        376.0,
+        618.0
+      ]
+    },
+    {
+      "text": "9n FRRsperr",
+      "confidence": 0.02240543356789395,
+      "box": [
+        409.0,
+        607.0,
+        473.0,
+        621.0
+      ]
+    },
+    {
+      "text": "CILITro",
+      "confidence": 0.012221285476910575,
+      "box": [
+        512.0,
+        610.0,
+        554.0,
+        616.0
+      ]
+    },
+    {
+      "text": "Wa bComnob Vnee",
+      "confidence": 0.05705404941964244,
+      "box": [
+        627.0,
+        607.0,
+        731.0,
+        619.0
+      ]
+    },
+    {
+      "text": "NotnytamOir EJ",
+      "confidence": 0.006970806540591397,
+      "box": [
+        627.0,
+        616.0,
+        759.0,
+        628.0
+      ]
+    },
+    {
+      "text": "Ut6",
+      "confidence": 0.003009902260276974,
+      "box": [
+        646.0,
+        630.0,
+        680.0,
+        636.0
+      ]
+    },
+    {
+      "text": "I VcAK",
+      "confidence": 0.0020679336389655962,
+      "box": [
+        628.0,
+        638.0,
+        758.0,
+        646.0
+      ]
+    },
+    {
+      "text": "Fol Latn U TI",
+      "confidence": 0.0072351466068752545,
+      "box": [
+        628.0,
+        648.0,
+        732.0,
+        656.0
+      ]
+    },
+    {
+      "text": "Deteallts",
+      "confidence": 0.9223610035515228,
+      "box": [
+        247.0,
+        651.0,
+        301.0,
+        665.0
+      ]
+    },
+    {
+      "text": "0t",
+      "confidence": 0.01312643961305765,
+      "box": [
+        628.0,
+        660.0,
+        700.0,
+        666.0
+      ]
+    },
+    {
+      "text": "WDm Cl",
+      "confidence": 0.047663349470616796,
+      "box": [
+        615.0,
+        679.0,
+        673.0,
+        691.0
+      ]
+    },
+    {
+      "text": "M oI Fdnsst N RaI",
+      "confidence": 0.0026675766060392752,
+      "box": [
+        628.0,
+        694.0,
+        752.0,
+        702.0
+      ]
+    },
+    {
+      "text": "7!",
+      "confidence": 0.028086724168852464,
+      "box": [
+        628.0,
+        704.0,
+        706.0,
+        710.0
+      ]
+    },
+    {
+      "text": "[AsTUT]",
+      "confidence": 0.010865475179656914,
+      "box": [
+        662.0,
+        726.0,
+        712.0,
+        732.0
+      ]
+    },
+    {
+      "text": "Ri Ro",
+      "confidence": 0.1288571943158568,
+      "box": [
+        863.0,
+        753.0,
+        907.0,
+        767.0
+      ]
+    }
+  ],
+  "image_sha256": "b3ab4164a1eedf369d0513e37eca234a3f69d6b399bc85a0f3cedfa80bfefb9e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

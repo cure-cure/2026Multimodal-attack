@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Relgionl",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Relgionl",
+      "confidence": 0.5166526972305562,
+      "box": [
+        -4.710457884948136,
+        5.038832539857859,
+        237.71045788494814,
+        152.96116746014215
+      ]
+    }
+  ],
+  "image_sha256": "58939247a4d537bed0b80208f650e1999b13deb1c0d66a9a88f3dacade758891",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

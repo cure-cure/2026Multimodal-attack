@@ -1,0 +1,33 @@
+{
+  "ocr_text": "l fafe",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "l",
+      "confidence": 0.0036302145772857536,
+      "box": [
+        49.0,
+        129.0,
+        185.0,
+        273.0
+      ]
+    },
+    {
+      "text": "fafe",
+      "confidence": 0.07799070328474045,
+      "box": [
+        94.51443729458359,
+        237.52576157467496,
+        151.4855627054164,
+        279.47423842532504
+      ]
+    }
+  ],
+  "image_sha256": "f369ea4740c8078c945413af0624fa88219fcf1b671b5eb49b5683fdf4661d74",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

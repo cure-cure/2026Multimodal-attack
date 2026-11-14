@@ -1,0 +1,23 @@
+{
+  "ocr_text": "WHO Self-Injures?",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WHO Self-Injures?",
+      "confidence": 0.864658993251282,
+      "box": [
+        236.0,
+        91.0,
+        728.0,
+        169.0
+      ]
+    }
+  ],
+  "image_sha256": "c547f7768300a0676faf1b3896e639820bda4ee3189279e2ff37628d747e16b1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

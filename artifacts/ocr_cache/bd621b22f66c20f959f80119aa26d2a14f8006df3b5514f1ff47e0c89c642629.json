@@ -1,0 +1,23 @@
+{
+  "ocr_text": "I Alamy",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "I Alamy",
+      "confidence": 0.17485633791050373,
+      "box": [
+        3.0,
+        565.0,
+        57.0,
+        579.0
+      ]
+    }
+  ],
+  "image_sha256": "bd621b22f66c20f959f80119aa26d2a14f8006df3b5514f1ff47e0c89c642629",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

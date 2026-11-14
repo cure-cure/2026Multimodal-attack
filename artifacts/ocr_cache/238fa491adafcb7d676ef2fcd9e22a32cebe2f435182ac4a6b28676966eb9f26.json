@@ -1,0 +1,33 @@
+{
+  "ocr_text": "爬 衄",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "爬",
+      "confidence": 0.010192007204878673,
+      "box": [
+        237.0,
+        79.0,
+        309.0,
+        139.0
+      ]
+    },
+    {
+      "text": "衄",
+      "confidence": 0.0008661702961668995,
+      "box": [
+        14.30225062474567,
+        75.45616510512343,
+        108.69774937525433,
+        148.54383489487657
+      ]
+    }
+  ],
+  "image_sha256": "238fa491adafcb7d676ef2fcd9e22a32cebe2f435182ac4a6b28676966eb9f26",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

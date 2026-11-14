@@ -1,0 +1,33 @@
+{
+  "ocr_text": "CUSTOMER XARKING",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CUSTOMER",
+      "confidence": 0.7054878206332048,
+      "box": [
+        145.0,
+        86.0,
+        290.0,
+        119.0
+      ]
+    },
+    {
+      "text": "XARKING",
+      "confidence": 0.41997753101826657,
+      "box": [
+        136.0,
+        105.0,
+        295.0,
+        142.0
+      ]
+    }
+  ],
+  "image_sha256": "f860a8792c92301b3dbefae9545f6905b2d3dde2aad4f2dde4e120ea76ace1d2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

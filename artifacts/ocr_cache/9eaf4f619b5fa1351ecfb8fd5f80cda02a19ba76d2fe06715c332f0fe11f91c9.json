@@ -1,0 +1,133 @@
+{
+  "ocr_text": "CALO Placeholder Mdrel Dousgold 1996121 WilAbert St: Hall 0V 139 Reol Cando Charl Vicos Biord Boidl EL LKAU 162,386 Creal EL 10706719661 Fimart Years ID 220 Now Synthetic Chors",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CALO Placeholder",
+      "confidence": 0.48727617779194826,
+      "box": [
+        312.0,
+        360.0,
+        749.0,
+        450.0
+      ]
+    },
+    {
+      "text": "Mdrel",
+      "confidence": 0.6007989768470706,
+      "box": [
+        462.0,
+        434.0,
+        526.0,
+        464.0
+      ]
+    },
+    {
+      "text": "Dousgold",
+      "confidence": 0.9904512147418406,
+      "box": [
+        521.0,
+        424.0,
+        631.0,
+        469.0
+      ]
+    },
+    {
+      "text": "1996121",
+      "confidence": 0.998705560762023,
+      "box": [
+        458.0,
+        455.0,
+        545.0,
+        491.0
+      ]
+    },
+    {
+      "text": "WilAbert St:",
+      "confidence": 0.6891527546744118,
+      "box": [
+        460.0,
+        484.0,
+        578.0,
+        512.0
+      ]
+    },
+    {
+      "text": "Hall 0V 139",
+      "confidence": 0.5946192068754598,
+      "box": [
+        458.0,
+        508.0,
+        548.0,
+        532.0
+      ]
+    },
+    {
+      "text": "Reol Cando",
+      "confidence": 0.9314869749023529,
+      "box": [
+        463.0,
+        529.0,
+        547.0,
+        549.0
+      ]
+    },
+    {
+      "text": "Charl Vicos Biord",
+      "confidence": 0.5757418232393345,
+      "box": [
+        460.0,
+        541.0,
+        587.0,
+        568.0
+      ]
+    },
+    {
+      "text": "Boidl EL LKAU",
+      "confidence": 0.6773593220065189,
+      "box": [
+        460.0,
+        564.0,
+        580.0,
+        592.0
+      ]
+    },
+    {
+      "text": "162,386",
+      "confidence": 0.705225605365767,
+      "box": [
+        459.0,
+        585.0,
+        528.0,
+        613.0
+      ]
+    },
+    {
+      "text": "Creal EL 10706719661",
+      "confidence": 0.6198819861885424,
+      "box": [
+        462.0,
+        604.0,
+        634.0,
+        630.0
+      ]
+    },
+    {
+      "text": "Fimart Years ID 220 Now Synthetic Chors",
+      "confidence": 0.802761649955586,
+      "box": [
+        320.0,
+        635.0,
+        664.0,
+        668.0
+      ]
+    }
+  ],
+  "image_sha256": "9eaf4f619b5fa1351ecfb8fd5f80cda02a19ba76d2fe06715c332f0fe11f91c9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

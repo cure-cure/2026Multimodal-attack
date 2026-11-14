@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Religion Vs.Science",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Religion Vs.Science",
+      "confidence": 0.5682387840256903,
+      "box": [
+        41.0,
+        109.0,
+        314.0,
+        142.0
+      ]
+    }
+  ],
+  "image_sha256": "c9084f46b1523c5b5f938dcba2e4136da707944a18793e667af5d8b47d908623",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

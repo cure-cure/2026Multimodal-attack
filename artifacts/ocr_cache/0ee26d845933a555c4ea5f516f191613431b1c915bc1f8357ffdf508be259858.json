@@ -1,0 +1,43 @@
+{
+  "ocr_text": "1 I9 G",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "1",
+      "confidence": 0.060704441421876254,
+      "box": [
+        219.0,
+        547.0,
+        247.0,
+        563.0
+      ]
+    },
+    {
+      "text": "I9",
+      "confidence": 0.15941698271097884,
+      "box": [
+        275.0,
+        545.0,
+        307.0,
+        563.0
+      ]
+    },
+    {
+      "text": "G",
+      "confidence": 0.22628259910215665,
+      "box": [
+        339.0,
+        547.0,
+        365.0,
+        563.0
+      ]
+    }
+  ],
+  "image_sha256": "0ee26d845933a555c4ea5f516f191613431b1c915bc1f8357ffdf508be259858",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

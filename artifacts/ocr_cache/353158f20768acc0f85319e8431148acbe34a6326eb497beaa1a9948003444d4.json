@@ -1,0 +1,53 @@
+{
+  "ocr_text": "C血5 Sogety Usahty UsorlylmatoJ",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "C血5",
+      "confidence": 0.0010103540738467134,
+      "box": [
+        113.0,
+        9.0,
+        181.0,
+        29.0
+      ]
+    },
+    {
+      "text": "Sogety",
+      "confidence": 0.5762393083046411,
+      "box": [
+        133.0,
+        29.0,
+        181.0,
+        43.0
+      ]
+    },
+    {
+      "text": "Usahty",
+      "confidence": 0.35095065735431136,
+      "box": [
+        51.0,
+        202.0,
+        140.0,
+        230.0
+      ]
+    },
+    {
+      "text": "UsorlylmatoJ ",
+      "confidence": 0.05348833378055523,
+      "box": [
+        28.0,
+        224.0,
+        162.0,
+        248.0
+      ]
+    }
+  ],
+  "image_sha256": "353158f20768acc0f85319e8431148acbe34a6326eb497beaa1a9948003444d4",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

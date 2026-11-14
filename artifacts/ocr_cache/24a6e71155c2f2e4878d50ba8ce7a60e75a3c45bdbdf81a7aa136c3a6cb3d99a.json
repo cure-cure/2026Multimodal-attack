@@ -1,0 +1,53 @@
+{
+  "ocr_text": "UAIPSMCem ANOREAS H BITESMCA",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "UAIPSMCem",
+      "confidence": 0.0004448984366519599,
+      "box": [
+        67.0,
+        21.0,
+        185.0,
+        35.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        517.0,
+        965.0,
+        587.0,
+        983.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        593.0,
+        967.0,
+        683.0,
+        983.0
+      ]
+    },
+    {
+      "text": "ANOREAS H BITESMCA",
+      "confidence": 0.05526936547776707,
+      "box": [
+        488.0,
+        982.0,
+        704.0,
+        1006.0
+      ]
+    }
+  ],
+  "image_sha256": "24a6e71155c2f2e4878d50ba8ce7a60e75a3c45bdbdf81a7aa136c3a6cb3d99a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

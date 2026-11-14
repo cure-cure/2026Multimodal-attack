@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Eve T.Demo 1234 Noname Dr。 555-1234",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Eve T.Demo",
+      "confidence": 0.7221286940746853,
+      "box": [
+        341.0,
+        445.0,
+        648.0,
+        505.0
+      ]
+    },
+    {
+      "text": "1234",
+      "confidence": 0.9935800433158875,
+      "box": [
+        428.0,
+        522.0,
+        558.0,
+        576.0
+      ]
+    },
+    {
+      "text": "Noname Dr。",
+      "confidence": 0.5985979538791503,
+      "box": [
+        343.0,
+        597.0,
+        638.0,
+        653.0
+      ]
+    },
+    {
+      "text": "555-1234",
+      "confidence": 0.5580938933295063,
+      "box": [
+        368.0,
+        668.0,
+        618.0,
+        722.0
+      ]
+    }
+  ],
+  "image_sha256": "5c87e9646a4bfd8a7a9185de51e110454794f39c04d82869be1d4ad98f148983",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

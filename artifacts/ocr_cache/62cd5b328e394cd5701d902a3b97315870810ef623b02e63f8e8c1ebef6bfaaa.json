@@ -1,0 +1,23 @@
+{
+  "ocr_text": "乃",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "乃",
+      "confidence": 0.002516541932323868,
+      "box": [
+        68.0,
+        154.0,
+        92.0,
+        180.0
+      ]
+    }
+  ],
+  "image_sha256": "62cd5b328e394cd5701d902a3b97315870810ef623b02e63f8e8c1ebef6bfaaa",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

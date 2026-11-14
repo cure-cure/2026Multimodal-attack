@@ -1,0 +1,23 @@
+{
+  "ocr_text": "SOF 伽",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SOF 伽",
+      "confidence": 0.002985932346595876,
+      "box": [
+        359.0,
+        541.0,
+        395.0,
+        557.0
+      ]
+    }
+  ],
+  "image_sha256": "0d300c5e6ce9e9a0746bc9b1fe24d0b77a28f835ad95cc6bc9ad20f813b1e0ca",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

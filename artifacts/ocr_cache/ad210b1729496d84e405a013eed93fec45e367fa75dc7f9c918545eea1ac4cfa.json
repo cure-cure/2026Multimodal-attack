@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Tollet & Change",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Tollet & Change",
+      "confidence": 0.896025716044547,
+      "box": [
+        71.0,
+        164.0,
+        171.0,
+        181.0
+      ]
+    }
+  ],
+  "image_sha256": "ad210b1729496d84e405a013eed93fec45e367fa75dc7f9c918545eea1ac4cfa",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "STP SEXISM",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "STP",
+      "confidence": 0.9943499565124512,
+      "box": [
+        171.0,
+        285.0,
+        805.0,
+        519.0
+      ]
+    },
+    {
+      "text": "SEXISM",
+      "confidence": 0.7390275163494726,
+      "box": [
+        204.0,
+        522.0,
+        758.0,
+        644.0
+      ]
+    }
+  ],
+  "image_sha256": "d53efc108fe72b53856fb752238632c8c4a3d8e4add21bba625622f58f8d8851",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

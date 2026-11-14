@@ -1,0 +1,33 @@
+{
+  "ocr_text": "CanStockPhotocom B/o",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CanStockPhotocom",
+      "confidence": 0.6951045035962576,
+      "box": [
+        81.0,
+        241.0,
+        193.0,
+        254.0
+      ]
+    },
+    {
+      "text": "B/o",
+      "confidence": 1.0987378747789672e-05,
+      "box": [
+        15.844582472000674,
+        57.85110140778456,
+        245.15541752799933,
+        177.14889859221543
+      ]
+    }
+  ],
+  "image_sha256": "ee95801b76422e53f940faebf828ab16b07e4dd923d166410dd033ef614167e9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ocr_text": "@leFoe Reantp toa STOP (oi 剌训凇 CRULTY",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@leFoe",
+      "confidence": 0.08605675995112812,
+      "box": [
+        36.0,
+        21.0,
+        228.0,
+        88.0
+      ]
+    },
+    {
+      "text": "Reantp toa",
+      "confidence": 0.24467324817182137,
+      "box": [
+        23.0,
+        81.0,
+        229.0,
+        145.0
+      ]
+    },
+    {
+      "text": "STOP",
+      "confidence": 0.8997035622596741,
+      "box": [
+        65.0,
+        218.0,
+        223.0,
+        290.0
+      ]
+    },
+    {
+      "text": "(oi",
+      "confidence": 0.33025917053169723,
+      "box": [
+        113.0,
+        275.0,
+        203.0,
+        311.0
+      ]
+    },
+    {
+      "text": "剌训凇",
+      "confidence": 3.9365677832027957e-07,
+      "box": [
+        54.0,
+        295.0,
+        197.0,
+        340.0
+      ]
+    },
+    {
+      "text": "CRULTY",
+      "confidence": 0.3219985559483493,
+      "box": [
+        22.0,
+        338.0,
+        188.0,
+        388.0
+      ]
+    }
+  ],
+  "image_sha256": "54a9dadf7992f46f7e922803b2fe0929a60061b578c277c5356d812e71d7dc56",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

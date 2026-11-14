@@ -1,0 +1,33 @@
+{
+  "ocr_text": "罚 RECOIOSs",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "罚",
+      "confidence": 0.01807057722131611,
+      "box": [
+        8.0,
+        100.0,
+        64.0,
+        152.0
+      ]
+    },
+    {
+      "text": "RECOIOSs",
+      "confidence": 0.32088525140510155,
+      "box": [
+        85.0,
+        111.0,
+        155.0,
+        147.0
+      ]
+    }
+  ],
+  "image_sha256": "d2d2b41b59683751abaa4022fc00fd17123e3b5fc093efa98c2cabcb9978a7c7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

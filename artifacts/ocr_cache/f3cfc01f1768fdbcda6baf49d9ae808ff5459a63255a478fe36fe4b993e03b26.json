@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Are YoU SGben No Aquarius。",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Are YoU SGben",
+      "confidence": 0.1369981975232363,
+      "box": [
+        73.0,
+        101.0,
+        169.0,
+        119.0
+      ]
+    },
+    {
+      "text": "No Aquarius。",
+      "confidence": 0.373894445034806,
+      "box": [
+        73.0,
+        287.0,
+        159.0,
+        303.0
+      ]
+    }
+  ],
+  "image_sha256": "f3cfc01f1768fdbcda6baf49d9ae808ff5459a63255a478fe36fe4b993e03b26",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

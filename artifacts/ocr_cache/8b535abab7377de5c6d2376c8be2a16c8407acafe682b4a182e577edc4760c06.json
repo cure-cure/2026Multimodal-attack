@@ -1,0 +1,43 @@
+{
+  "ocr_text": "[@SIS; [W COMB [@LrR8h8 [@@)@#0#?@吣 #0D9#@,吮 吣g[@",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "[@SIS; [W COMB [@LrR8h8",
+      "confidence": 8.666660644575666e-05,
+      "box": [
+        4.0,
+        0.0,
+        539.0,
+        45.0
+      ]
+    },
+    {
+      "text": "[@@)@#0#?@吣",
+      "confidence": 2.0024225250502095e-06,
+      "box": [
+        60.0,
+        252.0,
+        466.0,
+        304.0
+      ]
+    },
+    {
+      "text": "#0D9#@,吮 吣g[@",
+      "confidence": 7.976718893291501e-07,
+      "box": [
+        19.0,
+        303.0,
+        533.0,
+        365.0
+      ]
+    }
+  ],
+  "image_sha256": "8b535abab7377de5c6d2376c8be2a16c8407acafe682b4a182e577edc4760c06",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

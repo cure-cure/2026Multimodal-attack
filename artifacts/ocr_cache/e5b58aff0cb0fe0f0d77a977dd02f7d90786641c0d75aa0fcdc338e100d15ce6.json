@@ -1,0 +1,273 @@
+{
+  "ocr_text": "LEGALLY REDUCE YOUR TAX BURDEN TOZERO WITH OFFSHORESOLUTIONS!! Fik your  isleatus kanped ofeverrgen la Eslns funtine the Is W CTD burden orlzjs intak e sjecturchen barders as taks pard muttla taletp Idunlttationls forium on Iout to.s Ii Cance unlog an aprose inte . mouel too be mand.Newv regaile with the outo cirve is coHtinerq your of figoty Wotth tay widlur Exiler。 The rasly dsperd lals tayfinludnal hare:Tlelr Oftiore Solutions hat arevalin celoting tax dranly sosomers; oajir teshols Iontalwoars to JIse OUTT halnig.Rh iane conn amd flls lis slholns liugth Of onh vialncty be duilicg anderc Hlal hatt mie ulisortags to conite mog Clie imere benele aubrite mothe core yOlf olffere rehons YOU ra hunalmere yuentation and sthove you aIfyqu leralny that lercd mee. Than Inl VoU 're cente; the Of hetpericts to Tout baserryand ascing forror iniendal cofiors tinst tras with out your spoollifng thd fre erossive wiilgary seff bsing Orofoe slner。 VOUT 4C9 the",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "LEGALLY REDUCE YOUR",
+      "confidence": 0.4168925652453668,
+      "box": [
+        128.0,
+        26.0,
+        890.0,
+        100.0
+      ]
+    },
+    {
+      "text": "TAX BURDEN TOZERO",
+      "confidence": 0.826945082075183,
+      "box": [
+        146.0,
+        106.0,
+        868.0,
+        180.0
+      ]
+    },
+    {
+      "text": "WITH",
+      "confidence": 0.8418168425559998,
+      "box": [
+        97.0,
+        203.0,
+        201.0,
+        245.0
+      ]
+    },
+    {
+      "text": "OFFSHORESOLUTIONS!!",
+      "confidence": 0.6925458616115299,
+      "box": [
+        202.0,
+        188.0,
+        912.0,
+        260.0
+      ]
+    },
+    {
+      "text": "Fik your  isleatus kanped ofeverrgen la Eslns funtine the Is W CTD burden orlzjs intak e sjecturchen barders as taks pard",
+      "confidence": 0.20707876842946912,
+      "box": [
+        47.0,
+        873.0,
+        938.0,
+        893.0
+      ]
+    },
+    {
+      "text": "muttla taletp Idunlttationls forium on Iout to.s Ii",
+      "confidence": 0.11979639000992028,
+      "box": [
+        47.0,
+        893.0,
+        433.0,
+        911.0
+      ]
+    },
+    {
+      "text": "Cance",
+      "confidence": 0.9763413508297685,
+      "box": [
+        467.0,
+        895.0,
+        511.0,
+        909.0
+      ]
+    },
+    {
+      "text": "unlog an aprose inte . mouel too be mand.Newv regaile with the",
+      "confidence": 0.21912493205388558,
+      "box": [
+        510.0,
+        891.0,
+        937.0,
+        912.0
+      ]
+    },
+    {
+      "text": "outo cirve is coHtinerq your of figoty Wotth tay",
+      "confidence": 0.28761326118456226,
+      "box": [
+        46.0,
+        904.0,
+        392.0,
+        928.0
+      ]
+    },
+    {
+      "text": "widlur",
+      "confidence": 0.6036412786623084,
+      "box": [
+        387.0,
+        891.0,
+        471.0,
+        927.0
+      ]
+    },
+    {
+      "text": "Exiler。",
+      "confidence": 0.6195864636585251,
+      "box": [
+        47.0,
+        929.0,
+        87.0,
+        945.0
+      ]
+    },
+    {
+      "text": "The rasly dsperd lals tayfinludnal",
+      "confidence": 0.1532792160252646,
+      "box": [
+        95.0,
+        929.0,
+        319.0,
+        947.0
+      ]
+    },
+    {
+      "text": "hare:Tlelr Oftiore Solutions hat arevalin celoting",
+      "confidence": 0.31441699230346154,
+      "box": [
+        327.0,
+        929.0,
+        641.0,
+        945.0
+      ]
+    },
+    {
+      "text": "tax dranly sosomers; oajir teshols Iontalwoars",
+      "confidence": 0.14881998199332575,
+      "box": [
+        677.0,
+        929.0,
+        973.0,
+        945.0
+      ]
+    },
+    {
+      "text": "to JIse OUTT halnig.Rh iane conn amd flls lis slholns liugth Of onh vialncty be duilicg anderc Hlal hatt mie ulisortags to conite mog",
+      "confidence": 0.04595380047046597,
+      "box": [
+        47.0,
+        943.0,
+        857.0,
+        961.0
+      ]
+    },
+    {
+      "text": "Clie imere",
+      "confidence": 0.2855248803893328,
+      "box": [
+        891.0,
+        943.0,
+        959.0,
+        959.0
+      ]
+    },
+    {
+      "text": "benele",
+      "confidence": 0.9997732060525434,
+      "box": [
+        47.0,
+        959.0,
+        93.0,
+        975.0
+      ]
+    },
+    {
+      "text": "aubrite mothe core yOlf olffere rehons",
+      "confidence": 0.23332495747438498,
+      "box": [
+        117.0,
+        957.0,
+        373.0,
+        976.0
+      ]
+    },
+    {
+      "text": "YOU ra hunalmere yuentation and sthove you aIfyqu leralny that lercd mee. Than Inl VoU 're",
+      "confidence": 0.1430691806100368,
+      "box": [
+        381.0,
+        959.0,
+        971.0,
+        977.0
+      ]
+    },
+    {
+      "text": "cente;",
+      "confidence": 0.9769469589024705,
+      "box": [
+        46.0,
+        973.0,
+        91.0,
+        991.0
+      ]
+    },
+    {
+      "text": "the Of hetpericts to Tout baserryand ascing forror iniendal cofiors tinst tras with out your spoollifng thd fre erossive wiilgary seff bsing",
+      "confidence": 0.08038492443369437,
+      "box": [
+        99.0,
+        971.0,
+        961.0,
+        991.0
+      ]
+    },
+    {
+      "text": "Orofoe",
+      "confidence": 0.4189198574837819,
+      "box": [
+        47.0,
+        989.0,
+        103.0,
+        1003.0
+      ]
+    },
+    {
+      "text": "slner。",
+      "confidence": 0.2134590368084325,
+      "box": [
+        115.0,
+        989.0,
+        155.0,
+        1003.0
+      ]
+    },
+    {
+      "text": "VOUT",
+      "confidence": 0.3015046715736389,
+      "box": [
+        642.1807680794809,
+        930.6176482072736,
+        674.8192319205191,
+        943.3823517927264
+      ]
+    },
+    {
+      "text": "4C9",
+      "confidence": 0.3303508993542971,
+      "box": [
+        855.0546270183737,
+        944.152001695995,
+        885.9453729816263,
+        961.847998304005
+      ]
+    },
+    {
+      "text": "the",
+      "confidence": 0.986732655877319,
+      "box": [
+        91.05501392655974,
+        958.1679497056622,
+        118.94498607344026,
+        974.8320502943378
+      ]
+    }
+  ],
+  "image_sha256": "e5b58aff0cb0fe0f0d77a977dd02f7d90786641c0d75aa0fcdc338e100d15ce6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

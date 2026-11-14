@@ -1,0 +1,63 @@
+{
+  "ocr_text": "g@S8W@h0q l呲爬[ SEMNr 1 tranSIBIBr; 2.Steide hoIher 0r 3.aflor IaIy",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "g@S8W@h0q l呲爬[",
+      "confidence": 3.3510701372256933e-05,
+      "box": [
+        52.0,
+        2.0,
+        730.0,
+        79.0
+      ]
+    },
+    {
+      "text": "SEMNr",
+      "confidence": 0.005336807815162203,
+      "box": [
+        223.0,
+        66.0,
+        336.0,
+        91.0
+      ]
+    },
+    {
+      "text": "1",
+      "confidence": 0.9998357363451902,
+      "box": [
+        166.0,
+        424.0,
+        190.0,
+        460.0
+      ]
+    },
+    {
+      "text": "tranSIBIBr; 2.Steide",
+      "confidence": 0.1214490291326875,
+      "box": [
+        191.0,
+        416.0,
+        600.0,
+        472.0
+      ]
+    },
+    {
+      "text": "hoIher 0r 3.aflor IaIy",
+      "confidence": 0.04940438720761367,
+      "box": [
+        164.0,
+        472.0,
+        600.0,
+        522.0
+      ]
+    }
+  ],
+  "image_sha256": "610b14888601130927a71c416b9da9885ecec4ffa807ee20daaec1b91f3935a2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

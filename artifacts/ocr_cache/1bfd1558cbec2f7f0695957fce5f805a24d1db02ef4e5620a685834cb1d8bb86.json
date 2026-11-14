@@ -1,0 +1,33 @@
+{
+  "ocr_text": "TNTAD T",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "TNTAD",
+      "confidence": 0.12442685062625737,
+      "box": [
+        279.0,
+        777.0,
+        335.0,
+        795.0
+      ]
+    },
+    {
+      "text": "T",
+      "confidence": 0.09899471977792373,
+      "box": [
+        341.0,
+        779.0,
+        387.0,
+        795.0
+      ]
+    }
+  ],
+  "image_sha256": "1bfd1558cbec2f7f0695957fce5f805a24d1db02ef4e5620a685834cb1d8bb86",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

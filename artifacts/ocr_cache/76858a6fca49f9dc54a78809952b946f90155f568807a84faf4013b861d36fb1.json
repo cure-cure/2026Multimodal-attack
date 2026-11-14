@@ -1,0 +1,93 @@
+{
+  "ocr_text": "QUARTERLY FINANCIALS 3CUI 1[4? 35 IMI 1 TTM TN LuCII",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "QUARTERLY FINANCIALS",
+      "confidence": 0.9844737824288209,
+      "box": [
+        406.0,
+        254.0,
+        622.0,
+        278.0
+      ]
+    },
+    {
+      "text": "3CUI",
+      "confidence": 0.021653495728969574,
+      "box": [
+        340.0,
+        292.0,
+        366.0,
+        300.0
+      ]
+    },
+    {
+      "text": "1[4?",
+      "confidence": 0.031239449977874756,
+      "box": [
+        340.0,
+        320.0,
+        366.0,
+        326.0
+      ]
+    },
+    {
+      "text": "35",
+      "confidence": 0.11683572664169779,
+      "box": [
+        340.0,
+        346.0,
+        366.0,
+        354.0
+      ]
+    },
+    {
+      "text": "IMI",
+      "confidence": 0.1035508216439214,
+      "box": [
+        342.0,
+        432.0,
+        366.0,
+        438.0
+      ]
+    },
+    {
+      "text": "1",
+      "confidence": 0.2291690237984909,
+      "box": [
+        434.0,
+        468.0,
+        464.0,
+        474.0
+      ]
+    },
+    {
+      "text": "TTM TN",
+      "confidence": 0.0314488572844533,
+      "box": [
+        568.0,
+        468.0,
+        602.0,
+        474.0
+      ]
+    },
+    {
+      "text": "LuCII",
+      "confidence": 0.1837176337576686,
+      "box": [
+        658.0,
+        468.0,
+        698.0,
+        474.0
+      ]
+    }
+  ],
+  "image_sha256": "76858a6fca49f9dc54a78809952b946f90155f568807a84faf4013b861d36fb1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "觚 翩o荽",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "觚",
+      "confidence": 0.01756353835988822,
+      "box": [
+        49.0,
+        29.0,
+        93.0,
+        65.0
+      ]
+    },
+    {
+      "text": "翩o荽",
+      "confidence": 2.895290422241843e-07,
+      "box": [
+        41.0,
+        21.0,
+        200.0,
+        112.0
+      ]
+    }
+  ],
+  "image_sha256": "f9371445ac89c712a705f7d7a2e9895d44b9ac725b6816838ce2aca21b05ae5c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "PROUDLY NON MGTOW",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "PROUDLY NON",
+      "confidence": 0.8219551593663558,
+      "box": [
+        0.0,
+        95.0,
+        300.0,
+        143.0
+      ]
+    },
+    {
+      "text": "MGTOW",
+      "confidence": 0.74701266725322,
+      "box": [
+        33.0,
+        140.0,
+        286.0,
+        204.0
+      ]
+    }
+  ],
+  "image_sha256": "a2b574c6a761ccd0bcdf051cba47a59336e90a5e953e018c6af92882b7e1f20e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

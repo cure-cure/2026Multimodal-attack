@@ -1,0 +1,33 @@
+{
+  "ocr_text": "[@[(呦土SIdtglo d8@b0",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "[@[(呦土SIdtglo",
+      "confidence": 7.138217043941189e-06,
+      "box": [
+        0.0,
+        0.0,
+        530.0,
+        48.0
+      ]
+    },
+    {
+      "text": "d8@b0",
+      "confidence": 0.01072338621272349,
+      "box": [
+        3.0,
+        39.0,
+        155.0,
+        81.0
+      ]
+    }
+  ],
+  "image_sha256": "746f702051275b4fc29956d8eefa5ed6f750dd7eba96a6943639959a6da754c5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

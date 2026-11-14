@@ -1,0 +1,23 @@
+{
+  "ocr_text": "QG",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "QG",
+      "confidence": 0.21477272100868403,
+      "box": [
+        27.0,
+        55.0,
+        223.0,
+        193.0
+      ]
+    }
+  ],
+  "image_sha256": "fbbd91e90eb0bffc3dedf74b3105becaedb3d59f37d9739c1363a92d1853de6f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

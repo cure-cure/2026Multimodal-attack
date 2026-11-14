@@ -1,0 +1,43 @@
+{
+  "ocr_text": "ASSUMWNG US.VETERAN |",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ASSUMWNG",
+      "confidence": 0.5492822569264477,
+      "box": [
+        94.0,
+        58.0,
+        194.0,
+        82.0
+      ]
+    },
+    {
+      "text": "US.VETERAN",
+      "confidence": 0.5960135044591233,
+      "box": [
+        98.0,
+        166.0,
+        190.0,
+        190.0
+      ]
+    },
+    {
+      "text": "|",
+      "confidence": 0.002088319642212788,
+      "box": [
+        2.0,
+        196.0,
+        28.0,
+        296.0
+      ]
+    }
+  ],
+  "image_sha256": "c361ad157cd110cb8793defbbba2dfda7ef890f6532b0f93e5db64f0cec99965",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

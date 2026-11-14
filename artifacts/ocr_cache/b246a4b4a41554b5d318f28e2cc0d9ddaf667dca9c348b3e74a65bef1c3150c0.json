@@ -1,0 +1,193 @@
+{
+  "ocr_text": "DOUBLE YOUR MONEY TODAY GUARANTEED! ICUIUIICAOOJUUIIC Wetsn tuemodal ICMUHtICENC6S3STC TCImTIrr 1Tc 国』 FrlmIymsrTRIR IU 0 M LUCi TTTT + C Cm Wuoobtlrth mny",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "DOUBLE",
+      "confidence": 0.9347826635105688,
+      "box": [
+        339.0,
+        236.0,
+        708.0,
+        336.0
+      ]
+    },
+    {
+      "text": "YOUR",
+      "confidence": 0.9061240553855896,
+      "box": [
+        393.0,
+        329.0,
+        652.0,
+        426.0
+      ]
+    },
+    {
+      "text": "MONEY",
+      "confidence": 0.9350437722431676,
+      "box": [
+        356.0,
+        427.0,
+        682.0,
+        519.0
+      ]
+    },
+    {
+      "text": "TODAY",
+      "confidence": 0.9967289956933487,
+      "box": [
+        349.0,
+        523.0,
+        697.0,
+        615.0
+      ]
+    },
+    {
+      "text": "GUARANTEED!",
+      "confidence": 0.9945739154673165,
+      "box": [
+        376.0,
+        622.0,
+        670.0,
+        670.0
+      ]
+    },
+    {
+      "text": "ICUIUIICAOOJUUIIC",
+      "confidence": 0.0015323991131813803,
+      "box": [
+        454.0,
+        724.0,
+        586.0,
+        732.0
+      ]
+    },
+    {
+      "text": "Wetsn tuemodal",
+      "confidence": 0.1587532818404014,
+      "box": [
+        449.0,
+        735.0,
+        593.0,
+        753.0
+      ]
+    },
+    {
+      "text": "ICMUHtICENC6S3STC",
+      "confidence": 0.0014875888420261348,
+      "box": [
+        428.0,
+        768.0,
+        560.0,
+        774.0
+      ]
+    },
+    {
+      "text": "TCImTIrr",
+      "confidence": 0.008768909055803619,
+      "box": [
+        582.0,
+        768.0,
+        624.0,
+        774.0
+      ]
+    },
+    {
+      "text": "1Tc",
+      "confidence": 0.028555672875338094,
+      "box": [
+        430.0,
+        776.0,
+        482.0,
+        782.0
+      ]
+    },
+    {
+      "text": "国』 FrlmIymsrTRIR",
+      "confidence": 0.00012388034554629512,
+      "box": [
+        505.0,
+        775.0,
+        615.0,
+        787.0
+      ]
+    },
+    {
+      "text": "IU 0",
+      "confidence": 0.0317017012232426,
+      "box": [
+        454.0,
+        784.0,
+        518.0,
+        792.0
+      ]
+    },
+    {
+      "text": "M",
+      "confidence": 0.0740911625639109,
+      "box": [
+        412.0,
+        794.0,
+        452.0,
+        800.0
+      ]
+    },
+    {
+      "text": "LUCi ",
+      "confidence": 0.1058043928643286,
+      "box": [
+        500.0,
+        794.0,
+        530.0,
+        800.0
+      ]
+    },
+    {
+      "text": "TTTT +",
+      "confidence": 0.0036599338638364167,
+      "box": [
+        560.0,
+        794.0,
+        600.0,
+        800.0
+      ]
+    },
+    {
+      "text": "C Cm",
+      "confidence": 0.023899734020233154,
+      "box": [
+        470.0,
+        802.0,
+        532.0,
+        808.0
+      ]
+    },
+    {
+      "text": "Wuoobtlrth",
+      "confidence": 0.1303442013847465,
+      "box": [
+        636.0,
+        826.0,
+        742.0,
+        850.0
+      ]
+    },
+    {
+      "text": "mny",
+      "confidence": 0.03711657287825671,
+      "box": [
+        424.0107965376461,
+        781.2600599266041,
+        452.9892034623539,
+        793.7399400733959
+      ]
+    }
+  ],
+  "image_sha256": "b246a4b4a41554b5d318f28e2cc0d9ddaf667dca9c348b3e74a65bef1c3150c0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "C 0 P Y RIG HT UNLBICSNCHCO ANDREASH BITESNICL",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "C 0 P Y RIG HT",
+      "confidence": 0.1052008951533192,
+      "box": [
+        534.0,
+        964.0,
+        748.0,
+        988.0
+      ]
+    },
+    {
+      "text": "UNLBICSNCHCO",
+      "confidence": 0.04208912425077448,
+      "box": [
+        23.0,
+        991.0,
+        141.0,
+        1007.0
+      ]
+    },
+    {
+      "text": "ANDREASH BITESNICL",
+      "confidence": 0.4785801882822107,
+      "box": [
+        532.0,
+        984.0,
+        747.0,
+        1008.0
+      ]
+    }
+  ],
+  "image_sha256": "f2ea9fa8d04196f98e21f9ed3026252c4a43cf5a4431072a7f4c618ef083be6d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

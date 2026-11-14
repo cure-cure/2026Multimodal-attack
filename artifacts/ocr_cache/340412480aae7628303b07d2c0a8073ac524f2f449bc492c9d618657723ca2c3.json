@@ -1,0 +1,43 @@
+{
+  "ocr_text": "中 中 舜",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "中",
+      "confidence": 0.20476616253928626,
+      "box": [
+        5.0,
+        75.0,
+        71.0,
+        151.0
+      ]
+    },
+    {
+      "text": "中",
+      "confidence": 0.1011277269001063,
+      "box": [
+        225.0,
+        73.0,
+        285.0,
+        151.0
+      ]
+    },
+    {
+      "text": "舜",
+      "confidence": 0.00032621758193865716,
+      "box": [
+        136.0,
+        74.0,
+        223.0,
+        222.0
+      ]
+    }
+  ],
+  "image_sha256": "340412480aae7628303b07d2c0a8073ac524f2f449bc492c9d618657723ca2c3",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

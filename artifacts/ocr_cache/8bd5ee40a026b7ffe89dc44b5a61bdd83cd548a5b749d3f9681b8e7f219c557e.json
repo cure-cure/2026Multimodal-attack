@@ -1,0 +1,43 @@
+{
+  "ocr_text": "6GB [0@[ imgflp com",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "6GB",
+      "confidence": 4.4677022337843136e-05,
+      "box": [
+        86.0,
+        54.0,
+        200.0,
+        82.0
+      ]
+    },
+    {
+      "text": "[0@[",
+      "confidence": 0.007772188633680344,
+      "box": [
+        250.0,
+        64.0,
+        400.0,
+        94.0
+      ]
+    },
+    {
+      "text": "imgflp com",
+      "confidence": 0.3186218988459765,
+      "box": [
+        1.0,
+        273.0,
+        59.0,
+        287.0
+      ]
+    }
+  ],
+  "image_sha256": "8bd5ee40a026b7ffe89dc44b5a61bdd83cd548a5b749d3f9681b8e7f219c557e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

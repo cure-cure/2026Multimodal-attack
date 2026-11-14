@@ -1,0 +1,33 @@
+{
+  "ocr_text": "I Drugs",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "I",
+      "confidence": 0.6964351409431089,
+      "box": [
+        21.0,
+        353.0,
+        85.0,
+        389.0
+      ]
+    },
+    {
+      "text": "Drugs",
+      "confidence": 0.8831867172100599,
+      "box": [
+        10.160705237668429,
+        149.0934345469491,
+        148.83929476233158,
+        216.9065654530509
+      ]
+    }
+  ],
+  "image_sha256": "996311a82051356621bd4c2a407311b6992bd7efe4dc52dba942d2d1627fa36c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "S Wwshutterstock.com . 403262878",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "S ",
+      "confidence": 0.04012723393681707,
+      "box": [
+        93.0,
+        114.0,
+        306.0,
+        167.0
+      ]
+    },
+    {
+      "text": "Wwshutterstock.com . 403262878",
+      "confidence": 0.25116715309131477,
+      "box": [
+        117.0,
+        279.0,
+        335.0,
+        295.0
+      ]
+    }
+  ],
+  "image_sha256": "d6140bfc9cb67ac243f71c48cfd1928bbaae3a45d015ef20bf45afda243162df",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "ocr_text": "bilvarkzG CRYPTO FLIP: IN 24 HOURS! We one for'al rakingsof 500% GAINS 吕 DISO IPDLOSTBS Emilip Pleo fore amone hed their the minienisare in 79 GIYO Armuial",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "bilvarkzG",
+      "confidence": 0.5107531383203364,
+      "box": [
+        432.0,
+        14.0,
+        654.0,
+        70.0
+      ]
+    },
+    {
+      "text": "CRYPTO FLIP:",
+      "confidence": 0.7164767484108645,
+      "box": [
+        176.0,
+        76.0,
+        850.0,
+        180.0
+      ]
+    },
+    {
+      "text": "IN 24 HOURS!",
+      "confidence": 0.6872281279796625,
+      "box": [
+        171.0,
+        176.0,
+        856.0,
+        280.0
+      ]
+    },
+    {
+      "text": "We one for'al",
+      "confidence": 0.876170186495925,
+      "box": [
+        274.0,
+        296.0,
+        546.0,
+        346.0
+      ]
+    },
+    {
+      "text": "rakingsof",
+      "confidence": 0.7957577298669319,
+      "box": [
+        537.0,
+        288.0,
+        754.0,
+        361.0
+      ]
+    },
+    {
+      "text": "500%",
+      "confidence": 0.997855007648468,
+      "box": [
+        206.0,
+        365.0,
+        825.0,
+        593.0
+      ]
+    },
+    {
+      "text": "GAINS",
+      "confidence": 0.9572043157373368,
+      "box": [
+        367.0,
+        588.0,
+        662.0,
+        686.0
+      ]
+    },
+    {
+      "text": "吕",
+      "confidence": 0.005105804509534018,
+      "box": [
+        756.0,
+        684.0,
+        830.0,
+        780.0
+      ]
+    },
+    {
+      "text": "DISO IPDLOSTBS",
+      "confidence": 0.8451207999497592,
+      "box": [
+        383.0,
+        913.0,
+        639.0,
+        949.0
+      ]
+    },
+    {
+      "text": "Emilip Pleo fore amone hed their the minienisare in 79 GIYO Armuial",
+      "confidence": 0.401847827202927,
+      "box": [
+        257.0,
+        989.0,
+        762.0,
+        1014.0
+      ]
+    }
+  ],
+  "image_sha256": "82c991ef224a31f87d40a0bad65f12e8dde68517084a5ca91492946984a38222",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

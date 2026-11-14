@@ -1,0 +1,33 @@
+{
+  "ocr_text": "MDMA CHz",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "MDMA",
+      "confidence": 0.9959157705307007,
+      "box": [
+        38.0,
+        8.0,
+        158.0,
+        58.0
+      ]
+    },
+    {
+      "text": "CHz",
+      "confidence": 0.49945345749010395,
+      "box": [
+        179.3368471648242,
+        78.13854642788694,
+        243.6631528351758,
+        122.86145357211306
+      ]
+    }
+  ],
+  "image_sha256": "76c86b1f540e023a906447b6d858fb3efb9bdf3a753c41153ee0259704ad9554",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

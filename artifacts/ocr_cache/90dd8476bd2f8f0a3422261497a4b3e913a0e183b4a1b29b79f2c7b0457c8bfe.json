@@ -1,0 +1,143 @@
+{
+  "ocr_text": "Fictitia Rebwble CARP CITIZEN CARD POTERIS E'MITRES IMLASEL CURCAIC Oegina Irollloage Cjllof Cuarclopees (aymal; 2014 Delfuiced br WNe FW313O41-8Z Lle 33.15245》",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Fictitia Rebwble CARP",
+      "confidence": 0.2630500348952647,
+      "box": [
+        251.0,
+        431.0,
+        689.0,
+        493.0
+      ]
+    },
+    {
+      "text": "CITIZEN CARD",
+      "confidence": 0.8101600549558678,
+      "box": [
+        432.0,
+        500.0,
+        544.0,
+        528.0
+      ]
+    },
+    {
+      "text": "POTERIS",
+      "confidence": 0.7157418993494613,
+      "box": [
+        437.0,
+        537.0,
+        514.0,
+        563.0
+      ]
+    },
+    {
+      "text": "E'MITRES IMLASEL CURCAIC",
+      "confidence": 0.39023128851064814,
+      "box": [
+        443.0,
+        549.0,
+        661.0,
+        587.0
+      ]
+    },
+    {
+      "text": "Oegina Irollloage",
+      "confidence": 0.6341659776351192,
+      "box": [
+        446.0,
+        582.0,
+        568.0,
+        612.0
+      ]
+    },
+    {
+      "text": "Cjllof Cuarclopees",
+      "confidence": 0.4283137186125554,
+      "box": [
+        448.0,
+        604.0,
+        578.0,
+        630.0
+      ]
+    },
+    {
+      "text": "(aymal;",
+      "confidence": 0.2092174225515917,
+      "box": [
+        448.0,
+        623.0,
+        527.0,
+        656.0
+      ]
+    },
+    {
+      "text": "2014",
+      "confidence": 0.6588126420974731,
+      "box": [
+        525.0,
+        629.0,
+        559.0,
+        645.0
+      ]
+    },
+    {
+      "text": "Delfuiced br",
+      "confidence": 0.2714341522684468,
+      "box": [
+        456.0,
+        667.0,
+        548.0,
+        697.0
+      ]
+    },
+    {
+      "text": "WNe",
+      "confidence": 0.7152932843452702,
+      "box": [
+        586.0,
+        660.0,
+        642.0,
+        684.0
+      ]
+    },
+    {
+      "text": "FW313O41-8Z",
+      "confidence": 0.1290629143678518,
+      "box": [
+        457.0,
+        679.0,
+        599.0,
+        727.0
+      ]
+    },
+    {
+      "text": "Lle",
+      "confidence": 0.6397875540026999,
+      "box": [
+        638.4100031799904,
+        651.3358994113244,
+        684.5899968200096,
+        680.6641005886756
+      ]
+    },
+    {
+      "text": "33.15245》",
+      "confidence": 0.36819872729155384,
+      "box": [
+        617.4100031799904,
+        669.911241339674,
+        721.5899968200096,
+        709.088758660326
+      ]
+    }
+  ],
+  "image_sha256": "90dd8476bd2f8f0a3422261497a4b3e913a0e183b4a1b29b79f2c7b0457c8bfe",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

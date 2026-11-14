@@ -1,0 +1,43 @@
+{
+  "ocr_text": "叫 alamy E06639",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": " 叫",
+      "confidence": 0.005923593742812581,
+      "box": [
+        83.0,
+        186.0,
+        215.0,
+        258.0
+      ]
+    },
+    {
+      "text": "alamy",
+      "confidence": 0.9912956892953093,
+      "box": [
+        104.0,
+        452.0,
+        143.0,
+        469.0
+      ]
+    },
+    {
+      "text": "E06639",
+      "confidence": 0.7695009729007448,
+      "box": [
+        149.0,
+        453.0,
+        197.0,
+        469.0
+      ]
+    }
+  ],
+  "image_sha256": "44b5bec329a49c1cb81553c4aab17361f94705355d721c47afe4137640ddc242",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

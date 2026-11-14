@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Dowered Oy tmY Black Member",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Dowered Oy",
+      "confidence": 0.11303796674973937,
+      "box": [
+        495.0,
+        49.0,
+        557.0,
+        65.0
+      ]
+    },
+    {
+      "text": "tmY",
+      "confidence": 0.3540511727333069,
+      "box": [
+        89.0,
+        335.0,
+        123.0,
+        351.0
+      ]
+    },
+    {
+      "text": "Black Member",
+      "confidence": 0.9981634011128544,
+      "box": [
+        131.0,
+        331.0,
+        249.0,
+        351.0
+      ]
+    }
+  ],
+  "image_sha256": "204f25f07e45b04570f5ad64c3f5a6d7f1a2801d1b46bffc8a1985dddfe332cc",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

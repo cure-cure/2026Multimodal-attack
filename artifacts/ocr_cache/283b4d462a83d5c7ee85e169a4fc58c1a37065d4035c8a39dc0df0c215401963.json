@@ -1,0 +1,33 @@
+{
+  "ocr_text": "SOUR FAITH MOUNTAINS",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SOUR FAITH",
+      "confidence": 0.6031028419676204,
+      "box": [
+        28.0,
+        56.0,
+        206.0,
+        84.0
+      ]
+    },
+    {
+      "text": "MOUNTAINS",
+      "confidence": 0.9303477397080342,
+      "box": [
+        22.0,
+        160.0,
+        212.0,
+        192.0
+      ]
+    }
+  ],
+  "image_sha256": "283b4d462a83d5c7ee85e169a4fc58c1a37065d4035c8a39dc0df0c215401963",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

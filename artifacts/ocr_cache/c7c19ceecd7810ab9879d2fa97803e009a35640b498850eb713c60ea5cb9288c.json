@@ -1,0 +1,73 @@
+{
+  "ocr_text": "Tn I8 Nsl 8l叩 仙咖f TOIOrISm agalSt Wa #atol 9o皿 S'V [岣问",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Tn I8 Nsl 8l叩",
+      "confidence": 0.0014135923445981224,
+      "box": [
+        740.0,
+        11.0,
+        1218.0,
+        84.0
+      ]
+    },
+    {
+      "text": "仙咖f",
+      "confidence": 0.00041075382906848143,
+      "box": [
+        789.0,
+        101.0,
+        1167.0,
+        178.0
+      ]
+    },
+    {
+      "text": "TOIOrISm agalSt",
+      "confidence": 0.04799936549282177,
+      "box": [
+        751.0,
+        195.0,
+        1211.0,
+        272.0
+      ]
+    },
+    {
+      "text": "Wa #atol 9o皿",
+      "confidence": 0.0002754556497076288,
+      "box": [
+        691.0,
+        295.0,
+        1271.0,
+        359.0
+      ]
+    },
+    {
+      "text": "S'V",
+      "confidence": 0.5196466331694842,
+      "box": [
+        0.0,
+        337.0,
+        228.0,
+        509.0
+      ]
+    },
+    {
+      "text": "[岣问",
+      "confidence": 0.000130942629010646,
+      "box": [
+        847.0,
+        389.0,
+        1111.0,
+        451.0
+      ]
+    }
+  ],
+  "image_sha256": "c7c19ceecd7810ab9879d2fa97803e009a35640b498850eb713c60ea5cb9288c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

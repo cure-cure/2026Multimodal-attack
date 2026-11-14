@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Psychology of Religion",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Psychology of Religion",
+      "confidence": 0.713123580754105,
+      "box": [
+        69.0,
+        139.0,
+        389.0,
+        181.0
+      ]
+    }
+  ],
+  "image_sha256": "0e3b53b07b4db59fcbf871522bd0b25e6b7a411bc26ddd7ffce1b684345e1390",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "BDACKPANHBR",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BDACKPANHBR",
+      "confidence": 0.27418966196244376,
+      "box": [
+        11.0,
+        255.0,
+        289.0,
+        295.0
+      ]
+    }
+  ],
+  "image_sha256": "f93bc6a1c9027d977a47837e8f81feb8494cd9168cec15053b38fc9ef049a3ec",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

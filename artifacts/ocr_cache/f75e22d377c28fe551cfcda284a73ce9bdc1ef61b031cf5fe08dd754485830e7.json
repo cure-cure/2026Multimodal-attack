@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Repergeopls",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Repergeopls",
+      "confidence": 0.23682797171077138,
+      "box": [
+        47.0,
+        349.0,
+        349.0,
+        409.0
+      ]
+    }
+  ],
+  "image_sha256": "f75e22d377c28fe551cfcda284a73ce9bdc1ef61b031cf5fe08dd754485830e7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

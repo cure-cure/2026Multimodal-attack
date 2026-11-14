@@ -1,0 +1,23 @@
+{
+  "ocr_text": "卜",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "卜",
+      "confidence": 0.10064796807294218,
+      "box": [
+        627.0,
+        437.0,
+        663.0,
+        483.0
+      ]
+    }
+  ],
+  "image_sha256": "65d8fa5a19f2e05feb6f6aee4547eecc9ae7b07c46c409e828fc70cec90fcae9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

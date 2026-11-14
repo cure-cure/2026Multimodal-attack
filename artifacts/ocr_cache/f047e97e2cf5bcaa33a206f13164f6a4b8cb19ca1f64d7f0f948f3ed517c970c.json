@@ -1,0 +1,23 @@
+{
+  "ocr_text": "CanstockPnotocom",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CanstockPnotocom",
+      "confidence": 0.4608010892072266,
+      "box": [
+        131.0,
+        241.0,
+        243.0,
+        254.0
+      ]
+    }
+  ],
+  "image_sha256": "f047e97e2cf5bcaa33a206f13164f6a4b8cb19ca1f64d7f0f948f3ed517c970c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

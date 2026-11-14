@@ -1,0 +1,23 @@
+{
+  "ocr_text": "WC",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WC",
+      "confidence": 0.839232990744318,
+      "box": [
+        78.0,
+        58.0,
+        170.0,
+        110.0
+      ]
+    }
+  ],
+  "image_sha256": "c439c24936fb5b5f60d7e7a55b031df909fb358eedf32995d0221ae4f84bb348",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

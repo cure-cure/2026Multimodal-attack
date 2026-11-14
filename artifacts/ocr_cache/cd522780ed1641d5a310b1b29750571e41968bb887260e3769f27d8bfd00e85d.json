@@ -1,0 +1,43 @@
+{
+  "ocr_text": "邸& C皿呱-皿@0』 皿皿IHNSSEEr",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "邸&",
+      "confidence": 0.0006211212543629574,
+      "box": [
+        66.0,
+        2.0,
+        234.0,
+        74.0
+      ]
+    },
+    {
+      "text": "C皿呱-皿@0』",
+      "confidence": 2.9231529211445127e-06,
+      "box": [
+        24.0,
+        250.0,
+        276.0,
+        276.0
+      ]
+    },
+    {
+      "text": "皿皿IHNSSEEr",
+      "confidence": 0.00019733779346030068,
+      "box": [
+        24.0,
+        273.0,
+        278.0,
+        298.0
+      ]
+    }
+  ],
+  "image_sha256": "cd522780ed1641d5a310b1b29750571e41968bb887260e3769f27d8bfd00e85d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "ocr_text": "and William Goodman @goodman olhers",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "and",
+      "confidence": 0.9898102069433548,
+      "box": [
+        37.0,
+        141.0,
+        59.0,
+        155.0
+      ]
+    },
+    {
+      "text": "William Goodman",
+      "confidence": 0.9416694431489055,
+      "box": [
+        3.0,
+        203.0,
+        105.0,
+        217.0
+      ]
+    },
+    {
+      "text": "@goodman",
+      "confidence": 0.8111867399646618,
+      "box": [
+        2.0,
+        215.0,
+        67.0,
+        232.0
+      ]
+    },
+    {
+      "text": "olhers",
+      "confidence": 0.4921594741625146,
+      "box": [
+        66.01822014940971,
+        140.23177872040262,
+        98.98177985059029,
+        153.76822127959738
+      ]
+    }
+  ],
+  "image_sha256": "3fc866c29de82ed10e34a3dd3e9807f9b561ce92588f386f4d8c704432e13cb1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

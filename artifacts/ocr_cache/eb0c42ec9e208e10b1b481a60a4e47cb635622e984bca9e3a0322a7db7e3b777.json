@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Terrorism",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Terrorism",
+      "confidence": 0.9441141844678216,
+      "box": [
+        272.0,
+        23.0,
+        456.0,
+        66.0
+      ]
+    }
+  ],
+  "image_sha256": "eb0c42ec9e208e10b1b481a60a4e47cb635622e984bca9e3a0322a7db7e3b777",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

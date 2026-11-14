@@ -1,0 +1,53 @@
+{
+  "ocr_text": "R0]皿&@W 皿皿伽呢吣} : memegelryJ Js",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "R0]皿&@W",
+      "confidence": 9.524524560429809e-05,
+      "box": [
+        15.0,
+        0.0,
+        287.0,
+        35.0
+      ]
+    },
+    {
+      "text": "皿皿伽呢吣}",
+      "confidence": 2.972035104640586e-07,
+      "box": [
+        34.0,
+        238.0,
+        265.0,
+        270.0
+      ]
+    },
+    {
+      "text": ":",
+      "confidence": 0.035242222591534755,
+      "box": [
+        110.0,
+        268.0,
+        192.0,
+        298.0
+      ]
+    },
+    {
+      "text": "memegelryJ Js",
+      "confidence": 0.17128532924771137,
+      "box": [
+        184.0,
+        286.0,
+        296.0,
+        300.0
+      ]
+    }
+  ],
+  "image_sha256": "25efa6726e8f34aaa9f0213ea7fb039dfe7f0dc8dcdfe0181b267859ada77818",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

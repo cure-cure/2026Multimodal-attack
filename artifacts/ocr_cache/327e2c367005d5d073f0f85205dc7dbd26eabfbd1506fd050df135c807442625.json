@@ -1,0 +1,43 @@
+{
+  "ocr_text": "j3nota 忉a jt'59lalr [o@}呦t Slfor hn",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "j3nota 忉a",
+      "confidence": 0.006896323401158934,
+      "box": [
+        155.0,
+        0.0,
+        389.0,
+        41.0
+      ]
+    },
+    {
+      "text": "jt'59lalr [o@}呦t",
+      "confidence": 0.013243380171276478,
+      "box": [
+        89.0,
+        299.0,
+        469.0,
+        337.0
+      ]
+    },
+    {
+      "text": "Slfor hn",
+      "confidence": 0.06040815762555597,
+      "box": [
+        165.0,
+        327.0,
+        379.0,
+        366.0
+      ]
+    }
+  ],
+  "image_sha256": "327e2c367005d5d073f0f85205dc7dbd26eabfbd1506fd050df135c807442625",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

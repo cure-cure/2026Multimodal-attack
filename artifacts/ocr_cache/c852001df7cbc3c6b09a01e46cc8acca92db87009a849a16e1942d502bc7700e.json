@@ -1,0 +1,103 @@
+{
+  "ocr_text": "over the counter prosticg has ore Ibuprofen 20Omg COnCOPliie 40 mlc Colg Fnie",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "over the counter",
+      "confidence": 0.6099028219655318,
+      "box": [
+        546.0,
+        494.0,
+        673.0,
+        521.0
+      ]
+    },
+    {
+      "text": "prosticg has ore",
+      "confidence": 0.6759362003017154,
+      "box": [
+        545.0,
+        522.0,
+        670.0,
+        550.0
+      ]
+    },
+    {
+      "text": "Ibuprofen",
+      "confidence": 0.9144162070400986,
+      "box": [
+        543.0,
+        543.0,
+        702.0,
+        605.0
+      ]
+    },
+    {
+      "text": "20Omg",
+      "confidence": 0.7325404219641133,
+      "box": [
+        547.0,
+        589.0,
+        656.0,
+        633.0
+      ]
+    },
+    {
+      "text": "COnCOPliie",
+      "confidence": 0.23361918544967333,
+      "box": [
+        555.0,
+        635.0,
+        611.0,
+        649.0
+      ]
+    },
+    {
+      "text": "40 mlc Colg",
+      "confidence": 0.8075156004552547,
+      "box": [
+        555.0,
+        655.0,
+        623.0,
+        673.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        555.0,
+        695.0,
+        631.0,
+        707.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        556.0,
+        712.0,
+        638.0,
+        720.0
+      ]
+    },
+    {
+      "text": "Fnie",
+      "confidence": 0.06125716492533684,
+      "box": [
+        606.0384760523592,
+        633.1862665287932,
+        635.9615239476408,
+        648.8137334712068
+      ]
+    }
+  ],
+  "image_sha256": "c852001df7cbc3c6b09a01e46cc8acca92db87009a849a16e1942d502bc7700e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

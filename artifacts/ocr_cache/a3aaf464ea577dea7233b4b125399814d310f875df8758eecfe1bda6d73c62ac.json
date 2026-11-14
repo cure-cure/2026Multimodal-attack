@@ -1,0 +1,43 @@
+{
+  "ocr_text": "0咽咽 6}舢) BB8Ao Nv",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "0咽咽",
+      "confidence": 0.0013759033730099159,
+      "box": [
+        56.0,
+        0.0,
+        246.0,
+        32.0
+      ]
+    },
+    {
+      "text": "6}舢)",
+      "confidence": 1.369667529615981e-06,
+      "box": [
+        90.0,
+        30.0,
+        212.0,
+        60.0
+      ]
+    },
+    {
+      "text": "BB8Ao Nv",
+      "confidence": 0.0010217474184110813,
+      "box": [
+        21.0,
+        263.0,
+        281.0,
+        299.0
+      ]
+    }
+  ],
+  "image_sha256": "a3aaf464ea577dea7233b4b125399814d310f875df8758eecfe1bda6d73c62ac",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

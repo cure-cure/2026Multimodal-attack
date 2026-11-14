@@ -1,0 +1,43 @@
+{
+  "ocr_text": "皿)哑豳皿 TELSIEN RmC",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "皿)哑豳皿",
+      "confidence": 6.25414553803542e-06,
+      "box": [
+        21.0,
+        433.0,
+        625.0,
+        495.0
+      ]
+    },
+    {
+      "text": "TELSIEN",
+      "confidence": 0.09402242603603424,
+      "box": [
+        586.0,
+        486.0,
+        636.0,
+        494.0
+      ]
+    },
+    {
+      "text": "RmC",
+      "confidence": 0.0049561426896498955,
+      "box": [
+        1.0,
+        487.0,
+        57.0,
+        500.0
+      ]
+    }
+  ],
+  "image_sha256": "bf0e886924bad9b12dda61058560b1eae79287b329fb2327fb73074c9adc8d2d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

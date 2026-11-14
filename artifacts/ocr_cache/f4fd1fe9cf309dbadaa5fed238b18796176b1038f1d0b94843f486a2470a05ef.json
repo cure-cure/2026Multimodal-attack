@@ -1,0 +1,43 @@
+{
+  "ocr_text": "LetsmakeIlaws Sticter againstl Ainal Cruelt。",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "LetsmakeIlaws Sticter",
+      "confidence": 0.1874917211322389,
+      "box": [
+        111.0,
+        21.0,
+        863.0,
+        90.0
+      ]
+    },
+    {
+      "text": "againstl",
+      "confidence": 0.3442012848722847,
+      "box": [
+        851.0,
+        7.0,
+        1116.0,
+        105.0
+      ]
+    },
+    {
+      "text": "Ainal Cruelt。",
+      "confidence": 0.27158629056775235,
+      "box": [
+        351.0,
+        84.0,
+        867.0,
+        163.0
+      ]
+    }
+  ],
+  "image_sha256": "f4fd1fe9cf309dbadaa5fed238b18796176b1038f1d0b94843f486a2470a05ef",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

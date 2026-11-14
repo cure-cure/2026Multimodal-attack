@@ -1,0 +1,63 @@
+{
+  "ocr_text": "G MALE FEMALE shutterstock.com 1408707917",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "G",
+      "confidence": 0.13586174975513643,
+      "box": [
+        15.0,
+        47.0,
+        244.0,
+        191.0
+      ]
+    },
+    {
+      "text": "MALE",
+      "confidence": 0.9934590458869934,
+      "box": [
+        37.0,
+        191.0,
+        89.0,
+        211.0
+      ]
+    },
+    {
+      "text": "FEMALE",
+      "confidence": 0.9493400356516792,
+      "box": [
+        161.0,
+        191.0,
+        231.0,
+        211.0
+      ]
+    },
+    {
+      "text": "shutterstock.com",
+      "confidence": 0.649393709480463,
+      "box": [
+        53.0,
+        265.0,
+        139.0,
+        279.0
+      ]
+    },
+    {
+      "text": "1408707917",
+      "confidence": 0.9990843908420685,
+      "box": [
+        147.0,
+        265.0,
+        209.0,
+        279.0
+      ]
+    }
+  ],
+  "image_sha256": "2f44c0da3b282f165d45a35661e9812e78d92e16d36d9676c45e1fe98da88a4b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

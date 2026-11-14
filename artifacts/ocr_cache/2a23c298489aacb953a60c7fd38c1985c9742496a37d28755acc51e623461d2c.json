@@ -1,0 +1,23 @@
+{
+  "ocr_text": "BCI|V阳",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BCI|V阳",
+      "confidence": 1.0384529718664048e-05,
+      "box": [
+        53.0,
+        540.0,
+        1243.0,
+        710.0
+      ]
+    }
+  ],
+  "image_sha256": "2a23c298489aacb953a60c7fd38c1985c9742496a37d28755acc51e623461d2c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

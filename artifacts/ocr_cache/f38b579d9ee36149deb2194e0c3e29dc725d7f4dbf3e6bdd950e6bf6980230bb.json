@@ -1,0 +1,53 @@
+{
+  "ocr_text": "凹吣阳唧:皿0 皿四 BT吣VR呱呱咽 皿皿皿BUBIegeeratorne=",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "凹吣阳唧:皿0",
+      "confidence": 5.491267937866055e-07,
+      "box": [
+        24.0,
+        0.0,
+        278.0,
+        30.0
+      ]
+    },
+    {
+      "text": "皿四",
+      "confidence": 0.020344970840568497,
+      "box": [
+        104.0,
+        28.0,
+        198.0,
+        58.0
+      ]
+    },
+    {
+      "text": "BT吣VR呱呱咽",
+      "confidence": 1.1031961992391083e-05,
+      "box": [
+        18.0,
+        248.0,
+        281.0,
+        274.0
+      ]
+    },
+    {
+      "text": "皿皿皿BUBIegeeratorne=",
+      "confidence": 0.001806276889936632,
+      "box": [
+        86.0,
+        272.0,
+        298.0,
+        300.0
+      ]
+    }
+  ],
+  "image_sha256": "f38b579d9ee36149deb2194e0c3e29dc725d7f4dbf3e6bdd950e6bf6980230bb",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

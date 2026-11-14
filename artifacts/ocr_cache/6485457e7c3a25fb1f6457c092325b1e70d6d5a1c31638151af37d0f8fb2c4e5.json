@@ -1,0 +1,43 @@
+{
+  "ocr_text": "GoRRAS 0觉 Fiosos",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "GoRRAS",
+      "confidence": 0.1851250762794641,
+      "box": [
+        72.0,
+        12.0,
+        127.0,
+        31.0
+      ]
+    },
+    {
+      "text": "0觉",
+      "confidence": 0.09569464434705025,
+      "box": [
+        81.0,
+        31.0,
+        113.0,
+        47.0
+      ]
+    },
+    {
+      "text": "Fiosos",
+      "confidence": 0.18476194740917973,
+      "box": [
+        83.25670585375283,
+        51.46718673031386,
+        114.74329414624717,
+        69.53281326968614
+      ]
+    }
+  ],
+  "image_sha256": "6485457e7c3a25fb1f6457c092325b1e70d6d5a1c31638151af37d0f8fb2c4e5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

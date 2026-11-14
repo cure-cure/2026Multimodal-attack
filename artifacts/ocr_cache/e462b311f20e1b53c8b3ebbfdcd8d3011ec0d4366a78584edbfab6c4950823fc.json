@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Mgotqe",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Mgotqe",
+      "confidence": 0.019051219863545302,
+      "box": [
+        257.0,
+        159.0,
+        315.0,
+        175.0
+      ]
+    }
+  ],
+  "image_sha256": "e462b311f20e1b53c8b3ebbfdcd8d3011ec0d4366a78584edbfab6c4950823fc",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

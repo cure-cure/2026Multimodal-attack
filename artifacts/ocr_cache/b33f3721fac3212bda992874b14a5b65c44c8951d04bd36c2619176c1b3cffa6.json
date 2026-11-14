@@ -1,0 +1,43 @@
+{
+  "ocr_text": "u RFITRC",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        211.0,
+        11.0,
+        241.0,
+        31.0
+      ]
+    },
+    {
+      "text": "u",
+      "confidence": 0.0013623294877366382,
+      "box": [
+        210.0,
+        52.0,
+        244.0,
+        82.0
+      ]
+    },
+    {
+      "text": "RFITRC",
+      "confidence": 0.08038747365112729,
+      "box": [
+        260.0,
+        158.0,
+        300.0,
+        166.0
+      ]
+    }
+  ],
+  "image_sha256": "b33f3721fac3212bda992874b14a5b65c44c8951d04bd36c2619176c1b3cffa6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

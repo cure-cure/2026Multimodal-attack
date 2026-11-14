@@ -1,0 +1,53 @@
+{
+  "ocr_text": "PARKING ONLY Vectorstock VectorStock.com/1674469",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "PARKING",
+      "confidence": 0.9282394383196519,
+      "box": [
+        97.0,
+        591.0,
+        913.0,
+        777.0
+      ]
+    },
+    {
+      "text": "ONLY",
+      "confidence": 0.9275735020637512,
+      "box": [
+        255.0,
+        780.0,
+        747.0,
+        956.0
+      ]
+    },
+    {
+      "text": "Vectorstock",
+      "confidence": 0.6381600304177588,
+      "box": [
+        25.0,
+        1021.0,
+        217.0,
+        1061.0
+      ]
+    },
+    {
+      "text": "VectorStock.com/1674469",
+      "confidence": 0.7509945701082794,
+      "box": [
+        706.0,
+        1034.0,
+        948.0,
+        1058.0
+      ]
+    }
+  ],
+  "image_sha256": "10e8319dc9b839319bded749c25b4a7c0555012033c23e2d61549ca3a338a17c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

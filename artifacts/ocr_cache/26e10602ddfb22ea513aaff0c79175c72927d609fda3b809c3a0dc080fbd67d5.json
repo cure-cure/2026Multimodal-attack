@@ -1,0 +1,103 @@
+{
+  "ocr_text": "uiclert。 SUpOPLEIIIT 2 812 Energy Support SUCTI SNr Layo MakdeUUOI Crmj",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "uiclert。",
+      "confidence": 0.6560703751860285,
+      "box": [
+        342.0,
+        538.0,
+        440.0,
+        568.0
+      ]
+    },
+    {
+      "text": "SUpOPLEIIIT",
+      "confidence": 0.07168446295055127,
+      "box": [
+        339.0,
+        565.0,
+        417.0,
+        577.0
+      ]
+    },
+    {
+      "text": "2",
+      "confidence": 0.95794500998187,
+      "box": [
+        154.0,
+        572.0,
+        204.0,
+        656.0
+      ]
+    },
+    {
+      "text": "812",
+      "confidence": 0.6327262111977471,
+      "box": [
+        317.0,
+        569.0,
+        501.0,
+        690.0
+      ]
+    },
+    {
+      "text": "Energy Support",
+      "confidence": 0.7694239662634215,
+      "box": [
+        329.0,
+        667.0,
+        483.0,
+        712.0
+      ]
+    },
+    {
+      "text": "SUCTI",
+      "confidence": 0.1387283653598634,
+      "box": [
+        374.0,
+        710.0,
+        406.0,
+        718.0
+      ]
+    },
+    {
+      "text": "SNr Layo",
+      "confidence": 0.03071548800577349,
+      "box": [
+        335.0,
+        717.0,
+        405.0,
+        729.0
+      ]
+    },
+    {
+      "text": "MakdeUUOI",
+      "confidence": 0.01931550014374206,
+      "box": [
+        353.0,
+        731.0,
+        423.0,
+        743.0
+      ]
+    },
+    {
+      "text": "Crmj",
+      "confidence": 0.1744634509086609,
+      "box": [
+        420.0,
+        726.0,
+        455.0,
+        742.0
+      ]
+    }
+  ],
+  "image_sha256": "26e10602ddfb22ea513aaff0c79175c72927d609fda3b809c3a0dc080fbd67d5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "",
+  "ocr_status": "no_text",
+  "regions": [
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        811.0,
+        297.0,
+        847.0,
+        357.0
+      ]
+    }
+  ],
+  "image_sha256": "7f8b2b6f2a3272a4087e7613ae039b60ce1b448d4fe3a1723813a73a1938c21a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

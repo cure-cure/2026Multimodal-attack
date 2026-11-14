@@ -1,0 +1,33 @@
+{
+  "ocr_text": "MAN WOMAN",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "MAN",
+      "confidence": 0.8119305315348657,
+      "box": [
+        81.0,
+        201.0,
+        133.0,
+        221.0
+      ]
+    },
+    {
+      "text": "WOMAN",
+      "confidence": 0.6858611859794529,
+      "box": [
+        175.0,
+        201.0,
+        261.0,
+        221.0
+      ]
+    }
+  ],
+  "image_sha256": "515353dc26ef27b22d03d671efe7da796c04bea724437b3ab2cb6fd2193dc27d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

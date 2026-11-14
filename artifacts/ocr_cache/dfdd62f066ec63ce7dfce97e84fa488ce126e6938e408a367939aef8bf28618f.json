@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Coffee",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Coffee",
+      "confidence": 0.9989277370038836,
+      "box": [
+        47.0,
+        57.0,
+        163.0,
+        93.0
+      ]
+    }
+  ],
+  "image_sha256": "dfdd62f066ec63ce7dfce97e84fa488ce126e6938e408a367939aef8bf28618f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

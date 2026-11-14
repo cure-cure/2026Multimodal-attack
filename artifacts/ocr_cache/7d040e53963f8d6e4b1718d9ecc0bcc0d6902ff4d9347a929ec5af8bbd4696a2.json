@@ -1,0 +1,53 @@
+{
+  "ocr_text": "0/RRF吣咖&吣J咽 耶q ) 』〉:0瞰皿",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "0/RRF吣咖&吣J咽",
+      "confidence": 4.184989110116306e-08,
+      "box": [
+        0.0,
+        0.0,
+        250.0,
+        22.0
+      ]
+    },
+    {
+      "text": "耶q",
+      "confidence": 5.8681812305070636e-05,
+      "box": [
+        73.0,
+        19.0,
+        169.0,
+        39.0
+      ]
+    },
+    {
+      "text": ")",
+      "confidence": 0.012845235647358566,
+      "box": [
+        0.0,
+        24.0,
+        30.0,
+        56.0
+      ]
+    },
+    {
+      "text": "』〉:0瞰皿",
+      "confidence": 5.600395971820639e-06,
+      "box": [
+        20.0,
+        218.0,
+        232.0,
+        250.0
+      ]
+    }
+  ],
+  "image_sha256": "7d040e53963f8d6e4b1718d9ecc0bcc0d6902ff4d9347a929ec5af8bbd4696a2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

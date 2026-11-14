@@ -1,0 +1,23 @@
+{
+  "ocr_text": "邸1*",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "邸1*",
+      "confidence": 0.00024138687908207822,
+      "box": [
+        10.0,
+        110.0,
+        260.0,
+        208.0
+      ]
+    }
+  ],
+  "image_sha256": "29b68d068bca929cb36b6662d82acb5496a6dd95fa5f6a6c67014d490f886cff",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

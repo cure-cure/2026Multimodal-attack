@@ -1,0 +1,143 @@
+{
+  "ocr_text": "supaymusit Home Wellerolk。 Prop Slnop Apply Now PAYDAY LOANS ONLINE No Credit Check, 1-Hour Approval! Apply Now Ourimal Lowns Wellered Temmon Zero Down & Payment",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "supaymusit",
+      "confidence": 0.9530026176931415,
+      "box": [
+        159.0,
+        217.0,
+        313.0,
+        253.0
+      ]
+    },
+    {
+      "text": "Home",
+      "confidence": 0.9996803998947144,
+      "box": [
+        457.0,
+        225.0,
+        495.0,
+        241.0
+      ]
+    },
+    {
+      "text": "Wellerolk。",
+      "confidence": 0.3585899456080862,
+      "box": [
+        517.0,
+        225.0,
+        583.0,
+        241.0
+      ]
+    },
+    {
+      "text": "Prop",
+      "confidence": 0.995982825756073,
+      "box": [
+        603.0,
+        225.0,
+        637.0,
+        241.0
+      ]
+    },
+    {
+      "text": "Slnop",
+      "confidence": 0.8849890393637937,
+      "box": [
+        676.0,
+        224.0,
+        717.0,
+        243.0
+      ]
+    },
+    {
+      "text": "Apply Now",
+      "confidence": 0.9931372702429649,
+      "box": [
+        774.0,
+        222.0,
+        864.0,
+        246.0
+      ]
+    },
+    {
+      "text": "PAYDAY LOANS ONLINE",
+      "confidence": 0.5894626304994804,
+      "box": [
+        173.0,
+        289.0,
+        854.0,
+        353.0
+      ]
+    },
+    {
+      "text": "No Credit Check, 1-Hour Approval!",
+      "confidence": 0.8311077702342515,
+      "box": [
+        230.0,
+        365.0,
+        786.0,
+        414.0
+      ]
+    },
+    {
+      "text": "Apply Now",
+      "confidence": 0.8535297544246563,
+      "box": [
+        313.0,
+        483.0,
+        465.0,
+        525.0
+      ]
+    },
+    {
+      "text": "Ourimal Lowns",
+      "confidence": 0.7288511303271146,
+      "box": [
+        524.0,
+        486.0,
+        723.0,
+        518.0
+      ]
+    },
+    {
+      "text": "Wellered",
+      "confidence": 0.4178927273524242,
+      "box": [
+        355.0,
+        573.0,
+        423.0,
+        589.0
+      ]
+    },
+    {
+      "text": "Temmon",
+      "confidence": 0.40926214405863903,
+      "box": [
+        595.0,
+        575.0,
+        651.0,
+        589.0
+      ]
+    },
+    {
+      "text": "Zero Down & Payment",
+      "confidence": 0.422481798518469,
+      "box": [
+        223.0,
+        719.0,
+        799.0,
+        780.0
+      ]
+    }
+  ],
+  "image_sha256": "756def55ce3d784f6d494340f9a375131e4e83c174edfcfee83d643e51fcc4c0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

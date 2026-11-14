@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Sh HtesbeeIk WIN,shutterstockcom 62348083",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Sh",
+      "confidence": 0.9572698420019682,
+      "box": [
+        94.0,
+        126.0,
+        152.0,
+        174.0
+      ]
+    },
+    {
+      "text": "HtesbeeIk",
+      "confidence": 0.029540713277999855,
+      "box": [
+        165.0,
+        131.0,
+        357.0,
+        173.0
+      ]
+    },
+    {
+      "text": "WIN,shutterstockcom",
+      "confidence": 0.1711401324229762,
+      "box": [
+        121.0,
+        305.0,
+        259.0,
+        319.0
+      ]
+    },
+    {
+      "text": "62348083",
+      "confidence": 0.9934360501918491,
+      "box": [
+        263.0,
+        305.0,
+        331.0,
+        319.0
+      ]
+    }
+  ],
+  "image_sha256": "ab35b895a88440cf1fa31fe04e21dd78c5d4328997396dcd54aedd56cb75e2c7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

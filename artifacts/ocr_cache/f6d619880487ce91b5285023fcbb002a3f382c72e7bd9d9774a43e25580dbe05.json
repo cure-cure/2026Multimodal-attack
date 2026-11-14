@@ -1,0 +1,23 @@
+{
+  "ocr_text": "PROPRTYSEX",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "PROPRTYSEX",
+      "confidence": 0.35236915548908787,
+      "box": [
+        0.0,
+        147.0,
+        139.0,
+        180.0
+      ]
+    }
+  ],
+  "image_sha256": "f6d619880487ce91b5285023fcbb002a3f382c72e7bd9d9774a43e25580dbe05",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

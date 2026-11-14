@@ -1,0 +1,43 @@
+{
+  "ocr_text": "JSEWa 9 ShOWVOU Something BOIImIBnt what VoU think [B'3 yoma ShOW this yoat fEkB髀",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "JSEWa 9",
+      "confidence": 0.03591801249438011,
+      "box": [
+        290.0,
+        11.0,
+        579.0,
+        74.0
+      ]
+    },
+    {
+      "text": "ShOWVOU Something",
+      "confidence": 0.2443564805919535,
+      "box": [
+        166.0,
+        400.0,
+        700.0,
+        478.0
+      ]
+    },
+    {
+      "text": "BOIImIBnt what VoU think [B'3 yoma ShOW this yoat fEkB髀",
+      "confidence": 0.0055570504675714755,
+      "box": [
+        83.0,
+        495.0,
+        763.0,
+        531.0
+      ]
+    }
+  ],
+  "image_sha256": "99720dea992d5a3fcc21ab7de42e6c0819fc9d00aebe49b2dcd41bf183de33c8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

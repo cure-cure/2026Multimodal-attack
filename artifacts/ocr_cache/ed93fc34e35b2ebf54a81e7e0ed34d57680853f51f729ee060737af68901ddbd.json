@@ -1,0 +1,43 @@
+{
+  "ocr_text": "NoB0叫咖豳皿 @0 memegenerator net",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "NoB0叫咖豳皿",
+      "confidence": 2.8000777930642467e-05,
+      "box": [
+        21.0,
+        0.0,
+        387.0,
+        43.0
+      ]
+    },
+    {
+      "text": "@0 ",
+      "confidence": 0.0026801283843622564,
+      "box": [
+        73.0,
+        335.0,
+        333.0,
+        399.0
+      ]
+    },
+    {
+      "text": "memegenerator net",
+      "confidence": 0.7919528909090205,
+      "box": [
+        250.0,
+        385.0,
+        407.0,
+        405.0
+      ]
+    }
+  ],
+  "image_sha256": "ed93fc34e35b2ebf54a81e7e0ed34d57680853f51f729ee060737af68901ddbd",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "BLIEUE",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BLIEUE",
+      "confidence": 0.2757174986308615,
+      "box": [
+        34.0,
+        78.0,
+        192.0,
+        132.0
+      ]
+    }
+  ],
+  "image_sha256": "deba55d73daf31cc7830e4ed284c6fddac42090ae13503e767b85f14756f13b2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

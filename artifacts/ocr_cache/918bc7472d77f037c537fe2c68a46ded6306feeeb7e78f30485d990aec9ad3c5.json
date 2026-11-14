@@ -1,0 +1,43 @@
+{
+  "ocr_text": "222 UINE N MER",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "222",
+      "confidence": 0.005583257135020076,
+      "box": [
+        108.0,
+        0.0,
+        343.0,
+        71.0
+      ]
+    },
+    {
+      "text": "UINE N",
+      "confidence": 0.1253562865130242,
+      "box": [
+        145.0,
+        117.0,
+        310.0,
+        177.0
+      ]
+    },
+    {
+      "text": "MER",
+      "confidence": 0.08205479637399543,
+      "box": [
+        507.9017182281125,
+        -9.464959521417182,
+        786.0982817718875,
+        187.46495952141717
+      ]
+    }
+  ],
+  "image_sha256": "918bc7472d77f037c537fe2c68a46ded6306feeeb7e78f30485d990aec9ad3c5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

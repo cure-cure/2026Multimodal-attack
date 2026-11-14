@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Hsco Oxycodone CBHzINO4 N-CH3",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Hsco",
+      "confidence": 0.6077113151550293,
+      "box": [
+        16.0,
+        0.0,
+        163.0,
+        69.0
+      ]
+    },
+    {
+      "text": "Oxycodone",
+      "confidence": 0.5922612711474287,
+      "box": [
+        344.0,
+        0.0,
+        766.0,
+        110.0
+      ]
+    },
+    {
+      "text": "CBHzINO4",
+      "confidence": 0.4341162328289403,
+      "box": [
+        420.0,
+        99.0,
+        703.0,
+        191.0
+      ]
+    },
+    {
+      "text": "N-CH3",
+      "confidence": 0.8482408305185175,
+      "box": [
+        406.0935494565218,
+        249.0523291853351,
+        596.9064505434782,
+        351.9476708146649
+      ]
+    }
+  ],
+  "image_sha256": "a4fee5aea4ac3afbff49787689ee743dc23bf5959b5b6b9ec69cb0bba2fc94a5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "ocr_text": "NOTNCREFITr [ 6I N0CRBOT CHIC No deposit &蠹 HIGHINTEREST RATES HIDDEN FEES POSSIBLE。 ECOLOZIE Pequipedl APPLY",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "NOTNCREFITr",
+      "confidence": 0.09023174167532386,
+      "box": [
+        178.0,
+        163.0,
+        420.0,
+        213.0
+      ]
+    },
+    {
+      "text": "[",
+      "confidence": 0.0016976592446402844,
+      "box": [
+        239.0,
+        201.0,
+        538.0,
+        359.0
+      ]
+    },
+    {
+      "text": "6I",
+      "confidence": 0.00028311037656455373,
+      "box": [
+        185.0,
+        329.0,
+        568.0,
+        503.0
+      ]
+    },
+    {
+      "text": "N0CRBOT",
+      "confidence": 0.01665946463874967,
+      "box": [
+        179.0,
+        497.0,
+        563.0,
+        606.0
+      ]
+    },
+    {
+      "text": "CHIC",
+      "confidence": 0.35479941964149475,
+      "box": [
+        236.0,
+        587.0,
+        513.0,
+        696.0
+      ]
+    },
+    {
+      "text": "No deposit &蠹",
+      "confidence": 0.056160534075538296,
+      "box": [
+        163.0,
+        685.0,
+        429.0,
+        748.0
+      ]
+    },
+    {
+      "text": "HIGHINTEREST RATES",
+      "confidence": 0.7591152040016929,
+      "box": [
+        207.0,
+        749.0,
+        474.0,
+        791.0
+      ]
+    },
+    {
+      "text": "HIDDEN FEES POSSIBLE。",
+      "confidence": 0.939443141674397,
+      "box": [
+        237.0,
+        784.0,
+        514.0,
+        823.0
+      ]
+    },
+    {
+      "text": "ECOLOZIE",
+      "confidence": 0.72069021759042,
+      "box": [
+        411.0213527208855,
+        165.06586167447233,
+        571.9786472791145,
+        235.93413832552767
+      ]
+    },
+    {
+      "text": "Pequipedl",
+      "confidence": 0.8972639804939173,
+      "box": [
+        415.98198161801105,
+        686.3983286034661,
+        565.0180183819889,
+        755.6016713965339
+      ]
+    },
+    {
+      "text": "APPLY",
+      "confidence": 0.9325261714097298,
+      "box": [
+        467.71019925882297,
+        748.414324641765,
+        529.289800741177,
+        784.585675358235
+      ]
+    }
+  ],
+  "image_sha256": "9859006ab4f6453f81eae33e3c393d954d0aba99b85487f467beedda740e0083",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

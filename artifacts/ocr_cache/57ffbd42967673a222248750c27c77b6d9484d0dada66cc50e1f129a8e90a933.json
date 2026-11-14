@@ -1,0 +1,43 @@
+{
+  "ocr_text": "ShutersHoel Wiwshutterstockcom 58861076",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ShutersHoel",
+      "confidence": 0.02137612665059954,
+      "box": [
+        20.0,
+        202.0,
+        282.0,
+        250.0
+      ]
+    },
+    {
+      "text": "Wiwshutterstockcom",
+      "confidence": 0.12029275296333741,
+      "box": [
+        47.0,
+        455.0,
+        183.0,
+        469.0
+      ]
+    },
+    {
+      "text": "58861076",
+      "confidence": 0.994089035615893,
+      "box": [
+        189.0,
+        453.0,
+        257.0,
+        469.0
+      ]
+    }
+  ],
+  "image_sha256": "57ffbd42967673a222248750c27c77b6d9484d0dada66cc50e1f129a8e90a933",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "PROBLEM SOLVED",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "PROBLEM",
+      "confidence": 0.5509233554968277,
+      "box": [
+        14.0,
+        214.0,
+        134.0,
+        240.0
+      ]
+    },
+    {
+      "text": "SOLVED",
+      "confidence": 0.994511353647685,
+      "box": [
+        176.0,
+        214.0,
+        276.0,
+        242.0
+      ]
+    }
+  ],
+  "image_sha256": "6013da82a0d0a00ef0978148f7be137b481265f73fa387535e2c36ed949d6add",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

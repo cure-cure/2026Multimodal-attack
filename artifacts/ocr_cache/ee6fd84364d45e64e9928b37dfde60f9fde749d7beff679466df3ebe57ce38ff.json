@@ -1,0 +1,63 @@
+{
+  "ocr_text": "BKBgB吣;皿58?3爪 alloWB 坷W}[eh tOWhoys ganehere? C BQUIs@。Siy.jtJs 2019. VOU'fB allowedto H IaVaIWhBB.",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BKBgB吣;皿58?3爪",
+      "confidence": 0.0005957417704406565,
+      "box": [
+        1.0,
+        1.0,
+        281.0,
+        37.0
+      ]
+    },
+    {
+      "text": "alloWB 坷W}[eh",
+      "confidence": 0.0027506925038718677,
+      "box": [
+        291.0,
+        0.0,
+        517.0,
+        35.0
+      ]
+    },
+    {
+      "text": "tOWhoys ganehere?",
+      "confidence": 0.04131251685742913,
+      "box": [
+        75.0,
+        33.0,
+        407.0,
+        75.0
+      ]
+    },
+    {
+      "text": "C BQUIs@。Siy.jtJs 2019.",
+      "confidence": 0.019290537704754175,
+      "box": [
+        79.0,
+        281.0,
+        409.0,
+        323.0
+      ]
+    },
+    {
+      "text": "VOU'fB allowedto H IaVaIWhBB.",
+      "confidence": 0.07499465940509095,
+      "box": [
+        0.0,
+        317.0,
+        516.0,
+        365.0
+      ]
+    }
+  ],
+  "image_sha256": "ee6fd84364d45e64e9928b37dfde60f9fde749d7beff679466df3ebe57ce38ff",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

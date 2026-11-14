@@ -1,0 +1,33 @@
+{
+  "ocr_text": "吣0B8E @听厅咋皿哐",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "吣0B8E",
+      "confidence": 0.0001530330584296801,
+      "box": [
+        31.0,
+        0.0,
+        218.0,
+        40.0
+      ]
+    },
+    {
+      "text": "@听厅咋皿哐",
+      "confidence": 4.704103851613573e-05,
+      "box": [
+        33.0,
+        205.0,
+        217.0,
+        245.0
+      ]
+    }
+  ],
+  "image_sha256": "826cec9bfed7a2849df63d60509d43952ceeb7010eb90ee7834491325e08ddc8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

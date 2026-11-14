@@ -1,0 +1,33 @@
+{
+  "ocr_text": "『睢` 窈尹",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "『睢`",
+      "confidence": 9.468230971034416e-06,
+      "box": [
+        0.0,
+        2.0,
+        620.0,
+        279.0
+      ]
+    },
+    {
+      "text": "窈尹",
+      "confidence": 0.0005522914878986734,
+      "box": [
+        0.0,
+        261.0,
+        619.0,
+        543.0
+      ]
+    }
+  ],
+  "image_sha256": "90291a1457eb34171b47eecb12f0fde2b53bb38b3df5ea14c3e8c44fedecd29e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

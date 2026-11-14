@@ -1,0 +1,73 @@
+{
+  "ocr_text": "1NooI Zinc UUIrtIIOI Imrne Spot Qirs",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "1NooI",
+      "confidence": 0.0453941832430522,
+      "box": [
+        490.0,
+        546.0,
+        578.0,
+        570.0
+      ]
+    },
+    {
+      "text": "Zinc",
+      "confidence": 0.6007605341376556,
+      "box": [
+        471.0,
+        605.0,
+        602.0,
+        669.0
+      ]
+    },
+    {
+      "text": "UUIrtIIOI",
+      "confidence": 0.015550968331606931,
+      "box": [
+        464.0,
+        666.0,
+        610.0,
+        691.0
+      ]
+    },
+    {
+      "text": "Imrne Spot",
+      "confidence": 0.20384173595917018,
+      "box": [
+        478.0,
+        692.0,
+        585.0,
+        711.0
+      ]
+    },
+    {
+      "text": "Qirs",
+      "confidence": 0.09370306879281998,
+      "box": [
+        483.0,
+        747.0,
+        581.0,
+        767.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        530.0,
+        974.0,
+        598.0,
+        1024.0
+      ]
+    }
+  ],
+  "image_sha256": "7e026f6c74238949946763a4b66954634faad52afb1b36b25918e766e2cf7341",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

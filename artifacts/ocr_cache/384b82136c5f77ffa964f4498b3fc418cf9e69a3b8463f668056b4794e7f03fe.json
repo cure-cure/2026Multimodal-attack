@@ -1,0 +1,43 @@
+{
+  "ocr_text": "WHO WOULD WIN? 皿@皿踞 (E&皿C[",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WHO WOULD WIN?",
+      "confidence": 0.8402426602652154,
+      "box": [
+        78.0,
+        4.0,
+        732.0,
+        78.0
+      ]
+    },
+    {
+      "text": "皿@皿踞",
+      "confidence": 5.0135087803937495e-05,
+      "box": [
+        15.0,
+        127.0,
+        413.0,
+        187.0
+      ]
+    },
+    {
+      "text": "(E&皿C[",
+      "confidence": 4.532336384914425e-05,
+      "box": [
+        435.0,
+        125.0,
+        779.0,
+        185.0
+      ]
+    }
+  ],
+  "image_sha256": "384b82136c5f77ffa964f4498b3fc418cf9e69a3b8463f668056b4794e7f03fe",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

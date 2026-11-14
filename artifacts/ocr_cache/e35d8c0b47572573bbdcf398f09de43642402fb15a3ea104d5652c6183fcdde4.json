@@ -1,0 +1,373 @@
+{
+  "ocr_text": "Rlig Nole anWaryZOZ0 Countering Terrorism andViolent Extremism: Erosion of Childrens Rights About Watchlist i Armed Conlict Watchliston Childrenand Armed Conflictstrivesto endviolationsagainst Childreninarmed conflics Summary OfFindings adto yuaranteethelr rights. Asa globalnetwork Watchlistbuilds partnerships aOn9 local nationalrand intemationalnongovernmental organizatiolls,enhancing mutual capacities and strengths. Working tgether; strategically collectand Jisseminate information o Violations agalnst childrenin Conflicts in orderto influence key UecisiolIakersto Create a4 implement progralls ad policies thateflectiely protectchildren Watchlist on Childrenand Armed Conflictis a fscallysponsored projectof United Charitable US based 501lc}3 not forproft organization Watchlistowatrhlistory WATCH WWVWatchlistorg Te",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Rlig Nole",
+      "confidence": 0.28376968797292673,
+      "box": [
+        50.0,
+        52.0,
+        124.0,
+        76.0
+      ]
+    },
+    {
+      "text": "anWaryZOZ0",
+      "confidence": 0.07320012437153765,
+      "box": [
+        57.0,
+        77.0,
+        129.0,
+        95.0
+      ]
+    },
+    {
+      "text": "Countering Terrorism",
+      "confidence": 0.8050579624213485,
+      "box": [
+        52.0,
+        167.0,
+        292.0,
+        199.0
+      ]
+    },
+    {
+      "text": "andViolent Extremism:",
+      "confidence": 0.851301218790852,
+      "box": [
+        50.0,
+        195.0,
+        316.0,
+        226.0
+      ]
+    },
+    {
+      "text": "Erosion of Childrens Rights",
+      "confidence": 0.49233110588537393,
+      "box": [
+        82.0,
+        242.0,
+        276.0,
+        268.0
+      ]
+    },
+    {
+      "text": "About Watchlist",
+      "confidence": 0.9972454518759318,
+      "box": [
+        420.0,
+        236.0,
+        556.0,
+        260.0
+      ]
+    },
+    {
+      "text": "i Armed Conlict",
+      "confidence": 0.5980592434083313,
+      "box": [
+        51.0,
+        265.0,
+        181.0,
+        285.0
+      ]
+    },
+    {
+      "text": "Watchliston Childrenand",
+      "confidence": 0.9338505132829358,
+      "box": [
+        421.0,
+        265.0,
+        543.0,
+        281.0
+      ]
+    },
+    {
+      "text": "Armed Conflictstrivesto",
+      "confidence": 0.5236822917194097,
+      "box": [
+        419.0,
+        283.0,
+        535.0,
+        297.0
+      ]
+    },
+    {
+      "text": "endviolationsagainst",
+      "confidence": 0.7488898740978367,
+      "box": [
+        419.0,
+        299.0,
+        525.0,
+        318.0
+      ]
+    },
+    {
+      "text": "Childreninarmed conflics",
+      "confidence": 0.5947189757263471,
+      "box": [
+        417.0,
+        315.0,
+        543.0,
+        333.0
+      ]
+    },
+    {
+      "text": "Summary OfFindings",
+      "confidence": 0.5253497901909148,
+      "box": [
+        51.0,
+        320.0,
+        222.0,
+        351.0
+      ]
+    },
+    {
+      "text": "adto yuaranteethelr",
+      "confidence": 0.2717064962043257,
+      "box": [
+        417.0,
+        337.0,
+        525.0,
+        351.0
+      ]
+    },
+    {
+      "text": "rights. Asa globalnetwork",
+      "confidence": 0.27688441182637535,
+      "box": [
+        415.0,
+        351.0,
+        545.0,
+        369.0
+      ]
+    },
+    {
+      "text": "Watchlistbuilds partnerships",
+      "confidence": 0.6348358811328496,
+      "box": [
+        415.0,
+        371.0,
+        553.0,
+        387.0
+      ]
+    },
+    {
+      "text": "aOn9 local nationalrand",
+      "confidence": 0.27067076538386703,
+      "box": [
+        413.0,
+        389.0,
+        541.0,
+        405.0
+      ]
+    },
+    {
+      "text": "intemationalnongovernmental",
+      "confidence": 0.6415612223691306,
+      "box": [
+        413.0,
+        407.0,
+        563.0,
+        423.0
+      ]
+    },
+    {
+      "text": "organizatiolls,enhancing",
+      "confidence": 0.3630409565821721,
+      "box": [
+        410.0,
+        422.0,
+        533.0,
+        439.0
+      ]
+    },
+    {
+      "text": "mutual capacities and",
+      "confidence": 0.6668255367381435,
+      "box": [
+        411.0,
+        441.0,
+        517.0,
+        457.0
+      ]
+    },
+    {
+      "text": "strengths. Working tgether;",
+      "confidence": 0.6339713277041137,
+      "box": [
+        409.0,
+        456.0,
+        547.0,
+        475.0
+      ]
+    },
+    {
+      "text": "strategically collectand",
+      "confidence": 0.7551371057155485,
+      "box": [
+        425.0,
+        475.0,
+        539.0,
+        493.0
+      ]
+    },
+    {
+      "text": "Jisseminate information o",
+      "confidence": 0.5154011824226848,
+      "box": [
+        407.0,
+        493.0,
+        539.0,
+        507.0
+      ]
+    },
+    {
+      "text": "Violations agalnst childrenin",
+      "confidence": 0.3999240455462813,
+      "box": [
+        407.0,
+        511.0,
+        545.0,
+        527.0
+      ]
+    },
+    {
+      "text": "Conflicts in orderto influence key",
+      "confidence": 0.3407354355476456,
+      "box": [
+        405.0,
+        527.0,
+        561.0,
+        543.0
+      ]
+    },
+    {
+      "text": "UecisiolIakersto Create a4",
+      "confidence": 0.12949359247613723,
+      "box": [
+        405.0,
+        547.0,
+        547.0,
+        561.0
+      ]
+    },
+    {
+      "text": "implement progralls ad policies",
+      "confidence": 0.4781738056004892,
+      "box": [
+        403.0,
+        561.0,
+        563.0,
+        579.0
+      ]
+    },
+    {
+      "text": "thateflectiely protectchildren",
+      "confidence": 0.5919188418384576,
+      "box": [
+        403.0,
+        581.0,
+        555.0,
+        597.0
+      ]
+    },
+    {
+      "text": "Watchlist on Childrenand Armed",
+      "confidence": 0.42106717192033216,
+      "box": [
+        401.0,
+        607.0,
+        557.0,
+        621.0
+      ]
+    },
+    {
+      "text": "Conflictis a fscallysponsored",
+      "confidence": 0.3994543371100188,
+      "box": [
+        401.0,
+        624.0,
+        541.0,
+        641.0
+      ]
+    },
+    {
+      "text": "projectof United Charitable",
+      "confidence": 0.7771044974040291,
+      "box": [
+        399.0,
+        640.0,
+        533.0,
+        657.0
+      ]
+    },
+    {
+      "text": "US based 501lc}3 not forproft",
+      "confidence": 0.1581971845580875,
+      "box": [
+        399.0,
+        659.0,
+        543.0,
+        675.0
+      ]
+    },
+    {
+      "text": "organization",
+      "confidence": 0.6364818336513983,
+      "box": [
+        396.0,
+        676.0,
+        465.0,
+        693.0
+      ]
+    },
+    {
+      "text": "Watchlistowatrhlistory",
+      "confidence": 0.5220405962707811,
+      "box": [
+        395.0,
+        717.0,
+        511.0,
+        733.0
+      ]
+    },
+    {
+      "text": "WATCH",
+      "confidence": 0.9077571838293236,
+      "box": [
+        55.0,
+        727.0,
+        101.0,
+        741.0
+      ]
+    },
+    {
+      "text": "WWVWatchlistorg",
+      "confidence": 0.4721448965109422,
+      "box": [
+        392.0,
+        733.0,
+        489.0,
+        751.0
+      ]
+    },
+    {
+      "text": "Te",
+      "confidence": 0.6599771340596796,
+      "box": [
+        50.115144509037506,
+        244.23016355523603,
+        84.8848554909625,
+        266.76983644476394
+      ]
+    }
+  ],
+  "image_sha256": "e35d8c0b47572573bbdcf398f09de43642402fb15a3ea104d5652c6183fcdde4",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

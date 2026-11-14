@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Samuel Placeholder 41 Age",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Samuel Placeholder",
+      "confidence": 0.7619408189614174,
+      "box": [
+        514.0,
+        638.0,
+        849.0,
+        678.0
+      ]
+    },
+    {
+      "text": "41",
+      "confidence": 0.9982054377115883,
+      "box": [
+        688.0,
+        676.0,
+        724.0,
+        700.0
+      ]
+    },
+    {
+      "text": "Age",
+      "confidence": 0.9990251502578327,
+      "box": [
+        606.1396749016378,
+        669.1385464278869,
+        683.8603250983622,
+        713.8614535721131
+      ]
+    }
+  ],
+  "image_sha256": "a4669e8cdd89bab2c9fc6ec2271d9ce734698c3f6a31800599c5b59fba1a4643",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "ocr_text": "ShWF JStoCk WIN,shutterstockcom 782854417",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ShWF",
+      "confidence": 0.45490628480911255,
+      "box": [
+        94.0,
+        126.0,
+        172.0,
+        174.0
+      ]
+    },
+    {
+      "text": "JStoCk",
+      "confidence": 0.32528410770120314,
+      "box": [
+        220.0,
+        125.0,
+        354.0,
+        173.0
+      ]
+    },
+    {
+      "text": "WIN,shutterstockcom",
+      "confidence": 0.15568005689122882,
+      "box": [
+        117.0,
+        303.0,
+        253.0,
+        317.0
+      ]
+    },
+    {
+      "text": "782854417",
+      "confidence": 0.9999369770292733,
+      "box": [
+        259.0,
+        303.0,
+        333.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "e65bb50abfcda3c41e966a725a5f2896ffdcd701b7771acbb793ee51d3b7cda9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

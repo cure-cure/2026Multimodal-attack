@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Base Camp LISTENING TO GOD",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Base Camp",
+      "confidence": 0.9322861836258884,
+      "box": [
+        143.0,
+        67.0,
+        309.0,
+        110.0
+      ]
+    },
+    {
+      "text": "LISTENING TO GOD",
+      "confidence": 0.8278154131717018,
+      "box": [
+        70.0,
+        142.0,
+        378.0,
+        174.0
+      ]
+    }
+  ],
+  "image_sha256": "1cb6431a8555da1b897be09ee14e57d7461b1ee37602581d7030feb0801409df",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

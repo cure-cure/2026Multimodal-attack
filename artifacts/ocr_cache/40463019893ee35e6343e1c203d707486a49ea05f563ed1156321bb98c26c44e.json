@@ -1,0 +1,143 @@
+{
+  "ocr_text": "DOUBL YOUR MONEY TODAY GUARANTEED! Stallyour reabur money elorand guorsyer munies and aflies chemdg on burties, hensind resports but no beaty ofour, funnly linek list in the norble assitanture finht) 'Upwnd hie pecledt profits:。 Dobubtes tour money it at thermisres and peased loney lasponits。 Decondsof Webinar Nee Dobbier al Acouned。",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "DOUBL YOUR MONEY",
+      "confidence": 0.4623027737646513,
+      "box": [
+        96.0,
+        18.0,
+        930.0,
+        94.0
+      ]
+    },
+    {
+      "text": "TODAY",
+      "confidence": 0.8261609133818749,
+      "box": [
+        62.0,
+        100.0,
+        331.0,
+        176.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        343.0,
+        121.0,
+        409.0,
+        161.0
+      ]
+    },
+    {
+      "text": "GUARANTEED!",
+      "confidence": 0.8241569492490493,
+      "box": [
+        421.0,
+        99.0,
+        960.0,
+        176.0
+      ]
+    },
+    {
+      "text": "Stallyour reabur money elorand guorsyer munies",
+      "confidence": 0.5081006212161758,
+      "box": [
+        46.0,
+        240.0,
+        974.0,
+        296.0
+      ]
+    },
+    {
+      "text": "and aflies chemdg on burties, hensind resports",
+      "confidence": 0.6189245290111267,
+      "box": [
+        73.0,
+        281.0,
+        949.0,
+        343.0
+      ]
+    },
+    {
+      "text": "but no beaty ofour, funnly linek list in the norble",
+      "confidence": 0.5269684286988153,
+      "box": [
+        62.0,
+        334.0,
+        956.0,
+        391.0
+      ]
+    },
+    {
+      "text": "assitanture finht) 'Upwnd hie pecledt profits:。",
+      "confidence": 0.4735108380660652,
+      "box": [
+        107.0,
+        378.0,
+        914.0,
+        442.0
+      ]
+    },
+    {
+      "text": "Dobubtes tour money",
+      "confidence": 0.8123543641623866,
+      "box": [
+        122.0,
+        683.0,
+        530.0,
+        739.0
+      ]
+    },
+    {
+      "text": "it at thermisres and",
+      "confidence": 0.3805647290792636,
+      "box": [
+        551.0,
+        687.0,
+        899.0,
+        731.0
+      ]
+    },
+    {
+      "text": "peased loney lasponits。",
+      "confidence": 0.6371033094453454,
+      "box": [
+        294.0,
+        732.0,
+        720.0,
+        788.0
+      ]
+    },
+    {
+      "text": "Decondsof Webinar",
+      "confidence": 0.8270799195622067,
+      "box": [
+        360.0,
+        853.0,
+        667.0,
+        889.0
+      ]
+    },
+    {
+      "text": "Nee Dobbier al Acouned。",
+      "confidence": 0.6135102205816079,
+      "box": [
+        376.0,
+        925.0,
+        642.0,
+        956.0
+      ]
+    }
+  ],
+  "image_sha256": "40463019893ee35e6343e1c203d707486a49ea05f563ed1156321bb98c26c44e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

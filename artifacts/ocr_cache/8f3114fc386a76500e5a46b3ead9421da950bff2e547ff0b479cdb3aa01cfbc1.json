@@ -1,0 +1,33 @@
+{
+  "ocr_text": "BWerso WNshutterstockcom . 219874756",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BWerso",
+      "confidence": 0.06519551295248537,
+      "box": [
+        95.0,
+        209.0,
+        350.0,
+        249.0
+      ]
+    },
+    {
+      "text": "WNshutterstockcom . 219874756",
+      "confidence": 0.30360480820567026,
+      "box": [
+        117.0,
+        453.0,
+        335.0,
+        469.0
+      ]
+    }
+  ],
+  "image_sha256": "8f3114fc386a76500e5a46b3ead9421da950bff2e547ff0b479cdb3aa01cfbc1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

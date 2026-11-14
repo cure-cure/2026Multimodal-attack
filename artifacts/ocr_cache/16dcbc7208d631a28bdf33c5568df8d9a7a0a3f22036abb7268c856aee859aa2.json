@@ -1,0 +1,23 @@
+{
+  "ocr_text": "@Patrick Sun 2013",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@Patrick Sun 2013",
+      "confidence": 0.6374505447052902,
+      "box": [
+        0.0,
+        497.0,
+        151.0,
+        517.0
+      ]
+    }
+  ],
+  "image_sha256": "16dcbc7208d631a28bdf33c5568df8d9a7a0a3f22036abb7268c856aee859aa2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

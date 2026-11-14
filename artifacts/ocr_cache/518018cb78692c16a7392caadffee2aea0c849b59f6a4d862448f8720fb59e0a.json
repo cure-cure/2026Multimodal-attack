@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Uu",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Uu",
+      "confidence": 0.291681540495536,
+      "box": [
+        524.0,
+        10.0,
+        554.0,
+        18.0
+      ]
+    }
+  ],
+  "image_sha256": "518018cb78692c16a7392caadffee2aea0c849b59f6a4d862448f8720fb59e0a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

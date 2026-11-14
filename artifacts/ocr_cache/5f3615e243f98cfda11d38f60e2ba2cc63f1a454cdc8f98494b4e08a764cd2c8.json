@@ -1,0 +1,33 @@
+{
+  "ocr_text": "卅州帆 卅 州+",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "卅州帆",
+      "confidence": 0.025035608359048646,
+      "box": [
+        0.0,
+        0.0,
+        236.0,
+        93.0
+      ]
+    },
+    {
+      "text": "卅 州+",
+      "confidence": 0.0013588391011580825,
+      "box": [
+        0.0,
+        92.0,
+        236.0,
+        194.0
+      ]
+    }
+  ],
+  "image_sha256": "5f3615e243f98cfda11d38f60e2ba2cc63f1a454cdc8f98494b4e08a764cd2c8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

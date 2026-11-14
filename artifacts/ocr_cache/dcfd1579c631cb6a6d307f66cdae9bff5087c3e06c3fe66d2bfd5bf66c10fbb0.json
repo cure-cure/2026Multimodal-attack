@@ -1,0 +1,23 @@
+{
+  "ocr_text": "RERRON",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "RERRON",
+      "confidence": 0.22560680795006222,
+      "box": [
+        93.0,
+        46.0,
+        209.0,
+        99.0
+      ]
+    }
+  ],
+  "image_sha256": "dcfd1579c631cb6a6d307f66cdae9bff5087c3e06c3fe66d2bfd5bf66c10fbb0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

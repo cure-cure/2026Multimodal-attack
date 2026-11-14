@@ -1,0 +1,43 @@
+{
+  "ocr_text": "[ bigstockcom 231102958",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "[",
+      "confidence": 0.0006405476578344484,
+      "box": [
+        124.0,
+        298.0,
+        154.0,
+        306.0
+      ]
+    },
+    {
+      "text": "bigstockcom",
+      "confidence": 0.975844352157841,
+      "box": [
+        156.0,
+        292.0,
+        243.0,
+        311.0
+      ]
+    },
+    {
+      "text": "231102958",
+      "confidence": 0.9997587058416461,
+      "box": [
+        253.0,
+        293.0,
+        327.0,
+        309.0
+      ]
+    }
+  ],
+  "image_sha256": "cd2f959f7cdfeb8f1b6a2562b64c87fd27fcc93b1fa0374d98e181d19800fccb",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

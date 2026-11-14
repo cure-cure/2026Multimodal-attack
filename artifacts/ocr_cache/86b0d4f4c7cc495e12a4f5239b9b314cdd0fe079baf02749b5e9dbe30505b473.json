@@ -1,0 +1,43 @@
+{
+  "ocr_text": "S9W \"BOtto Iegr' thouyhtit Woold [ 9fiel pfhaBKIBOnle",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "S9W \"BOtto Iegr'",
+      "confidence": 0.15108267790650245,
+      "box": [
+        44.0,
+        8.0,
+        396.0,
+        58.0
+      ]
+    },
+    {
+      "text": "thouyhtit Woold [",
+      "confidence": 0.007451457406943259,
+      "box": [
+        79.0,
+        201.0,
+        377.0,
+        245.0
+      ]
+    },
+    {
+      "text": "9fiel pfhaBKIBOnle",
+      "confidence": 0.024442142837093644,
+      "box": [
+        73.0,
+        235.0,
+        409.0,
+        279.0
+      ]
+    }
+  ],
+  "image_sha256": "86b0d4f4c7cc495e12a4f5239b9b314cdd0fe079baf02749b5e9dbe30505b473",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

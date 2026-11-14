@@ -1,0 +1,43 @@
+{
+  "ocr_text": "entersy WINshutterstockCom 328958",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "entersy",
+      "confidence": 0.029666127851529136,
+      "box": [
+        94.0,
+        136.0,
+        306.0,
+        186.0
+      ]
+    },
+    {
+      "text": "WINshutterstockCom",
+      "confidence": 0.1510550175420812,
+      "box": [
+        121.0,
+        325.0,
+        259.0,
+        339.0
+      ]
+    },
+    {
+      "text": "328958",
+      "confidence": 0.7670119598577158,
+      "box": [
+        279.0,
+        323.0,
+        329.0,
+        337.0
+      ]
+    }
+  ],
+  "image_sha256": "da9d5aab872fe9e426841e4c3aa3b1e84ed12fe9a720813d0d035f33f2784e17",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

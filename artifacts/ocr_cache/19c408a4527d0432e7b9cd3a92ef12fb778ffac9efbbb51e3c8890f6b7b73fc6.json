@@ -1,0 +1,23 @@
+{
+  "ocr_text": "HANDICAPPED",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "HANDICAPPED",
+      "confidence": 0.9552833240182355,
+      "box": [
+        21.0,
+        23.0,
+        379.0,
+        91.0
+      ]
+    }
+  ],
+  "image_sha256": "19c408a4527d0432e7b9cd3a92ef12fb778ffac9efbbb51e3c8890f6b7b73fc6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

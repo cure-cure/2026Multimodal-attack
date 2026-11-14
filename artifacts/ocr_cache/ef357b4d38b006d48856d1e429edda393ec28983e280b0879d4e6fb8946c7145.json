@@ -1,0 +1,23 @@
+{
+  "ocr_text": "QaOIr",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "QaOIr",
+      "confidence": 0.005979631428197207,
+      "box": [
+        83.0,
+        173.0,
+        208.0,
+        197.0
+      ]
+    }
+  ],
+  "image_sha256": "ef357b4d38b006d48856d1e429edda393ec28983e280b0879d4e6fb8946c7145",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

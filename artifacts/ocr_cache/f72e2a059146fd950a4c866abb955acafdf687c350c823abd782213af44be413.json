@@ -1,0 +1,43 @@
+{
+  "ocr_text": "帐 TOILET KRYATAI PENGANTARIOJOL",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "帐",
+      "confidence": 0.016136295346804497,
+      "box": [
+        183.0,
+        157.0,
+        229.0,
+        195.0
+      ]
+    },
+    {
+      "text": "TOILET KRYATAI",
+      "confidence": 0.27075590917947423,
+      "box": [
+        165.0,
+        193.0,
+        247.0,
+        207.0
+      ]
+    },
+    {
+      "text": "PENGANTARIOJOL",
+      "confidence": 0.5586974263802085,
+      "box": [
+        164.0,
+        201.0,
+        253.0,
+        220.0
+      ]
+    }
+  ],
+  "image_sha256": "f72e2a059146fd950a4c866abb955acafdf687c350c823abd782213af44be413",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "ocr_text": "GUARANTEED 500% Ro i24 hours Sign Up Now!",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "GUARANTEED",
+      "confidence": 0.8818421769961111,
+      "box": [
+        240.0,
+        242.0,
+        794.0,
+        316.0
+      ]
+    },
+    {
+      "text": "500% Ro",
+      "confidence": 0.803956671876068,
+      "box": [
+        206.0,
+        333.0,
+        823.0,
+        465.0
+      ]
+    },
+    {
+      "text": "i24 hours",
+      "confidence": 0.8649491953810831,
+      "box": [
+        356.0,
+        474.0,
+        666.0,
+        528.0
+      ]
+    },
+    {
+      "text": "Sign Up Now!",
+      "confidence": 0.9860141483065926,
+      "box": [
+        448.0,
+        574.0,
+        582.0,
+        606.0
+      ]
+    }
+  ],
+  "image_sha256": "6900228b42d1d9ffd1e8a35fa05b69ab9f2da28a68ea14b47d86ab7948a220a5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

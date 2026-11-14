@@ -1,0 +1,43 @@
+{
+  "ocr_text": "afcanaIBrca4 IBaders Oyahzny the lariots arl 29,1992",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "afcanaIBrca4 IBaders",
+      "confidence": 0.03194067189329104,
+      "box": [
+        107.0,
+        0.0,
+        643.0,
+        59.0
+      ]
+    },
+    {
+      "text": "Oyahzny the lariots",
+      "confidence": 0.22259961230977943,
+      "box": [
+        170.0,
+        61.0,
+        601.0,
+        123.0
+      ]
+    },
+    {
+      "text": "arl 29,1992",
+      "confidence": 0.43823474593333767,
+      "box": [
+        243.0,
+        473.0,
+        614.0,
+        557.0
+      ]
+    }
+  ],
+  "image_sha256": "4297869fcc68204ce8ba46f3992bdc3070fe75d0417665d18700b77c6b31cef8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

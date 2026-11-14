@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Volenteer NE 391 C1eRa 6035CoIIa eti",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Volenteer",
+      "confidence": 0.7702317568743562,
+      "box": [
+        557.0,
+        845.0,
+        674.0,
+        878.0
+      ]
+    },
+    {
+      "text": "NE 391",
+      "confidence": 0.787989823030522,
+      "box": [
+        589.0,
+        881.0,
+        637.0,
+        895.0
+      ]
+    },
+    {
+      "text": "C1eRa ",
+      "confidence": 0.011055703930229884,
+      "box": [
+        594.0,
+        894.0,
+        646.0,
+        902.0
+      ]
+    },
+    {
+      "text": "6035CoIIa eti",
+      "confidence": 0.16150349676214165,
+      "box": [
+        549.0,
+        903.0,
+        615.0,
+        915.0
+      ]
+    }
+  ],
+  "image_sha256": "50b8a9de0640a49f20b758d01541ea24bef8cd336d88465c345a2a2eb30fbd3d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

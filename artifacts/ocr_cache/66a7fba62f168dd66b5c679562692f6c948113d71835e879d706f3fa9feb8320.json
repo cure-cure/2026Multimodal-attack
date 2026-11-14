@@ -1,0 +1,23 @@
+{
+  "ocr_text": "臼",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "臼",
+      "confidence": 0.0005919395383065101,
+      "box": [
+        83.0,
+        181.0,
+        147.0,
+        271.0
+      ]
+    }
+  ],
+  "image_sha256": "66a7fba62f168dd66b5c679562692f6c948113d71835e879d706f3fa9feb8320",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

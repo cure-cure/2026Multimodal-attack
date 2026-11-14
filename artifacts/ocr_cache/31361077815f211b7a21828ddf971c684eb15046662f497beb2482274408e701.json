@@ -1,0 +1,23 @@
+{
+  "ocr_text": "皿阳唧",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "皿阳唧",
+      "confidence": 1.6700075834094703e-05,
+      "box": [
+        8.0,
+        141.0,
+        138.0,
+        172.0
+      ]
+    }
+  ],
+  "image_sha256": "31361077815f211b7a21828ddf971c684eb15046662f497beb2482274408e701",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

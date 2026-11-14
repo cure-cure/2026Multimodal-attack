@@ -1,0 +1,83 @@
+{
+  "ocr_text": "Honay Goman oCoo ym。 044n Alex Q.Noone Vlew Gitter Center 555 XXXX",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Honay Goman",
+      "confidence": 0.5364245092472246,
+      "box": [
+        138.0,
+        198.0,
+        386.0,
+        251.0
+      ]
+    },
+    {
+      "text": "oCoo",
+      "confidence": 0.007208778522908688,
+      "box": [
+        666.0,
+        248.0,
+        698.0,
+        254.0
+      ]
+    },
+    {
+      "text": "ym。",
+      "confidence": 0.0026384024169516266,
+      "box": [
+        696.0,
+        256.0,
+        726.0,
+        262.0
+      ]
+    },
+    {
+      "text": "044n",
+      "confidence": 0.013629913330078125,
+      "box": [
+        648.0,
+        260.0,
+        678.0,
+        266.0
+      ]
+    },
+    {
+      "text": "Alex Q.Noone",
+      "confidence": 0.7242776070630981,
+      "box": [
+        134.0,
+        367.0,
+        324.0,
+        398.0
+      ]
+    },
+    {
+      "text": "Vlew Gitter Center",
+      "confidence": 0.49074719163006947,
+      "box": [
+        133.0,
+        401.0,
+        255.0,
+        417.0
+      ]
+    },
+    {
+      "text": "555 XXXX",
+      "confidence": 0.5382766498713326,
+      "box": [
+        124.0,
+        433.0,
+        269.0,
+        470.0
+      ]
+    }
+  ],
+  "image_sha256": "98d2da554a38a1e5984aaf3ea5b033374f90e64f32aee15e880e36a351cebf5c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

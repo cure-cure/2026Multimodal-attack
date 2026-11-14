@@ -1,0 +1,33 @@
+{
+  "ocr_text": "川 (",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "川",
+      "confidence": 0.012527270325533246,
+      "box": [
+        1434.0,
+        54.0,
+        1592.0,
+        180.0
+      ]
+    },
+    {
+      "text": "(",
+      "confidence": 0.4519340502929623,
+      "box": [
+        942.0,
+        1207.0,
+        999.0,
+        1237.0
+      ]
+    }
+  ],
+  "image_sha256": "4da802c7ef8b27e04b4801dde9febd4fe13ce599d6e98bdc0e694adfbf6e2c5e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

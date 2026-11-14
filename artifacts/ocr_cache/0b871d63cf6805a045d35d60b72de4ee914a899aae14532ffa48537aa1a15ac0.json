@@ -1,0 +1,53 @@
+{
+  "ocr_text": "RerS @ WINshutterstockcom 5560465",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "RerS",
+      "confidence": 0.1938541978597641,
+      "box": [
+        173.0,
+        135.0,
+        267.0,
+        173.0
+      ]
+    },
+    {
+      "text": "@",
+      "confidence": 0.5800523816652117,
+      "box": [
+        304.0,
+        138.0,
+        328.0,
+        168.0
+      ]
+    },
+    {
+      "text": "WINshutterstockcom",
+      "confidence": 0.15103207369482186,
+      "box": [
+        125.0,
+        301.0,
+        261.0,
+        315.0
+      ]
+    },
+    {
+      "text": "5560465",
+      "confidence": 0.9901368091537954,
+      "box": [
+        267.0,
+        299.0,
+        325.0,
+        315.0
+      ]
+    }
+  ],
+  "image_sha256": "0b871d63cf6805a045d35d60b72de4ee914a899aae14532ffa48537aa1a15ac0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

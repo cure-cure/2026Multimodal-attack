@@ -1,0 +1,23 @@
+{
+  "ocr_text": "喇",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "喇",
+      "confidence": 0.0002492373034091444,
+      "box": [
+        262.40780661883616,
+        382.06841446425915,
+        359.59219338116384,
+        466.93158553574085
+      ]
+    }
+  ],
+  "image_sha256": "b4b1d4198213007e410b8308a26df99641ec1b0be998f22fc1939384233e2ac9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

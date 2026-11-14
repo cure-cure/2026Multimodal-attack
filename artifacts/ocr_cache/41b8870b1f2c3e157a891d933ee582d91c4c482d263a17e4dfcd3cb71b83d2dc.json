@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Doctrine OfSoterjology(Salyatjon)",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Doctrine OfSoterjology(Salyatjon)",
+      "confidence": 0.7561193135024583,
+      "box": [
+        8.0,
+        230.0,
+        1005.0,
+        306.0
+      ]
+    }
+  ],
+  "image_sha256": "41b8870b1f2c3e157a891d933ee582d91c4c482d263a17e4dfcd3cb71b83d2dc",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

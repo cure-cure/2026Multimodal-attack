@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Ccs CcR TEST 8888",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Ccs",
+      "confidence": 0.8276868113476415,
+      "box": [
+        290.0,
+        578.0,
+        350.0,
+        602.0
+      ]
+    },
+    {
+      "text": "CcR",
+      "confidence": 0.015393120066538996,
+      "box": [
+        717.0,
+        593.0,
+        769.0,
+        605.0
+      ]
+    },
+    {
+      "text": "TEST 8888",
+      "confidence": 0.4465574077635189,
+      "box": [
+        431.0,
+        688.0,
+        635.0,
+        732.0
+      ]
+    }
+  ],
+  "image_sha256": "05921d324a4b8d44f9a9239de977c897e8379c37e761d238a8b3f4d976de0557",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

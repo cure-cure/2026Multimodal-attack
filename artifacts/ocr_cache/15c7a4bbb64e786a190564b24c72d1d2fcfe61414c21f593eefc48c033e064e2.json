@@ -1,0 +1,53 @@
+{
+  "ocr_text": "BOU [ bigstockcom 137781920",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BOU",
+      "confidence": 0.05132251320003995,
+      "box": [
+        127.0,
+        173.0,
+        324.0,
+        245.0
+      ]
+    },
+    {
+      "text": "[",
+      "confidence": 0.0006232988132849476,
+      "box": [
+        124.0,
+        426.0,
+        154.0,
+        434.0
+      ]
+    },
+    {
+      "text": "bigstockcom",
+      "confidence": 0.9756295395526152,
+      "box": [
+        156.0,
+        420.0,
+        243.0,
+        439.0
+      ]
+    },
+    {
+      "text": "137781920",
+      "confidence": 0.9999097167935852,
+      "box": [
+        253.0,
+        421.0,
+        327.0,
+        437.0
+      ]
+    }
+  ],
+  "image_sha256": "15c7a4bbb64e786a190564b24c72d1d2fcfe61414c21f593eefc48c033e064e2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

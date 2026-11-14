@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Vectorstock VectorStock.com/10251012",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Vectorstock",
+      "confidence": 0.6381600304177588,
+      "box": [
+        25.0,
+        1021.0,
+        217.0,
+        1061.0
+      ]
+    },
+    {
+      "text": "VectorStock.com/10251012",
+      "confidence": 0.8517824108774419,
+      "box": [
+        724.0,
+        1032.0,
+        976.0,
+        1058.0
+      ]
+    }
+  ],
+  "image_sha256": "d57c2856a94abf69d9b48c6866af73bda1e13fc2c25149bbf9f7cfebcd544f16",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

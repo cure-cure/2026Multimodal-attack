@@ -1,0 +1,163 @@
+{
+  "ocr_text": "That Senbed Poocerabl 口 SJmonerondcsangbemail 1218 Ouraarnon: Mounter Guarl Cst: 9,40! An stard: the Porsfa 3 Disyarl: Jdure: Pritoce Probjucit Shourd! Do Your udd you dlyest our hact sree; Juy IO woshen move. No to thold retard。 DOUBLE YOUR MONEY TODAY GUARANTEED! \"Book No risk instant returns;' Nuy gaed",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "That Senbed Poocerabl",
+      "confidence": 0.8932835896525727,
+      "box": [
+        2.0,
+        22.0,
+        348.0,
+        54.0
+      ]
+    },
+    {
+      "text": "口",
+      "confidence": 0.05956489557219413,
+      "box": [
+        880.0,
+        24.0,
+        920.0,
+        54.0
+      ]
+    },
+    {
+      "text": "SJmonerondcsangbemail",
+      "confidence": 0.12169279014562849,
+      "box": [
+        17.0,
+        93.0,
+        447.0,
+        133.0
+      ]
+    },
+    {
+      "text": "1218",
+      "confidence": 0.9998690485954285,
+      "box": [
+        864.0,
+        94.0,
+        934.0,
+        126.0
+      ]
+    },
+    {
+      "text": "Ouraarnon: Mounter",
+      "confidence": 0.9470581991205788,
+      "box": [
+        17.0,
+        133.0,
+        329.0,
+        169.0
+      ]
+    },
+    {
+      "text": "Guarl Cst: 9,40!",
+      "confidence": 0.6504140055959216,
+      "box": [
+        17.0,
+        171.0,
+        265.0,
+        209.0
+      ]
+    },
+    {
+      "text": "An stard: the Porsfa 3",
+      "confidence": 0.7863634373176602,
+      "box": [
+        17.0,
+        211.0,
+        335.0,
+        247.0
+      ]
+    },
+    {
+      "text": "Disyarl: Jdure: Pritoce Probjucit Shourd!",
+      "confidence": 0.4751553697743096,
+      "box": [
+        18.0,
+        250.0,
+        605.0,
+        294.0
+      ]
+    },
+    {
+      "text": "Do Your udd you dlyest our hact sree; Juy IO woshen move. No",
+      "confidence": 0.22838325702943743,
+      "box": [
+        19.0,
+        317.0,
+        935.0,
+        358.0
+      ]
+    },
+    {
+      "text": "to thold retard。",
+      "confidence": 0.7189540037452294,
+      "box": [
+        17.0,
+        353.0,
+        239.0,
+        391.0
+      ]
+    },
+    {
+      "text": "DOUBLE YOUR MONEY TODAY",
+      "confidence": 0.8667543544387879,
+      "box": [
+        17.0,
+        415.0,
+        657.0,
+        459.0
+      ]
+    },
+    {
+      "text": "GUARANTEED!",
+      "confidence": 0.9645176291755624,
+      "box": [
+        689.0,
+        415.0,
+        999.0,
+        459.0
+      ]
+    },
+    {
+      "text": "\"Book No risk instant returns;'",
+      "confidence": 0.574217505558138,
+      "box": [
+        17.0,
+        459.0,
+        447.0,
+        497.0
+      ]
+    },
+    {
+      "text": "Nuy",
+      "confidence": 0.7757398948503179,
+      "box": [
+        797.2052668077979,
+        91.16253799371492,
+        867.7947331922021,
+        132.83746200628508
+      ]
+    },
+    {
+      "text": "gaed",
+      "confidence": 0.9583540419371738,
+      "box": [
+        929.4050955543422,
+        316.05319136713894,
+        1010.5949044456578,
+        358.94680863286106
+      ]
+    }
+  ],
+  "image_sha256": "3e0dd0852e775756dadd58d983437ffa9258690876bf6ac60fac1dc20043bc74",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Optmlzed DyWWW.Imageoptlmizernet IGAL DRUGS",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Optmlzed DyWWW.Imageoptlmizernet",
+      "confidence": 0.28741066388273195,
+      "box": [
+        747.0,
+        829.0,
+        991.0,
+        845.0
+      ]
+    },
+    {
+      "text": "IGAL",
+      "confidence": 0.8832195401191711,
+      "box": [
+        395.076604853374,
+        423.0446652881101,
+        610.923395146626,
+        540.9553347118899
+      ]
+    },
+    {
+      "text": "DRUGS",
+      "confidence": 0.8855990869456842,
+      "box": [
+        599.1972417069924,
+        462.04282171347035,
+        844.8027582930076,
+        596.9571782865297
+      ]
+    }
+  ],
+  "image_sha256": "6cb727b31caea4d826fa5e2357b02877e82b7eda29f725c6f29bbf96d74bda8a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

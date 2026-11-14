@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Who did Maslow study? 惋",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Who did Maslow study?",
+      "confidence": 0.9418545408312742,
+      "box": [
+        123.0,
+        20.0,
+        599.0,
+        81.0
+      ]
+    },
+    {
+      "text": "惋",
+      "confidence": 0.00010520121757729654,
+      "box": [
+        500.0,
+        184.0,
+        646.0,
+        378.0
+      ]
+    }
+  ],
+  "image_sha256": "e8ee891b41fc8f64bad24aedc653f80a5cca96a3c597e1995fa5c68ede618192",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

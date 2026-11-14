@@ -1,0 +1,43 @@
+{
+  "ocr_text": "U酬}皿咽 [皿0: Idt0 C00",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "U酬}皿咽",
+      "confidence": 8.034854776125894e-06,
+      "box": [
+        6.0,
+        0.0,
+        291.0,
+        52.0
+      ]
+    },
+    {
+      "text": "[皿0:",
+      "confidence": 3.278573421994224e-05,
+      "box": [
+        12.0,
+        48.0,
+        294.0,
+        102.0
+      ]
+    },
+    {
+      "text": "Idt0 C00",
+      "confidence": 0.043369199935393836,
+      "box": [
+        2.0,
+        392.0,
+        54.0,
+        400.0
+      ]
+    }
+  ],
+  "image_sha256": "c49c54904ad6735b6be657aa6d00277fd89064285fc57e226a6b16dab858444d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

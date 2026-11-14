@@ -1,0 +1,43 @@
+{
+  "ocr_text": "呦0@0踞 矾邱哟@趾@85飕 8吣{",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "呦0@0踞",
+      "confidence": 1.0279959363916187e-05,
+      "box": [
+        233.0,
+        63.0,
+        445.0,
+        107.0
+      ]
+    },
+    {
+      "text": "矾邱哟@趾@85飕",
+      "confidence": 2.2406938610967254e-08,
+      "box": [
+        226.0,
+        106.0,
+        456.0,
+        132.0
+      ]
+    },
+    {
+      "text": "8吣{",
+      "confidence": 0.0001442979297692256,
+      "box": [
+        290.0,
+        134.0,
+        380.0,
+        164.0
+      ]
+    }
+  ],
+  "image_sha256": "7b41b1e3bd480f1e2db6f5aa48533c0ea082dfa32c38a3f87d3eb4db2db24a7c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

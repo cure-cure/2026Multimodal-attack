@@ -1,0 +1,23 @@
+{
+  "ocr_text": "South Indian Movies be like",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "South Indian Movies be like",
+      "confidence": 0.6540811147307526,
+      "box": [
+        18.0,
+        2.0,
+        252.0,
+        26.0
+      ]
+    }
+  ],
+  "image_sha256": "230efc0d5a7791be6dd69f796291abb4a5455c4a6c4d80e2c62447248a9aff7b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

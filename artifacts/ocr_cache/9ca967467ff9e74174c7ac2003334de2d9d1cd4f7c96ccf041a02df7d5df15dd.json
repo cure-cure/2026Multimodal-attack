@@ -1,0 +1,163 @@
+{
+  "ocr_text": "SEEVOR' STATE LICENSI Drivemo ^ Jogist: 21250 MA: 3 Freduc Bone to Greoc Pami Wnx Wills StalRu Ronted ol Camo Jo NDemo Tramer Placeholder 11134605",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SEEVOR' STATE LICENSI",
+      "confidence": 0.6941561717949553,
+      "box": [
+        6.0,
+        118.0,
+        1024.0,
+        246.0
+      ]
+    },
+    {
+      "text": "Drivemo",
+      "confidence": 0.28593685216047454,
+      "box": [
+        474.0,
+        222.0,
+        692.0,
+        272.0
+      ]
+    },
+    {
+      "text": "^",
+      "confidence": 0.06426787833401537,
+      "box": [
+        707.0,
+        221.0,
+        767.0,
+        259.0
+      ]
+    },
+    {
+      "text": "Jogist: 21250",
+      "confidence": 0.5165678407436991,
+      "box": [
+        469.0,
+        256.0,
+        860.0,
+        347.0
+      ]
+    },
+    {
+      "text": "MA: 3 Freduc",
+      "confidence": 0.3622326691186156,
+      "box": [
+        478.0,
+        377.0,
+        795.0,
+        452.0
+      ]
+    },
+    {
+      "text": "Bone to Greoc",
+      "confidence": 0.6809431682184353,
+      "box": [
+        478.0,
+        435.0,
+        830.0,
+        512.0
+      ]
+    },
+    {
+      "text": "Pami Wnx",
+      "confidence": 0.5979135056220332,
+      "box": [
+        478.0,
+        505.0,
+        709.0,
+        574.0
+      ]
+    },
+    {
+      "text": "Wills StalRu",
+      "confidence": 0.2824004579676834,
+      "box": [
+        484.0,
+        556.0,
+        804.0,
+        632.0
+      ]
+    },
+    {
+      "text": "Ronted ol",
+      "confidence": 0.3241715460550179,
+      "box": [
+        481.0,
+        618.0,
+        708.0,
+        697.0
+      ]
+    },
+    {
+      "text": "Camo",
+      "confidence": 0.9646910429000854,
+      "box": [
+        485.0,
+        703.0,
+        614.0,
+        754.0
+      ]
+    },
+    {
+      "text": "Jo",
+      "confidence": 0.026641475891367433,
+      "box": [
+        70.0,
+        870.0,
+        190.0,
+        922.0
+      ]
+    },
+    {
+      "text": "NDemo",
+      "confidence": 0.9694129707307817,
+      "box": [
+        471.0,
+        863.0,
+        677.0,
+        927.0
+      ]
+    },
+    {
+      "text": "Tramer",
+      "confidence": 0.9727324685477522,
+      "box": [
+        190.0,
+        907.0,
+        323.0,
+        960.0
+      ]
+    },
+    {
+      "text": "Placeholder",
+      "confidence": 0.9983170091771923,
+      "box": [
+        188.1033793898917,
+        830.8282145217369,
+        444.8966206101083,
+        913.1717854782631
+      ]
+    },
+    {
+      "text": "11134605",
+      "confidence": 0.693562442976265,
+      "box": [
+        312.8503320980383,
+        883.9693076697328,
+        463.1496679019617,
+        948.0306923302672
+      ]
+    }
+  ],
+  "image_sha256": "9ca967467ff9e74174c7ac2003334de2d9d1cd4f7c96ccf041a02df7d5df15dd",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

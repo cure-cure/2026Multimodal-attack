@@ -1,0 +1,43 @@
+{
+  "ocr_text": "GTU 8N 旨",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "GTU",
+      "confidence": 0.003961981733993476,
+      "box": [
+        129.0,
+        177.0,
+        183.0,
+        195.0
+      ]
+    },
+    {
+      "text": "8N",
+      "confidence": 0.024635398740280808,
+      "box": [
+        126.0,
+        202.0,
+        200.0,
+        226.0
+      ]
+    },
+    {
+      "text": "旨",
+      "confidence": 0.013967686857148331,
+      "box": [
+        2.0,
+        198.0,
+        28.0,
+        296.0
+      ]
+    }
+  ],
+  "image_sha256": "80d7a0a6d1e7afc46b41b6bf8d7a830ac53e0b472064a3f66f1ab928832ce2fc",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

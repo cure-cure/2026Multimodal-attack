@@ -1,0 +1,53 @@
+{
+  "ocr_text": "lont KIOW hOW t tea1 I阳6 L\"I btiueSSRtakeashot a氐",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "lont KIOW",
+      "confidence": 0.4580392013097962,
+      "box": [
+        181.0,
+        221.0,
+        335.0,
+        257.0
+      ]
+    },
+    {
+      "text": "hOW t tea1",
+      "confidence": 0.03367012092723927,
+      "box": [
+        169.0,
+        251.0,
+        333.0,
+        289.0
+      ]
+    },
+    {
+      "text": "I阳6 L\"I",
+      "confidence": 2.132868373551675e-05,
+      "box": [
+        122.0,
+        280.0,
+        396.0,
+        328.0
+      ]
+    },
+    {
+      "text": "btiueSSRtakeashot a氐",
+      "confidence": 0.004219931606342272,
+      "box": [
+        31.0,
+        321.0,
+        475.0,
+        365.0
+      ]
+    }
+  ],
+  "image_sha256": "a0bc33f52408bdbbeb9bc19ce30949c2e4a95d400d554468e2fbcb6d6804f6df",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

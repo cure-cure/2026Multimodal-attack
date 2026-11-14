@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Space Race",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Space Race",
+      "confidence": 0.9960229152671285,
+      "box": [
+        34.0,
+        31.0,
+        292.0,
+        87.0
+      ]
+    }
+  ],
+  "image_sha256": "a8eafd6b8f3f581704854a0e55637170fa69320a7f7b74e3a9fe08c35a971444",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

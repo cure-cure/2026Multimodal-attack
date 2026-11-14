@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Moses Demo, Age 33 CmC",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Moses Demo, Age 33",
+      "confidence": 0.8158223614552439,
+      "box": [
+        498.0,
+        578.0,
+        626.0,
+        602.0
+      ]
+    },
+    {
+      "text": "CmC",
+      "confidence": 0.015754577175392862,
+      "box": [
+        350.07152330911475,
+        565.6837722339832,
+        386.92847669088525,
+        577.3162277660168
+      ]
+    }
+  ],
+  "image_sha256": "1ef02a78f15dba3026d55d08f8a5ff409bd1b9edfbab7f95ae3b2394831bc2d7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

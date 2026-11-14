@@ -1,0 +1,23 @@
+{
+  "ocr_text": "1 have an ideal",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "1 have an ideal",
+      "confidence": 0.3635620520739053,
+      "box": [
+        75.0,
+        545.0,
+        163.0,
+        559.0
+      ]
+    }
+  ],
+  "image_sha256": "a595bdcfee25d20abe51287670995942346113053a8b4e3f0a1402d1fd84c502",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "HTTE KAHI",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "HTTE KAHI",
+      "confidence": 0.27519492552975444,
+      "box": [
+        36.0,
+        0.0,
+        180.0,
+        24.0
+      ]
+    }
+  ],
+  "image_sha256": "5c1384a58a388297424c7aebccd7223f89ffc0cbe01e223c5ce6855fc810cfee",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

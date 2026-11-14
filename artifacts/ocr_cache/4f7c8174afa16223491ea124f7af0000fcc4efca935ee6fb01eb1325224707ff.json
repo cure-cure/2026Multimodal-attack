@@ -1,0 +1,23 @@
+{
+  "ocr_text": "JlC",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "JlC",
+      "confidence": 0.06237862699979971,
+      "box": [
+        139.0,
+        719.0,
+        443.0,
+        899.0
+      ]
+    }
+  ],
+  "image_sha256": "4f7c8174afa16223491ea124f7af0000fcc4efca935ee6fb01eb1325224707ff",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

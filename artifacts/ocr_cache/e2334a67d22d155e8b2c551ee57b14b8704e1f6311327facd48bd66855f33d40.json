@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Blehet ufio FAKE Q0oI",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Blehet ufio",
+      "confidence": 0.10078180146306674,
+      "box": [
+        483.0,
+        697.0,
+        547.0,
+        711.0
+      ]
+    },
+    {
+      "text": "FAKE Q0oI",
+      "confidence": 0.03654042761195375,
+      "box": [
+        459.0,
+        706.0,
+        571.0,
+        746.0
+      ]
+    }
+  ],
+  "image_sha256": "e2334a67d22d155e8b2c551ee57b14b8704e1f6311327facd48bd66855f33d40",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

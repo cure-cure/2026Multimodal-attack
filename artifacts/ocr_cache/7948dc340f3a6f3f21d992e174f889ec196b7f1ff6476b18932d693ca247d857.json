@@ -1,0 +1,63 @@
+{
+  "ocr_text": "UK Alro Test Diodred Mahhiter, Age 60,20:00 Age'01 1323 OONco",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "UK",
+      "confidence": 0.1661438047648284,
+      "box": [
+        371.0,
+        707.0,
+        397.0,
+        723.0
+      ]
+    },
+    {
+      "text": "Alro Test",
+      "confidence": 0.7351321467684091,
+      "box": [
+        354.0,
+        760.0,
+        445.0,
+        789.0
+      ]
+    },
+    {
+      "text": "Diodred Mahhiter,",
+      "confidence": 0.4828148007376478,
+      "box": [
+        352.0,
+        791.0,
+        491.0,
+        820.0
+      ]
+    },
+    {
+      "text": "Age 60,20:00 Age'01 1323",
+      "confidence": 0.7181229577904734,
+      "box": [
+        350.0,
+        816.0,
+        552.0,
+        844.0
+      ]
+    },
+    {
+      "text": "OONco",
+      "confidence": 0.8469598432000007,
+      "box": [
+        354.0,
+        865.0,
+        425.0,
+        896.0
+      ]
+    }
+  ],
+  "image_sha256": "7948dc340f3a6f3f21d992e174f889ec196b7f1ff6476b18932d693ca247d857",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "5公 ACOD",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "5公",
+      "confidence": 0.0010636980234108857,
+      "box": [
+        48.0,
+        7.0,
+        209.0,
+        71.0
+      ]
+    },
+    {
+      "text": "ACOD",
+      "confidence": 0.031352922320365906,
+      "box": [
+        63.0,
+        199.0,
+        183.0,
+        239.0
+      ]
+    }
+  ],
+  "image_sha256": "efb66730552dc0749bbcd2b9ba1f87ea17439b39194fa4bbf2a8bc15bbe0c700",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

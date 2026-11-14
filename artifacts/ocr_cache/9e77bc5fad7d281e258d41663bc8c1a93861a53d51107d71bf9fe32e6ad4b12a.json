@@ -1,0 +1,43 @@
+{
+  "ocr_text": "HOUSE FOR SALE",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "HOUSE",
+      "confidence": 0.8948116968848142,
+      "box": [
+        356.0,
+        519.0,
+        496.0,
+        600.0
+      ]
+    },
+    {
+      "text": "FOR",
+      "confidence": 0.905502251746514,
+      "box": [
+        391.0,
+        593.0,
+        465.0,
+        661.0
+      ]
+    },
+    {
+      "text": "SALE",
+      "confidence": 0.9223582148551941,
+      "box": [
+        376.02483573205916,
+        651.1857874646245,
+        479.97516426794084,
+        732.8142125353755
+      ]
+    }
+  ],
+  "image_sha256": "9e77bc5fad7d281e258d41663bc8c1a93861a53d51107d71bf9fe32e6ad4b12a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

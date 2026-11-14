@@ -1,0 +1,43 @@
+{
+  "ocr_text": "9计 royale Wifh cheese 刀",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "9计",
+      "confidence": 0.30929908818435964,
+      "box": [
+        252.0,
+        490.0,
+        318.0,
+        520.0
+      ]
+    },
+    {
+      "text": "royale Wifh cheese",
+      "confidence": 0.46528639975628744,
+      "box": [
+        312.0,
+        487.0,
+        597.0,
+        532.0
+      ]
+    },
+    {
+      "text": "刀",
+      "confidence": 0.1351342691828572,
+      "box": [
+        137.1024352172215,
+        485.1317018509494,
+        235.8975647827785,
+        530.8682981490506
+      ]
+    }
+  ],
+  "image_sha256": "8da9b3a332f9db3a8d21c4dfddd29f288e7ceb488cd39957daadd1ad5b3de01f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

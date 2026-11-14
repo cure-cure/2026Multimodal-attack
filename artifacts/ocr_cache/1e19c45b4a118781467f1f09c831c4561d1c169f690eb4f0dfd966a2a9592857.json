@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Vectop 10 shutterstock.com 245256475",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Vectop 10",
+      "confidence": 0.17599946311640804,
+      "box": [
+        7.0,
+        9.0,
+        63.0,
+        23.0
+      ]
+    },
+    {
+      "text": "shutterstock.com",
+      "confidence": 0.7040264496968757,
+      "box": [
+        55.0,
+        265.0,
+        145.0,
+        279.0
+      ]
+    },
+    {
+      "text": "245256475",
+      "confidence": 0.8674769293108764,
+      "box": [
+        149.0,
+        265.0,
+        207.0,
+        279.0
+      ]
+    }
+  ],
+  "image_sha256": "1e19c45b4a118781467f1f09c831c4561d1c169f690eb4f0dfd966a2a9592857",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

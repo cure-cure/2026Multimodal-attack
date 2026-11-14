@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Rest WwyshutterstockCom 206010850",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Rest",
+      "confidence": 0.20234350860118866,
+      "box": [
+        113.0,
+        211.0,
+        223.0,
+        249.0
+      ]
+    },
+    {
+      "text": "WwyshutterstockCom",
+      "confidence": 0.100703092549118,
+      "box": [
+        57.0,
+        455.0,
+        193.0,
+        469.0
+      ]
+    },
+    {
+      "text": "206010850",
+      "confidence": 0.9979218968092876,
+      "box": [
+        199.0,
+        453.0,
+        275.0,
+        469.0
+      ]
+    }
+  ],
+  "image_sha256": "15f2a6a7b5c005c0dbcff60df80163bfab872f62a1551c55c2f670a420202905",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

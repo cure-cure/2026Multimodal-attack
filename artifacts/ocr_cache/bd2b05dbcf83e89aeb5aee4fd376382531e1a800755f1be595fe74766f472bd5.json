@@ -1,0 +1,23 @@
+{
+  "ocr_text": "The African-American Church",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "The African-American Church",
+      "confidence": 0.634105691927266,
+      "box": [
+        37.0,
+        91.0,
+        281.0,
+        111.0
+      ]
+    }
+  ],
+  "image_sha256": "bd2b05dbcf83e89aeb5aee4fd376382531e1a800755f1be595fe74766f472bd5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

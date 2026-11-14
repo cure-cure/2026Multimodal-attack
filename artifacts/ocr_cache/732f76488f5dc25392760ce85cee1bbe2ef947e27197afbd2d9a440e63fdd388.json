@@ -1,0 +1,43 @@
+{
+  "ocr_text": "。 KZ@0 CIUONU",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "。",
+      "confidence": 0.3106383356568223,
+      "box": [
+        646.0,
+        537.0,
+        701.0,
+        555.0
+      ]
+    },
+    {
+      "text": "KZ@0",
+      "confidence": 0.04055535048246384,
+      "box": [
+        459.0,
+        583.0,
+        577.0,
+        623.0
+      ]
+    },
+    {
+      "text": "CIUONU",
+      "confidence": 0.017932370944664894,
+      "box": [
+        485.0,
+        619.0,
+        563.0,
+        631.0
+      ]
+    }
+  ],
+  "image_sha256": "732f76488f5dc25392760ce85cee1bbe2ef947e27197afbd2d9a440e63fdd388",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

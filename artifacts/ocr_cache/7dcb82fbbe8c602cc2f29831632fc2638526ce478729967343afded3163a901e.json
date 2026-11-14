@@ -1,0 +1,23 @@
+{
+  "ocr_text": "The British monarchy",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "The British monarchy",
+      "confidence": 0.9350779298536747,
+      "box": [
+        129.0,
+        34.0,
+        594.0,
+        101.0
+      ]
+    }
+  ],
+  "image_sha256": "7dcb82fbbe8c602cc2f29831632fc2638526ce478729967343afded3163a901e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

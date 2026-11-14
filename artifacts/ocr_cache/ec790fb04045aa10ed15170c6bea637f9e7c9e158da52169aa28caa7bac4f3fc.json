@@ -1,0 +1,33 @@
+{
+  "ocr_text": "鄢~@8绍@赆 Wwshutterstockcom . 96023777",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "鄢~@8绍@赆",
+      "confidence": 3.882194547660409e-06,
+      "box": [
+        94.0,
+        126.0,
+        352.0,
+        176.0
+      ]
+    },
+    {
+      "text": "Wwshutterstockcom . 96023777",
+      "confidence": 0.3086494327747744,
+      "box": [
+        121.0,
+        303.0,
+        329.0,
+        319.0
+      ]
+    }
+  ],
+  "image_sha256": "ec790fb04045aa10ed15170c6bea637f9e7c9e158da52169aa28caa7bac4f3fc",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

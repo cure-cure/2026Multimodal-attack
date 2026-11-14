@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Cender Balance LUSIIIC R9RNRn",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Cender Balance",
+      "confidence": 0.5153372857753213,
+      "box": [
+        69.0,
+        11.0,
+        151.0,
+        25.0
+      ]
+    },
+    {
+      "text": "LUSIIIC",
+      "confidence": 0.4336044933092001,
+      "box": [
+        162.0,
+        14.0,
+        196.0,
+        22.0
+      ]
+    },
+    {
+      "text": "R9RNRn",
+      "confidence": 0.08062258949916948,
+      "box": [
+        78.0,
+        82.0,
+        198.0,
+        106.0
+      ]
+    }
+  ],
+  "image_sha256": "0ad5b06542db9f9262d760c9f238f142574b636b3eaaa62aed35f06c653e2d0a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

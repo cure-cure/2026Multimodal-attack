@@ -1,0 +1,23 @@
+{
+  "ocr_text": "RCLHIO",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "RCLHIO",
+      "confidence": 0.078747909093729,
+      "box": [
+        36.0,
+        28.0,
+        66.0,
+        36.0
+      ]
+    }
+  ],
+  "image_sha256": "31ad43a255730d9b2ea2b2620dfec7cb26f31269f4e38c169a4f1ce1fbbb79ee",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

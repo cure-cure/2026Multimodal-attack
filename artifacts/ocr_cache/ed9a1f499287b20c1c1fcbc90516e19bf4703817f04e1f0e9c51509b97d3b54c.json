@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Iiwji Demo I-yo",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Iiwji Demo",
+      "confidence": 0.25479016313583364,
+      "box": [
+        371.0,
+        645.0,
+        675.0,
+        713.0
+      ]
+    },
+    {
+      "text": "I-yo",
+      "confidence": 0.23834693666009613,
+      "box": [
+        461.0,
+        723.0,
+        595.0,
+        785.0
+      ]
+    }
+  ],
+  "image_sha256": "ed9a1f499287b20c1c1fcbc90516e19bf4703817f04e1f0e9c51509b97d3b54c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

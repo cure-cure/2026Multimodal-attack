@@ -1,0 +1,53 @@
+{
+  "ocr_text": "`。 _。 ^` WIBIESNOHCON @T",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "`。 _。 ^`",
+      "confidence": 0.0057955441839247675,
+      "box": [
+        490.0,
+        960.0,
+        756.0,
+        986.0
+      ]
+    },
+    {
+      "text": "WIBIESNOHCON",
+      "confidence": 0.01651142131881389,
+      "box": [
+        16.0,
+        986.0,
+        262.0,
+        1012.0
+      ]
+    },
+    {
+      "text": " ",
+      "confidence": 0.2518271501706809,
+      "box": [
+        490.0,
+        986.0,
+        626.0,
+        1012.0
+      ]
+    },
+    {
+      "text": "@T",
+      "confidence": 0.0011792789428623708,
+      "box": [
+        632.0,
+        986.0,
+        758.0,
+        1010.0
+      ]
+    }
+  ],
+  "image_sha256": "d5265cb6f2ff6b3fe46cb305b7835b4472c4ea5718dd5ac14f2518156a2c11a4",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

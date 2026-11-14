@@ -1,0 +1,43 @@
+{
+  "ocr_text": "CHURCH Iy bigstock com 399887945",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CHURCH",
+      "confidence": 0.9937444668546045,
+      "box": [
+        155.0,
+        365.0,
+        297.0,
+        401.0
+      ]
+    },
+    {
+      "text": "Iy bigstock com",
+      "confidence": 0.4933771729250532,
+      "box": [
+        1.0,
+        451.0,
+        121.0,
+        467.0
+      ]
+    },
+    {
+      "text": "399887945",
+      "confidence": 0.6496861895285992,
+      "box": [
+        131.0,
+        449.0,
+        205.0,
+        465.0
+      ]
+    }
+  ],
+  "image_sha256": "c69fb1f45c007eb93f9cc9f161e376d7c1f85465f1ce248b6cd700a3d48aad1a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

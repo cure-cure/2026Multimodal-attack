@@ -1,0 +1,33 @@
+{
+  "ocr_text": "蒽0 V叫8BB吼哌",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "蒽0",
+      "confidence": 0.0006260686196800857,
+      "box": [
+        4.0,
+        0.0,
+        192.0,
+        54.0
+      ]
+    },
+    {
+      "text": "V叫8BB吼哌",
+      "confidence": 1.49404568686871e-06,
+      "box": [
+        8.0,
+        206.0,
+        184.0,
+        232.0
+      ]
+    }
+  ],
+  "image_sha256": "b1971a3f1425ffe8fb4261efd1b5b3278912f83b392dc6a5cf8134ded81cc4d2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

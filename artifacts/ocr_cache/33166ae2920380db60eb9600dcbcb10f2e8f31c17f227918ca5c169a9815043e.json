@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Pinal County Sheriffs",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Pinal County Sheriffs",
+      "confidence": 0.5281618653132677,
+      "box": [
+        177.0,
+        136.0,
+        319.0,
+        153.0
+      ]
+    }
+  ],
+  "image_sha256": "33166ae2920380db60eb9600dcbcb10f2e8f31c17f227918ca5c169a9815043e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

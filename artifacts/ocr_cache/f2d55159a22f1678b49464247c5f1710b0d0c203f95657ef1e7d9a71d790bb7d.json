@@ -1,0 +1,33 @@
+{
+  "ocr_text": "5 Suiciae",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "5",
+      "confidence": 0.9981878868077274,
+      "box": [
+        822.0,
+        188.0,
+        848.0,
+        222.0
+      ]
+    },
+    {
+      "text": "Suiciae",
+      "confidence": 0.9326525169808505,
+      "box": [
+        397.0240446731201,
+        210.0139149179285,
+        867.9759553268799,
+        471.9860850820715
+      ]
+    }
+  ],
+  "image_sha256": "f2d55159a22f1678b49464247c5f1710b0d0c203f95657ef1e7d9a71d790bb7d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

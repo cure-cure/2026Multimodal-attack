@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Religion Politics",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Religion",
+      "confidence": 0.49769954096235103,
+      "box": [
+        76.57826291885395,
+        2.0117715536133156,
+        255.42173708114603,
+        130.98822844638667
+      ]
+    },
+    {
+      "text": "Politics",
+      "confidence": 0.9303725982214337,
+      "box": [
+        70.09942294147473,
+        131.0229548544986,
+        242.90057705852527,
+        244.9770451455014
+      ]
+    }
+  ],
+  "image_sha256": "cbe6e4eea8f27dfeeb90ba85ac493af7b4a9eb1e4d65f9fb35f4b11e8706de99",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

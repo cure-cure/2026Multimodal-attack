@@ -1,0 +1,43 @@
+{
+  "ocr_text": "lUtterstock WNshutterstockcom 13703653",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "lUtterstock",
+      "confidence": 0.4071401091064799,
+      "box": [
+        66.0,
+        202.0,
+        286.0,
+        250.0
+      ]
+    },
+    {
+      "text": "WNshutterstockcom",
+      "confidence": 0.4384178026221376,
+      "box": [
+        53.0,
+        453.0,
+        189.0,
+        469.0
+      ]
+    },
+    {
+      "text": "13703653",
+      "confidence": 0.9988400929086895,
+      "box": [
+        195.0,
+        453.0,
+        263.0,
+        469.0
+      ]
+    }
+  ],
+  "image_sha256": "faa9759181a5d67fbb4c6d326b63a245e7bdf9cb16138c7563761d91a27d0378",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

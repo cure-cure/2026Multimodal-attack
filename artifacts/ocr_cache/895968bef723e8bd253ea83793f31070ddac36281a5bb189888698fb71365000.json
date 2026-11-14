@@ -1,0 +1,23 @@
+{
+  "ocr_text": "FCDILA",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "FCDILA",
+      "confidence": 0.4614153112116435,
+      "box": [
+        315.0,
+        545.0,
+        355.0,
+        559.0
+      ]
+    }
+  ],
+  "image_sha256": "895968bef723e8bd253ea83793f31070ddac36281a5bb189888698fb71365000",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

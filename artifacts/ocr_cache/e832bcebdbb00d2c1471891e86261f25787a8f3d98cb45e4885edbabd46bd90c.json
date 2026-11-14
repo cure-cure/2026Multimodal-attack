@@ -1,0 +1,33 @@
+{
+  "ocr_text": "CanStockP OtoCOm",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CanStockP",
+      "confidence": 0.48088788718462716,
+      "box": [
+        131.0,
+        241.0,
+        193.0,
+        254.0
+      ]
+    },
+    {
+      "text": "OtoCOm",
+      "confidence": 0.5408772712062414,
+      "box": [
+        197.0,
+        241.0,
+        241.0,
+        254.0
+      ]
+    }
+  ],
+  "image_sha256": "e832bcebdbb00d2c1471891e86261f25787a8f3d98cb45e4885edbabd46bd90c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

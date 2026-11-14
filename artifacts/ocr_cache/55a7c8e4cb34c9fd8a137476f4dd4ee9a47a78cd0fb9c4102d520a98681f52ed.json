@@ -1,0 +1,33 @@
+{
+  "ocr_text": "CanStockPhoto com CTT",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CanStockPhoto com",
+      "confidence": 0.44903826217108556,
+      "box": [
+        72.0,
+        241.0,
+        183.0,
+        255.0
+      ]
+    },
+    {
+      "text": "CTT",
+      "confidence": 0.07312894797256764,
+      "box": [
+        94.10557280900008,
+        73.61327332374933,
+        128.89442719099992,
+        87.38672667625067
+      ]
+    }
+  ],
+  "image_sha256": "55a7c8e4cb34c9fd8a137476f4dd4ee9a47a78cd0fb9c4102d520a98681f52ed",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

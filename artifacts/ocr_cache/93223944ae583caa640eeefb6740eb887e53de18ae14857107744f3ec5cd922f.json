@@ -1,0 +1,43 @@
+{
+  "ocr_text": "fath W bigstockcom 65378200",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "fath",
+      "confidence": 0.9229571223258972,
+      "box": [
+        118.0,
+        122.0,
+        320.0,
+        255.0
+      ]
+    },
+    {
+      "text": "W bigstockcom",
+      "confidence": 0.6623749427940689,
+      "box": [
+        127.0,
+        413.0,
+        247.0,
+        429.0
+      ]
+    },
+    {
+      "text": "65378200",
+      "confidence": 0.9981910549151354,
+      "box": [
+        257.0,
+        411.0,
+        323.0,
+        427.0
+      ]
+    }
+  ],
+  "image_sha256": "93223944ae583caa640eeefb6740eb887e53de18ae14857107744f3ec5cd922f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

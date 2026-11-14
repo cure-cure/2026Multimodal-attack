@@ -1,0 +1,43 @@
+{
+  "ocr_text": "ShU WIN,shutterstockcom 336669383",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ShU",
+      "confidence": 0.27672877689816594,
+      "box": [
+        95.0,
+        129.0,
+        197.0,
+        173.0
+      ]
+    },
+    {
+      "text": "WIN,shutterstockcom",
+      "confidence": 0.1456880743539743,
+      "box": [
+        117.0,
+        305.0,
+        255.0,
+        319.0
+      ]
+    },
+    {
+      "text": "336669383",
+      "confidence": 0.46113460511151966,
+      "box": [
+        259.0,
+        305.0,
+        335.0,
+        319.0
+      ]
+    }
+  ],
+  "image_sha256": "a478339f53632fe7db2f0bb1234d5a109976ca79c49bb165f472f3ecfd38cf8a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

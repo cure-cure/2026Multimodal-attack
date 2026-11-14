@@ -1,0 +1,33 @@
+{
+  "ocr_text": "TV Therefori Need 加 Religion",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "TV Therefori",
+      "confidence": 0.2413815189141523,
+      "box": [
+        34.0,
+        78.0,
+        184.0,
+        108.0
+      ]
+    },
+    {
+      "text": "Need 加 Religion",
+      "confidence": 0.21100818898012888,
+      "box": [
+        32.0,
+        108.0,
+        198.0,
+        140.0
+      ]
+    }
+  ],
+  "image_sha256": "e3732ee1d2fd244c29f4568b3ea33b9fe51f095e1adf0421efae50351b5dd159",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

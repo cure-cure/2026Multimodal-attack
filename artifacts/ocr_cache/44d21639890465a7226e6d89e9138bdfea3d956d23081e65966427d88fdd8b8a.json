@@ -1,0 +1,33 @@
+{
+  "ocr_text": "BarhoWglalal CM[B B4y8 MOMI8阳a/饥@M8@[Ba@[i@0",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BarhoWglalal CM[B B4y8",
+      "confidence": 0.008576742237730065,
+      "box": [
+        55.0,
+        11.0,
+        459.0,
+        55.0
+      ]
+    },
+    {
+      "text": "MOMI8阳a/饥@M8@[Ba@[i@0",
+      "confidence": 1.0782931443991444e-06,
+      "box": [
+        25.0,
+        329.0,
+        487.0,
+        366.0
+      ]
+    }
+  ],
+  "image_sha256": "44d21639890465a7226e6d89e9138bdfea3d956d23081e65966427d88fdd8b8a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

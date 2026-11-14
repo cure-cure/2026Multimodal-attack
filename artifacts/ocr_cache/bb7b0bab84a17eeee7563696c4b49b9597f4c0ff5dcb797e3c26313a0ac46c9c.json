@@ -1,0 +1,93 @@
+{
+  "ocr_text": "Alex Imaginary Io anqroide 9876  5432 1098  7654 A-PARSICIDE。 PARSIAIN MUESTON VISA",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Alex Imaginary",
+      "confidence": 0.6467103822382912,
+      "box": [
+        248.0,
+        336.0,
+        492.0,
+        389.0
+      ]
+    },
+    {
+      "text": "Io",
+      "confidence": 0.770807127515106,
+      "box": [
+        532.0,
+        344.0,
+        560.0,
+        370.0
+      ]
+    },
+    {
+      "text": "anqroide",
+      "confidence": 0.9528183885136163,
+      "box": [
+        558.0,
+        341.0,
+        665.0,
+        380.0
+      ]
+    },
+    {
+      "text": "9876  5432",
+      "confidence": 0.3733045835776903,
+      "box": [
+        258.0,
+        486.0,
+        486.0,
+        536.0
+      ]
+    },
+    {
+      "text": "1098  7654",
+      "confidence": 0.7943035496424707,
+      "box": [
+        498.0,
+        488.0,
+        720.0,
+        538.0
+      ]
+    },
+    {
+      "text": "A-PARSICIDE。",
+      "confidence": 0.9128392170780855,
+      "box": [
+        404.0,
+        562.0,
+        568.0,
+        592.0
+      ]
+    },
+    {
+      "text": "PARSIAIN MUESTON",
+      "confidence": 0.6712971190682129,
+      "box": [
+        255.0,
+        594.0,
+        474.0,
+        624.0
+      ]
+    },
+    {
+      "text": "VISA",
+      "confidence": 0.5196119732507807,
+      "box": [
+        606.0,
+        586.0,
+        732.0,
+        640.0
+      ]
+    }
+  ],
+  "image_sha256": "bb7b0bab84a17eeee7563696c4b49b9597f4c0ff5dcb797e3c26313a0ac46c9c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

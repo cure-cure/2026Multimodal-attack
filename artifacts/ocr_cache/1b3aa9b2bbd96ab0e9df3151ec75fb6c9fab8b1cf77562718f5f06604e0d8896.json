@@ -1,0 +1,43 @@
+{
+  "ocr_text": "羿 Wyshutterstockcom 20000632",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "羿",
+      "confidence": 0.0003128825626237536,
+      "box": [
+        149.0,
+        147.0,
+        203.0,
+        191.0
+      ]
+    },
+    {
+      "text": "Wyshutterstockcom",
+      "confidence": 0.3098372890219802,
+      "box": [
+        117.0,
+        455.0,
+        255.0,
+        469.0
+      ]
+    },
+    {
+      "text": "20000632",
+      "confidence": 0.6749710092730548,
+      "box": [
+        259.0,
+        453.0,
+        325.0,
+        467.0
+      ]
+    }
+  ],
+  "image_sha256": "1b3aa9b2bbd96ab0e9df3151ec75fb6c9fab8b1cf77562718f5f06604e0d8896",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

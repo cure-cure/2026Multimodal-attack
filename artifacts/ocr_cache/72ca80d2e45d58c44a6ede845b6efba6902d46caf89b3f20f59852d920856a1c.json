@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Wwshutterstockcom 189351239 Disabled people",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Wwshutterstockcom",
+      "confidence": 0.35264519108722253,
+      "box": [
+        53.0,
+        455.0,
+        189.0,
+        469.0
+      ]
+    },
+    {
+      "text": "189351239",
+      "confidence": 0.9999370565046359,
+      "box": [
+        195.0,
+        453.0,
+        269.0,
+        469.0
+      ]
+    },
+    {
+      "text": "Disabled",
+      "confidence": 0.6868351256106038,
+      "box": [
+        85.07692307692308,
+        199.1075061743469,
+        260.9230769230769,
+        304.8924938256531
+      ]
+    },
+    {
+      "text": "people",
+      "confidence": 0.9987421211517428,
+      "box": [
+        106.22649901887385,
+        247.76072474050264,
+        252.77350098112615,
+        345.23927525949733
+      ]
+    }
+  ],
+  "image_sha256": "72ca80d2e45d58c44a6ede845b6efba6902d46caf89b3f20f59852d920856a1c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

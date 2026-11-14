@@ -1,0 +1,33 @@
+{
+  "ocr_text": "皂",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "皂",
+      "confidence": 0.0050775752922831985,
+      "box": [
+        164.0,
+        58.0,
+        172.0,
+        82.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        161.0,
+        83.0,
+        175.0,
+        173.0
+      ]
+    }
+  ],
+  "image_sha256": "b1a5fca354421820d1158f6514cd81aa12874746ce21e31e9f78fb5508f8fefa",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

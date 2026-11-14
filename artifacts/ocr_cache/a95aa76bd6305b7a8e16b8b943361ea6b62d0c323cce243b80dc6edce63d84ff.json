@@ -1,0 +1,23 @@
+{
+  "ocr_text": "he WBntojihad'g",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "he WBntojihad'g",
+      "confidence": 0.09459600005941905,
+      "box": [
+        148.0,
+        2.0,
+        648.0,
+        82.0
+      ]
+    }
+  ],
+  "image_sha256": "a95aa76bd6305b7a8e16b8b943361ea6b62d0c323cce243b80dc6edce63d84ff",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

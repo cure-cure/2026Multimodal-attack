@@ -1,0 +1,33 @@
+{
+  "ocr_text": "SBB? jfuCklntold VOW!aIitle foilonto Keejs themjBWSy",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SBB? jfuCklntold VOW!aIitle",
+      "confidence": 0.04323022706883396,
+      "box": [
+        95.0,
+        14.0,
+        465.0,
+        53.0
+      ]
+    },
+    {
+      "text": "foilonto Keejs themjBWSy",
+      "confidence": 0.11103641016876457,
+      "box": [
+        69.0,
+        363.0,
+        481.0,
+        406.0
+      ]
+    }
+  ],
+  "image_sha256": "e2bedccfe68092c9e4537c37b1b86bec47dea1ca57afa9df91220856eb106d38",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

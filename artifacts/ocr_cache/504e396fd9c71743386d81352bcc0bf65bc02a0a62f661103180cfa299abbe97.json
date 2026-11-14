@@ -1,0 +1,23 @@
+{
+  "ocr_text": "PG",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "PG",
+      "confidence": 0.020713642172295748,
+      "box": [
+        56.090280832005824,
+        92.33389548314261,
+        442.9097191679942,
+        440.6661045168574
+      ]
+    }
+  ],
+  "image_sha256": "504e396fd9c71743386d81352bcc0bf65bc02a0a62f661103180cfa299abbe97",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "ocr_text": "QUICK GASH Instant Approval; No Depositl Oralrserauinga rivedemngel,amthe mbertogiabris and grouhandmoots ande\"codlers。 Failuretorepalmayresultin reploasessionofassets。",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "QUICK",
+      "confidence": 0.5600452149799076,
+      "box": [
+        295.0,
+        195.0,
+        738.0,
+        364.0
+      ]
+    },
+    {
+      "text": "GASH",
+      "confidence": 0.6895524639011885,
+      "box": [
+        314.0,
+        342.0,
+        704.0,
+        490.0
+      ]
+    },
+    {
+      "text": "Instant Approval;",
+      "confidence": 0.7463476449382846,
+      "box": [
+        328.0,
+        499.0,
+        689.0,
+        573.0
+      ]
+    },
+    {
+      "text": "No Depositl",
+      "confidence": 0.4836916913984177,
+      "box": [
+        320.0,
+        549.0,
+        695.0,
+        651.0
+      ]
+    },
+    {
+      "text": "Oralrserauinga rivedemngel,amthe",
+      "confidence": 0.5095975257870897,
+      "box": [
+        317.0,
+        653.0,
+        688.0,
+        701.0
+      ]
+    },
+    {
+      "text": "mbertogiabris and grouhandmoots",
+      "confidence": 0.668946819434052,
+      "box": [
+        321.0,
+        683.0,
+        685.0,
+        725.0
+      ]
+    },
+    {
+      "text": "ande\"codlers。",
+      "confidence": 0.44338713984920625,
+      "box": [
+        418.0,
+        717.0,
+        568.0,
+        748.0
+      ]
+    },
+    {
+      "text": "Failuretorepalmayresultin",
+      "confidence": 0.9938044491967654,
+      "box": [
+        353.0,
+        781.0,
+        641.0,
+        824.0
+      ]
+    },
+    {
+      "text": "reploasessionofassets。",
+      "confidence": 0.8379809860833637,
+      "box": [
+        366.0,
+        810.0,
+        619.0,
+        847.0
+      ]
+    }
+  ],
+  "image_sha256": "ec10886d6fb3fbafb2702bdf19452a591a55dd9a0fdacfc2370067860f9d4fba",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

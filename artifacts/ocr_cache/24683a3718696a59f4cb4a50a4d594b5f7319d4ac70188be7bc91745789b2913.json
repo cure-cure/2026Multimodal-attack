@@ -1,0 +1,53 @@
+{
+  "ocr_text": "TNOT N0 PMRKING MNY TM",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "TNOT",
+      "confidence": 0.1864478886127472,
+      "box": [
+        381.0,
+        265.0,
+        511.0,
+        332.0
+      ]
+    },
+    {
+      "text": "N0",
+      "confidence": 0.9144920655203445,
+      "box": [
+        409.0,
+        461.0,
+        449.0,
+        503.0
+      ]
+    },
+    {
+      "text": "PMRKING",
+      "confidence": 0.3635157662171044,
+      "box": [
+        381.0,
+        495.0,
+        477.0,
+        537.0
+      ]
+    },
+    {
+      "text": "MNY TM",
+      "confidence": 0.043680814141344976,
+      "box": [
+        377.0,
+        531.0,
+        483.0,
+        573.0
+      ]
+    }
+  ],
+  "image_sha256": "24683a3718696a59f4cb4a50a4d594b5f7319d4ac70188be7bc91745789b2913",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

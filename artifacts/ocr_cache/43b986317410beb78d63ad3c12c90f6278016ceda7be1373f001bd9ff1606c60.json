@@ -1,0 +1,113 @@
+{
+  "ocr_text": "Fictitia Republic Citizen Card RONIDLIC RWC HATZED Bomunen: BR0-191037000 Pernera Dulent eter: 702030429 Mlladen: (tapance) Net  ::9708334",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Fictitia Republic Citizen Card",
+      "confidence": 0.3238821556574149,
+      "box": [
+        263.0,
+        377.0,
+        749.0,
+        421.0
+      ]
+    },
+    {
+      "text": "RONIDLIC",
+      "confidence": 0.9823117775064565,
+      "box": [
+        445.0,
+        415.0,
+        533.0,
+        435.0
+      ]
+    },
+    {
+      "text": "RWC HATZED",
+      "confidence": 0.5723367691138794,
+      "box": [
+        448.0,
+        438.0,
+        624.0,
+        468.0
+      ]
+    },
+    {
+      "text": "Bomunen:",
+      "confidence": 0.8949987952683036,
+      "box": [
+        448.0,
+        500.0,
+        527.0,
+        520.0
+      ]
+    },
+    {
+      "text": "BR0-191037000",
+      "confidence": 0.1499060351154833,
+      "box": [
+        574.0,
+        494.0,
+        708.0,
+        518.0
+      ]
+    },
+    {
+      "text": "Pernera Dulent eter:",
+      "confidence": 0.6495662755434672,
+      "box": [
+        446.0,
+        526.0,
+        606.0,
+        550.0
+      ]
+    },
+    {
+      "text": "702030429",
+      "confidence": 0.9999293473797634,
+      "box": [
+        612.0,
+        524.0,
+        718.0,
+        548.0
+      ]
+    },
+    {
+      "text": "Mlladen:",
+      "confidence": 0.8321010642982771,
+      "box": [
+        447.0,
+        557.0,
+        513.0,
+        577.0
+      ]
+    },
+    {
+      "text": "(tapance)",
+      "confidence": 0.5651640658132655,
+      "box": [
+        645.0,
+        557.0,
+        735.0,
+        577.0
+      ]
+    },
+    {
+      "text": "Net  ::9708334",
+      "confidence": 0.6259984275394116,
+      "box": [
+        388.0,
+        638.0,
+        564.0,
+        670.0
+      ]
+    }
+  ],
+  "image_sha256": "43b986317410beb78d63ad3c12c90f6278016ceda7be1373f001bd9ff1606c60",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "ADA Americans wiih Disubilities t",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ADA",
+      "confidence": 0.9998413588729461,
+      "box": [
+        46.0,
+        56.0,
+        120.0,
+        88.0
+      ]
+    },
+    {
+      "text": "Americans wiih Disubilities t",
+      "confidence": 0.4894703388707595,
+      "box": [
+        42.0,
+        83.0,
+        203.0,
+        99.0
+      ]
+    }
+  ],
+  "image_sha256": "c05209d7f9b97dfeabd8c0256d7ee7f15b8389cfe8b2b87f50630d2d956c0d6e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

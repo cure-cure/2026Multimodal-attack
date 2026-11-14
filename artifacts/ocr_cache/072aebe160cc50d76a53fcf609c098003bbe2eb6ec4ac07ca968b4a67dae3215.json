@@ -1,0 +1,23 @@
+{
+  "ocr_text": "ToOrethere goesn Roewol",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ToOrethere goesn Roewol",
+      "confidence": 0.033165620954761714,
+      "box": [
+        12.0,
+        308.0,
+        320.0,
+        334.0
+      ]
+    }
+  ],
+  "image_sha256": "072aebe160cc50d76a53fcf609c098003bbe2eb6ec4ac07ca968b4a67dae3215",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

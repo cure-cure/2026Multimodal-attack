@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Animal Cruelty By Justice Dixon Kourtni Dixon Thalia Rios",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Animal Cruelty",
+      "confidence": 0.9976483647648692,
+      "box": [
+        304.0,
+        277.0,
+        726.0,
+        370.0
+      ]
+    },
+    {
+      "text": "By Justice Dixon",
+      "confidence": 0.680410110730381,
+      "box": [
+        339.0,
+        441.0,
+        687.0,
+        501.0
+      ]
+    },
+    {
+      "text": "Kourtni Dixon",
+      "confidence": 0.9963161052697027,
+      "box": [
+        372.0,
+        508.0,
+        654.0,
+        558.0
+      ]
+    },
+    {
+      "text": "Thalia Rios",
+      "confidence": 0.9341508646936475,
+      "box": [
+        392.0,
+        574.0,
+        632.0,
+        624.0
+      ]
+    }
+  ],
+  "image_sha256": "f0e60b1bd2be7749fd4197918445858738387fd20fff66fe6fc9a93ab669ae4b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

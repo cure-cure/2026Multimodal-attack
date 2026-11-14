@@ -1,0 +1,33 @@
+{
+  "ocr_text": "REIGION CanStockPnoto Com",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "REIGION",
+      "confidence": 0.22199479758360174,
+      "box": [
+        10.0,
+        92.0,
+        216.0,
+        144.0
+      ]
+    },
+    {
+      "text": "CanStockPnoto Com",
+      "confidence": 0.3663197460347207,
+      "box": [
+        70.0,
+        241.0,
+        183.0,
+        255.0
+      ]
+    }
+  ],
+  "image_sha256": "a7ff6dca45780a75399afff3ffb6c8a6bdac5778f0662910155e37fd0c3c0cb1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

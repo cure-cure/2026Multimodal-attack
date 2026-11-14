@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Rphy Jollor",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Rphy Jollor",
+      "confidence": 0.11474418619473065,
+      "box": [
+        477.0,
+        775.0,
+        549.0,
+        787.0
+      ]
+    }
+  ],
+  "image_sha256": "e7135c824b141e414b1d3815061b63f70e5461e93861c247e0272637e888f8db",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

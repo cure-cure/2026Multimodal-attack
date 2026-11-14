@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Ie OTo",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Ie",
+      "confidence": 0.6585630523072366,
+      "box": [
+        531.0,
+        795.0,
+        696.0,
+        840.0
+      ]
+    },
+    {
+      "text": "OTo",
+      "confidence": 0.1430541494002035,
+      "box": [
+        534.0,
+        840.0,
+        690.0,
+        872.0
+      ]
+    }
+  ],
+  "image_sha256": "0fbcbf3c34c611d3c088c843aab0edddab7998d2aef877ea147ae7bb9ac19f38",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ocr_text": "Terrorist attacks by decade, 1970-2012 AC3351 O eAN Lotin ATCTICL Mdle Cast Morn Mr North Amerca 19705 1980s 19905 Russlu oo Ingpengent States (si SUb Saharan qrlca Tuopo 200Os 20105",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Terrorist attacks by decade, 1970-2012",
+      "confidence": 0.6852779067085774,
+      "box": [
+        1.0,
+        0.0,
+        303.0,
+        20.0
+      ]
+    },
+    {
+      "text": "AC3351",
+      "confidence": 0.11182319371602915,
+      "box": [
+        346.0,
+        26.0,
+        392.0,
+        34.0
+      ]
+    },
+    {
+      "text": "O eAN",
+      "confidence": 0.011573065979669289,
+      "box": [
+        404.0,
+        26.0,
+        438.0,
+        34.0
+      ]
+    },
+    {
+      "text": "Lotin ATCTICL",
+      "confidence": 0.08897369936935776,
+      "box": [
+        344.0,
+        52.0,
+        404.0,
+        60.0
+      ]
+    },
+    {
+      "text": "Mdle Cast",
+      "confidence": 0.43929938545689123,
+      "box": [
+        343.0,
+        75.0,
+        399.0,
+        87.0
+      ]
+    },
+    {
+      "text": "Morn Mr",
+      "confidence": 0.2614972843496053,
+      "box": [
+        403.0,
+        75.0,
+        455.0,
+        87.0
+      ]
+    },
+    {
+      "text": "North Amerca",
+      "confidence": 0.13760274341344753,
+      "box": [
+        343.0,
+        99.0,
+        409.0,
+        111.0
+      ]
+    },
+    {
+      "text": "19705",
+      "confidence": 0.9971860115816363,
+      "box": [
+        23.0,
+        109.0,
+        63.0,
+        123.0
+      ]
+    },
+    {
+      "text": "1980s",
+      "confidence": 0.7832246708823377,
+      "box": [
+        121.0,
+        107.0,
+        161.0,
+        123.0
+      ]
+    },
+    {
+      "text": "19905",
+      "confidence": 0.977600897944346,
+      "box": [
+        225.0,
+        107.0,
+        267.0,
+        123.0
+      ]
+    },
+    {
+      "text": "Russlu",
+      "confidence": 0.16309827557092202,
+      "box": [
+        343.0,
+        119.0,
+        373.0,
+        131.0
+      ]
+    },
+    {
+      "text": "oo",
+      "confidence": 0.24297094451028586,
+      "box": [
+        384.0,
+        122.0,
+        426.0,
+        130.0
+      ]
+    },
+    {
+      "text": "Ingpengent States (si",
+      "confidence": 0.19274734761067033,
+      "box": [
+        343.0,
+        131.0,
+        457.0,
+        143.0
+      ]
+    },
+    {
+      "text": "SUb Saharan qrlca",
+      "confidence": 0.2212105898630659,
+      "box": [
+        343.0,
+        173.0,
+        431.0,
+        185.0
+      ]
+    },
+    {
+      "text": "Tuopo",
+      "confidence": 0.311643772128863,
+      "box": [
+        343.0,
+        197.0,
+        377.0,
+        209.0
+      ]
+    },
+    {
+      "text": "200Os",
+      "confidence": 0.39526188984774724,
+      "box": [
+        63.0,
+        225.0,
+        107.0,
+        239.0
+      ]
+    },
+    {
+      "text": "20105",
+      "confidence": 0.8994094968551364,
+      "box": [
+        179.0,
+        225.0,
+        221.0,
+        239.0
+      ]
+    }
+  ],
+  "image_sha256": "f5ebe864af050dfb34beac4177a6dbac7b0480282f6bd90329322ac370a3a1fd",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

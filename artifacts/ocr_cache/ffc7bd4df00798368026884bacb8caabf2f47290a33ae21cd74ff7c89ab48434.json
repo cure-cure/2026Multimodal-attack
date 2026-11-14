@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Guucsue CUtcaster Com 902037818",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Guucsue",
+      "confidence": 0.017213231445161417,
+      "box": [
+        169.0,
+        165.0,
+        362.0,
+        215.0
+      ]
+    },
+    {
+      "text": "CUtcaster Com",
+      "confidence": 0.5954621848603527,
+      "box": [
+        141.0,
+        383.0,
+        231.0,
+        395.0
+      ]
+    },
+    {
+      "text": "902037818",
+      "confidence": 0.946843466476313,
+      "box": [
+        241.0,
+        381.0,
+        311.0,
+        395.0
+      ]
+    }
+  ],
+  "image_sha256": "ffc7bd4df00798368026884bacb8caabf2f47290a33ae21cd74ff7c89ab48434",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

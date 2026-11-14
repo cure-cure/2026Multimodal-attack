@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Faker Test Engus @ 332-9351 feapiriegzonpendrallcom Cwilporobgll",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Faker Test",
+      "confidence": 0.9843384956653882,
+      "box": [
+        425.0,
+        643.0,
+        555.0,
+        679.0
+      ]
+    },
+    {
+      "text": "Engus @ 332-9351",
+      "confidence": 0.8754471006277993,
+      "box": [
+        386.0,
+        681.0,
+        595.0,
+        722.0
+      ]
+    },
+    {
+      "text": "feapiriegzonpendrallcom",
+      "confidence": 0.9951754037025208,
+      "box": [
+        347.0,
+        703.0,
+        637.0,
+        754.0
+      ]
+    },
+    {
+      "text": "Cwilporobgll",
+      "confidence": 0.11560576297906638,
+      "box": [
+        583.0,
+        763.0,
+        651.0,
+        779.0
+      ]
+    }
+  ],
+  "image_sha256": "eb9f9d8127036b6295cea376dac52c7e38ff9716d6c10ee44491beba21ede1d6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "ocr_text": "Suestek Shutterstock COI 414555577",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Suestek",
+      "confidence": 0.08658111378892151,
+      "box": [
+        94.0,
+        124.0,
+        358.0,
+        179.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        106.0,
+        306.0,
+        142.0,
+        312.0
+      ]
+    },
+    {
+      "text": "Shutterstock",
+      "confidence": 0.8793182908466327,
+      "box": [
+        140.0,
+        302.0,
+        224.0,
+        316.0
+      ]
+    },
+    {
+      "text": "COI",
+      "confidence": 0.14596918874000192,
+      "box": [
+        227.0,
+        305.0,
+        257.0,
+        317.0
+      ]
+    },
+    {
+      "text": "414555577",
+      "confidence": 0.9997050544683656,
+      "box": [
+        271.0,
+        301.0,
+        345.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "16889fe07e8653d2f804361a8912d97cf4c324f2b6191b11b9bf62a130ad77c7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

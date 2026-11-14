@@ -1,0 +1,43 @@
+{
+  "ocr_text": "d酃[哂 心0a@U88 硇@o",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "d酃[哂",
+      "confidence": 1.7754959117155522e-05,
+      "box": [
+        112.0,
+        0.0,
+        382.0,
+        77.0
+      ]
+    },
+    {
+      "text": "心0a@U88",
+      "confidence": 0.0009664554292235538,
+      "box": [
+        141.0,
+        283.0,
+        380.0,
+        327.0
+      ]
+    },
+    {
+      "text": "硇@o",
+      "confidence": 0.0015828864406768712,
+      "box": [
+        203.0,
+        317.0,
+        322.0,
+        366.0
+      ]
+    }
+  ],
+  "image_sha256": "34dfac83c9fe9a914f87c39badad5768eb70c7770b2dd39b3e7f1f77d283b499",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

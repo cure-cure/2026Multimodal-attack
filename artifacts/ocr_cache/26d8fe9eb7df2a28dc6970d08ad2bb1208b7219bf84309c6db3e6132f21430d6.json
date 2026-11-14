@@ -1,0 +1,43 @@
+{
+  "ocr_text": "UNT VENUNEI呦AII 阳D吸C田 呲0",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "UNT VENUNEI呦AII",
+      "confidence": 0.0007788416972023727,
+      "box": [
+        6.0,
+        0.0,
+        244.0,
+        22.0
+      ]
+    },
+    {
+      "text": "阳D吸C田",
+      "confidence": 9.745678032152299e-06,
+      "box": [
+        67.0,
+        19.0,
+        183.0,
+        39.0
+      ]
+    },
+    {
+      "text": "呲0",
+      "confidence": 0.00013149143407178602,
+      "box": [
+        48.0,
+        196.0,
+        202.0,
+        250.0
+      ]
+    }
+  ],
+  "image_sha256": "26d8fe9eb7df2a28dc6970d08ad2bb1208b7219bf84309c6db3e6132f21430d6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

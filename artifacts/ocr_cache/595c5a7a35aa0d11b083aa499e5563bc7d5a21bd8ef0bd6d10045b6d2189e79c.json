@@ -1,0 +1,43 @@
+{
+  "ocr_text": "SSCe Wyshutterstockcom 97219916",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SSCe",
+      "confidence": 0.04377865046262741,
+      "box": [
+        93.0,
+        197.0,
+        354.0,
+        253.0
+      ]
+    },
+    {
+      "text": "Wyshutterstockcom",
+      "confidence": 0.22311406451220525,
+      "box": [
+        121.0,
+        455.0,
+        258.0,
+        469.0
+      ]
+    },
+    {
+      "text": "97219916",
+      "confidence": 0.7476235699209567,
+      "box": [
+        263.0,
+        453.0,
+        331.0,
+        469.0
+      ]
+    }
+  ],
+  "image_sha256": "595c5a7a35aa0d11b083aa499e5563bc7d5a21bd8ef0bd6d10045b6d2189e79c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

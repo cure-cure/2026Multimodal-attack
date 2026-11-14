@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Savings",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Savings",
+      "confidence": 0.7944156415289718,
+      "box": [
+        411.0,
+        496.0,
+        760.0,
+        667.0
+      ]
+    }
+  ],
+  "image_sha256": "fde3bd35d8541084d16344166fb4200a24a869815e394a9bd85be40e0020de43",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

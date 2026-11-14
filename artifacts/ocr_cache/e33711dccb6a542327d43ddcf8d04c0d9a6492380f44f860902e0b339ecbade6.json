@@ -1,0 +1,43 @@
+{
+  "ocr_text": "5TOBK Iy bigstock com 423136763",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "5TOBK",
+      "confidence": 0.009722696791090406,
+      "box": [
+        127.0,
+        99.0,
+        323.0,
+        167.0
+      ]
+    },
+    {
+      "text": "Iy bigstock com",
+      "confidence": 0.3653562413860941,
+      "box": [
+        1.0,
+        265.0,
+        121.0,
+        281.0
+      ]
+    },
+    {
+      "text": "423136763",
+      "confidence": 0.9997939559973291,
+      "box": [
+        129.0,
+        263.0,
+        205.0,
+        281.0
+      ]
+    }
+  ],
+  "image_sha256": "e33711dccb6a542327d43ddcf8d04c0d9a6492380f44f860902e0b339ecbade6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

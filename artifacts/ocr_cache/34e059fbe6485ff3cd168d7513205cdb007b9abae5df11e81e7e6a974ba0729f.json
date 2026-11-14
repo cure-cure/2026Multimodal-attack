@@ -1,0 +1,33 @@
+{
+  "ocr_text": "@ WNshutterstockcom . 398128351",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@",
+      "confidence": 0.7138157429015024,
+      "box": [
+        284.0,
+        144.0,
+        356.0,
+        194.0
+      ]
+    },
+    {
+      "text": "WNshutterstockcom . 398128351",
+      "confidence": 0.43670951445846434,
+      "box": [
+        117.0,
+        341.0,
+        333.0,
+        357.0
+      ]
+    }
+  ],
+  "image_sha256": "34e059fbe6485ff3cd168d7513205cdb007b9abae5df11e81e7e6a974ba0729f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

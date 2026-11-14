@@ -1,0 +1,43 @@
+{
+  "ocr_text": "IO bigstockcom 110259281",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "IO",
+      "confidence": 0.049180468603851,
+      "box": [
+        124.0,
+        456.0,
+        158.0,
+        464.0
+      ]
+    },
+    {
+      "text": "bigstockcom",
+      "confidence": 0.9205801064018353,
+      "box": [
+        157.0,
+        453.0,
+        243.0,
+        469.0
+      ]
+    },
+    {
+      "text": "110259281",
+      "confidence": 0.9999172670418426,
+      "box": [
+        253.0,
+        451.0,
+        325.0,
+        467.0
+      ]
+    }
+  ],
+  "image_sha256": "48a9c15c2a75ffb95d0bf91c76eb6afdd1e47ccd67b23d4e66ef1f8c462d4064",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

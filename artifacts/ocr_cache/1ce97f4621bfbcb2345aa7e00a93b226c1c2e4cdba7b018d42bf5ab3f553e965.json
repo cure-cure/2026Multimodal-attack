@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Religion Does Na Deserve Respect",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Religion Does Na",
+      "confidence": 0.9328438082045799,
+      "box": [
+        41.0,
+        129.0,
+        275.0,
+        165.0
+      ]
+    },
+    {
+      "text": "Deserve Respect",
+      "confidence": 0.9708766607370497,
+      "box": [
+        47.0,
+        162.0,
+        279.0,
+        200.0
+      ]
+    }
+  ],
+  "image_sha256": "1ce97f4621bfbcb2345aa7e00a93b226c1c2e4cdba7b018d42bf5ab3f553e965",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

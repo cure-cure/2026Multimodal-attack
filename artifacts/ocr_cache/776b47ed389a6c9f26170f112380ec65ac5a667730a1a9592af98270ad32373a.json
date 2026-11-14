@@ -1,0 +1,23 @@
+{
+  "ocr_text": "RACIST:",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "RACIST:",
+      "confidence": 0.37521420905091735,
+      "box": [
+        128.72307231792385,
+        7.486521034096336,
+        283.2769276820762,
+        66.51347896590366
+      ]
+    }
+  ],
+  "image_sha256": "776b47ed389a6c9f26170f112380ec65ac5a667730a1a9592af98270ad32373a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

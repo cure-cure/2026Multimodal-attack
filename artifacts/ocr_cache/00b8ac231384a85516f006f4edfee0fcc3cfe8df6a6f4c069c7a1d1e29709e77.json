@@ -1,0 +1,23 @@
+{
+  "ocr_text": "NCMAR",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "NCMAR",
+      "confidence": 0.17518417999514987,
+      "box": [
+        31.0,
+        87.0,
+        87.0,
+        107.0
+      ]
+    }
+  ],
+  "image_sha256": "00b8ac231384a85516f006f4edfee0fcc3cfe8df6a6f4c069c7a1d1e29709e77",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

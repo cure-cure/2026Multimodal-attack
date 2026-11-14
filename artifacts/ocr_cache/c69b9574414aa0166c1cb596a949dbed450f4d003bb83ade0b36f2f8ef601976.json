@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Q& shutterstockcom 1917865804",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Q&",
+      "confidence": 0.014219165658257645,
+      "box": [
+        40.0,
+        26.0,
+        338.0,
+        220.0
+      ]
+    },
+    {
+      "text": "shutterstockcom",
+      "confidence": 0.9032896954270795,
+      "box": [
+        105.0,
+        265.0,
+        191.0,
+        279.0
+      ]
+    },
+    {
+      "text": "1917865804",
+      "confidence": 0.459961333223243,
+      "box": [
+        199.0,
+        265.0,
+        263.0,
+        279.0
+      ]
+    }
+  ],
+  "image_sha256": "c69b9574414aa0166c1cb596a949dbed450f4d003bb83ade0b36f2f8ef601976",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

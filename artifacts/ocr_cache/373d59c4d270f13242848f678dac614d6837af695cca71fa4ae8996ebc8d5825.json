@@ -1,0 +1,63 @@
+{
+  "ocr_text": "开 十 S Vectorstock VectorStock.com/3435190",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "开",
+      "confidence": 0.9335671924415614,
+      "box": [
+        417.0,
+        89.0,
+        573.0,
+        245.0
+      ]
+    },
+    {
+      "text": "十",
+      "confidence": 0.9454960537368748,
+      "box": [
+        436.0,
+        416.0,
+        562.0,
+        580.0
+      ]
+    },
+    {
+      "text": "S",
+      "confidence": 0.0018637416511564503,
+      "box": [
+        738.0,
+        406.0,
+        914.0,
+        584.0
+      ]
+    },
+    {
+      "text": "Vectorstock",
+      "confidence": 0.6381600304177588,
+      "box": [
+        25.0,
+        1021.0,
+        217.0,
+        1061.0
+      ]
+    },
+    {
+      "text": "VectorStock.com/3435190",
+      "confidence": 0.9181620389787326,
+      "box": [
+        732.0,
+        1031.0,
+        976.0,
+        1058.0
+      ]
+    }
+  ],
+  "image_sha256": "373d59c4d270f13242848f678dac614d6837af695cca71fa4ae8996ebc8d5825",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

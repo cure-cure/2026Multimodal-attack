@@ -1,0 +1,23 @@
+{
+  "ocr_text": "CanStockPhoto COm",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CanStockPhoto COm",
+      "confidence": 0.47743004366857983,
+      "box": [
+        111.0,
+        241.0,
+        221.0,
+        254.0
+      ]
+    }
+  ],
+  "image_sha256": "dddd1ffc301b42a76d22b837886b444f58fff013e5f69c837a27a2028daec4df",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

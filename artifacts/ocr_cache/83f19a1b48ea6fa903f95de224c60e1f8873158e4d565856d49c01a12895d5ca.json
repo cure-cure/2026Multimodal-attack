@@ -1,0 +1,43 @@
+{
+  "ocr_text": "腑叫 alamy B3MCAR",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "腑叫",
+      "confidence": 0.002026493435090539,
+      "box": [
+        85.0,
+        111.0,
+        217.0,
+        185.0
+      ]
+    },
+    {
+      "text": "alamy",
+      "confidence": 0.5751850844124652,
+      "box": [
+        100.0,
+        302.0,
+        141.0,
+        319.0
+      ]
+    },
+    {
+      "text": "B3MCAR",
+      "confidence": 0.9361328761487652,
+      "box": [
+        147.0,
+        303.0,
+        199.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "83f19a1b48ea6fa903f95de224c60e1f8873158e4d565856d49c01a12895d5ca",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

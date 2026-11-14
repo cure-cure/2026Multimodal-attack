@@ -1,0 +1,43 @@
+{
+  "ocr_text": "AUCI CInLI N",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "AUCI",
+      "confidence": 0.10696181654930115,
+      "box": [
+        655.0,
+        498.0,
+        880.0,
+        586.0
+      ]
+    },
+    {
+      "text": "CInLI",
+      "confidence": 0.056346280566624975,
+      "box": [
+        485.0,
+        634.0,
+        761.0,
+        703.0
+      ]
+    },
+    {
+      "text": "N",
+      "confidence": 0.5490552901359393,
+      "box": [
+        749.2946006219569,
+        529.4602457706296,
+        975.7053993780431,
+        675.5397542293704
+      ]
+    }
+  ],
+  "image_sha256": "ff5eb22963026b3d9c63af2d5bb0393076494e7e17a81cd4df68e6350ec31c61",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

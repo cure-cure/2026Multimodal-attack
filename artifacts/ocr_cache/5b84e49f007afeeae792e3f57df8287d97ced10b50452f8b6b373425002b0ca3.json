@@ -1,0 +1,33 @@
+{
+  "ocr_text": "哑C AN0 THEIA RELATIONSHIP",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "哑C",
+      "confidence": 0.004727291879568685,
+      "box": [
+        2.0,
+        4.0,
+        176.0,
+        52.0
+      ]
+    },
+    {
+      "text": "AN0 THEIA RELATIONSHIP",
+      "confidence": 0.2913673156083977,
+      "box": [
+        17.0,
+        47.0,
+        161.0,
+        63.0
+      ]
+    }
+  ],
+  "image_sha256": "5b84e49f007afeeae792e3f57df8287d97ced10b50452f8b6b373425002b0ca3",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

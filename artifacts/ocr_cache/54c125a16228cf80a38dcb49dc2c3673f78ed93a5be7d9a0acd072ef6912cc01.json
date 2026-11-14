@@ -1,0 +1,33 @@
+{
+  "ocr_text": "0 WORLD RELGIONS",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "0",
+      "confidence": 0.0004085652376587673,
+      "box": [
+        247.0,
+        39.0,
+        349.0,
+        99.0
+      ]
+    },
+    {
+      "text": "WORLD RELGIONS",
+      "confidence": 0.9317247290249391,
+      "box": [
+        117.0,
+        223.0,
+        277.0,
+        243.0
+      ]
+    }
+  ],
+  "image_sha256": "54c125a16228cf80a38dcb49dc2c3673f78ed93a5be7d9a0acd072ef6912cc01",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

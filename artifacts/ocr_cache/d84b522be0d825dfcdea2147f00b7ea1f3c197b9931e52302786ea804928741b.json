@@ -1,0 +1,33 @@
+{
+  "ocr_text": "ARE VoU SURE Vou'RE MGTOW?",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ARE VoU SURE",
+      "confidence": 0.5338424447131941,
+      "box": [
+        185.0,
+        233.0,
+        349.0,
+        271.0
+      ]
+    },
+    {
+      "text": "Vou'RE MGTOW?",
+      "confidence": 0.533990138690356,
+      "box": [
+        169.0,
+        269.0,
+        367.0,
+        309.0
+      ]
+    }
+  ],
+  "image_sha256": "d84b522be0d825dfcdea2147f00b7ea1f3c197b9931e52302786ea804928741b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

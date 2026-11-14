@@ -1,0 +1,43 @@
+{
+  "ocr_text": "00PYRIGHT ANDREAS H.BITESNICH IIBIESNICHCON",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "00PYRIGHT",
+      "confidence": 0.018299979300940045,
+      "box": [
+        807.0,
+        21.0,
+        1001.0,
+        41.0
+      ]
+    },
+    {
+      "text": "ANDREAS H.BITESNICH",
+      "confidence": 0.6157471065703429,
+      "box": [
+        806.0,
+        38.0,
+        1000.0,
+        62.0
+      ]
+    },
+    {
+      "text": "IIBIESNICHCON",
+      "confidence": 0.33613149855631197,
+      "box": [
+        19.0,
+        653.0,
+        173.0,
+        671.0
+      ]
+    }
+  ],
+  "image_sha256": "1348da103002c6a9979376cffa5887a95369d916ebb70690342752db1fe1b0e8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

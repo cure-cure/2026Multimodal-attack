@@ -1,0 +1,33 @@
+{
+  "ocr_text": "令\" AKTION",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "令\"",
+      "confidence": 0.0001155293316812196,
+      "box": [
+        78.0,
+        25.0,
+        891.0,
+        411.0
+      ]
+    },
+    {
+      "text": "AKTION",
+      "confidence": 0.7592301898995337,
+      "box": [
+        348.0,
+        775.0,
+        714.0,
+        920.0
+      ]
+    }
+  ],
+  "image_sha256": "c8b0f0b2ea671560206303e769cf3d95014e23dc491d498815d0d92d906add9f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

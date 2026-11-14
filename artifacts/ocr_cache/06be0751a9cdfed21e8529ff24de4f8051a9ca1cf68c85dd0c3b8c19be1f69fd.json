@@ -1,0 +1,63 @@
+{
+  "ocr_text": "KEEP CALM AND RESPECT WOMAN",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "KEEP",
+      "confidence": 0.9926722645759583,
+      "box": [
+        66.0,
+        4.0,
+        214.0,
+        58.0
+      ]
+    },
+    {
+      "text": "CALM",
+      "confidence": 0.8663039207458496,
+      "box": [
+        54.0,
+        60.0,
+        220.0,
+        116.0
+      ]
+    },
+    {
+      "text": "AND",
+      "confidence": 0.9966003129873753,
+      "box": [
+        106.0,
+        116.0,
+        168.0,
+        142.0
+      ]
+    },
+    {
+      "text": "RESPECT",
+      "confidence": 0.7433488845329538,
+      "box": [
+        18.0,
+        146.0,
+        260.0,
+        202.0
+      ]
+    },
+    {
+      "text": "WOMAN",
+      "confidence": 0.9851346001386994,
+      "box": [
+        28.0,
+        214.0,
+        247.0,
+        268.0
+      ]
+    }
+  ],
+  "image_sha256": "06be0751a9cdfed21e8529ff24de4f8051a9ca1cf68c85dd0c3b8c19be1f69fd",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

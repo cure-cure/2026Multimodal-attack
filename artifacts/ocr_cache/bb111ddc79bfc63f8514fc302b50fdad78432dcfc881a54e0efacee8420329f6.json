@@ -1,0 +1,53 @@
+{
+  "ocr_text": "53尕33 0e凹品3 %Fhhll7 5",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "53尕33",
+      "confidence": 0.00897665534227075,
+      "box": [
+        918.0,
+        865.0,
+        1621.0,
+        1012.0
+      ]
+    },
+    {
+      "text": "0e凹品3",
+      "confidence": 0.003910426859912681,
+      "box": [
+        937.0,
+        1000.0,
+        1507.0,
+        1134.0
+      ]
+    },
+    {
+      "text": "%Fhhll7",
+      "confidence": 0.00998934310152213,
+      "box": [
+        1003.0,
+        1123.0,
+        1819.0,
+        1260.0
+      ]
+    },
+    {
+      "text": "5",
+      "confidence": 0.06141227324893728,
+      "box": [
+        1080.0,
+        1804.0,
+        1262.0,
+        1969.0
+      ]
+    }
+  ],
+  "image_sha256": "bb111ddc79bfc63f8514fc302b50fdad78432dcfc881a54e0efacee8420329f6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

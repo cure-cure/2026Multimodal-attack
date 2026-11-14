@@ -1,0 +1,53 @@
+{
+  "ocr_text": "刊吡0 IWluslimhastartls, WB Ililn'twin 2 WarS jstto hani Bnylanil ouer t 咖I",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "刊吡0",
+      "confidence": 0.0009950520679562795,
+      "box": [
+        0.0,
+        280.0,
+        78.0,
+        304.0
+      ]
+    },
+    {
+      "text": "IWluslimhastartls,",
+      "confidence": 0.08057449177360637,
+      "box": [
+        2.0,
+        305.0,
+        186.0,
+        330.0
+      ]
+    },
+    {
+      "text": "WB Ililn'twin 2 WarS",
+      "confidence": 0.11431863102024897,
+      "box": [
+        0.0,
+        332.0,
+        172.0,
+        356.0
+      ]
+    },
+    {
+      "text": "jstto hani Bnylanil ouer t 咖I",
+      "confidence": 0.025662734306918754,
+      "box": [
+        0.0,
+        358.0,
+        287.0,
+        385.0
+      ]
+    }
+  ],
+  "image_sha256": "629bcf7986fb61ba32d1e2fe7574996592decc46114b87fc817f27aa80044e57",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

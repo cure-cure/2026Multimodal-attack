@@ -1,0 +1,123 @@
+{
+  "ocr_text": "Illurh /lomicDrmbar.cotl DED rlyhwey Dostel.com Ineston Money Laundering 101 Shell Companies Multiple Bank Transfers Anonynizing Transactions Noved by Kellel Wharl Icarenns Next slide REMTEL",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Illurh /lomicDrmbar.cotl",
+      "confidence": 0.34251913858632616,
+      "box": [
+        396.0,
+        2.0,
+        678.0,
+        28.0
+      ]
+    },
+    {
+      "text": "DED",
+      "confidence": 0.9968941384808849,
+      "box": [
+        115.0,
+        43.0,
+        151.0,
+        63.0
+      ]
+    },
+    {
+      "text": "rlyhwey Dostel.com",
+      "confidence": 0.8115339783843951,
+      "box": [
+        528.0,
+        40.0,
+        746.0,
+        68.0
+      ]
+    },
+    {
+      "text": "Ineston",
+      "confidence": 0.9917184471742007,
+      "box": [
+        880.0,
+        39.0,
+        970.0,
+        65.0
+      ]
+    },
+    {
+      "text": "Money Laundering 101",
+      "confidence": 0.6373594120072339,
+      "box": [
+        211.0,
+        136.0,
+        852.0,
+        237.0
+      ]
+    },
+    {
+      "text": "Shell Companies",
+      "confidence": 0.6372658138161296,
+      "box": [
+        135.0,
+        285.0,
+        507.0,
+        353.0
+      ]
+    },
+    {
+      "text": "Multiple Bank Transfers",
+      "confidence": 0.9391897689591807,
+      "box": [
+        134.0,
+        427.0,
+        676.0,
+        501.0
+      ]
+    },
+    {
+      "text": "Anonynizing Transactions",
+      "confidence": 0.7861237974177193,
+      "box": [
+        131.0,
+        573.0,
+        716.0,
+        647.0
+      ]
+    },
+    {
+      "text": "Noved by Kellel Wharl Icarenns",
+      "confidence": 0.42357843403997697,
+      "box": [
+        443.0,
+        942.0,
+        655.0,
+        963.0
+      ]
+    },
+    {
+      "text": "Next slide",
+      "confidence": 0.9481448203437733,
+      "box": [
+        836.0,
+        938.0,
+        958.0,
+        970.0
+      ]
+    },
+    {
+      "text": " REMTEL",
+      "confidence": 0.5407040254945814,
+      "box": [
+        86.05131670194949,
+        156.53880549969003,
+        161.94868329805053,
+        227.46119450030997
+      ]
+    }
+  ],
+  "image_sha256": "1b88e39d45fce29dda5a77453f6a8f2b557db105e7cff0e726d7382a8a89a438",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

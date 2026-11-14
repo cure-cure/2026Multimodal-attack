@@ -1,0 +1,23 @@
+{
+  "ocr_text": "MGTON",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "MGTON",
+      "confidence": 0.39054929526046894,
+      "box": [
+        19.0,
+        315.0,
+        387.0,
+        400.0
+      ]
+    }
+  ],
+  "image_sha256": "d28c16a7b93e0693ae98783240eb16b564035bae513e82d428f673b738c4d533",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

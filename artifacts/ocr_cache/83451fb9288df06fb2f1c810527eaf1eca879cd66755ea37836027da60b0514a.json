@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Japanese Akita American Akita",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Japanese Akita",
+      "confidence": 0.9131382797051579,
+      "box": [
+        2.0,
+        138.0,
+        152.0,
+        164.0
+      ]
+    },
+    {
+      "text": "American Akita",
+      "confidence": 0.6230212597977604,
+      "box": [
+        161.0,
+        141.0,
+        313.0,
+        161.0
+      ]
+    }
+  ],
+  "image_sha256": "83451fb9288df06fb2f1c810527eaf1eca879cd66755ea37836027da60b0514a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

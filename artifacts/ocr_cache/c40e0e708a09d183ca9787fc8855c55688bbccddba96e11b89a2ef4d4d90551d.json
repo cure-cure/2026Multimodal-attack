@@ -1,0 +1,23 @@
+{
+  "ocr_text": "KEsI",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "KEsI",
+      "confidence": 0.015323976054787636,
+      "box": [
+        13.0,
+        61.0,
+        209.0,
+        147.0
+      ]
+    }
+  ],
+  "image_sha256": "c40e0e708a09d183ca9787fc8855c55688bbccddba96e11b89a2ef4d4d90551d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

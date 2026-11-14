@@ -1,0 +1,23 @@
+{
+  "ocr_text": "孔",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "孔",
+      "confidence": 0.001396781978805009,
+      "box": [
+        717.0,
+        455.0,
+        877.0,
+        611.0
+      ]
+    }
+  ],
+  "image_sha256": "a1ba5e798bafa0c0e2951c27f4e2874c377d02d92eb0e1a4207a984ac17ba7be",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

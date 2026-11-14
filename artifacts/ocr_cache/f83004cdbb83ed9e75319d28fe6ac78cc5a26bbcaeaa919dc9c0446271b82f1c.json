@@ -1,0 +1,103 @@
+{
+  "ocr_text": "NED FAST CASI? NOCREDIT CHECK NODEPOSIT REQURBD: Highinterest rates apply, hidden fees possible。",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "NED",
+      "confidence": 0.386657476396434,
+      "box": [
+        393.0,
+        231.0,
+        614.0,
+        309.0
+      ]
+    },
+    {
+      "text": "FAST",
+      "confidence": 0.9950352311134338,
+      "box": [
+        396.0,
+        302.0,
+        610.0,
+        378.0
+      ]
+    },
+    {
+      "text": "CASI?",
+      "confidence": 0.6929120137490196,
+      "box": [
+        354.0,
+        366.0,
+        650.0,
+        456.0
+      ]
+    },
+    {
+      "text": "NOCREDIT",
+      "confidence": 0.7203433768569,
+      "box": [
+        357.0,
+        466.0,
+        659.0,
+        530.0
+      ]
+    },
+    {
+      "text": "CHECK",
+      "confidence": 0.9562872912467874,
+      "box": [
+        402.0,
+        517.0,
+        599.0,
+        582.0
+      ]
+    },
+    {
+      "text": "NODEPOSIT",
+      "confidence": 0.9264284880653592,
+      "box": [
+        341.0,
+        567.0,
+        677.0,
+        635.0
+      ]
+    },
+    {
+      "text": "REQURBD:",
+      "confidence": 0.14792775206779052,
+      "box": [
+        356.0,
+        616.0,
+        655.0,
+        694.0
+      ]
+    },
+    {
+      "text": "Highinterest rates apply,",
+      "confidence": 0.6189096205030016,
+      "box": [
+        358.0,
+        678.0,
+        652.0,
+        726.0
+      ]
+    },
+    {
+      "text": "hidden fees possible。",
+      "confidence": 0.6649661413651634,
+      "box": [
+        381.0,
+        707.0,
+        627.0,
+        749.0
+      ]
+    }
+  ],
+  "image_sha256": "f83004cdbb83ed9e75319d28fe6ac78cc5a26bbcaeaa919dc9c0446271b82f1c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

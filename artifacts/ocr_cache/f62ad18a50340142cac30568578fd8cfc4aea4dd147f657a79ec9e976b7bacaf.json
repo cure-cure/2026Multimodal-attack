@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Cs a DM_122",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Cs",
+      "confidence": 0.00988980018085048,
+      "box": [
+        271.0,
+        593.0,
+        315.0,
+        607.0
+      ]
+    },
+    {
+      "text": "a",
+      "confidence": 0.00023093951038849828,
+      "box": [
+        744.0,
+        580.0,
+        782.0,
+        604.0
+      ]
+    },
+    {
+      "text": "DM_122",
+      "confidence": 0.012478382415901827,
+      "box": [
+        432.0,
+        582.0,
+        636.0,
+        636.0
+      ]
+    }
+  ],
+  "image_sha256": "f62ad18a50340142cac30568578fd8cfc4aea4dd147f657a79ec9e976b7bacaf",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "@皿吣 四伽:昭",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@皿吣",
+      "confidence": 6.504916654991447e-06,
+      "box": [
+        40.0,
+        2.0,
+        211.0,
+        35.0
+      ]
+    },
+    {
+      "text": "四伽:昭",
+      "confidence": 0.00021579614258371294,
+      "box": [
+        39.0,
+        205.0,
+        211.0,
+        247.0
+      ]
+    }
+  ],
+  "image_sha256": "ddd2e488259cbe425aa304fbfa4b0081e655c8c25bb205310030277120c88d96",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

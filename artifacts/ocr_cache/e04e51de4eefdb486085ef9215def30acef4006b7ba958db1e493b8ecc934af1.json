@@ -1,0 +1,53 @@
+{
+  "ocr_text": "DAILYDEALS HLMETTO EERVIN SRR",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "DAILYDEALS",
+      "confidence": 0.3429204185312723,
+      "box": [
+        159.0,
+        3.0,
+        361.0,
+        47.0
+      ]
+    },
+    {
+      "text": "HLMETTO",
+      "confidence": 0.09823714366963876,
+      "box": [
+        732.0,
+        40.0,
+        830.0,
+        56.0
+      ]
+    },
+    {
+      "text": "EERVIN",
+      "confidence": 0.2840678596860468,
+      "box": [
+        158.0,
+        40.0,
+        326.0,
+        84.0
+      ]
+    },
+    {
+      "text": "SRR",
+      "confidence": 0.019989783235574425,
+      "box": [
+        750.0,
+        64.0,
+        810.0,
+        72.0
+      ]
+    }
+  ],
+  "image_sha256": "e04e51de4eefdb486085ef9215def30acef4006b7ba958db1e493b8ecc934af1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

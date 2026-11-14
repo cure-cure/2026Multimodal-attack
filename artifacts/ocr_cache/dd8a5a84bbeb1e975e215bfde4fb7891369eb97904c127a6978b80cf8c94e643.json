@@ -1,0 +1,33 @@
+{
+  "ocr_text": "OMMONTI IUBRR",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "OMMONTI",
+      "confidence": 0.7428263032800139,
+      "box": [
+        492.0036166372675,
+        125.05442430467143,
+        593.9963833627324,
+        192.94557569532859
+      ]
+    },
+    {
+      "text": "IUBRR",
+      "confidence": 0.3000412534436365,
+      "box": [
+        567.018264084603,
+        153.07474500129138,
+        647.981735915397,
+        211.92525499870862
+      ]
+    }
+  ],
+  "image_sha256": "dd8a5a84bbeb1e975e215bfde4fb7891369eb97904c127a6978b80cf8c94e643",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

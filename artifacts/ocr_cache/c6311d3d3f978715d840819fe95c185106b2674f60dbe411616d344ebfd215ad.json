@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Bo Iy bIgstockcom 380139298",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Bo",
+      "confidence": 0.0305143282405144,
+      "box": [
+        131.0,
+        117.0,
+        225.0,
+        181.0
+      ]
+    },
+    {
+      "text": "Iy bIgstockcom",
+      "confidence": 0.3013063561872629,
+      "box": [
+        1.0,
+        303.0,
+        121.0,
+        319.0
+      ]
+    },
+    {
+      "text": "380139298",
+      "confidence": 0.9991420653859815,
+      "box": [
+        131.0,
+        299.0,
+        205.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "c6311d3d3f978715d840819fe95c185106b2674f60dbe411616d344ebfd215ad",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "getreaWforVu {加 Wf。 MBlear fB & Bternalglavr!",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "getreaWforVu {加",
+      "confidence": 0.002694446464426083,
+      "box": [
+        34.0,
+        0.0,
+        462.0,
+        46.0
+      ]
+    },
+    {
+      "text": "Wf。",
+      "confidence": 0.045094158372474616,
+      "box": [
+        138.0,
+        30.0,
+        380.0,
+        84.0
+      ]
+    },
+    {
+      "text": "MBlear fB & Bternalglavr!",
+      "confidence": 0.014366524000035491,
+      "box": [
+        18.0,
+        424.0,
+        498.0,
+        478.0
+      ]
+    }
+  ],
+  "image_sha256": "c6f07af1d98d28a6d80b7db1de9fbc9175e4330afec82bc3daefaa93bf177547",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

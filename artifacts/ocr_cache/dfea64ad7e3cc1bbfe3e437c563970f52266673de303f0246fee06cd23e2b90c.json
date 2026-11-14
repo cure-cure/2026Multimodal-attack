@@ -1,0 +1,23 @@
+{
+  "ocr_text": "HoW Italiangs",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "HoW Italiangs",
+      "confidence": 0.28600880145571683,
+      "box": [
+        0.0,
+        0.0,
+        276.0,
+        73.0
+      ]
+    }
+  ],
+  "image_sha256": "dfea64ad7e3cc1bbfe3e437c563970f52266673de303f0246fee06cd23e2b90c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

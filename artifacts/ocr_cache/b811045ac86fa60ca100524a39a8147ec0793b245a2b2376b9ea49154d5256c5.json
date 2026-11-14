@@ -1,0 +1,23 @@
+{
+  "ocr_text": "THEFTCRIMES",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "THEFTCRIMES",
+      "confidence": 0.9758485475354273,
+      "box": [
+        185.0,
+        169.0,
+        585.0,
+        213.0
+      ]
+    }
+  ],
+  "image_sha256": "b811045ac86fa60ca100524a39a8147ec0793b245a2b2376b9ea49154d5256c5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

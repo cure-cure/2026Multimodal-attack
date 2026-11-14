@@ -1,0 +1,23 @@
+{
+  "ocr_text": "STAIRS",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "STAIRS",
+      "confidence": 0.9975766969948865,
+      "box": [
+        769.9222340038165,
+        1645.1622681052045,
+        1333.0777659961834,
+        1943.8377318947955
+      ]
+    }
+  ],
+  "image_sha256": "bf1daa3deeb7f75ee82de8158b31c1ef496d1a3bfb56652007c0f3f761eca4e4",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

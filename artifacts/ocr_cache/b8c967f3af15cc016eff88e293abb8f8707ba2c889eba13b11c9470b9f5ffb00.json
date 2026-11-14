@@ -1,0 +1,53 @@
+{
+  "ocr_text": "卅惩酶 Sauho ressvplals Minfi Demo 19 y/o",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "卅惩酶 Sauho",
+      "confidence": 0.0016877466235824148,
+      "box": [
+        400.0,
+        282.0,
+        544.0,
+        311.0
+      ]
+    },
+    {
+      "text": "ressvplals",
+      "confidence": 0.3166934077290335,
+      "box": [
+        447.0,
+        311.0,
+        523.0,
+        329.0
+      ]
+    },
+    {
+      "text": "Minfi Demo",
+      "confidence": 0.4350417314641051,
+      "box": [
+        379.0,
+        803.0,
+        555.0,
+        843.0
+      ]
+    },
+    {
+      "text": "19 y/o",
+      "confidence": 0.542762919362156,
+      "box": [
+        375.0,
+        859.0,
+        471.0,
+        901.0
+      ]
+    }
+  ],
+  "image_sha256": "b8c967f3af15cc016eff88e293abb8f8707ba2c889eba13b11c9470b9f5ffb00",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

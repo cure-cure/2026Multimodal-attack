@@ -1,0 +1,33 @@
+{
+  "ocr_text": "tatlOok WBIVoIndoot IIhshan Rr COMng hOIB frol t8 Is0}",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "tatlOok WBIVoIndoot",
+      "confidence": 0.05073165777690297,
+      "box": [
+        183.0,
+        15.0,
+        525.0,
+        51.0
+      ]
+    },
+    {
+      "text": "IIhshan Rr COMng hOIB frol t8 Is0}",
+      "confidence": 0.0005647979647225024,
+      "box": [
+        75.0,
+        755.0,
+        703.0,
+        793.0
+      ]
+    }
+  ],
+  "image_sha256": "d077bb192d602ebc2683c6d777b4c1fbef0edf8928465f7b368a96764ae0f218",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

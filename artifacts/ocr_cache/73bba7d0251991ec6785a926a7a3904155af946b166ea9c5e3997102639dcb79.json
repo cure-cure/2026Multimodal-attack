@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Relatives on Result Day",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Relatives on Result",
+      "confidence": 0.7964255325816729,
+      "box": [
+        16.0,
+        16.0,
+        402.0,
+        64.0
+      ]
+    },
+    {
+      "text": "Day",
+      "confidence": 0.9996398447680743,
+      "box": [
+        395.2621214642729,
+        12.086691731257645,
+        490.7378785357271,
+        74.91330826874236
+      ]
+    }
+  ],
+  "image_sha256": "73bba7d0251991ec6785a926a7a3904155af946b166ea9c5e3997102639dcb79",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

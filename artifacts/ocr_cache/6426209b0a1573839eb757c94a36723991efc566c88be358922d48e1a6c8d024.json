@@ -1,0 +1,23 @@
+{
+  "ocr_text": "What is religion?",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "What is religion?",
+      "confidence": 0.5847714605439881,
+      "box": [
+        126.0,
+        183.0,
+        835.0,
+        300.0
+      ]
+    }
+  ],
+  "image_sha256": "6426209b0a1573839eb757c94a36723991efc566c88be358922d48e1a6c8d024",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

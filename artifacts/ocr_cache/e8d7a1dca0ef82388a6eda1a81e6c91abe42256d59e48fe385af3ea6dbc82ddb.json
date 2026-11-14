@@ -1,0 +1,23 @@
+{
+  "ocr_text": "WWWshutterstock.com . 17561890",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WWWshutterstock.com . 17561890",
+      "confidence": 0.3905418849795812,
+      "box": [
+        121.0,
+        295.0,
+        331.0,
+        313.0
+      ]
+    }
+  ],
+  "image_sha256": "e8d7a1dca0ef82388a6eda1a81e6c91abe42256d59e48fe385af3ea6dbc82ddb",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Ofcha  。 灭",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Ofcha  。",
+      "confidence": 0.0045460185298908,
+      "box": [
+        559.0,
+        483.0,
+        685.0,
+        503.0
+      ]
+    },
+    {
+      "text": "灭",
+      "confidence": 0.016312691071460828,
+      "box": [
+        713.0,
+        483.0,
+        763.0,
+        503.0
+      ]
+    }
+  ],
+  "image_sha256": "ad68d7ba9878d814212f260db86e97cee9dc2dc5deca3d5b50f6c1982665eeaa",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

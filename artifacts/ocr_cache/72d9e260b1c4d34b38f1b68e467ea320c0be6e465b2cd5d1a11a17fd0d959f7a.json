@@ -1,0 +1,53 @@
+{
+  "ocr_text": "luyi yothiytdjBS E9 flmm'fSIIK Rommn",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "luyi yothiytdjBS",
+      "confidence": 0.08863829384368802,
+      "box": [
+        0.0,
+        0.0,
+        497.0,
+        84.0
+      ]
+    },
+    {
+      "text": "E9",
+      "confidence": 0.0001403488399082857,
+      "box": [
+        302.0,
+        89.0,
+        414.0,
+        134.0
+      ]
+    },
+    {
+      "text": "flmm'fSIIK",
+      "confidence": 0.047682936079324154,
+      "box": [
+        23.0,
+        317.0,
+        365.0,
+        370.0
+      ]
+    },
+    {
+      "text": "Rommn",
+      "confidence": 0.3309208769871143,
+      "box": [
+        400.0,
+        346.0,
+        498.0,
+        370.0
+      ]
+    }
+  ],
+  "image_sha256": "72d9e260b1c4d34b38f1b68e467ea320c0be6e465b2cd5d1a11a17fd0d959f7a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

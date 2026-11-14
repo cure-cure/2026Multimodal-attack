@@ -1,0 +1,23 @@
+{
+  "ocr_text": "smhjaames twitter",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "smhjaames twitter",
+      "confidence": 0.38516249491434434,
+      "box": [
+        15.0,
+        499.0,
+        123.0,
+        515.0
+      ]
+    }
+  ],
+  "image_sha256": "2803860febe6cae8354cf449f0d3156990c7fa2f0ae1608ff860da95088b25ed",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

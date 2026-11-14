@@ -1,0 +1,53 @@
+{
+  "ocr_text": "OZU Cren。 SREM 8N",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "OZU",
+      "confidence": 0.5778222086240853,
+      "box": [
+        95.0,
+        77.0,
+        133.0,
+        91.0
+      ]
+    },
+    {
+      "text": "Cren。",
+      "confidence": 0.4670462295682373,
+      "box": [
+        96.0,
+        82.0,
+        148.0,
+        106.0
+      ]
+    },
+    {
+      "text": "SREM",
+      "confidence": 0.18716056644916534,
+      "box": [
+        77.0,
+        147.0,
+        161.0,
+        191.0
+      ]
+    },
+    {
+      "text": "8N",
+      "confidence": 0.0420590053842456,
+      "box": [
+        80.0,
+        180.0,
+        158.0,
+        208.0
+      ]
+    }
+  ],
+  "image_sha256": "3c03e7c20b526691720bd58240db3697d45a04161a2746904850916c4c9a733f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

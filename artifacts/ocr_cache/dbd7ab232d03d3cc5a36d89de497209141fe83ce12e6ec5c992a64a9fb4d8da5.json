@@ -1,0 +1,33 @@
+{
+  "ocr_text": "German archaeologists kidnapped in Nigeria",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "German archaeologists",
+      "confidence": 0.9211128793804394,
+      "box": [
+        0.0,
+        99.0,
+        192.0,
+        125.0
+      ]
+    },
+    {
+      "text": "kidnapped in Nigeria",
+      "confidence": 0.737766271244221,
+      "box": [
+        0.0,
+        122.0,
+        170.0,
+        146.0
+      ]
+    }
+  ],
+  "image_sha256": "dbd7ab232d03d3cc5a36d89de497209141fe83ce12e6ec5c992a64a9fb4d8da5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

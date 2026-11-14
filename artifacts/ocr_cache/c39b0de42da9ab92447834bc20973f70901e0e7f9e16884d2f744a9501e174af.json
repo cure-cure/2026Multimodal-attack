@@ -1,0 +1,43 @@
+{
+  "ocr_text": "片 W bigstockcom 90039998",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "片",
+      "confidence": 0.012757005076329486,
+      "box": [
+        116.0,
+        52.0,
+        308.0,
+        348.0
+      ]
+    },
+    {
+      "text": "W bigstockcom",
+      "confidence": 0.6329956187954021,
+      "box": [
+        127.0,
+        453.0,
+        247.0,
+        469.0
+      ]
+    },
+    {
+      "text": "90039998",
+      "confidence": 0.9998192253983608,
+      "box": [
+        257.0,
+        451.0,
+        323.0,
+        467.0
+      ]
+    }
+  ],
+  "image_sha256": "c39b0de42da9ab92447834bc20973f70901e0e7f9e16884d2f744a9501e174af",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

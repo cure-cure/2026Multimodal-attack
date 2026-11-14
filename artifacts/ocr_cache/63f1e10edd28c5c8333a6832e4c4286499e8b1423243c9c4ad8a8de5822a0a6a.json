@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Relgiou Fictjo",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Relgiou Fictjo",
+      "confidence": 0.1154604165731204,
+      "box": [
+        66.0,
+        20.0,
+        172.0,
+        46.0
+      ]
+    }
+  ],
+  "image_sha256": "63f1e10edd28c5c8333a6832e4c4286499e8b1423243c9c4ad8a8de5822a0a6a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

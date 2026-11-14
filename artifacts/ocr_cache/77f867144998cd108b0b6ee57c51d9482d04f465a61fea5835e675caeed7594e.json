@@ -1,0 +1,33 @@
+{
+  "ocr_text": "WORLD RELIGIONS",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WORLD",
+      "confidence": 0.9747330878238043,
+      "box": [
+        155.0,
+        21.0,
+        289.0,
+        57.0
+      ]
+    },
+    {
+      "text": "RELIGIONS",
+      "confidence": 0.9905123620887846,
+      "box": [
+        141.0,
+        193.0,
+        317.0,
+        229.0
+      ]
+    }
+  ],
+  "image_sha256": "77f867144998cd108b0b6ee57c51d9482d04f465a61fea5835e675caeed7594e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

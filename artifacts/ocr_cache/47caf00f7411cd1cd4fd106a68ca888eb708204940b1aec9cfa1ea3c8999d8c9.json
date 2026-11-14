@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Religion",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Religion",
+      "confidence": 0.980385362753438,
+      "box": [
+        35.0,
+        180.0,
+        204.0,
+        250.0
+      ]
+    }
+  ],
+  "image_sha256": "47caf00f7411cd1cd4fd106a68ca888eb708204940b1aec9cfa1ea3c8999d8c9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

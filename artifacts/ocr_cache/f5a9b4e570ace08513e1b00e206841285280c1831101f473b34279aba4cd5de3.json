@@ -1,0 +1,33 @@
+{
+  "ocr_text": "For Sale cill Contact Agent",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "For Sale",
+      "confidence": 0.95209390886721,
+      "box": [
+        339.0,
+        631.0,
+        659.0,
+        721.0
+      ]
+    },
+    {
+      "text": "cill Contact Agent",
+      "confidence": 0.8112707338041587,
+      "box": [
+        363.0,
+        733.0,
+        631.0,
+        775.0
+      ]
+    }
+  ],
+  "image_sha256": "f5a9b4e570ace08513e1b00e206841285280c1831101f473b34279aba4cd5de3",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

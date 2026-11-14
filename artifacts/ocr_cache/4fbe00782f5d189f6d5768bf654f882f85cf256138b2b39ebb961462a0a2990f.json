@@ -1,0 +1,83 @@
+{
+  "ocr_text": "CALCIUM 十 VITAMIN D3 BONE SUPPORT Fomps & Diusconn^ 10OYgft D&1 Arrous Mcmisala",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CALCIUM",
+      "confidence": 0.7555780431561002,
+      "box": [
+        434.0,
+        530.0,
+        663.0,
+        594.0
+      ]
+    },
+    {
+      "text": "十",
+      "confidence": 0.9352826874273887,
+      "box": [
+        666.0,
+        540.0,
+        690.0,
+        570.0
+      ]
+    },
+    {
+      "text": "VITAMIN D3",
+      "confidence": 0.6668138398981305,
+      "box": [
+        423.0,
+        581.0,
+        701.0,
+        648.0
+      ]
+    },
+    {
+      "text": "BONE SUPPORT",
+      "confidence": 0.7171416312020766,
+      "box": [
+        469.0,
+        644.0,
+        650.0,
+        681.0
+      ]
+    },
+    {
+      "text": "Fomps & Diusconn^",
+      "confidence": 0.378782526318241,
+      "box": [
+        521.0,
+        726.0,
+        684.0,
+        762.0
+      ]
+    },
+    {
+      "text": "10OYgft D&1 Arrous",
+      "confidence": 0.42174240274957425,
+      "box": [
+        465.0,
+        766.0,
+        651.0,
+        805.0
+      ]
+    },
+    {
+      "text": "Mcmisala",
+      "confidence": 0.7762972038854853,
+      "box": [
+        436.0381041904104,
+        721.1094462711102,
+        528.9618958095896,
+        762.8905537288898
+      ]
+    }
+  ],
+  "image_sha256": "4fbe00782f5d189f6d5768bf654f882f85cf256138b2b39ebb961462a0a2990f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

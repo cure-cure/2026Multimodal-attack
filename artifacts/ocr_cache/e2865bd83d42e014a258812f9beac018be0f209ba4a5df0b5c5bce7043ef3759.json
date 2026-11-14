@@ -1,0 +1,23 @@
+{
+  "ocr_text": "[咖. {90@C跑8叨@",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "[咖. {90@C跑8叨@",
+      "confidence": 2.8925761913849064e-06,
+      "box": [
+        163.0,
+        619.0,
+        507.0,
+        655.0
+      ]
+    }
+  ],
+  "image_sha256": "e2865bd83d42e014a258812f9beac018be0f209ba4a5df0b5c5bce7043ef3759",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

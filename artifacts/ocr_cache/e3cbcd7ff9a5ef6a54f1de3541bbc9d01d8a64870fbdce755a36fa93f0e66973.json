@@ -1,0 +1,33 @@
+{
+  "ocr_text": "]R 0@0-[5T 昭",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "]R",
+      "confidence": 0.004662247423726447,
+      "box": [
+        26.0,
+        0.0,
+        225.0,
+        29.0
+      ]
+    },
+    {
+      "text": "0@0-[5T 昭",
+      "confidence": 3.1687841095718705e-05,
+      "box": [
+        20.0,
+        216.0,
+        231.0,
+        250.0
+      ]
+    }
+  ],
+  "image_sha256": "e3cbcd7ff9a5ef6a54f1de3541bbc9d01d8a64870fbdce755a36fa93f0e66973",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

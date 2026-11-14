@@ -1,0 +1,33 @@
+{
+  "ocr_text": "GAmDeafemew RynePvegot Bw@tAn ?",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "GAmDeafemew RynePvegot",
+      "confidence": 0.005415257368919251,
+      "box": [
+        14.0,
+        34.0,
+        561.0,
+        83.0
+      ]
+    },
+    {
+      "text": "Bw@tAn ?",
+      "confidence": 0.0007188212902097802,
+      "box": [
+        72.0,
+        64.0,
+        479.0,
+        115.0
+      ]
+    }
+  ],
+  "image_sha256": "97858cf14234f839142fe0c687d562a005a2240a002d6445d0585b9cbeeee3d3",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

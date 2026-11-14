@@ -1,0 +1,33 @@
+{
+  "ocr_text": "0[皿R迎泗p[ mgl皿",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "0[皿R迎泗p[",
+      "confidence": 1.958541245359504e-06,
+      "box": [
+        63.0,
+        429.0,
+        659.0,
+        491.0
+      ]
+    },
+    {
+      "text": "mgl皿",
+      "confidence": 0.002555547282099724,
+      "box": [
+        1.0,
+        485.0,
+        57.0,
+        499.0
+      ]
+    }
+  ],
+  "image_sha256": "dbfdb6ebcf4a3a46d7caa923134b37e00d09eb8e93c7c0e741782965c145f655",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

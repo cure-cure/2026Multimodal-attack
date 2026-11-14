@@ -1,0 +1,53 @@
+{
+  "ocr_text": "AII HUM DqCUNENT OHWs 2013",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "AII HUM",
+      "confidence": 0.019972924372874946,
+      "box": [
+        13.0,
+        53.0,
+        191.0,
+        95.0
+      ]
+    },
+    {
+      "text": "DqCUNENT",
+      "confidence": 0.38495446542156114,
+      "box": [
+        29.0,
+        91.0,
+        103.0,
+        105.0
+      ]
+    },
+    {
+      "text": "OHWs",
+      "confidence": 0.4484219253063202,
+      "box": [
+        109.0,
+        89.0,
+        155.0,
+        107.0
+      ]
+    },
+    {
+      "text": "2013",
+      "confidence": 0.48787426948547363,
+      "box": [
+        105.0,
+        109.0,
+        135.0,
+        123.0
+      ]
+    }
+  ],
+  "image_sha256": "5423ce9c7c4184eed55a3de06da463f1cc69e158d098b2df5ac42c74d5ebee6a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

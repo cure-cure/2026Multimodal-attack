@@ -1,0 +1,33 @@
+{
+  "ocr_text": "IBKt tv UontyBtIBynah",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "IBKt tv",
+      "confidence": 0.2764399717196729,
+      "box": [
+        267.0,
+        0.0,
+        510.0,
+        66.0
+      ]
+    },
+    {
+      "text": "UontyBtIBynah",
+      "confidence": 0.08350060446007865,
+      "box": [
+        154.0,
+        456.0,
+        622.0,
+        529.0
+      ]
+    }
+  ],
+  "image_sha256": "06516323f20f65ed3635dd46833d4ebd23b50cdfa1fd7f178056fd2b4d2788bb",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

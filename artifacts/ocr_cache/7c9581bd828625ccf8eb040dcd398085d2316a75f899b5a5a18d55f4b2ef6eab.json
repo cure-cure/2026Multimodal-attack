@@ -1,0 +1,33 @@
+{
+  "ocr_text": "1900 2021",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "1900",
+      "confidence": 0.5976844012570423,
+      "box": [
+        111.0,
+        45.0,
+        231.0,
+        89.0
+      ]
+    },
+    {
+      "text": "2021",
+      "confidence": 0.9999648332595825,
+      "box": [
+        292.0,
+        44.0,
+        416.0,
+        92.0
+      ]
+    }
+  ],
+  "image_sha256": "7c9581bd828625ccf8eb040dcd398085d2316a75f899b5a5a18d55f4b2ef6eab",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

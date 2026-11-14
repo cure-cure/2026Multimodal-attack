@@ -1,0 +1,63 @@
+{
+  "ocr_text": "She's Iost her sense oflight. She might not make i home tonight。",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "She's Iost her",
+      "confidence": 0.7189987285985104,
+      "box": [
+        740.0,
+        82.0,
+        1199.0,
+        160.0
+      ]
+    },
+    {
+      "text": "sense oflight.",
+      "confidence": 0.5148934173938898,
+      "box": [
+        713.0,
+        232.0,
+        1190.0,
+        328.0
+      ]
+    },
+    {
+      "text": "She might not",
+      "confidence": 0.9842712408210222,
+      "box": [
+        712.0,
+        380.0,
+        1203.0,
+        483.0
+      ]
+    },
+    {
+      "text": "make i home",
+      "confidence": 0.6381391540084864,
+      "box": [
+        724.0,
+        533.0,
+        1198.0,
+        618.0
+      ]
+    },
+    {
+      "text": "tonight。",
+      "confidence": 0.8681622719774231,
+      "box": [
+        916.0,
+        684.0,
+        1191.0,
+        786.0
+      ]
+    }
+  ],
+  "image_sha256": "ddb0fc394ca99f7bf5a716f811ec1a7d949f8a36163a2ab9af86a0916d442338",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

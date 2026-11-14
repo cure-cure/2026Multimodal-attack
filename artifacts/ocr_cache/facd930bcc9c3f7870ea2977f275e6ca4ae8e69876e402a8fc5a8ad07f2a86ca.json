@@ -1,0 +1,33 @@
+{
+  "ocr_text": "WhBnthB BOIs aSkt Io iVu IuahhutthBy IByally ran",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WhBnthB BOIs aSkt Io",
+      "confidence": 0.04476950965566733,
+      "box": [
+        101.0,
+        28.0,
+        738.0,
+        95.0
+      ]
+    },
+    {
+      "text": "iVu IuahhutthBy IByally ran",
+      "confidence": 0.054484778515550454,
+      "box": [
+        77.0,
+        455.0,
+        765.0,
+        515.0
+      ]
+    }
+  ],
+  "image_sha256": "facd930bcc9c3f7870ea2977f275e6ca4ae8e69876e402a8fc5a8ad07f2a86ca",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

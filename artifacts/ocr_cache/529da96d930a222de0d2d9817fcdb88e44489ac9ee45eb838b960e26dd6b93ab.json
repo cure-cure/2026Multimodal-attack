@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Vitamin 812 Energy Support",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Vitamin",
+      "confidence": 0.8196115443059823,
+      "box": [
+        339.0,
+        519.0,
+        474.0,
+        568.0
+      ]
+    },
+    {
+      "text": "812",
+      "confidence": 0.998191003040327,
+      "box": [
+        343.0,
+        557.0,
+        413.0,
+        601.0
+      ]
+    },
+    {
+      "text": "Energy",
+      "confidence": 0.9889771531367318,
+      "box": [
+        338.0,
+        629.0,
+        479.0,
+        690.0
+      ]
+    },
+    {
+      "text": "Support",
+      "confidence": 0.6553592738728465,
+      "box": [
+        338.0,
+        670.0,
+        485.0,
+        730.0
+      ]
+    }
+  ],
+  "image_sha256": "529da96d930a222de0d2d9817fcdb88e44489ac9ee45eb838b960e26dd6b93ab",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

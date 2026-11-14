@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Raal@OSR8",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Raal@OSR8",
+      "confidence": 0.0340544776317439,
+      "box": [
+        24.0,
+        610.0,
+        258.0,
+        642.0
+      ]
+    }
+  ],
+  "image_sha256": "8c8f8244c9b5a74a77d289f3762701efcd3837c58c21468dc3764a73cfde68dc",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

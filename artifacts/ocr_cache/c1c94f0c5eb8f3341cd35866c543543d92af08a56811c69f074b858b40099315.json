@@ -1,0 +1,63 @@
+{
+  "ocr_text": "Being racist Hating everybody equally",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Being",
+      "confidence": 0.9992026279717735,
+      "box": [
+        373.0,
+        84.0,
+        530.0,
+        161.0
+      ]
+    },
+    {
+      "text": "racist",
+      "confidence": 0.9758488467368859,
+      "box": [
+        374.0,
+        154.0,
+        520.0,
+        210.0
+      ]
+    },
+    {
+      "text": "Hating",
+      "confidence": 0.6338262567067258,
+      "box": [
+        341.0,
+        391.0,
+        516.0,
+        469.0
+      ]
+    },
+    {
+      "text": "everybody",
+      "confidence": 0.7386312694393063,
+      "box": [
+        343.0,
+        463.0,
+        607.0,
+        531.0
+      ]
+    },
+    {
+      "text": "equally",
+      "confidence": 0.9915751843359771,
+      "box": [
+        343.0,
+        529.0,
+        529.0,
+        593.0
+      ]
+    }
+  ],
+  "image_sha256": "c1c94f0c5eb8f3341cd35866c543543d92af08a56811c69f074b858b40099315",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "BURUHUUUNSLIaNI",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BURUHUUUNSLIaNI",
+      "confidence": 0.007353286135225232,
+      "box": [
+        41.0,
+        245.0,
+        163.0,
+        261.0
+      ]
+    }
+  ],
+  "image_sha256": "83ad3da44847914725b4de9f7ed88b8a0d74443b61460999512616c7334c3486",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

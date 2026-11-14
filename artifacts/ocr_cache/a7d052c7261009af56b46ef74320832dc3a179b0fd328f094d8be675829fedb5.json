@@ -1,0 +1,33 @@
+{
+  "ocr_text": "CanStockF hoto com",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CanStockF",
+      "confidence": 0.3992713735539673,
+      "box": [
+        133.0,
+        241.0,
+        187.0,
+        254.0
+      ]
+    },
+    {
+      "text": "hoto com",
+      "confidence": 0.505679638625509,
+      "box": [
+        191.0,
+        241.0,
+        243.0,
+        254.0
+      ]
+    }
+  ],
+  "image_sha256": "a7d052c7261009af56b46ef74320832dc3a179b0fd328f094d8be675829fedb5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

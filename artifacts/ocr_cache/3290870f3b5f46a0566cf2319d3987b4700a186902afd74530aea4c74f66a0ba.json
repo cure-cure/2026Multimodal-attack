@@ -1,0 +1,23 @@
+{
+  "ocr_text": "SaIRII2,Cem",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SaIRII2,Cem",
+      "confidence": 0.02261623679645334,
+      "box": [
+        267.0,
+        165.0,
+        345.0,
+        179.0
+      ]
+    }
+  ],
+  "image_sha256": "3290870f3b5f46a0566cf2319d3987b4700a186902afd74530aea4c74f66a0ba",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

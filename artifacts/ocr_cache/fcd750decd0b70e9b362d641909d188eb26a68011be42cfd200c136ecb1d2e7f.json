@@ -1,0 +1,33 @@
+{
+  "ocr_text": "RR MUSLIMS",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "RR",
+      "confidence": 0.0007200850662078258,
+      "box": [
+        298.0,
+        393.0,
+        505.0,
+        468.0
+      ]
+    },
+    {
+      "text": "MUSLIMS",
+      "confidence": 0.6776538153132464,
+      "box": [
+        295.0,
+        458.0,
+        686.0,
+        558.0
+      ]
+    }
+  ],
+  "image_sha256": "fcd750decd0b70e9b362d641909d188eb26a68011be42cfd200c136ecb1d2e7f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "ocr_text": "helecto。 Blood Pressure Support Herbal Blend 2 Gerorlis Solerure Vpollo Spolcalor Prorue Orugl TIOOl Cornro Bluo",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "helecto。",
+      "confidence": 0.6696617432626614,
+      "box": [
+        476.0,
+        418.0,
+        580.0,
+        446.0
+      ]
+    },
+    {
+      "text": "Blood Pressure",
+      "confidence": 0.945310702992142,
+      "box": [
+        420.0,
+        455.0,
+        598.0,
+        487.0
+      ]
+    },
+    {
+      "text": "Support",
+      "confidence": 0.9998025544741493,
+      "box": [
+        454.0,
+        482.0,
+        561.0,
+        518.0
+      ]
+    },
+    {
+      "text": "Herbal Blend",
+      "confidence": 0.9181560179378021,
+      "box": [
+        449.0,
+        511.0,
+        572.0,
+        537.0
+      ]
+    },
+    {
+      "text": "2",
+      "confidence": 0.0013105981883435036,
+      "box": [
+        587.0,
+        545.0,
+        609.0,
+        561.0
+      ]
+    },
+    {
+      "text": "Gerorlis Solerure",
+      "confidence": 0.7345246873366448,
+      "box": [
+        502.0,
+        688.0,
+        616.0,
+        712.0
+      ]
+    },
+    {
+      "text": "Vpollo Spolcalor Prorue Orugl",
+      "confidence": 0.07551356913237922,
+      "box": [
+        422.0,
+        706.0,
+        599.0,
+        725.0
+      ]
+    },
+    {
+      "text": "TIOOl",
+      "confidence": 0.10874397025478887,
+      "box": [
+        481.0,
+        727.0,
+        537.0,
+        741.0
+      ]
+    },
+    {
+      "text": "Cornro",
+      "confidence": 0.490024922889538,
+      "box": [
+        404.03883864861814,
+        686.1942789623521,
+        452.96116135138186,
+        710.8057210376479
+      ]
+    },
+    {
+      "text": "Bluo",
+      "confidence": 0.5412796139717102,
+      "box": [
+        466.08595119113306,
+        690.2111456180002,
+        502.91404880886694,
+        713.7888543819998
+      ]
+    }
+  ],
+  "image_sha256": "1fb14431aa6ce24b8b70fe4377ffd28c4934c89edd1a69b3f06ae4e8769654db",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

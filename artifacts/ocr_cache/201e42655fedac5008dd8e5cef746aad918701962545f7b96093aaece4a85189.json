@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Calholic religio",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Calholic religio",
+      "confidence": 0.6957891729867584,
+      "box": [
+        62.0,
+        57.0,
+        367.0,
+        141.0
+      ]
+    }
+  ],
+  "image_sha256": "201e42655fedac5008dd8e5cef746aad918701962545f7b96093aaece4a85189",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

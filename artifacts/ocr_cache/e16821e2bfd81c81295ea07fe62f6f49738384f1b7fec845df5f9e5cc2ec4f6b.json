@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Ahutterst WNshutterstockcom 395660167",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Ahutterst",
+      "confidence": 0.1749228231830901,
+      "box": [
+        94.0,
+        200.0,
+        302.0,
+        250.0
+      ]
+    },
+    {
+      "text": "WNshutterstockcom",
+      "confidence": 0.4449220974646575,
+      "box": [
+        117.0,
+        453.0,
+        255.0,
+        469.0
+      ]
+    },
+    {
+      "text": "395660167",
+      "confidence": 0.6476006345099536,
+      "box": [
+        259.0,
+        453.0,
+        333.0,
+        467.0
+      ]
+    }
+  ],
+  "image_sha256": "e16821e2bfd81c81295ea07fe62f6f49738384f1b7fec845df5f9e5cc2ec4f6b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

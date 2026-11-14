@@ -1,0 +1,43 @@
+{
+  "ocr_text": "M Eedttan PLATE:I0",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "M",
+      "confidence": 0.008423272891098732,
+      "box": [
+        866.0,
+        636.0,
+        898.0,
+        642.0
+      ]
+    },
+    {
+      "text": "Eedttan",
+      "confidence": 0.4533731229210628,
+      "box": [
+        631.0,
+        639.0,
+        689.0,
+        653.0
+      ]
+    },
+    {
+      "text": "PLATE:I0",
+      "confidence": 0.20993317389459337,
+      "box": [
+        708.0,
+        662.0,
+        826.0,
+        694.0
+      ]
+    }
+  ],
+  "image_sha256": "9df538db5931272217d8092f00409daebe60645e6ce32a1c6dd71ba738b1c0e7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

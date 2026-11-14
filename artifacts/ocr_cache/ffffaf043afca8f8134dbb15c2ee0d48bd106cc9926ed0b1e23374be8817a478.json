@@ -1,0 +1,33 @@
+{
+  "ocr_text": "SNil U",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SNil",
+      "confidence": 0.03767310082912445,
+      "box": [
+        750.0,
+        554.0,
+        803.0,
+        571.0
+      ]
+    },
+    {
+      "text": "U",
+      "confidence": 0.017479165304906452,
+      "box": [
+        935.0,
+        787.0,
+        973.0,
+        799.0
+      ]
+    }
+  ],
+  "image_sha256": "ffffaf043afca8f8134dbb15c2ee0d48bd106cc9926ed0b1e23374be8817a478",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

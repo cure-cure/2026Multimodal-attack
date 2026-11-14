@@ -1,0 +1,183 @@
+{
+  "ocr_text": "Kop Lifes H7 Imgnimtts Poctl Commm TInpFC ComnSohe Nng Cnc Exclusive Investment Clb 100% ROI Overnight! Click to Join VIP Now! We'sly Sefow. Aternoind。 SCUe Plupto Cold Solewifre Nows Sekhrw",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Kop Lifes",
+      "confidence": 0.8316950809618386,
+      "box": [
+        227.0,
+        163.0,
+        291.0,
+        179.0
+      ]
+    },
+    {
+      "text": "H7",
+      "confidence": 0.06601575558241123,
+      "box": [
+        380.0,
+        166.0,
+        402.0,
+        174.0
+      ]
+    },
+    {
+      "text": "Imgnimtts",
+      "confidence": 0.4552692246184791,
+      "box": [
+        421.0,
+        165.0,
+        475.0,
+        177.0
+      ]
+    },
+    {
+      "text": "Poctl",
+      "confidence": 0.7859493805524581,
+      "box": [
+        493.0,
+        165.0,
+        529.0,
+        179.0
+      ]
+    },
+    {
+      "text": "Commm",
+      "confidence": 0.6115092230675003,
+      "box": [
+        542.0,
+        164.0,
+        581.0,
+        177.0
+      ]
+    },
+    {
+      "text": "TInpFC",
+      "confidence": 0.09055446574350833,
+      "box": [
+        600.0,
+        166.0,
+        642.0,
+        174.0
+      ]
+    },
+    {
+      "text": "ComnSohe",
+      "confidence": 0.18573811194253834,
+      "box": [
+        661.0,
+        165.0,
+        717.0,
+        177.0
+      ]
+    },
+    {
+      "text": "Nng",
+      "confidence": 0.18238720863747532,
+      "box": [
+        729.0,
+        165.0,
+        751.0,
+        177.0
+      ]
+    },
+    {
+      "text": "Cnc",
+      "confidence": 0.07396059973878924,
+      "box": [
+        756.0,
+        166.0,
+        786.0,
+        174.0
+      ]
+    },
+    {
+      "text": "Exclusive Investment Clb",
+      "confidence": 0.8764211402075857,
+      "box": [
+        309.0,
+        285.0,
+        691.0,
+        323.0
+      ]
+    },
+    {
+      "text": "100% ROI Overnight!",
+      "confidence": 0.9658350999642317,
+      "box": [
+        293.0,
+        329.0,
+        727.0,
+        389.0
+      ]
+    },
+    {
+      "text": "Click to Join VIP Now!",
+      "confidence": 0.5907198599913663,
+      "box": [
+        640.0,
+        480.0,
+        812.0,
+        504.0
+      ]
+    },
+    {
+      "text": "We'sly Sefow. Aternoind。",
+      "confidence": 0.7030017003033904,
+      "box": [
+        367.0,
+        563.0,
+        667.0,
+        599.0
+      ]
+    },
+    {
+      "text": "SCUe",
+      "confidence": 0.7270592451095581,
+      "box": [
+        285.0,
+        631.0,
+        317.0,
+        645.0
+      ]
+    },
+    {
+      "text": "Plupto Cold Solewifre",
+      "confidence": 0.5805876041828945,
+      "box": [
+        457.0,
+        631.0,
+        589.0,
+        647.0
+      ]
+    },
+    {
+      "text": "Nows",
+      "confidence": 0.7612469792366028,
+      "box": [
+        723.0,
+        631.0,
+        759.0,
+        645.0
+      ]
+    },
+    {
+      "text": "Sekhrw",
+      "confidence": 0.007628407450630713,
+      "box": [
+        804.0127588792874,
+        164.26005992660404,
+        836.9872411207126,
+        176.73994007339596
+      ]
+    }
+  ],
+  "image_sha256": "832e02d7e731433e7c439e464c3e4e079ec4dbb697c111591a8ef2f946af27fb",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

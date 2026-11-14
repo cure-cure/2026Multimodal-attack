@@ -1,0 +1,53 @@
+{
+  "ocr_text": "With Act Americxrs Disabilities",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "With",
+      "confidence": 0.864661455154419,
+      "box": [
+        116.0,
+        68.0,
+        152.0,
+        92.0
+      ]
+    },
+    {
+      "text": "Act",
+      "confidence": 0.9452423202615037,
+      "box": [
+        115.0,
+        95.0,
+        143.0,
+        115.0
+      ]
+    },
+    {
+      "text": "Americxrs",
+      "confidence": 0.1930370982183537,
+      "box": [
+        47.004940963129144,
+        43.065850925474706,
+        121.99505903687086,
+        84.9341490745253
+      ]
+    },
+    {
+      "text": " Disabilities",
+      "confidence": 0.48582147151388255,
+      "box": [
+        34.013838909022404,
+        59.06568221304549,
+        122.9861610909776,
+        111.93431778695451
+      ]
+    }
+  ],
+  "image_sha256": "87f5e29675e03e68b464ed7c4cddcf93d78c195e5979b89b10a313aa5ae51891",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

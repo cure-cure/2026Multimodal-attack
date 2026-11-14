@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Oo 州B舢-5",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Oo",
+      "confidence": 0.5707687129406989,
+      "box": [
+        501.0,
+        701.0,
+        543.0,
+        715.0
+      ]
+    },
+    {
+      "text": "州B舢-5",
+      "confidence": 0.000911788058695691,
+      "box": [
+        451.0,
+        713.0,
+        569.0,
+        749.0
+      ]
+    }
+  ],
+  "image_sha256": "a426bb91883f074c20a92d49078a498dfa22a47afc54a3e784185cd1a1067833",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

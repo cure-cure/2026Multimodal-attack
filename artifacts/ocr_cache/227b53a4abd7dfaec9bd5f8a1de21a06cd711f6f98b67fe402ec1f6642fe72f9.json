@@ -1,0 +1,43 @@
+{
+  "ocr_text": "tBBls ] Ilu terrorislt fla. WhattfsaRISItmU8? WIIShooimoutleai",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "tBBls ] Ilu terrorislt fla.",
+      "confidence": 0.004973915040078279,
+      "box": [
+        12.0,
+        8.0,
+        318.0,
+        32.0
+      ]
+    },
+    {
+      "text": "WhattfsaRISItmU8?",
+      "confidence": 0.004036081694366596,
+      "box": [
+        30.0,
+        336.0,
+        274.0,
+        366.0
+      ]
+    },
+    {
+      "text": "WIIShooimoutleai",
+      "confidence": 0.17494889390140062,
+      "box": [
+        37.0,
+        363.0,
+        269.0,
+        399.0
+      ]
+    }
+  ],
+  "image_sha256": "227b53a4abd7dfaec9bd5f8a1de21a06cd711f6f98b67fe402ec1f6642fe72f9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

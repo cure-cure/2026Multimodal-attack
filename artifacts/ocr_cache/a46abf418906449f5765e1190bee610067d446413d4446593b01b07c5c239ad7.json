@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Accessibility Busting a misconceptions few",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Accessibility",
+      "confidence": 0.9987875293740948,
+      "box": [
+        284.0,
+        281.0,
+        746.0,
+        401.0
+      ]
+    },
+    {
+      "text": "Busting a",
+      "confidence": 0.9961057315666484,
+      "box": [
+        292.0,
+        396.0,
+        436.0,
+        449.0
+      ]
+    },
+    {
+      "text": "misconceptions",
+      "confidence": 0.9996772444710984,
+      "box": [
+        499.0,
+        405.0,
+        733.0,
+        447.0
+      ]
+    },
+    {
+      "text": "few",
+      "confidence": 0.9996364724813328,
+      "box": [
+        431.26204906028414,
+        400.1317018509494,
+        501.73795093971586,
+        445.8682981490506
+      ]
+    }
+  ],
+  "image_sha256": "a46abf418906449f5765e1190bee610067d446413d4446593b01b07c5c239ad7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

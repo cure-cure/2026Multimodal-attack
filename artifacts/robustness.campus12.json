@@ -1,0 +1,308 @@
+{
+  "protocol": {
+    "samples": 12,
+    "use": "frozen normal supplement; descriptive sensitivity only",
+    "blur": "Pillow GaussianBlur radius=2",
+    "jpeg": "quality=50"
+  },
+  "summary": {
+    "gaussian_blur_r2": {
+      "gaussian_residual_mae": {
+        "mean_delta": -0.000669738898674647,
+        "mean_absolute_delta": 0.000669738898674647,
+        "max_absolute_delta": 0.0018898621201515198
+      },
+      "gaussian_residual_rmse": {
+        "mean_delta": -0.0011756634339690208,
+        "mean_absolute_delta": 0.0011756634339690208,
+        "max_absolute_delta": 0.0027153752744197845
+      },
+      "high_frequency_ratio": {
+        "mean_delta": -0.0028547512677808604,
+        "mean_absolute_delta": 0.0028547512677808604,
+        "max_absolute_delta": 0.009352892637252808
+      },
+      "spectral_centroid": {
+        "mean_delta": -0.0014353608712553978,
+        "mean_absolute_delta": 0.0014353608712553978,
+        "max_absolute_delta": 0.004691995680332184
+      }
+    },
+    "jpeg_quality_50": {
+      "gaussian_residual_mae": {
+        "mean_delta": 8.586181017259757e-05,
+        "mean_absolute_delta": 8.586181017259757e-05,
+        "max_absolute_delta": 0.0001588268205523491
+      },
+      "gaussian_residual_rmse": {
+        "mean_delta": 2.174622689684232e-05,
+        "mean_absolute_delta": 3.913401936491331e-05,
+        "max_absolute_delta": 9.701773524284363e-05
+      },
+      "high_frequency_ratio": {
+        "mean_delta": -3.5421689972281456e-05,
+        "mean_absolute_delta": 5.874868171910445e-05,
+        "max_absolute_delta": 0.0003959238529205322
+      },
+      "spectral_centroid": {
+        "mean_delta": -1.5864924838145573e-05,
+        "mean_absolute_delta": 3.404465193549792e-05,
+        "max_absolute_delta": 0.0002074018120765686
+      }
+    }
+  },
+  "records": [
+    {
+      "sample_id": "CAMPUS_B01_001",
+      "baseline": {
+        "gaussian_residual_mae": 0.020366480574011803,
+        "gaussian_residual_rmse": 0.0373871847987175,
+        "high_frequency_ratio": 0.044059887528419495,
+        "spectral_centroid": 0.05973221734166145
+      },
+      "gaussian_blur_r2": {
+        "gaussian_residual_mae": 0.02002914808690548,
+        "gaussian_residual_rmse": 0.03670024871826172,
+        "high_frequency_ratio": 0.04280680790543556,
+        "spectral_centroid": 0.059112388640642166
+      },
+      "jpeg_quality_50": {
+        "gaussian_residual_mae": 0.020449602976441383,
+        "gaussian_residual_rmse": 0.03743182122707367,
+        "high_frequency_ratio": 0.04404935613274574,
+        "spectral_centroid": 0.059732161462306976
+      }
+    },
+    {
+      "sample_id": "CAMPUS_B01_002",
+      "baseline": {
+        "gaussian_residual_mae": 0.026317479088902473,
+        "gaussian_residual_rmse": 0.046847496181726456,
+        "high_frequency_ratio": 0.060475483536720276,
+        "spectral_centroid": 0.06661534309387207
+      },
+      "gaussian_blur_r2": {
+        "gaussian_residual_mae": 0.025506487116217613,
+        "gaussian_residual_rmse": 0.04517347738146782,
+        "high_frequency_ratio": 0.05710573494434357,
+        "spectral_centroid": 0.06503888964653015
+      },
+      "jpeg_quality_50": {
+        "gaussian_residual_mae": 0.026377862319350243,
+        "gaussian_residual_rmse": 0.046847086399793625,
+        "high_frequency_ratio": 0.060477837920188904,
+        "spectral_centroid": 0.06663540750741959
+      }
+    },
+    {
+      "sample_id": "CAMPUS_B01_003",
+      "baseline": {
+        "gaussian_residual_mae": 0.012977730482816696,
+        "gaussian_residual_rmse": 0.02718721143901348,
+        "high_frequency_ratio": 0.026204943656921387,
+        "spectral_centroid": 0.040253590792417526
+      },
+      "gaussian_blur_r2": {
+        "gaussian_residual_mae": 0.012777757830917835,
+        "gaussian_residual_rmse": 0.026691105216741562,
+        "high_frequency_ratio": 0.02544815093278885,
+        "spectral_centroid": 0.039867691695690155
+      },
+      "jpeg_quality_50": {
+        "gaussian_residual_mae": 0.013082029297947884,
+        "gaussian_residual_rmse": 0.027211306616663933,
+        "high_frequency_ratio": 0.02621212974190712,
+        "spectral_centroid": 0.04025537520647049
+      }
+    },
+    {
+      "sample_id": "CAMPUS_B01_004",
+      "baseline": {
+        "gaussian_residual_mae": 0.02144092693924904,
+        "gaussian_residual_rmse": 0.0370207317173481,
+        "high_frequency_ratio": 0.07701065391302109,
+        "spectral_centroid": 0.0777241662144661
+      },
+      "gaussian_blur_r2": {
+        "gaussian_residual_mae": 0.020668625831604004,
+        "gaussian_residual_rmse": 0.035610273480415344,
+        "high_frequency_ratio": 0.07261066883802414,
+        "spectral_centroid": 0.07560183852910995
+      },
+      "jpeg_quality_50": {
+        "gaussian_residual_mae": 0.021517973393201828,
+        "gaussian_residual_rmse": 0.037013642489910126,
+        "high_frequency_ratio": 0.07709989696741104,
+        "spectral_centroid": 0.0777960866689682
+      }
+    },
+    {
+      "sample_id": "CAMPUS_B01_006",
+      "baseline": {
+        "gaussian_residual_mae": 0.024607140570878983,
+        "gaussian_residual_rmse": 0.03517916426062584,
+        "high_frequency_ratio": 0.04787294194102287,
+        "spectral_centroid": 0.053461357951164246
+      },
+      "gaussian_blur_r2": {
+        "gaussian_residual_mae": 0.023350076749920845,
+        "gaussian_residual_rmse": 0.03344641253352165,
+        "high_frequency_ratio": 0.04462255537509918,
+        "spectral_centroid": 0.05173332989215851
+      },
+      "jpeg_quality_50": {
+        "gaussian_residual_mae": 0.024662939831614494,
+        "gaussian_residual_rmse": 0.03520022705197334,
+        "high_frequency_ratio": 0.04781267046928406,
+        "spectral_centroid": 0.05342857539653778
+      }
+    },
+    {
+      "sample_id": "CAMPUS_B01_007",
+      "baseline": {
+        "gaussian_residual_mae": 0.013261894695460796,
+        "gaussian_residual_rmse": 0.022245517000555992,
+        "high_frequency_ratio": 0.025563787668943405,
+        "spectral_centroid": 0.04377289116382599
+      },
+      "gaussian_blur_r2": {
+        "gaussian_residual_mae": 0.013094551861286163,
+        "gaussian_residual_rmse": 0.02189558371901512,
+        "high_frequency_ratio": 0.02492918260395527,
+        "spectral_centroid": 0.04345305636525154
+      },
+      "jpeg_quality_50": {
+        "gaussian_residual_mae": 0.013327683322131634,
+        "gaussian_residual_rmse": 0.022260816767811775,
+        "high_frequency_ratio": 0.02555372565984726,
+        "spectral_centroid": 0.043767910450696945
+      }
+    },
+    {
+      "sample_id": "CAMPUS_B01_008",
+      "baseline": {
+        "gaussian_residual_mae": 0.022851742804050446,
+        "gaussian_residual_rmse": 0.03465629741549492,
+        "high_frequency_ratio": 0.03880972042679787,
+        "spectral_centroid": 0.04285809397697449
+      },
+      "gaussian_blur_r2": {
+        "gaussian_residual_mae": 0.021849963814020157,
+        "gaussian_residual_rmse": 0.03314566984772682,
+        "high_frequency_ratio": 0.036108724772930145,
+        "spectral_centroid": 0.041464388370513916
+      },
+      "jpeg_quality_50": {
+        "gaussian_residual_mae": 0.02293884940445423,
+        "gaussian_residual_rmse": 0.03469522297382355,
+        "high_frequency_ratio": 0.03872881457209587,
+        "spectral_centroid": 0.04281005263328552
+      }
+    },
+    {
+      "sample_id": "CAMPUS_B01_009",
+      "baseline": {
+        "gaussian_residual_mae": 0.019770201295614243,
+        "gaussian_residual_rmse": 0.03946573659777641,
+        "high_frequency_ratio": 0.09145122766494751,
+        "spectral_centroid": 0.07880948483943939
+      },
+      "gaussian_blur_r2": {
+        "gaussian_residual_mae": 0.018911244347691536,
+        "gaussian_residual_rmse": 0.037606216967105865,
+        "high_frequency_ratio": 0.08524619042873383,
+        "spectral_centroid": 0.07564594596624374
+      },
+      "jpeg_quality_50": {
+        "gaussian_residual_mae": 0.019797027111053467,
+        "gaussian_residual_rmse": 0.03936890885233879,
+        "high_frequency_ratio": 0.09105530381202698,
+        "spectral_centroid": 0.07860208302736282
+      }
+    },
+    {
+      "sample_id": "CAMPUS_B01_010",
+      "baseline": {
+        "gaussian_residual_mae": 0.008814174681901932,
+        "gaussian_residual_rmse": 0.020660560578107834,
+        "high_frequency_ratio": 0.017035020515322685,
+        "spectral_centroid": 0.025947609916329384
+      },
+      "gaussian_blur_r2": {
+        "gaussian_residual_mae": 0.008662266656756401,
+        "gaussian_residual_rmse": 0.02023371495306492,
+        "high_frequency_ratio": 0.016488613560795784,
+        "spectral_centroid": 0.025664392858743668
+      },
+      "jpeg_quality_50": {
+        "gaussian_residual_mae": 0.00897300150245428,
+        "gaussian_residual_rmse": 0.02070273831486702,
+        "high_frequency_ratio": 0.01705853082239628,
+        "spectral_centroid": 0.02595650963485241
+      }
+    },
+    {
+      "sample_id": "CAMPUS_B01_011",
+      "baseline": {
+        "gaussian_residual_mae": 0.008065758273005486,
+        "gaussian_residual_rmse": 0.016803286969661713,
+        "high_frequency_ratio": 0.010412401519715786,
+        "spectral_centroid": 0.030378825962543488
+      },
+      "gaussian_blur_r2": {
+        "gaussian_residual_mae": 0.00799708254635334,
+        "gaussian_residual_rmse": 0.01660980097949505,
+        "high_frequency_ratio": 0.010206137783825397,
+        "spectral_centroid": 0.030258750542998314
+      },
+      "jpeg_quality_50": {
+        "gaussian_residual_mae": 0.008160928264260292,
+        "gaussian_residual_rmse": 0.01683543249964714,
+        "high_frequency_ratio": 0.010414214804768562,
+        "spectral_centroid": 0.03038523532450199
+      }
+    },
+    {
+      "sample_id": "CAMPUS_B01_012",
+      "baseline": {
+        "gaussian_residual_mae": 0.038595061749219894,
+        "gaussian_residual_rmse": 0.05374867469072342,
+        "high_frequency_ratio": 0.12903884053230286,
+        "spectral_centroid": 0.08737688511610031
+      },
+      "gaussian_blur_r2": {
+        "gaussian_residual_mae": 0.036705199629068375,
+        "gaussian_residual_rmse": 0.051033299416303635,
+        "high_frequency_ratio": 0.11968594789505005,
+        "spectral_centroid": 0.08268488943576813
+      },
+      "jpeg_quality_50": {
+        "gaussian_residual_mae": 0.03870275616645813,
+        "gaussian_residual_rmse": 0.05384569242596626,
+        "high_frequency_ratio": 0.1290546953678131,
+        "spectral_centroid": 0.08737392723560333
+      }
+    },
+    {
+      "sample_id": "CAMPUS_B01_013",
+      "baseline": {
+        "gaussian_residual_mae": 0.013674621470272541,
+        "gaussian_residual_rmse": 0.025898944586515427,
+        "high_frequency_ratio": 0.026566186919808388,
+        "spectral_centroid": 0.04031658172607422
+      },
+      "gaussian_blur_r2": {
+        "gaussian_residual_mae": 0.013153941370546818,
+        "gaussian_residual_rmse": 0.024847041815519333,
+        "high_frequency_ratio": 0.024985365569591522,
+        "spectral_centroid": 0.03949715569615364
+      },
+      "jpeg_quality_50": {
+        "gaussian_residual_mae": 0.013782900758087635,
+        "gaussian_residual_rmse": 0.025948865339159966,
+        "high_frequency_ratio": 0.026558859273791313,
+        "spectral_centroid": 0.040313344448804855
+      }
+    }
+  ]
+}

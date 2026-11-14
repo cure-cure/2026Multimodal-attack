@@ -1,0 +1,53 @@
+{
+  "ocr_text": "@Ie Ee Mnbbua Gement RRR",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@Ie Ee",
+      "confidence": 0.0013477476830052713,
+      "box": [
+        242.0,
+        212.0,
+        445.0,
+        257.0
+      ]
+    },
+    {
+      "text": "Mnbbua",
+      "confidence": 0.11705577942113957,
+      "box": [
+        322.0,
+        294.0,
+        396.0,
+        320.0
+      ]
+    },
+    {
+      "text": "Gement",
+      "confidence": 0.9656309799259194,
+      "box": [
+        321.0,
+        315.0,
+        398.0,
+        342.0
+      ]
+    },
+    {
+      "text": "RRR",
+      "confidence": 0.1236943524402829,
+      "box": [
+        312.0695620757416,
+        188.12892678669957,
+        390.9304379242584,
+        226.87107321330043
+      ]
+    }
+  ],
+  "image_sha256": "5a44bbbf07cffcaceabe9c8657b6ed87d14972447cfb07c73b27084e326cd3e2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "itOeitte Dfteret",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "itOeitte Dfteret",
+      "confidence": 0.16030398974593754,
+      "box": [
+        73.0,
+        51.0,
+        163.0,
+        67.0
+      ]
+    }
+  ],
+  "image_sha256": "4ecbc54854007fd35a6a2a62d0a96cba34b201789538685bd3b64b384c3f00e2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

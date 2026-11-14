@@ -1,0 +1,93 @@
+{
+  "ocr_text": "Zinc 5Omg IMMUNE SUPPORT Br CrafeCrolllolllins Pulielchind fuphica 15'mll Forect",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Zinc",
+      "confidence": 0.5718147712449648,
+      "box": [
+        218.0,
+        542.0,
+        392.0,
+        638.0
+      ]
+    },
+    {
+      "text": "5Omg",
+      "confidence": 0.5684390068054199,
+      "box": [
+        259.0,
+        649.0,
+        348.0,
+        691.0
+      ]
+    },
+    {
+      "text": "IMMUNE SUPPORT",
+      "confidence": 0.9468202302267623,
+      "box": [
+        189.0,
+        679.0,
+        415.0,
+        723.0
+      ]
+    },
+    {
+      "text": "Br",
+      "confidence": 0.11375194764042866,
+      "box": [
+        215.0,
+        725.0,
+        245.0,
+        741.0
+      ]
+    },
+    {
+      "text": "CrafeCrolllolllins",
+      "confidence": 0.5456189989402223,
+      "box": [
+        280.0,
+        723.0,
+        383.0,
+        744.0
+      ]
+    },
+    {
+      "text": "Pulielchind fuphica",
+      "confidence": 0.4888653118324666,
+      "box": [
+        243.0,
+        743.0,
+        359.0,
+        761.0
+      ]
+    },
+    {
+      "text": "15'mll",
+      "confidence": 0.9902078141858403,
+      "box": [
+        271.0,
+        777.0,
+        327.0,
+        797.0
+      ]
+    },
+    {
+      "text": "Forect",
+      "confidence": 0.37488520496847366,
+      "box": [
+        241.06927321394346,
+        724.2761315696845,
+        281.93072678605654,
+        744.7238684303155
+      ]
+    }
+  ],
+  "image_sha256": "908c8a2a7c5eab22a47edbc0af3a05fa94387e5e6dae407bc401c86ad74c9995",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "ocr_text": "digital contactless thermometer O 399",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "digital contactless",
+      "confidence": 0.9635755406867564,
+      "box": [
+        381.0,
+        359.0,
+        595.0,
+        399.0
+      ]
+    },
+    {
+      "text": "thermometer",
+      "confidence": 0.9821775666118522,
+      "box": [
+        404.0,
+        396.0,
+        573.0,
+        432.0
+      ]
+    },
+    {
+      "text": "O",
+      "confidence": 0.046019888445965274,
+      "box": [
+        539.0,
+        501.0,
+        589.0,
+        543.0
+      ]
+    },
+    {
+      "text": "399",
+      "confidence": 0.8567229015613084,
+      "box": [
+        402.0,
+        550.0,
+        614.0,
+        672.0
+      ]
+    }
+  ],
+  "image_sha256": "ee24d7cc4497e45e4afbc65a0c4cf128b1db7eb59cae8b4968666550a463a482",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "6A C",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "6A",
+      "confidence": 0.0200517550604201,
+      "box": [
+        493.0,
+        251.0,
+        565.0,
+        293.0
+      ]
+    },
+    {
+      "text": "C",
+      "confidence": 0.00721829127013246,
+      "box": [
+        501.0,
+        295.0,
+        563.0,
+        337.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        937.0,
+        607.0,
+        981.0,
+        621.0
+      ]
+    }
+  ],
+  "image_sha256": "b29281ecf82662428aec9019077603f206e4ec16010f1bdd48e46fc1464c227f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

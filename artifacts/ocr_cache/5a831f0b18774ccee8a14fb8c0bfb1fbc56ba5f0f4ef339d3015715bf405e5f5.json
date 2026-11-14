@@ -1,0 +1,33 @@
+{
+  "ocr_text": "3 葚犟",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "3",
+      "confidence": 0.28675174907404255,
+      "box": [
+        0.0,
+        114.0,
+        118.0,
+        410.0
+      ]
+    },
+    {
+      "text": "葚犟",
+      "confidence": 4.186380148315614e-06,
+      "box": [
+        78.72326131262786,
+        -66.45035758332054,
+        663.2767386873721,
+        401.4503575833205
+      ]
+    }
+  ],
+  "image_sha256": "5a831f0b18774ccee8a14fb8c0bfb1fbc56ba5f0f4ef339d3015715bf405e5f5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

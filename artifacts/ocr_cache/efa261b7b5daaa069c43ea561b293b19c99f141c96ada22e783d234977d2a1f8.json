@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Vhich is more dangerols?",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Vhich is more dangerols?",
+      "confidence": 0.470270426087913,
+      "box": [
+        156.0,
+        65.0,
+        876.0,
+        141.0
+      ]
+    }
+  ],
+  "image_sha256": "efa261b7b5daaa069c43ea561b293b19c99f141c96ada22e783d234977d2a1f8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

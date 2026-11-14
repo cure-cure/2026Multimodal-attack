@@ -1,0 +1,23 @@
+{
+  "ocr_text": "TRUE RELIGION",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "TRUE RELIGION",
+      "confidence": 0.5588644745496174,
+      "box": [
+        51.0,
+        175.0,
+        510.0,
+        248.0
+      ]
+    }
+  ],
+  "image_sha256": "e954f9c787113647098c639278139099ff3818e0c302909886af9dc95d9d905d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

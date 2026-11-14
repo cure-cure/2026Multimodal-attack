@@ -1,0 +1,43 @@
+{
+  "ocr_text": "5柄 \"( PU",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "5柄",
+      "confidence": 2.1394269896522905e-05,
+      "box": [
+        80.0,
+        0.0,
+        183.0,
+        60.0
+      ]
+    },
+    {
+      "text": "\"(",
+      "confidence": 0.02452717410678038,
+      "box": [
+        91.0,
+        31.0,
+        190.0,
+        83.0
+      ]
+    },
+    {
+      "text": "PU",
+      "confidence": 0.31458663831857836,
+      "box": [
+        117.0,
+        139.0,
+        141.0,
+        153.0
+      ]
+    }
+  ],
+  "image_sha256": "a69a74f53a1de05427821d7c1de38850a408f15120d5d604011751c89519254e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

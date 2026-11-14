@@ -1,0 +1,33 @@
+{
+  "ocr_text": "OWSBoY JiSarar",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "OWSBoY",
+      "confidence": 0.0924101162713393,
+      "box": [
+        0.0,
+        50.0,
+        176.0,
+        78.0
+      ]
+    },
+    {
+      "text": "JiSarar",
+      "confidence": 0.053106831764990474,
+      "box": [
+        0.0,
+        86.0,
+        180.0,
+        115.0
+      ]
+    }
+  ],
+  "image_sha256": "8ff94be3a30c35957ee96fa53b1c7b1fd293f6be7c35dbe97d8f09a14f783c59",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "IT T45I5MYFAICRTLFCSTONTLIEIR ONVII",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "IT",
+      "confidence": 0.0027969861367023183,
+      "box": [
+        16.0,
+        190.0,
+        42.0,
+        196.0
+      ]
+    },
+    {
+      "text": "T45I5MYFAICRTLFCSTONTLIEIR",
+      "confidence": 0.02160537332412903,
+      "box": [
+        44.0,
+        230.0,
+        166.0,
+        238.0
+      ]
+    },
+    {
+      "text": "ONVII",
+      "confidence": 0.004424610772890528,
+      "box": [
+        32.0,
+        244.0,
+        68.0,
+        250.0
+      ]
+    }
+  ],
+  "image_sha256": "c61a113bec0cf8c432d5774b5eae0c83528468bb593a240480ecef0921609c78",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

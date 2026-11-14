@@ -1,0 +1,43 @@
+{
+  "ocr_text": "呦9[0呗0@0 COUyle Stadked OV@I8p JemghldnIhedls",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "呦9[0呗0@0",
+      "confidence": 0.0004225210386573296,
+      "box": [
+        118.0,
+        0.0,
+        412.0,
+        50.0
+      ]
+    },
+    {
+      "text": "COUyle Stadked OV@I8p",
+      "confidence": 0.006998373356804591,
+      "box": [
+        60.0,
+        36.0,
+        494.0,
+        90.0
+      ]
+    },
+    {
+      "text": "JemghldnIhedls",
+      "confidence": 0.003955490868648149,
+      "box": [
+        67.0,
+        313.0,
+        447.0,
+        366.0
+      ]
+    }
+  ],
+  "image_sha256": "ee0a6f1a320c1b1667ecf6a1d6807b63991f546b398cdb46ce342524d9036e33",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "ocr_text": "Ios9ele8has 1B RU IBWVOlkhas an l8h Tsift Jet0iha8 BIinBIl IoolIN h359",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Ios9ele8has",
+      "confidence": 0.02496234114473669,
+      "box": [
+        27.0,
+        133.0,
+        231.0,
+        169.0
+      ]
+    },
+    {
+      "text": "1B RU",
+      "confidence": 0.03085964970738902,
+      "box": [
+        74.0,
+        160.0,
+        188.0,
+        190.0
+      ]
+    },
+    {
+      "text": "IBWVOlkhas",
+      "confidence": 0.5796570995853912,
+      "box": [
+        37.0,
+        419.0,
+        223.0,
+        462.0
+      ]
+    },
+    {
+      "text": "an",
+      "confidence": 0.4664550958264283,
+      "box": [
+        67.0,
+        455.0,
+        97.0,
+        475.0
+      ]
+    },
+    {
+      "text": "l8h",
+      "confidence": 0.03191340572817846,
+      "box": [
+        95.0,
+        451.0,
+        167.0,
+        487.0
+      ]
+    },
+    {
+      "text": "Tsift",
+      "confidence": 0.4264894796967937,
+      "box": [
+        68.0,
+        473.0,
+        144.0,
+        503.0
+      ]
+    },
+    {
+      "text": "Jet0iha8",
+      "confidence": 0.02287638760219327,
+      "box": [
+        62.0,
+        500.0,
+        204.0,
+        532.0
+      ]
+    },
+    {
+      "text": "BIinBIl",
+      "confidence": 0.114945997986258,
+      "box": [
+        72.0,
+        528.0,
+        182.0,
+        560.0
+      ]
+    },
+    {
+      "text": "IoolIN",
+      "confidence": 0.00036303373288538673,
+      "box": [
+        34.0,
+        715.0,
+        200.0,
+        769.0
+      ]
+    },
+    {
+      "text": "h359",
+      "confidence": 0.0016339646940705993,
+      "box": [
+        71.0,
+        757.0,
+        175.0,
+        800.0
+      ]
+    }
+  ],
+  "image_sha256": "515ac0dd8a3aa2a8c918552b3dd8c62fe8ffe1a2859edc859b175fa6c4805169",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Shuters Wwshutterstockcom . 79381906",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Shuters",
+      "confidence": 0.712026442235849,
+      "box": [
+        58.0,
+        200.0,
+        228.0,
+        250.0
+      ]
+    },
+    {
+      "text": "Wwshutterstockcom . 79381906",
+      "confidence": 0.2949146154790706,
+      "box": [
+        81.0,
+        453.0,
+        289.0,
+        469.0
+      ]
+    }
+  ],
+  "image_sha256": "350004cfbc254d57e4064a763f1d60ecc56d7ef5629500f8df81bf6e145ed1f0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

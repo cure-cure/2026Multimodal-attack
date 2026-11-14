@@ -1,0 +1,93 @@
+{
+  "ocr_text": "BIRLO Lom TECONCY 534 Lnmn1 LFU RNNE Eve T. Demo; 1234 Noname Dr 555-1234.",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BIRLO",
+      "confidence": 0.9622915130049493,
+      "box": [
+        749.0,
+        401.0,
+        810.0,
+        428.0
+      ]
+    },
+    {
+      "text": "Lom",
+      "confidence": 0.9819320580234203,
+      "box": [
+        761.0,
+        427.0,
+        807.0,
+        447.0
+      ]
+    },
+    {
+      "text": "TECONCY 534",
+      "confidence": 0.9560524850321945,
+      "box": [
+        357.0,
+        447.0,
+        470.0,
+        474.0
+      ]
+    },
+    {
+      "text": "Lnmn1 LFU",
+      "confidence": 0.02514432476190106,
+      "box": [
+        706.0,
+        462.0,
+        756.0,
+        470.0
+      ]
+    },
+    {
+      "text": "RNNE",
+      "confidence": 0.09953265637159348,
+      "box": [
+        751.0,
+        440.0,
+        815.0,
+        472.0
+      ]
+    },
+    {
+      "text": "Eve T. Demo;",
+      "confidence": 0.6664488093056011,
+      "box": [
+        379.0,
+        478.0,
+        583.0,
+        523.0
+      ]
+    },
+    {
+      "text": "1234 Noname Dr",
+      "confidence": 0.7475668846849193,
+      "box": [
+        369.0,
+        535.0,
+        625.0,
+        577.0
+      ]
+    },
+    {
+      "text": "555-1234.",
+      "confidence": 0.9472018963769685,
+      "box": [
+        463.0,
+        584.0,
+        646.0,
+        635.0
+      ]
+    }
+  ],
+  "image_sha256": "b73632be2766363325325953282978f5bb75a91acdf0576d3213e36dd67d18e4",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

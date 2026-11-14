@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Ga PLATE 1",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Ga",
+      "confidence": 0.14459103737342732,
+      "box": [
+        491.0,
+        653.0,
+        529.0,
+        665.0
+      ]
+    },
+    {
+      "text": "PLATE 1",
+      "confidence": 0.19324730206491145,
+      "box": [
+        586.0,
+        680.0,
+        716.0,
+        712.0
+      ]
+    }
+  ],
+  "image_sha256": "a4e15e8fcd749dfcf121f4bd37a3ffabb795c42b28eb70ae14c31282912e0e2e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

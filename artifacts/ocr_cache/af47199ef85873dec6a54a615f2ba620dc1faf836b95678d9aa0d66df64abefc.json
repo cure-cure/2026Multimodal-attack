@@ -1,0 +1,33 @@
+{
+  "ocr_text": "ICr 飚",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ICr",
+      "confidence": 0.1688023473340749,
+      "box": [
+        43.0,
+        81.0,
+        77.0,
+        95.0
+      ]
+    },
+    {
+      "text": "飚 ",
+      "confidence": 7.400776923474204e-06,
+      "box": [
+        70.0,
+        88.0,
+        156.0,
+        136.0
+      ]
+    }
+  ],
+  "image_sha256": "af47199ef85873dec6a54a615f2ba620dc1faf836b95678d9aa0d66df64abefc",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

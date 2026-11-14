@@ -1,0 +1,53 @@
+{
+  "ocr_text": "P Y RLGH T WMLBIESNOH CON ANOREASH BITESNON",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        21.0,
+        15.0,
+        71.0,
+        35.0
+      ]
+    },
+    {
+      "text": "P Y RLGH T",
+      "confidence": 0.07908173981691746,
+      "box": [
+        78.0,
+        10.0,
+        258.0,
+        38.0
+      ]
+    },
+    {
+      "text": "WMLBIESNOH CON",
+      "confidence": 0.044915382913679996,
+      "box": [
+        605.0,
+        15.0,
+        771.0,
+        33.0
+      ]
+    },
+    {
+      "text": "ANOREASH BITESNON",
+      "confidence": 0.03966476435412493,
+      "box": [
+        20.0,
+        36.0,
+        256.0,
+        60.0
+      ]
+    }
+  ],
+  "image_sha256": "0c8ec5d68a23dbe0600c389fd336539a89074fe0b3852afd062debbb7402a8cb",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

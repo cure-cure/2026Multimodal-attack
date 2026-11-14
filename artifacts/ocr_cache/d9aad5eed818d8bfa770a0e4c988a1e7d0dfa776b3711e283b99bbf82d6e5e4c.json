@@ -1,0 +1,23 @@
+{
+  "ocr_text": "clipartof.com' 100114",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "clipartof.com' 100114",
+      "confidence": 0.5351900792189448,
+      "box": [
+        9.0,
+        172.0,
+        165.0,
+        190.0
+      ]
+    }
+  ],
+  "image_sha256": "d9aad5eed818d8bfa770a0e4c988a1e7d0dfa776b3711e283b99bbf82d6e5e4c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

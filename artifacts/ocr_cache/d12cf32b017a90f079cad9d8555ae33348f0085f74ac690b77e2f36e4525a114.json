@@ -1,0 +1,103 @@
+{
+  "ocr_text": "THE CLOUD。 M 0utn SMII TA OSOUINe ARTIIUR TsCKLR AA",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "THE",
+      "confidence": 0.9990362297262106,
+      "box": [
+        59.0,
+        735.0,
+        91.0,
+        751.0
+      ]
+    },
+    {
+      "text": "CLOUD。",
+      "confidence": 0.5811524845520912,
+      "box": [
+        99.0,
+        735.0,
+        153.0,
+        751.0
+      ]
+    },
+    {
+      "text": "M 0utn",
+      "confidence": 0.006860560756217059,
+      "box": [
+        192.0,
+        756.0,
+        228.0,
+        764.0
+      ]
+    },
+    {
+      "text": "SMII",
+      "confidence": 0.4429829716682434,
+      "box": [
+        254.0,
+        756.0,
+        278.0,
+        764.0
+      ]
+    },
+    {
+      "text": "TA",
+      "confidence": 0.01446227109612818,
+      "box": [
+        60.0,
+        770.0,
+        84.0,
+        776.0
+      ]
+    },
+    {
+      "text": "OSOUINe",
+      "confidence": 0.003269413995809621,
+      "box": [
+        114.0,
+        770.0,
+        154.0,
+        778.0
+      ]
+    },
+    {
+      "text": "ARTIIUR",
+      "confidence": 0.07903297858193833,
+      "box": [
+        60.0,
+        790.0,
+        100.0,
+        798.0
+      ]
+    },
+    {
+      "text": "TsCKLR",
+      "confidence": 0.1092213551816336,
+      "box": [
+        108.0,
+        790.0,
+        148.0,
+        798.0
+      ]
+    },
+    {
+      "text": "AA",
+      "confidence": 0.1855172038098621,
+      "box": [
+        155.0,
+        787.0,
+        187.0,
+        799.0
+      ]
+    }
+  ],
+  "image_sha256": "d12cf32b017a90f079cad9d8555ae33348f0085f74ac690b77e2f36e4525a114",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Su@蠡@ Wiwshutterstockcom 12942502",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Su@蠡@",
+      "confidence": 7.889745092658173e-05,
+      "box": [
+        22.0,
+        202.0,
+        282.0,
+        250.0
+      ]
+    },
+    {
+      "text": "Wiwshutterstockcom",
+      "confidence": 0.12161012678528926,
+      "box": [
+        47.0,
+        455.0,
+        183.0,
+        469.0
+      ]
+    },
+    {
+      "text": "12942502",
+      "confidence": 0.999978757894898,
+      "box": [
+        189.0,
+        453.0,
+        257.0,
+        469.0
+      ]
+    }
+  ],
+  "image_sha256": "25eeacd0eb7cbdee41a78721ebcfaa8a81b07acb3fe80c0ebd2947b8fc81231c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

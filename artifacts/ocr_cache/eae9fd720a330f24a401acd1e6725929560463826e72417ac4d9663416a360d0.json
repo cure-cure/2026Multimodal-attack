@@ -1,0 +1,43 @@
+{
+  "ocr_text": "U bigstockcom 98135444",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "U",
+      "confidence": 0.8039905511157173,
+      "box": [
+        127.0,
+        305.0,
+        161.0,
+        317.0
+      ]
+    },
+    {
+      "text": "bigstockcom",
+      "confidence": 0.992810411812865,
+      "box": [
+        160.0,
+        302.0,
+        247.0,
+        320.0
+      ]
+    },
+    {
+      "text": "98135444",
+      "confidence": 0.7556049081567763,
+      "box": [
+        257.0,
+        303.0,
+        323.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "eae9fd720a330f24a401acd1e6725929560463826e72417ac4d9663416a360d0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

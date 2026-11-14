@@ -1,0 +1,33 @@
+{
+  "ocr_text": "9PJOTD CRTSr5",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "9PJOTD",
+      "confidence": 0.3202458377908355,
+      "box": [
+        134.0,
+        140.0,
+        601.0,
+        228.0
+      ]
+    },
+    {
+      "text": "CRTSr5",
+      "confidence": 0.07771258306924203,
+      "box": [
+        123.0,
+        205.0,
+        612.0,
+        306.0
+      ]
+    }
+  ],
+  "image_sha256": "fca0a0f4bdb5294bdafb41c230d7738970b7da5078312037d69bff389b3de0ef",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

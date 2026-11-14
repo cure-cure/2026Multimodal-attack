@@ -1,0 +1,23 @@
+{
+  "ocr_text": "ICT 20231",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ICT 20231",
+      "confidence": 0.5939385553231531,
+      "box": [
+        449.0,
+        639.0,
+        513.0,
+        659.0
+      ]
+    }
+  ],
+  "image_sha256": "d1a6b44f70e284417a23342e2ee9e8b4b1c4a5f141391c178d355cd9023375f1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

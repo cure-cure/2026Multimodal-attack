@@ -1,0 +1,43 @@
+{
+  "ocr_text": "4JTRRe 山o踞6留 U5ARMY",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "4JTRRe",
+      "confidence": 0.0004383267756148319,
+      "box": [
+        13.0,
+        129.0,
+        660.0,
+        249.0
+      ]
+    },
+    {
+      "text": "山o踞6留",
+      "confidence": 1.6707193000240882e-06,
+      "box": [
+        160.0,
+        244.0,
+        659.0,
+        361.0
+      ]
+    },
+    {
+      "text": "U5ARMY",
+      "confidence": 0.5452312213784293,
+      "box": [
+        236.0,
+        640.0,
+        322.0,
+        664.0
+      ]
+    }
+  ],
+  "image_sha256": "5ed0375234d8fd7f43cd6433cd80f90490cd2eb19863bd14eb842568b54685b2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

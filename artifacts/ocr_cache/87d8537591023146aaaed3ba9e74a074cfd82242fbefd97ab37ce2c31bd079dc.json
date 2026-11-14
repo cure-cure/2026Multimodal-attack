@@ -1,0 +1,33 @@
+{
+  "ocr_text": "@呜 f郾 _",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@呜",
+      "confidence": 0.028417009642925758,
+      "box": [
+        9.0,
+        9.0,
+        125.0,
+        73.0
+      ]
+    },
+    {
+      "text": "f郾 _",
+      "confidence": 0.0006819915321930154,
+      "box": [
+        37.0,
+        42.0,
+        230.0,
+        122.0
+      ]
+    }
+  ],
+  "image_sha256": "87d8537591023146aaaed3ba9e74a074cfd82242fbefd97ab37ce2c31bd079dc",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

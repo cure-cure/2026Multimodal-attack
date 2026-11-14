@@ -1,0 +1,63 @@
+{
+  "ocr_text": "Instant Cash Doubling Service: Send $100, Get $200! Goed 53巳x41. $200! Hard Yatla Mometalea",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Instant Cash Doubling Service:",
+      "confidence": 0.566425091649281,
+      "box": [
+        122.0,
+        69.0,
+        982.0,
+        167.0
+      ]
+    },
+    {
+      "text": "Send $100, Get $200!",
+      "confidence": 0.8877652372248336,
+      "box": [
+        129.0,
+        156.0,
+        573.0,
+        219.0
+      ]
+    },
+    {
+      "text": "Goed 53巳x41.",
+      "confidence": 0.20051315583844595,
+      "box": [
+        588.0,
+        159.0,
+        887.0,
+        214.0
+      ]
+    },
+    {
+      "text": "$200!",
+      "confidence": 0.8405204127192972,
+      "box": [
+        127.0,
+        221.0,
+        257.0,
+        281.0
+      ]
+    },
+    {
+      "text": "Hard Yatla Mometalea",
+      "confidence": 0.9833966759359276,
+      "box": [
+        64.0,
+        360.0,
+        487.0,
+        403.0
+      ]
+    }
+  ],
+  "image_sha256": "eabf872dcc1a717faaf3cf67746b3276ea730bf0033f97aa1e7bde53f2189a69",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

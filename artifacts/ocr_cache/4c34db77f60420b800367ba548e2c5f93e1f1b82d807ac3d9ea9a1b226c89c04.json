@@ -1,0 +1,163 @@
+{
+  "ocr_text": "CLBPRIC。AMT NORIGAA STATE PEWFERS 01,2021 DURE LADUUGNE MBY TCAER 58.32-488-9209 NT。WTICACR, 889-153-020 CTS 384819 CORP BNUT CORP NORECIDE CAL 01 MIDCORS 0",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CLBPRIC。AMT NORIGAA STATE",
+      "confidence": 0.5171837349451593,
+      "box": [
+        123.0,
+        317.0,
+        675.0,
+        357.0
+      ]
+    },
+    {
+      "text": "PEWFERS 01,2021",
+      "confidence": 0.698065578231761,
+      "box": [
+        332.0,
+        354.0,
+        524.0,
+        384.0
+      ]
+    },
+    {
+      "text": "DURE LADUUGNE",
+      "confidence": 0.9926888565644769,
+      "box": [
+        334.0,
+        406.0,
+        540.0,
+        434.0
+      ]
+    },
+    {
+      "text": "MBY TCAER",
+      "confidence": 0.7979571764242557,
+      "box": [
+        359.0,
+        433.0,
+        459.0,
+        453.0
+      ]
+    },
+    {
+      "text": "58.32-488-9209",
+      "confidence": 0.8666081581239892,
+      "box": [
+        333.0,
+        451.0,
+        492.0,
+        478.0
+      ]
+    },
+    {
+      "text": "NT。WTICACR, 889-153-020",
+      "confidence": 0.5466666443745118,
+      "box": [
+        334.0,
+        476.0,
+        584.0,
+        500.0
+      ]
+    },
+    {
+      "text": "CTS 384819",
+      "confidence": 0.6860895771785913,
+      "box": [
+        336.0,
+        498.0,
+        488.0,
+        530.0
+      ]
+    },
+    {
+      "text": "CORP",
+      "confidence": 0.9486644864082336,
+      "box": [
+        338.0,
+        546.0,
+        410.0,
+        574.0
+      ]
+    },
+    {
+      "text": "BNUT",
+      "confidence": 0.9957192540168762,
+      "box": [
+        478.0,
+        546.0,
+        544.0,
+        570.0
+      ]
+    },
+    {
+      "text": "CORP",
+      "confidence": 0.9884957075119019,
+      "box": [
+        612.0,
+        544.0,
+        680.0,
+        568.0
+      ]
+    },
+    {
+      "text": "NORECIDE",
+      "confidence": 0.6646273501523484,
+      "box": [
+        339.0,
+        575.0,
+        413.0,
+        595.0
+      ]
+    },
+    {
+      "text": "CAL",
+      "confidence": 0.9948108493105238,
+      "box": [
+        499.0,
+        575.0,
+        523.0,
+        591.0
+      ]
+    },
+    {
+      "text": "01",
+      "confidence": 0.5392040046727831,
+      "box": [
+        633.0,
+        569.0,
+        663.0,
+        589.0
+      ]
+    },
+    {
+      "text": "MIDCORS",
+      "confidence": 0.8031373443866803,
+      "box": [
+        341.0,
+        595.0,
+        411.0,
+        615.0
+      ]
+    },
+    {
+      "text": "0",
+      "confidence": 0.2803542886130437,
+      "box": [
+        343.0,
+        661.0,
+        395.0,
+        681.0
+      ]
+    }
+  ],
+  "image_sha256": "4c34db77f60420b800367ba548e2c5f93e1f1b82d807ac3d9ea9a1b226c89c04",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

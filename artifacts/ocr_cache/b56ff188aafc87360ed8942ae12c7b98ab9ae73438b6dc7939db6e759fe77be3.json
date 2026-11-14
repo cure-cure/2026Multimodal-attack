@@ -1,0 +1,53 @@
+{
+  "ocr_text": "TIoTTN SSMU LEBLT 2% TMTII",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "TIoTTN",
+      "confidence": 0.07814750300990762,
+      "box": [
+        355.0,
+        571.0,
+        425.0,
+        583.0
+      ]
+    },
+    {
+      "text": "SSMU",
+      "confidence": 0.03015093132853508,
+      "box": [
+        636.0,
+        574.0,
+        692.0,
+        582.0
+      ]
+    },
+    {
+      "text": "LEBLT 2%",
+      "confidence": 0.01955465984699812,
+      "box": [
+        480.0,
+        616.0,
+        572.0,
+        644.0
+      ]
+    },
+    {
+      "text": "TMTII",
+      "confidence": 0.015832758599843996,
+      "box": [
+        500.0,
+        642.0,
+        548.0,
+        650.0
+      ]
+    }
+  ],
+  "image_sha256": "b56ff188aafc87360ed8942ae12c7b98ab9ae73438b6dc7939db6e759fe77be3",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

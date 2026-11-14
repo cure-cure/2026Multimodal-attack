@@ -1,0 +1,93 @@
+{
+  "ocr_text": "United Nations HIGHLEVEL CONFERENCEON B叫UNTE TEB08I #UNitetocounterTerrorism 28-29 JUNE 2018 New York WWW.un.org/counterterrorism/HLC",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "United",
+      "confidence": 0.946718133409577,
+      "box": [
+        861.0,
+        245.0,
+        1138.0,
+        332.0
+      ]
+    },
+    {
+      "text": "Nations",
+      "confidence": 0.9160658567703527,
+      "box": [
+        844.0,
+        325.0,
+        1159.0,
+        409.0
+      ]
+    },
+    {
+      "text": "HIGHLEVEL CONFERENCEON",
+      "confidence": 0.7970200767925317,
+      "box": [
+        152.0,
+        579.0,
+        1855.0,
+        692.0
+      ]
+    },
+    {
+      "text": "B叫UNTE TEB08I",
+      "confidence": 0.000493266370187855,
+      "box": [
+        139.0,
+        703.0,
+        1864.0,
+        925.0
+      ]
+    },
+    {
+      "text": "#UNitetocounterTerrorism",
+      "confidence": 0.522611474912839,
+      "box": [
+        249.0,
+        1132.0,
+        1744.0,
+        1257.0
+      ]
+    },
+    {
+      "text": "28-29 JUNE 2018",
+      "confidence": 0.8118246749746717,
+      "box": [
+        605.0,
+        1543.0,
+        1395.0,
+        1640.0
+      ]
+    },
+    {
+      "text": "New York",
+      "confidence": 0.7601487067404663,
+      "box": [
+        809.0,
+        1758.0,
+        1205.0,
+        1849.0
+      ]
+    },
+    {
+      "text": "WWW.un.org/counterterrorism/HLC",
+      "confidence": 0.6535378697729349,
+      "box": [
+        258.0,
+        3687.0,
+        1752.0,
+        3820.0
+      ]
+    }
+  ],
+  "image_sha256": "2c72de3f9a9ab94a5ad4a162d19e061889cd27563fd28c36380cbd4cef1d29c6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Relationship NOT Religion",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Relationship NOT Religion",
+      "confidence": 0.9935263470564476,
+      "box": [
+        45.0,
+        38.0,
+        718.0,
+        118.0
+      ]
+    }
+  ],
+  "image_sha256": "d1b61223854926d7b23958ab39cc9195e29afb1ee022bf0da8ab2b78db7f9f4c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

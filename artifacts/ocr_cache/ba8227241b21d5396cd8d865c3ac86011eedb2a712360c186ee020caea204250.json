@@ -1,0 +1,43 @@
+{
+  "ocr_text": "DISABLRD PEOPLE AOUDAS FOR",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "DISABLRD PEOPLE",
+      "confidence": 0.2843065928878852,
+      "box": [
+        2.0,
+        136.0,
+        231.0,
+        163.0
+      ]
+    },
+    {
+      "text": "AOUDAS",
+      "confidence": 0.27344748315702916,
+      "box": [
+        -0.9702231412599351,
+        -21.291938648920933,
+        164.97022314125994,
+        69.29193864892093
+      ]
+    },
+    {
+      "text": "FOR",
+      "confidence": 0.4802343804310525,
+      "box": [
+        143.09274943432212,
+        -2.957436541459413,
+        223.90725056567788,
+        72.95743654145942
+      ]
+    }
+  ],
+  "image_sha256": "ba8227241b21d5396cd8d865c3ac86011eedb2a712360c186ee020caea204250",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

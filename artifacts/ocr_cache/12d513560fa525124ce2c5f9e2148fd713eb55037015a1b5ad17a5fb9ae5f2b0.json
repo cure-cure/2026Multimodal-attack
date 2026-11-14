@@ -1,0 +1,43 @@
+{
+  "ocr_text": "BlJOB Iy bigstock com 402911156",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BlJOB",
+      "confidence": 0.0029959889399068184,
+      "box": [
+        131.0,
+        195.0,
+        327.0,
+        257.0
+      ]
+    },
+    {
+      "text": "Iy bigstock com",
+      "confidence": 0.4933771729250532,
+      "box": [
+        1.0,
+        451.0,
+        121.0,
+        467.0
+      ]
+    },
+    {
+      "text": "402911156",
+      "confidence": 0.9988773293825673,
+      "box": [
+        131.0,
+        449.0,
+        205.0,
+        465.0
+      ]
+    }
+  ],
+  "image_sha256": "12d513560fa525124ce2c5f9e2148fd713eb55037015a1b5ad17a5fb9ae5f2b0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

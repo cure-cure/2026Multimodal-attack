@@ -1,0 +1,63 @@
+{
+  "ocr_text": "hates BUoBans, Chistlans Wilhistg aelsts, 9ay8; #oyg; hamFm;加% 加吁 Civillizationl,your CulUTB,Vour tralltiong; Jlr CuntrI anlyo BoIlalns ahout \"Islamolhohia'",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "hates BUoBans, Chistlans Wilhistg",
+      "confidence": 0.10100483015057483,
+      "box": [
+        94.0,
+        0.0,
+        422.0,
+        25.0
+      ]
+    },
+    {
+      "text": "aelsts, 9ay8; #oyg; hamFm;加%",
+      "confidence": 0.0006388931395860517,
+      "box": [
+        100.0,
+        18.0,
+        422.0,
+        50.0
+      ]
+    },
+    {
+      "text": "加吁 Civillizationl,your CulUTB,Vour",
+      "confidence": 0.009081252788485641,
+      "box": [
+        102.0,
+        44.0,
+        390.0,
+        70.0
+      ]
+    },
+    {
+      "text": "tralltiong; Jlr CuntrI anlyo",
+      "confidence": 0.03165789334172254,
+      "box": [
+        102.0,
+        64.0,
+        386.0,
+        92.0
+      ]
+    },
+    {
+      "text": "BoIlalns ahout \"Islamolhohia'",
+      "confidence": 0.13648235787259977,
+      "box": [
+        53.0,
+        310.0,
+        473.0,
+        350.0
+      ]
+    }
+  ],
+  "image_sha256": "e10e66089af4877353ad83c25292ff4bef82fabf6a180f454f097ae5470a19e3",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

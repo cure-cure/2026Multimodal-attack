@@ -1,0 +1,53 @@
+{
+  "ocr_text": "穴 #GETTUIIGH DDfihtin ASPO",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "穴",
+      "confidence": 0.04323487193927633,
+      "box": [
+        224.0,
+        774.0,
+        324.0,
+        898.0
+      ]
+    },
+    {
+      "text": "#GETTUIIGH",
+      "confidence": 0.2824326824478121,
+      "box": [
+        519.0,
+        967.0,
+        931.0,
+        1053.0
+      ]
+    },
+    {
+      "text": "DDfihtin",
+      "confidence": 0.10425403735559177,
+      "box": [
+        588.0,
+        1038.0,
+        854.0,
+        1094.0
+      ]
+    },
+    {
+      "text": "ASPO",
+      "confidence": 0.5729173421859741,
+      "box": [
+        845.0,
+        1098.0,
+        926.0,
+        1134.0
+      ]
+    }
+  ],
+  "image_sha256": "6eca15ed8e6023dbbbcdd3971d0559f3da3fcae7fef1a6145e08b8a2b19a4bf2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

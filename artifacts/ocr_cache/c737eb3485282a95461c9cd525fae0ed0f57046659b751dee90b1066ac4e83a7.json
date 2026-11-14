@@ -1,0 +1,23 @@
+{
+  "ocr_text": "TAX",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "TAX",
+      "confidence": 0.8556695730851057,
+      "box": [
+        168.0,
+        317.0,
+        826.0,
+        623.0
+      ]
+    }
+  ],
+  "image_sha256": "c737eb3485282a95461c9cd525fae0ed0f57046659b751dee90b1066ac4e83a7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

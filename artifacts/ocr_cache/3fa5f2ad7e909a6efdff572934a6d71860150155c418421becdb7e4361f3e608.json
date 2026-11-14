@@ -1,0 +1,23 @@
+{
+  "ocr_text": "IRIR9",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "IRIR9",
+      "confidence": 0.05884592802716907,
+      "box": [
+        84.0,
+        38.0,
+        176.0,
+        64.0
+      ]
+    }
+  ],
+  "image_sha256": "3fa5f2ad7e909a6efdff572934a6d71860150155c418421becdb7e4361f3e608",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

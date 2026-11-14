@@ -1,0 +1,43 @@
+{
+  "ocr_text": "GOMngS0O0tOV吓#Ih0i0o 300,000Islamic heathBns demaninythe Isa Chan 加 Sut thier SlBk religjo",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "GOMngS0O0tOV吓#Ih0i0o",
+      "confidence": 0.000491595613961919,
+      "box": [
+        119.0,
+        0.0,
+        686.0,
+        50.0
+      ]
+    },
+    {
+      "text": "300,000Islamic heathBns demaninythe Isa Chan",
+      "confidence": 0.06673358122442362,
+      "box": [
+        74.0,
+        460.0,
+        746.0,
+        509.0
+      ]
+    },
+    {
+      "text": "加 Sut thier SlBk religjo",
+      "confidence": 0.03689152166931679,
+      "box": [
+        217.0,
+        501.0,
+        571.0,
+        543.0
+      ]
+    }
+  ],
+  "image_sha256": "7f1c08886268a2d002e85653af907323370baaea1c19f43e0801c22a2741a6d8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

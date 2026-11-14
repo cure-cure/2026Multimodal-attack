@@ -1,0 +1,63 @@
+{
+  "ocr_text": "M her 0 man's world",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "M",
+      "confidence": 0.5245191817323303,
+      "box": [
+        1.0,
+        15.0,
+        49.0,
+        53.0
+      ]
+    },
+    {
+      "text": "her",
+      "confidence": 0.9884904808037249,
+      "box": [
+        64.0,
+        2.0,
+        160.0,
+        52.0
+      ]
+    },
+    {
+      "text": "0",
+      "confidence": 0.9403620920061293,
+      "box": [
+        3.0,
+        67.0,
+        45.0,
+        107.0
+      ]
+    },
+    {
+      "text": "man's",
+      "confidence": 0.6497728627799774,
+      "box": [
+        62.0,
+        56.0,
+        220.0,
+        108.0
+      ]
+    },
+    {
+      "text": "world",
+      "confidence": 0.7266016045487637,
+      "box": [
+        236.0,
+        56.0,
+        388.0,
+        108.0
+      ]
+    }
+  ],
+  "image_sha256": "72dc0c4ee2a1530005181df4738f3194fcb2600cc2b38ce19ce235d752e7ced0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

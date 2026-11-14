@@ -1,0 +1,33 @@
+{
+  "ocr_text": "哑0呵晌 四0皿0\"",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "哑0呵晌",
+      "confidence": 6.9402212830027565e-06,
+      "box": [
+        10.0,
+        0.0,
+        240.0,
+        30.0
+      ]
+    },
+    {
+      "text": "四0皿0\"",
+      "confidence": 0.00024467179332966543,
+      "box": [
+        8.0,
+        219.0,
+        242.0,
+        250.0
+      ]
+    }
+  ],
+  "image_sha256": "f2de961921dcf50e215ac05b5ad64c429376ed5b035117739358a76cb3d91224",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "BLACKEDcw",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BLACKEDcw",
+      "confidence": 0.21880705569850695,
+      "box": [
+        255.0,
+        181.0,
+        351.0,
+        198.0
+      ]
+    }
+  ],
+  "image_sha256": "16ef92bfda673abd342a981a78943b47bafca679a96f64c99e9abc737704f254",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

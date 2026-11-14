@@ -1,0 +1,33 @@
+{
+  "ocr_text": "80皿@吧-[ VTU",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "80皿@吧-[",
+      "confidence": 0.0020694438355277154,
+      "box": [
+        235.0,
+        239.0,
+        571.0,
+        301.0
+      ]
+    },
+    {
+      "text": "VTU",
+      "confidence": 0.009468088828883899,
+      "box": [
+        233.0,
+        284.0,
+        570.0,
+        394.0
+      ]
+    }
+  ],
+  "image_sha256": "08a1ff8e180f51e277bb81aa7879c0a7c761b5b791777022662976b37cc13df9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

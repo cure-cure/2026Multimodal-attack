@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Tax Documents",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Tax",
+      "confidence": 0.6893028903242246,
+      "box": [
+        223.00094343045953,
+        270.02166379321574,
+        497.99905656954047,
+        468.97833620678426
+      ]
+    },
+    {
+      "text": "Documents",
+      "confidence": 0.9290224114426885,
+      "box": [
+        113.35750517355933,
+        324.0051120343593,
+        1019.6424948264407,
+        792.9948879656407
+      ]
+    }
+  ],
+  "image_sha256": "f6861f25800ec0e9e127d919e0af7675657c2c3d19d0c84725935ff42b7af6e6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

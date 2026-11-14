@@ -1,0 +1,183 @@
+{
+  "ocr_text": "gomgAcogt 又 nitthomgriogglcogl.com/holcc S 吕 三 Gegaler INIO f3Olo CLIP! Easy Money, Instant Approval。 No Bank Statements se ualto cetificctes Gor with overvited。 Select 72 kn $430. bard $630E Only kshort verification process required, super high 175 Intires ortuny apply。 Thty",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "gomgAcogt",
+      "confidence": 0.9711725016154361,
+      "box": [
+        86.0,
+        86.0,
+        198.0,
+        112.0
+      ]
+    },
+    {
+      "text": "又",
+      "confidence": 0.07459776638383264,
+      "box": [
+        327.0,
+        89.0,
+        353.0,
+        109.0
+      ]
+    },
+    {
+      "text": "nitthomgriogglcogl.com/holcc",
+      "confidence": 0.4979391017009245,
+      "box": [
+        228.0,
+        138.0,
+        546.0,
+        168.0
+      ]
+    },
+    {
+      "text": "S",
+      "confidence": 0.9726951432382727,
+      "box": [
+        802.0,
+        138.0,
+        828.0,
+        162.0
+      ]
+    },
+    {
+      "text": "吕",
+      "confidence": 0.20703754161516574,
+      "box": [
+        852.0,
+        132.0,
+        884.0,
+        164.0
+      ]
+    },
+    {
+      "text": "三",
+      "confidence": 0.9925703043500711,
+      "box": [
+        950.0,
+        136.0,
+        986.0,
+        166.0
+      ]
+    },
+    {
+      "text": "Gegaler",
+      "confidence": 0.7769834688275447,
+      "box": [
+        463.0,
+        263.0,
+        558.0,
+        296.0
+      ]
+    },
+    {
+      "text": "INIO",
+      "confidence": 0.9820675849914551,
+      "box": [
+        310.0,
+        302.0,
+        416.0,
+        350.0
+      ]
+    },
+    {
+      "text": "f3Olo CLIP!",
+      "confidence": 0.11050059685710058,
+      "box": [
+        420.0,
+        290.0,
+        714.0,
+        366.0
+      ]
+    },
+    {
+      "text": "Easy Money, Instant Approval。",
+      "confidence": 0.6548564787563322,
+      "box": [
+        251.0,
+        409.0,
+        768.0,
+        463.0
+      ]
+    },
+    {
+      "text": "No Bank Statements",
+      "confidence": 0.8394259789924241,
+      "box": [
+        392.0,
+        460.0,
+        642.0,
+        490.0
+      ]
+    },
+    {
+      "text": "se ualto cetificctes Gor with overvited。",
+      "confidence": 0.3386967505384524,
+      "box": [
+        360.0,
+        494.0,
+        704.0,
+        518.0
+      ]
+    },
+    {
+      "text": "Select 72 kn",
+      "confidence": 0.97897583317815,
+      "box": [
+        256.0,
+        550.0,
+        384.0,
+        576.0
+      ]
+    },
+    {
+      "text": "$430. bard $630E",
+      "confidence": 0.6955152748748311,
+      "box": [
+        258.0,
+        610.0,
+        454.0,
+        642.0
+      ]
+    },
+    {
+      "text": "Only kshort verification process required, super high",
+      "confidence": 0.8639704211927246,
+      "box": [
+        290.0,
+        682.0,
+        718.0,
+        712.0
+      ]
+    },
+    {
+      "text": "175 Intires ortuny apply。",
+      "confidence": 0.444536350024271,
+      "box": [
+        406.0,
+        708.0,
+        612.0,
+        736.0
+      ]
+    },
+    {
+      "text": "Thty",
+      "confidence": 0.9998777508735657,
+      "box": [
+        313.19358371899955,
+        491.1867537178289,
+        363.80641628100045,
+        523.8132462821711
+      ]
+    }
+  ],
+  "image_sha256": "cad3e4c101382508a995abf5f3da47df209e6dd510903435fe59a03060a2f996",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

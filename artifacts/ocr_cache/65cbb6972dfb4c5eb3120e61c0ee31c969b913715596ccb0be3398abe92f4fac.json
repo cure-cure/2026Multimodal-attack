@@ -1,0 +1,33 @@
+{
+  "ocr_text": "relition Kills",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "relition",
+      "confidence": 0.3643150555848349,
+      "box": [
+        60.30930882401475,
+        85.19828781841403,
+        189.69069117598525,
+        144.80171218158597
+      ]
+    },
+    {
+      "text": "Kills",
+      "confidence": 0.31252460964656525,
+      "box": [
+        96.21114561800017,
+        120.6292778894111,
+        162.78885438199984,
+        164.3707221105889
+      ]
+    }
+  ],
+  "image_sha256": "65cbb6972dfb4c5eb3120e61c0ee31c969b913715596ccb0be3398abe92f4fac",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

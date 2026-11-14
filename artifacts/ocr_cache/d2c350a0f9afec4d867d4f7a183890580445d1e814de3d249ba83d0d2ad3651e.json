@@ -1,0 +1,53 @@
+{
+  "ocr_text": "t3lhtr\"』@8&凹论[血81硇~}问 ML4 SAMPL 皿皿t @-o爬咖@衄",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "t3lhtr\"』@8&凹论[血81硇~}问",
+      "confidence": 4.966061380000387e-07,
+      "box": [
+        0.0,
+        12.0,
+        526.0,
+        40.0
+      ]
+    },
+    {
+      "text": "ML4",
+      "confidence": 0.001352712703188367,
+      "box": [
+        138.0,
+        26.0,
+        404.0,
+        74.0
+      ]
+    },
+    {
+      "text": "SAMPL",
+      "confidence": 0.42759892946789996,
+      "box": [
+        166.0,
+        76.0,
+        515.0,
+        229.0
+      ]
+    },
+    {
+      "text": "皿皿t @-o爬咖@衄",
+      "confidence": 1.9199678615643775e-08,
+      "box": [
+        16.0,
+        212.0,
+        496.0,
+        265.0
+      ]
+    }
+  ],
+  "image_sha256": "d2c350a0f9afec4d867d4f7a183890580445d1e814de3d249ba83d0d2ad3651e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

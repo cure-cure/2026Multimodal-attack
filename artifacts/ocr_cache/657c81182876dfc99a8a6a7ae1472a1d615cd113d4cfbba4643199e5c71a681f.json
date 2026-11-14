@@ -1,0 +1,33 @@
+{
+  "ocr_text": "FDRSM 1883-575-72894",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "FDRSM",
+      "confidence": 0.009861187953665517,
+      "box": [
+        333.0,
+        558.0,
+        703.0,
+        673.0
+      ]
+    },
+    {
+      "text": "1883-575-72894",
+      "confidence": 0.9723317138360691,
+      "box": [
+        430.0,
+        672.0,
+        608.0,
+        702.0
+      ]
+    }
+  ],
+  "image_sha256": "657c81182876dfc99a8a6a7ae1472a1d615cd113d4cfbba4643199e5c71a681f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

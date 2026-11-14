@@ -1,0 +1,43 @@
+{
+  "ocr_text": "{旧 }[0 #) 呕}昭 utorllet",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "{旧 }[0",
+      "confidence": 1.420889405499044e-07,
+      "box": [
+        20.0,
+        2.0,
+        282.0,
+        34.0
+      ]
+    },
+    {
+      "text": "#) 呕}昭",
+      "confidence": 1.0270616425017013e-05,
+      "box": [
+        35.0,
+        259.0,
+        267.0,
+        297.0
+      ]
+    },
+    {
+      "text": "utorllet",
+      "confidence": 0.7300066237536655,
+      "box": [
+        251.0,
+        287.0,
+        300.0,
+        299.0
+      ]
+    }
+  ],
+  "image_sha256": "d55ae66e99a7cac2dc3747f08cb1eb796daea3486ab38680caa8cd38c4ea06f6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

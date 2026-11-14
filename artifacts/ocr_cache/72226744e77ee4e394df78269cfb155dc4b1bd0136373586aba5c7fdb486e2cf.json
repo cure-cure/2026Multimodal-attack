@@ -1,0 +1,143 @@
+{
+  "ocr_text": "TUEBOLVER Newotrom Ro Neosten urofen 200m9 Iiternllls CrIna 4 bleqjel ot L FGlellulnlels TII Tuag",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "TUEBOLVER",
+      "confidence": 0.9184481512292063,
+      "box": [
+        570.0,
+        528.0,
+        678.0,
+        552.0
+      ]
+    },
+    {
+      "text": "Newotrom",
+      "confidence": 0.3555091717755773,
+      "box": [
+        745.0,
+        529.0,
+        807.0,
+        545.0
+      ]
+    },
+    {
+      "text": "Ro",
+      "confidence": 0.09146667933694784,
+      "box": [
+        783.0,
+        547.0,
+        805.0,
+        563.0
+      ]
+    },
+    {
+      "text": "Neosten",
+      "confidence": 0.17719356317230117,
+      "box": [
+        568.0,
+        554.0,
+        644.0,
+        578.0
+      ]
+    },
+    {
+      "text": "urofen",
+      "confidence": 0.6401258720297396,
+      "box": [
+        560.0,
+        578.0,
+        763.0,
+        647.0
+      ]
+    },
+    {
+      "text": "200m9",
+      "confidence": 0.230358462880729,
+      "box": [
+        556.0,
+        620.0,
+        738.0,
+        711.0
+      ]
+    },
+    {
+      "text": "Iiternllls CrIna",
+      "confidence": 0.16184372976528863,
+      "box": [
+        629.0,
+        704.0,
+        757.0,
+        725.0
+      ]
+    },
+    {
+      "text": "4",
+      "confidence": 0.011402741716683151,
+      "box": [
+        570.0,
+        724.0,
+        602.0,
+        750.0
+      ]
+    },
+    {
+      "text": "bleqjel",
+      "confidence": 0.35890932862111413,
+      "box": [
+        657.0,
+        739.0,
+        701.0,
+        755.0
+      ]
+    },
+    {
+      "text": "ot",
+      "confidence": 0.3699883654654924,
+      "box": [
+        589.0,
+        763.0,
+        615.0,
+        777.0
+      ]
+    },
+    {
+      "text": "L FGlellulnlels",
+      "confidence": 0.0063116112327972354,
+      "box": [
+        588.0,
+        776.0,
+        671.0,
+        797.0
+      ]
+    },
+    {
+      "text": "TII",
+      "confidence": 0.8249657577521218,
+      "box": [
+        715.0,
+        781.0,
+        763.0,
+        795.0
+      ]
+    },
+    {
+      "text": "Tuag",
+      "confidence": 0.07831913232803345,
+      "box": [
+        622.0217658748976,
+        735.115081777618,
+        656.9782341251024,
+        755.884918222382
+      ]
+    }
+  ],
+  "image_sha256": "72226744e77ee4e394df78269cfb155dc4b1bd0136373586aba5c7fdb486e2cf",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

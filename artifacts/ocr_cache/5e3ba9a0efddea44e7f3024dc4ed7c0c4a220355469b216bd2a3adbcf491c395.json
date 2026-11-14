@@ -1,0 +1,33 @@
+{
+  "ocr_text": "I VoI 8ti8@k[巩@飑 farrot",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "I VoI 8ti8@k[巩@飑",
+      "confidence": 0.00023662472311217512,
+      "box": [
+        17.0,
+        1.0,
+        329.0,
+        44.0
+      ]
+    },
+    {
+      "text": "farrot",
+      "confidence": 0.010563365428026422,
+      "box": [
+        87.0,
+        345.0,
+        265.0,
+        400.0
+      ]
+    }
+  ],
+  "image_sha256": "5e3ba9a0efddea44e7f3024dc4ed7c0c4a220355469b216bd2a3adbcf491c395",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "E Didblo",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "E Didblo",
+      "confidence": 0.06119245885376309,
+      "box": [
+        28.0,
+        196.0,
+        488.0,
+        300.0
+      ]
+    }
+  ],
+  "image_sha256": "99a43f45a1cc9302c7372efd574199f4553651946425938af121570d871d3b0d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

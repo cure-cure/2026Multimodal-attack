@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Chfslan TEITUNC MnsnTIOn",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Chfslan TEITUNC",
+      "confidence": 0.13850976491618494,
+      "box": [
+        30.0,
+        114.0,
+        100.0,
+        122.0
+      ]
+    },
+    {
+      "text": "MnsnTIOn",
+      "confidence": 0.042805631788379574,
+      "box": [
+        154.0,
+        114.0,
+        220.0,
+        122.0
+      ]
+    }
+  ],
+  "image_sha256": "4e5707698b566d61f6c73d868300c15fae7ff5165e7b97a561addded5f85e935",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

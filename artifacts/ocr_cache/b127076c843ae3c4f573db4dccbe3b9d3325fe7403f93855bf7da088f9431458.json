@@ -1,0 +1,43 @@
+{
+  "ocr_text": "蒽 IXOYC CanStockPnotocom",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "蒽",
+      "confidence": 0.0007817435077160963,
+      "box": [
+        138.0,
+        22.0,
+        252.0,
+        120.0
+      ]
+    },
+    {
+      "text": "IXOYC",
+      "confidence": 0.3276232466406213,
+      "box": [
+        268.0,
+        56.0,
+        352.0,
+        86.0
+      ]
+    },
+    {
+      "text": "CanStockPnotocom",
+      "confidence": 0.8864991840447057,
+      "box": [
+        152.0,
+        140.0,
+        263.0,
+        155.0
+      ]
+    }
+  ],
+  "image_sha256": "b127076c843ae3c4f573db4dccbe3b9d3325fe7403f93855bf7da088f9431458",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "IOY2 CanStockPhotocom",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "IOY2",
+      "confidence": 0.6795850396156311,
+      "box": [
+        264.0,
+        58.0,
+        352.0,
+        84.0
+      ]
+    },
+    {
+      "text": "CanStockPhotocom",
+      "confidence": 0.625705797311423,
+      "box": [
+        150.0,
+        140.0,
+        263.0,
+        155.0
+      ]
+    }
+  ],
+  "image_sha256": "63618c5791044ae86ded78fa629844a87c7951d4284b81c919bd31413f3223f3",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

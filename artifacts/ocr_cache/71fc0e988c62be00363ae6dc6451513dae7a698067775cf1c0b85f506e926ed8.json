@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Kbwen",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Kbwen",
+      "confidence": 0.39312120728875,
+      "box": [
+        109.0,
+        121.0,
+        169.0,
+        139.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        107.0,
+        131.0,
+        175.0,
+        173.0
+      ]
+    }
+  ],
+  "image_sha256": "71fc0e988c62be00363ae6dc6451513dae7a698067775cf1c0b85f506e926ed8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

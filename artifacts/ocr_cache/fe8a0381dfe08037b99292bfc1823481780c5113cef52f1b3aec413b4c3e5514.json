@@ -1,0 +1,33 @@
+{
+  "ocr_text": "V +]",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "V",
+      "confidence": 0.011237936313358843,
+      "box": [
+        768.0,
+        442.0,
+        798.0,
+        450.0
+      ]
+    },
+    {
+      "text": "+]",
+      "confidence": 0.4202437398943164,
+      "box": [
+        770.0,
+        468.0,
+        798.0,
+        476.0
+      ]
+    }
+  ],
+  "image_sha256": "fe8a0381dfe08037b99292bfc1823481780c5113cef52f1b3aec413b4c3e5514",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

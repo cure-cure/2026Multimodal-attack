@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Pizza VRRE  CLARK TVMBUR Cheeseburger",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Pizza",
+      "confidence": 0.9905932960908918,
+      "box": [
+        60.0,
+        91.0,
+        151.0,
+        136.0
+      ]
+    },
+    {
+      "text": "VRRE  CLARK TVMBUR",
+      "confidence": 0.06721768152966777,
+      "box": [
+        330.0,
+        726.0,
+        482.0,
+        750.0
+      ]
+    },
+    {
+      "text": "Cheeseburger",
+      "confidence": 0.7219195179719362,
+      "box": [
+        213.7701175612585,
+        61.22347618276029,
+        376.2298824387415,
+        103.7765238172397
+      ]
+    }
+  ],
+  "image_sha256": "90a795e22d933885374cedc48372d9dabcc352e59106d402052ae03597735f5a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

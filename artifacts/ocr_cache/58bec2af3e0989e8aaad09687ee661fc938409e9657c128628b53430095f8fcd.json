@@ -1,0 +1,23 @@
+{
+  "ocr_text": "picture alliancelpa",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "picture alliancelpa",
+      "confidence": 0.8077892528744519,
+      "box": [
+        1095.0,
+        659.0,
+        1195.0,
+        671.0
+      ]
+    }
+  ],
+  "image_sha256": "58bec2af3e0989e8aaad09687ee661fc938409e9657c128628b53430095f8fcd",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

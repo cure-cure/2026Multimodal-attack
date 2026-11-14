@@ -1,0 +1,33 @@
+{
+  "ocr_text": "DOUNWITH TERRORSW",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "DOUNWITH",
+      "confidence": 0.239393372794924,
+      "box": [
+        25.0,
+        92.0,
+        240.0,
+        134.0
+      ]
+    },
+    {
+      "text": "TERRORSW",
+      "confidence": 0.2624374026141371,
+      "box": [
+        1.0,
+        118.0,
+        238.0,
+        166.0
+      ]
+    }
+  ],
+  "image_sha256": "353b0eeada6e7390465e4606b2a62a6c60d55872221d2a174dec236a7234f4ce",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

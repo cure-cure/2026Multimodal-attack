@@ -1,0 +1,83 @@
+{
+  "ocr_text": "Instant Approval Instant Approval No Bank Statements Neededl Only a short verfication prOCess, recovoel; super High interest may Ap: Easy Money'",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Instant Approval",
+      "confidence": 0.960129402853537,
+      "box": [
+        160.0,
+        60.0,
+        424.0,
+        110.0
+      ]
+    },
+    {
+      "text": "Instant Approval",
+      "confidence": 0.9660392317663015,
+      "box": [
+        126.0,
+        377.0,
+        796.0,
+        540.0
+      ]
+    },
+    {
+      "text": "No Bank Statements Neededl",
+      "confidence": 0.7087020575609362,
+      "box": [
+        129.0,
+        532.0,
+        861.0,
+        621.0
+      ]
+    },
+    {
+      "text": "Only a short verfication prOCess, recovoel;",
+      "confidence": 0.3921732337402497,
+      "box": [
+        61.0,
+        680.0,
+        724.0,
+        753.0
+      ]
+    },
+    {
+      "text": "super High interest may Ap:",
+      "confidence": 0.07443507960434458,
+      "box": [
+        67.0,
+        747.0,
+        527.0,
+        815.0
+      ]
+    },
+    {
+      "text": "Easy",
+      "confidence": 0.7296599745750427,
+      "box": [
+        207.92606720216105,
+        220.0360386854848,
+        434.07393279783895,
+        393.9639613145152
+      ]
+    },
+    {
+      "text": "Money'",
+      "confidence": 0.871186053711296,
+      "box": [
+        417.69584934890526,
+        223.03844126451713,
+        730.3041506510947,
+        398.96155873548287
+      ]
+    }
+  ],
+  "image_sha256": "c0c35c5aec3f1abcf09935cd6d30a8864415260735c4df2eb8d3d19e2e0b1640",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

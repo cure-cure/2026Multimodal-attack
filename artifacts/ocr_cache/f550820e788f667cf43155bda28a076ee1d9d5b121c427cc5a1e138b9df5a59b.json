@@ -1,0 +1,43 @@
+{
+  "ocr_text": "BOOCI W bigstockcom 145732862",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BOOCI",
+      "confidence": 0.07997892694750218,
+      "box": [
+        127.0,
+        113.0,
+        309.0,
+        185.0
+      ]
+    },
+    {
+      "text": "W bigstockcom",
+      "confidence": 0.5800368928504049,
+      "box": [
+        123.0,
+        303.0,
+        243.0,
+        319.0
+      ]
+    },
+    {
+      "text": "145732862",
+      "confidence": 0.9987340734550538,
+      "box": [
+        253.0,
+        301.0,
+        327.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "f550820e788f667cf43155bda28a076ee1d9d5b121c427cc5a1e138b9df5a59b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "B〈[耶 C皿叩3TMIB net",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "B〈[耶",
+      "confidence": 3.340237299198634e-06,
+      "box": [
+        44.0,
+        0.0,
+        358.0,
+        50.0
+      ]
+    },
+    {
+      "text": "C皿叩3TMIB",
+      "confidence": 7.601739410773584e-05,
+      "box": [
+        31.0,
+        353.0,
+        369.0,
+        397.0
+      ]
+    },
+    {
+      "text": "net",
+      "confidence": 0.9938871553873224,
+      "box": [
+        367.0,
+        381.0,
+        400.0,
+        397.0
+      ]
+    }
+  ],
+  "image_sha256": "7b5ec29d1e3759426c6a6106b932d6784fecb19cbe56b9b1d1c17d8a2e405136",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

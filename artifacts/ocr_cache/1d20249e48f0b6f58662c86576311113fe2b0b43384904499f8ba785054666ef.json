@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Clm",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        393.0,
+        399.0,
+        417.0,
+        415.0
+      ]
+    },
+    {
+      "text": "Clm",
+      "confidence": 0.35843354287448737,
+      "box": [
+        509.05825797292727,
+        231.1365600658949,
+        559.9417420270728,
+        268.8634399341051
+      ]
+    }
+  ],
+  "image_sha256": "1d20249e48f0b6f58662c86576311113fe2b0b43384904499f8ba785054666ef",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

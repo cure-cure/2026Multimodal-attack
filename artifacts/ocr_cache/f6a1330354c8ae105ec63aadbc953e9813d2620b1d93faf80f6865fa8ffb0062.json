@@ -1,0 +1,23 @@
+{
+  "ocr_text": "A cura do judeu!",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "A cura do judeu!",
+      "confidence": 0.6572510667923814,
+      "box": [
+        540.0,
+        286.0,
+        840.0,
+        334.0
+      ]
+    }
+  ],
+  "image_sha256": "f6a1330354c8ae105ec63aadbc953e9813d2620b1d93faf80f6865fa8ffb0062",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

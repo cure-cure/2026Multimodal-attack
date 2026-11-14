@@ -1,0 +1,23 @@
+{
+  "ocr_text": "ugo",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ugo",
+      "confidence": 0.041346510524482294,
+      "box": [
+        854.3615361589619,
+        458.73052115328,
+        892.6384638410381,
+        484.26947884672
+      ]
+    }
+  ],
+  "image_sha256": "10de8e96b1a9c5ff30a39b875e17c52d4b0dd7e0ed4310d9b3764677b75b5ac5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

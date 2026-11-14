@@ -1,0 +1,43 @@
+{
+  "ocr_text": "个 ASRCA WE ARE THEIR VOICE",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "个",
+      "confidence": 0.04151941813067972,
+      "box": [
+        711.0,
+        87.0,
+        861.0,
+        219.0
+      ]
+    },
+    {
+      "text": "ASRCA",
+      "confidence": 0.328576789960821,
+      "box": [
+        147.0,
+        211.0,
+        913.0,
+        465.0
+      ]
+    },
+    {
+      "text": "WE ARE THEIR VOICE",
+      "confidence": 0.9432731117251918,
+      "box": [
+        198.0,
+        454.0,
+        830.0,
+        534.0
+      ]
+    }
+  ],
+  "image_sha256": "e1b4971300acda3f00565148273f76f995eed87717e1ebbace67195506e45d33",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

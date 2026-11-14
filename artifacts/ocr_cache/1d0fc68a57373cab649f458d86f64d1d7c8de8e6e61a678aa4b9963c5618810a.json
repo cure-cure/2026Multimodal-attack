@@ -1,0 +1,33 @@
+{
+  "ocr_text": "WNbIgstockCom 231975040",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WNbIgstockCom",
+      "confidence": 0.3717027276449291,
+      "box": [
+        123.0,
+        257.0,
+        243.0,
+        273.0
+      ]
+    },
+    {
+      "text": "231975040",
+      "confidence": 0.9997310060160917,
+      "box": [
+        253.0,
+        255.0,
+        327.0,
+        271.0
+      ]
+    }
+  ],
+  "image_sha256": "1d0fc68a57373cab649f458d86f64d1d7c8de8e6e61a678aa4b9963c5618810a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

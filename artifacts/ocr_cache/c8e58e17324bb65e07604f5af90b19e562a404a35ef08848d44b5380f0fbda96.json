@@ -1,0 +1,23 @@
+{
+  "ocr_text": "ET",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ET",
+      "confidence": 0.9486622935598262,
+      "box": [
+        699.3250215347815,
+        139.1629445441193,
+        895.6749784652185,
+        299.83705545588066
+      ]
+    }
+  ],
+  "image_sha256": "c8e58e17324bb65e07604f5af90b19e562a404a35ef08848d44b5380f0fbda96",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "@Ggg』W@",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@Ggg』W@",
+      "confidence": 0.0016758349407622274,
+      "box": [
+        322.0,
+        254.0,
+        546.0,
+        302.0
+      ]
+    }
+  ],
+  "image_sha256": "d09020c84916ab708ad1d2af686ae6e0ce43176393adaaf66b00d72e7bb7430e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

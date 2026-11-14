@@ -1,0 +1,63 @@
+{
+  "ocr_text": "皿醢@四血H@8血晌 el SP 3X WhoOsBisah叶@呗皿) allhs m0n咿",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "皿醢@四血H@8血晌",
+      "confidence": 9.18429823543435e-07,
+      "box": [
+        3.0,
+        4.0,
+        497.0,
+        67.0
+      ]
+    },
+    {
+      "text": "el SP",
+      "confidence": 0.3722207561849182,
+      "box": [
+        0.0,
+        78.0,
+        74.0,
+        110.0
+      ]
+    },
+    {
+      "text": "3X",
+      "confidence": 0.298088298150929,
+      "box": [
+        513.0,
+        73.0,
+        545.0,
+        93.0
+      ]
+    },
+    {
+      "text": "WhoOsBisah叶@呗皿)",
+      "confidence": 4.597599165059828e-05,
+      "box": [
+        42.0,
+        257.0,
+        450.0,
+        312.0
+      ]
+    },
+    {
+      "text": "allhs m0n咿",
+      "confidence": 0.003181047604407439,
+      "box": [
+        162.0,
+        304.0,
+        364.0,
+        352.0
+      ]
+    }
+  ],
+  "image_sha256": "5e6e72adf07fc007cd43c159a18df93d0a4418b46db490a180d373f82ef50322",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

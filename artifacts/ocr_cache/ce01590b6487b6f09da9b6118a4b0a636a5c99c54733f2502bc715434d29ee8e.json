@@ -1,0 +1,33 @@
+{
+  "ocr_text": "LTE Ln LSST TSMEIT",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "LTE Ln",
+      "confidence": 0.04232470208976111,
+      "box": [
+        26.0,
+        304.0,
+        66.0,
+        310.0
+      ]
+    },
+    {
+      "text": "LSST TSMEIT",
+      "confidence": 0.011452493060627915,
+      "box": [
+        76.0,
+        304.0,
+        166.0,
+        310.0
+      ]
+    }
+  ],
+  "image_sha256": "ce01590b6487b6f09da9b6118a4b0a636a5c99c54733f2502bc715434d29ee8e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

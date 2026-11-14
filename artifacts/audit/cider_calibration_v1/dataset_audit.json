@@ -1,0 +1,25 @@
+{
+  "audit_version": "B-1.0.0",
+  "dataset_zip": "/root/autodl-tmp/open-unlearning/B_deploy_updated_20261109_extracted/team_b/data/cider_calibration_v1.zip",
+  "manifest_member": "cider_calibration_v1/manifest.inputs.jsonl",
+  "sample_count": 2018,
+  "unique_sample_ids": 2018,
+  "unique_image_paths": 22,
+  "split_counts": {
+    "test": 1280,
+    "threshold_clean": 410,
+    "validation": 328
+  },
+  "missing_image_count": 0,
+  "missing_image_sample_ids": [],
+  "blank_user_text_count": 0,
+  "replacement_character_count": 0,
+  "inputs_csv_count": 2018,
+  "inputs_csv_id_match": true,
+  "manifest_has_group_fields": true,
+  "inputs_csv_has_group_fields": true,
+  "b_label_row_count": 2018,
+  "b_label_populated_count": 2018,
+  "image_adversarial_threshold_calibration_allowed": true,
+  "chart": "artifacts/audit/cider_calibration_v1/actual_split_counts.png"
+}

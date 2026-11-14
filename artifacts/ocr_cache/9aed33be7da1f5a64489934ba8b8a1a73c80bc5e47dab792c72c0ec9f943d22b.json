@@ -1,0 +1,43 @@
+{
+  "ocr_text": "SEKISN W bigstockcom 117156002",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SEKISN",
+      "confidence": 0.0746615436084497,
+      "box": [
+        43.0,
+        157.0,
+        411.0,
+        289.0
+      ]
+    },
+    {
+      "text": "W bigstockcom",
+      "confidence": 0.6006422388101845,
+      "box": [
+        123.0,
+        453.0,
+        243.0,
+        469.0
+      ]
+    },
+    {
+      "text": "117156002",
+      "confidence": 0.9985554961021386,
+      "box": [
+        253.0,
+        451.0,
+        327.0,
+        467.0
+      ]
+    }
+  ],
+  "image_sha256": "9aed33be7da1f5a64489934ba8b8a1a73c80bc5e47dab792c72c0ec9f943d22b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

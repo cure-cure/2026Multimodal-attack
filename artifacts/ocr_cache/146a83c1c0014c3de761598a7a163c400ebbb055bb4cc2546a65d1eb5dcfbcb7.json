@@ -1,0 +1,43 @@
+{
+  "ocr_text": "T 页 W bigstockcom 1926",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "T 页",
+      "confidence": 0.0038524093441990345,
+      "box": [
+        53.0,
+        11.0,
+        401.0,
+        77.0
+      ]
+    },
+    {
+      "text": "W bigstockcom",
+      "confidence": 0.6910188550121577,
+      "box": [
+        122.0,
+        373.0,
+        243.0,
+        392.0
+      ]
+    },
+    {
+      "text": "1926",
+      "confidence": 0.9997105002403259,
+      "box": [
+        253.0,
+        375.0,
+        287.0,
+        389.0
+      ]
+    }
+  ],
+  "image_sha256": "146a83c1c0014c3de761598a7a163c400ebbb055bb4cc2546a65d1eb5dcfbcb7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

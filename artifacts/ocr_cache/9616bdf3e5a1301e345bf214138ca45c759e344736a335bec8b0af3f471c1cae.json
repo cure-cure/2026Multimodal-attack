@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Because she's a keeper",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Because she's a keeper",
+      "confidence": 0.8395403764304481,
+      "box": [
+        129.0,
+        703.0,
+        480.0,
+        748.0
+      ]
+    }
+  ],
+  "image_sha256": "9616bdf3e5a1301e345bf214138ca45c759e344736a335bec8b0af3f471c1cae",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "PROBLEMATIC IOmen (S)DailySignal.com",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "PROBLEMATIC",
+      "confidence": 0.9805058138100473,
+      "box": [
+        410.0,
+        236.0,
+        778.0,
+        284.0
+      ]
+    },
+    {
+      "text": "IOmen",
+      "confidence": 0.5029496167205668,
+      "box": [
+        385.0,
+        274.0,
+        814.0,
+        431.0
+      ]
+    },
+    {
+      "text": "(S)DailySignal.com",
+      "confidence": 0.6154482827866783,
+      "box": [
+        669.0,
+        575.0,
+        887.0,
+        619.0
+      ]
+    }
+  ],
+  "image_sha256": "0d2063535d2900c10599386013d791a6acdf6c9ddf53e079e2e17778638b82cf",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

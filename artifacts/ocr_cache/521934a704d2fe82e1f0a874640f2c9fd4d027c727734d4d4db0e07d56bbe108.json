@@ -1,0 +1,223 @@
+{
+  "ocr_text": "Type of illegal substances Marijuana Cocaine It is derived from the come [rom the Ieares ofthe cannabis plant Which grOwS coca plant which grows Iany countries.People put Primalily i Soulh America L1 Lrolling papers to make Cocaine Is processedintoa Iaryuana Cigarettes SIOke i White powder which people 11 bongs orPipes; Or mix itin snort Or meltand inject baked goods or tea and eator drink 让",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Type of illegal substances",
+      "confidence": 0.7133036214435713,
+      "box": [
+        26.0,
+        79.0,
+        490.0,
+        132.0
+      ]
+    },
+    {
+      "text": "Marijuana",
+      "confidence": 0.8281963934797644,
+      "box": [
+        31.0,
+        139.0,
+        142.0,
+        168.0
+      ]
+    },
+    {
+      "text": "Cocaine",
+      "confidence": 0.8035020620717227,
+      "box": [
+        324.0,
+        140.0,
+        410.0,
+        164.0
+      ]
+    },
+    {
+      "text": "It is derived from the",
+      "confidence": 0.668336235141457,
+      "box": [
+        55.0,
+        177.0,
+        235.0,
+        197.0
+      ]
+    },
+    {
+      "text": "come [rom the Ieares ofthe",
+      "confidence": 0.5759474093313327,
+      "box": [
+        349.0,
+        177.0,
+        581.0,
+        197.0
+      ]
+    },
+    {
+      "text": "cannabis plant Which grOwS",
+      "confidence": 0.4278116700540945,
+      "box": [
+        56.0,
+        200.0,
+        298.0,
+        226.0
+      ]
+    },
+    {
+      "text": "coca plant which grows",
+      "confidence": 0.7428925376720321,
+      "box": [
+        348.0,
+        200.0,
+        548.0,
+        226.0
+      ]
+    },
+    {
+      "text": "Iany countries.People put",
+      "confidence": 0.40494722992741095,
+      "box": [
+        77.0,
+        224.0,
+        311.0,
+        248.0
+      ]
+    },
+    {
+      "text": "Primalily i Soulh America",
+      "confidence": 0.32195754963828677,
+      "box": [
+        348.0,
+        224.0,
+        582.0,
+        248.0
+      ]
+    },
+    {
+      "text": "L1",
+      "confidence": 0.021157158107206916,
+      "box": [
+        55.0,
+        251.0,
+        93.0,
+        267.0
+      ]
+    },
+    {
+      "text": "Lrolling papers to make",
+      "confidence": 0.32077989117239236,
+      "box": [
+        88.0,
+        243.0,
+        286.0,
+        272.0
+      ]
+    },
+    {
+      "text": "Cocaine Is",
+      "confidence": 0.4977152916673779,
+      "box": [
+        349.0,
+        249.0,
+        437.0,
+        267.0
+      ]
+    },
+    {
+      "text": "processedintoa",
+      "confidence": 0.6913378077032021,
+      "box": [
+        435.0,
+        247.0,
+        576.0,
+        272.0
+      ]
+    },
+    {
+      "text": "Iaryuana Cigarettes",
+      "confidence": 0.3912479297903391,
+      "box": [
+        57.0,
+        275.0,
+        229.0,
+        295.0
+      ]
+    },
+    {
+      "text": "SIOke i",
+      "confidence": 0.09964785000746236,
+      "box": [
+        235.0,
+        273.0,
+        311.0,
+        291.0
+      ]
+    },
+    {
+      "text": "White powder which people",
+      "confidence": 0.7265803487804205,
+      "box": [
+        350.0,
+        268.0,
+        582.0,
+        294.0
+      ]
+    },
+    {
+      "text": "11",
+      "confidence": 0.2780696346228736,
+      "box": [
+        55.0,
+        299.0,
+        77.0,
+        313.0
+      ]
+    },
+    {
+      "text": "bongs orPipes; Or mix itin",
+      "confidence": 0.3653633352729776,
+      "box": [
+        75.0,
+        295.0,
+        302.0,
+        320.0
+      ]
+    },
+    {
+      "text": "snort Or meltand inject",
+      "confidence": 0.39700535043245616,
+      "box": [
+        348.0,
+        292.0,
+        550.0,
+        316.0
+      ]
+    },
+    {
+      "text": "baked goods or tea and eator",
+      "confidence": 0.46618224050374907,
+      "box": [
+        52.0,
+        316.0,
+        304.0,
+        342.0
+      ]
+    },
+    {
+      "text": "drink 让",
+      "confidence": 0.32612835368540727,
+      "box": [
+        55.0,
+        341.0,
+        123.0,
+        361.0
+      ]
+    }
+  ],
+  "image_sha256": "521934a704d2fe82e1f0a874640f2c9fd4d027c727734d4d4db0e07d56bbe108",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

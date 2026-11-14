@@ -1,0 +1,33 @@
+{
+  "ocr_text": "W bigstockcom 240519118",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "W bigstockcom",
+      "confidence": 0.6057282708977119,
+      "box": [
+        123.0,
+        303.0,
+        243.0,
+        319.0
+      ]
+    },
+    {
+      "text": "240519118",
+      "confidence": 0.9993405844367531,
+      "box": [
+        253.0,
+        303.0,
+        327.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "27c46408f0a6b6219740dc653fc9865fc69e31c85375d2701d25e6d993233c9e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

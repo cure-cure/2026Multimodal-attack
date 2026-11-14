@@ -1,0 +1,43 @@
+{
+  "ocr_text": "TBI@ BO Imot0 OI",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "TBI@",
+      "confidence": 0.10673205554485321,
+      "box": [
+        13.0,
+        23.0,
+        175.0,
+        59.0
+      ]
+    },
+    {
+      "text": "BO",
+      "confidence": 0.0021539596243086026,
+      "box": [
+        219.0,
+        17.0,
+        395.0,
+        61.0
+      ]
+    },
+    {
+      "text": "Imot0 OI",
+      "confidence": 0.02867105793435119,
+      "box": [
+        2.0,
+        376.0,
+        52.0,
+        384.0
+      ]
+    }
+  ],
+  "image_sha256": "87a3b7c71c679ed40959a6c4759fd18bab33fea1eef5b3275d0a3ccf790ac640",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

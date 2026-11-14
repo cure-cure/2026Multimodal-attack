@@ -1,0 +1,43 @@
+{
+  "ocr_text": "I 咖飓 啊咀",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "I",
+      "confidence": 0.7753819959889938,
+      "box": [
+        170.0,
+        150.0,
+        220.0,
+        200.0
+      ]
+    },
+    {
+      "text": "咖飓 ",
+      "confidence": 1.8343571609556274e-06,
+      "box": [
+        28.0,
+        218.0,
+        212.0,
+        270.0
+      ]
+    },
+    {
+      "text": "啊咀",
+      "confidence": 0.0005015938298594138,
+      "box": [
+        55.0,
+        259.0,
+        185.0,
+        299.0
+      ]
+    }
+  ],
+  "image_sha256": "362bde2726d329be31a2f23a806572f71ddd4cbffaa02d47be460d3bed4dcf27",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

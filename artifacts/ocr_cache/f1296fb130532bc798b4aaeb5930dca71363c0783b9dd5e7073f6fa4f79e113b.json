@@ -1,0 +1,23 @@
+{
+  "ocr_text": "fouseyTUBE",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "fouseyTUBE",
+      "confidence": 0.6147586234996764,
+      "box": [
+        0.0,
+        276.0,
+        155.0,
+        318.0
+      ]
+    }
+  ],
+  "image_sha256": "f1296fb130532bc798b4aaeb5930dca71363c0783b9dd5e7073f6fa4f79e113b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

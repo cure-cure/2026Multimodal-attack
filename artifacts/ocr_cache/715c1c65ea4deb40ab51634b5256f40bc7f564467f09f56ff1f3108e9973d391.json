@@ -1,0 +1,73 @@
+{
+  "ocr_text": "IIave Io words to describe this day。 Ido, however; nave a ton Of obscene gestures。 WITITUPES",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "IIave Io words",
+      "confidence": 0.32398990131226496,
+      "box": [
+        198.0,
+        24.0,
+        362.0,
+        50.0
+      ]
+    },
+    {
+      "text": "to describe this day。",
+      "confidence": 0.42775213416084623,
+      "box": [
+        198.0,
+        52.0,
+        399.0,
+        83.0
+      ]
+    },
+    {
+      "text": "Ido, however;",
+      "confidence": 0.37862957481170983,
+      "box": [
+        198.0,
+        83.0,
+        346.0,
+        112.0
+      ]
+    },
+    {
+      "text": "nave a ton Of",
+      "confidence": 0.16517792452129515,
+      "box": [
+        196.0,
+        110.0,
+        332.0,
+        138.0
+      ]
+    },
+    {
+      "text": "obscene gestures。",
+      "confidence": 0.734823579086758,
+      "box": [
+        198.0,
+        140.0,
+        372.0,
+        168.0
+      ]
+    },
+    {
+      "text": "WITITUPES",
+      "confidence": 0.7494435367421647,
+      "box": [
+        324.0,
+        266.0,
+        408.0,
+        282.0
+      ]
+    }
+  ],
+  "image_sha256": "715c1c65ea4deb40ab51634b5256f40bc7f564467f09f56ff1f3108e9973d391",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "ocr_text": "AROUND BLACKS NEVER RELAX!",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "AROUND",
+      "confidence": 0.853107048797069,
+      "box": [
+        50.0,
+        0.0,
+        278.0,
+        80.0
+      ]
+    },
+    {
+      "text": "BLACKS",
+      "confidence": 0.9952779126832524,
+      "box": [
+        308.0,
+        0.0,
+        546.0,
+        74.0
+      ]
+    },
+    {
+      "text": "NEVER",
+      "confidence": 0.999424957087536,
+      "box": [
+        114.0,
+        481.0,
+        319.0,
+        558.0
+      ]
+    },
+    {
+      "text": "RELAX!",
+      "confidence": 0.9537988881616332,
+      "box": [
+        373.0,
+        460.0,
+        600.0,
+        553.0
+      ]
+    }
+  ],
+  "image_sha256": "6e25bc24725f5b253ba0cb18c76b543f4a53f3618d9217e9925664d08e7824aa",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

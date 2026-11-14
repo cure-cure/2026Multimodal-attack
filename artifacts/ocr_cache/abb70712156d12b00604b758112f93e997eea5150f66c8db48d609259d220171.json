@@ -1,0 +1,23 @@
+{
+  "ocr_text": "C@:0&a昭860吣{@6",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "C@:0&a昭860吣{@6",
+      "confidence": 3.839105753204136e-06,
+      "box": [
+        14.0,
+        6.0,
+        496.0,
+        55.0
+      ]
+    }
+  ],
+  "image_sha256": "abb70712156d12b00604b758112f93e997eea5150f66c8db48d609259d220171",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

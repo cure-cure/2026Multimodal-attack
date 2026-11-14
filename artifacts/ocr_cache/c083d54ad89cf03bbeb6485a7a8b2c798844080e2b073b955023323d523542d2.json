@@ -1,0 +1,33 @@
+{
+  "ocr_text": "@p@@@ ~0@.",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@p@@@",
+      "confidence": 0.38637693664942346,
+      "box": [
+        241.0,
+        249.0,
+        404.0,
+        303.0
+      ]
+    },
+    {
+      "text": "~0@.",
+      "confidence": 0.5458641052246094,
+      "box": [
+        477.0,
+        263.0,
+        557.0,
+        301.0
+      ]
+    }
+  ],
+  "image_sha256": "c083d54ad89cf03bbeb6485a7a8b2c798844080e2b073b955023323d523542d2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

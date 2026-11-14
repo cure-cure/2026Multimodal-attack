@@ -1,0 +1,53 @@
+{
+  "ocr_text": "1 SEXUAL HARASSMENT LAV",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "1",
+      "confidence": 0.20644827102262653,
+      "box": [
+        54.0,
+        152.0,
+        104.0,
+        158.0
+      ]
+    },
+    {
+      "text": "SEXUAL",
+      "confidence": 0.7086191403737974,
+      "box": [
+        39.0,
+        163.0,
+        131.0,
+        187.0
+      ]
+    },
+    {
+      "text": "HARASSMENT",
+      "confidence": 0.9876763553360481,
+      "box": [
+        6.0,
+        190.0,
+        166.0,
+        214.0
+      ]
+    },
+    {
+      "text": "LAV",
+      "confidence": 0.32853176507233645,
+      "box": [
+        59.0,
+        219.0,
+        111.0,
+        239.0
+      ]
+    }
+  ],
+  "image_sha256": "612e9b38edd6604a01e2a8ae087551be7669b8f1b0284399933b90e6839d272f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

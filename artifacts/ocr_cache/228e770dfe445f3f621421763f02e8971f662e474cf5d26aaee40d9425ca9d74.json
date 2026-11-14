@@ -1,0 +1,83 @@
+{
+  "ocr_text": "VITA VERDE WELLNESS CENTER SAY NO 10 TAKE CARE OF YOUR BoDY AND CHOOSE NOT TO USE. PREVENT DRUG ADDICTION AND GET HELP IF NEEDED Learn more at reallygreatsite.com D06.",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "VITA VERDE WELLNESS CENTER",
+      "confidence": 0.7633080735311564,
+      "box": [
+        271.0,
+        115.0,
+        860.0,
+        151.0
+      ]
+    },
+    {
+      "text": "SAY NO 10",
+      "confidence": 0.8021349100618301,
+      "box": [
+        169.0,
+        755.0,
+        954.0,
+        1012.0
+      ]
+    },
+    {
+      "text": "TAKE CARE OF YOUR BoDY AND CHOOSE NOT TO USE.",
+      "confidence": 0.5900160174814796,
+      "box": [
+        176.0,
+        1266.0,
+        960.0,
+        1294.0
+      ]
+    },
+    {
+      "text": "PREVENT DRUG ADDICTION",
+      "confidence": 0.8699443408766652,
+      "box": [
+        287.0,
+        1337.0,
+        848.0,
+        1375.0
+      ]
+    },
+    {
+      "text": "AND GET HELP IF NEEDED",
+      "confidence": 0.6109852989257372,
+      "box": [
+        297.0,
+        1384.0,
+        831.0,
+        1421.0
+      ]
+    },
+    {
+      "text": "Learn more at reallygreatsite.com",
+      "confidence": 0.5449259850034232,
+      "box": [
+        370.0,
+        1462.0,
+        756.0,
+        1490.0
+      ]
+    },
+    {
+      "text": "D06.",
+      "confidence": 0.08897096663713455,
+      "box": [
+        310.5284313315997,
+        940.1350134398226,
+        859.4715686684003,
+        1161.8649865601774
+      ]
+    }
+  ],
+  "image_sha256": "228e770dfe445f3f621421763f02e8971f662e474cf5d26aaee40d9425ca9d74",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

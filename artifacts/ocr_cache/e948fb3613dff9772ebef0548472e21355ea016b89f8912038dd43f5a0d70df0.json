@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Crce",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Crce",
+      "confidence": 0.13855956494808197,
+      "box": [
+        978.2111456180002,
+        994.9979274589166,
+        1024.7888543819997,
+        1019.0020725410834
+      ]
+    }
+  ],
+  "image_sha256": "e948fb3613dff9772ebef0548472e21355ea016b89f8912038dd43f5a0d70df0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

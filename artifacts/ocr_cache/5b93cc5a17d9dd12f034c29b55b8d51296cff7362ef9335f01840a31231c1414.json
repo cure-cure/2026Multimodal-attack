@@ -1,0 +1,53 @@
+{
+  "ocr_text": "AM GOING T0 : REUIGION",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "AM GOING",
+      "confidence": 0.6930683239354648,
+      "box": [
+        89.0,
+        95.0,
+        147.0,
+        109.0
+      ]
+    },
+    {
+      "text": "T0",
+      "confidence": 0.9954764310167321,
+      "box": [
+        81.0,
+        105.0,
+        107.0,
+        123.0
+      ]
+    },
+    {
+      "text": ":",
+      "confidence": 0.00021054331983819206,
+      "box": [
+        97.0,
+        103.0,
+        151.0,
+        143.0
+      ]
+    },
+    {
+      "text": "REUIGION",
+      "confidence": 0.8493986180433203,
+      "box": [
+        80.0,
+        134.0,
+        147.0,
+        154.0
+      ]
+    }
+  ],
+  "image_sha256": "5b93cc5a17d9dd12f034c29b55b8d51296cff7362ef9335f01840a31231c1414",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

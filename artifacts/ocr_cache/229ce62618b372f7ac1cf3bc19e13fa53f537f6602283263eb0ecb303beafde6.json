@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Disabilities Part 2: Inclusive Companies",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Disabilities",
+      "confidence": 0.6144159741363905,
+      "box": [
+        85.0,
+        59.0,
+        277.0,
+        101.0
+      ]
+    },
+    {
+      "text": "Part 2: Inclusive Companies",
+      "confidence": 0.6280806022564493,
+      "box": [
+        12.0,
+        112.0,
+        350.0,
+        144.0
+      ]
+    }
+  ],
+  "image_sha256": "229ce62618b372f7ac1cf3bc19e13fa53f537f6602283263eb0ecb303beafde6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

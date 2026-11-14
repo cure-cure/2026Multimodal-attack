@@ -1,0 +1,33 @@
+{
+  "ocr_text": "fineal americ",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "fineal",
+      "confidence": 0.42323815626079697,
+      "box": [
+        335.0,
+        540.0,
+        438.0,
+        582.0
+      ]
+    },
+    {
+      "text": "americ",
+      "confidence": 0.30247088664694205,
+      "box": [
+        337.0,
+        569.0,
+        429.0,
+        595.0
+      ]
+    }
+  ],
+  "image_sha256": "10132246fea49e2b634dc137ab75c2b5c1a4eecb0cd2ded77c473b4dc238893c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

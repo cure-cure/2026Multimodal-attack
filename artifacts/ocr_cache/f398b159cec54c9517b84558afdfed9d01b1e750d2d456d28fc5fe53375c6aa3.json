@@ -1,0 +1,113 @@
+{
+  "ocr_text": "FINANCIAL LITERACY WORKSHOP OIRCBDEARI TO SUART YOUR-LIBS YFOR'S REAM! ELY BUDGETING SIVNG SOVING ATHEYS",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "FINANCIAL",
+      "confidence": 0.9674997726598107,
+      "box": [
+        331.0,
+        153.0,
+        738.0,
+        232.0
+      ]
+    },
+    {
+      "text": "LITERACY",
+      "confidence": 0.9964504364372543,
+      "box": [
+        339.0,
+        247.0,
+        704.0,
+        323.0
+      ]
+    },
+    {
+      "text": "WORKSHOP",
+      "confidence": 0.6915374600581538,
+      "box": [
+        321.0,
+        334.0,
+        738.0,
+        414.0
+      ]
+    },
+    {
+      "text": "OIRCBDEARI TO SUART YOUR-LIBS",
+      "confidence": 0.8512802975956804,
+      "box": [
+        273.0,
+        445.0,
+        783.0,
+        483.0
+      ]
+    },
+    {
+      "text": "YFOR'S REAM!",
+      "confidence": 0.6721285863730723,
+      "box": [
+        420.0,
+        486.0,
+        630.0,
+        518.0
+      ]
+    },
+    {
+      "text": "ELY",
+      "confidence": 0.7430543953652744,
+      "box": [
+        0.0,
+        548.0,
+        80.0,
+        615.0
+      ]
+    },
+    {
+      "text": "BUDGETING",
+      "confidence": 0.9862628784332108,
+      "box": [
+        348.0,
+        566.0,
+        740.0,
+        665.0
+      ]
+    },
+    {
+      "text": "SIVNG",
+      "confidence": 0.3428411554845727,
+      "box": [
+        398.0,
+        672.0,
+        671.0,
+        759.0
+      ]
+    },
+    {
+      "text": "SOVING",
+      "confidence": 0.44257973396020567,
+      "box": [
+        417.0,
+        772.0,
+        688.0,
+        861.0
+      ]
+    },
+    {
+      "text": "ATHEYS",
+      "confidence": 0.8803366004401166,
+      "box": [
+        -15.125829202412344,
+        145.21245723735194,
+        172.12582920241235,
+        252.78754276264806
+      ]
+    }
+  ],
+  "image_sha256": "f398b159cec54c9517b84558afdfed9d01b1e750d2d456d28fc5fe53375c6aa3",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

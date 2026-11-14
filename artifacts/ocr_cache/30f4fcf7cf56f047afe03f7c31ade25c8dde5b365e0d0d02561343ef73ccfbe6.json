@@ -1,0 +1,43 @@
+{
+  "ocr_text": "皿吣[飚 C皿C000[咖0皿 哑0皿[0V叩@U吣RIBloret",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "皿吣[飚",
+      "confidence": 9.333060006611049e-05,
+      "box": [
+        81.0,
+        0.0,
+        420.0,
+        72.0
+      ]
+    },
+    {
+      "text": " C皿C000[咖0皿",
+      "confidence": 4.827427028748111e-07,
+      "box": [
+        5.0,
+        559.0,
+        493.0,
+        599.0
+      ]
+    },
+    {
+      "text": "哑0皿[0V叩@U吣RIBloret",
+      "confidence": 0.00014379984022178078,
+      "box": [
+        63.0,
+        597.0,
+        500.0,
+        639.0
+      ]
+    }
+  ],
+  "image_sha256": "30f4fcf7cf56f047afe03f7c31ade25c8dde5b365e0d0d02561343ef73ccfbe6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

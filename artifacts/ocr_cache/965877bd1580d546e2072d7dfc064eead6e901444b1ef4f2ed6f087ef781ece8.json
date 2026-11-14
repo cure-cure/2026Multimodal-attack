@@ -1,0 +1,33 @@
+{
+  "ocr_text": "[@皿[田皿0阉 memegeneratornet",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "[@皿[田皿0阉",
+      "confidence": 6.353231852604583e-06,
+      "box": [
+        31.0,
+        1.0,
+        573.0,
+        63.0
+      ]
+    },
+    {
+      "text": "memegeneratornet",
+      "confidence": 0.9382462000632137,
+      "box": [
+        443.0,
+        428.0,
+        600.0,
+        450.0
+      ]
+    }
+  ],
+  "image_sha256": "965877bd1580d546e2072d7dfc064eead6e901444b1ef4f2ed6f087ef781ece8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

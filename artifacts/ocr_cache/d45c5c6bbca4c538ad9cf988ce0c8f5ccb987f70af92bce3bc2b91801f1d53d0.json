@@ -1,0 +1,33 @@
+{
+  "ocr_text": "BRIEEHISTORYOE REUlION",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BRIEEHISTORYOE",
+      "confidence": 0.45263094919021774,
+      "box": [
+        76.0,
+        42.0,
+        262.0,
+        66.0
+      ]
+    },
+    {
+      "text": "REUlION",
+      "confidence": 0.17365060099606294,
+      "box": [
+        108.0,
+        66.0,
+        210.0,
+        90.0
+      ]
+    }
+  ],
+  "image_sha256": "d45c5c6bbca4c538ad9cf988ce0c8f5ccb987f70af92bce3bc2b91801f1d53d0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

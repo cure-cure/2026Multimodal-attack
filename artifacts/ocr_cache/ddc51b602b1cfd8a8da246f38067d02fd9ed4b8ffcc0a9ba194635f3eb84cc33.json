@@ -1,0 +1,33 @@
+{
+  "ocr_text": "UU4止u 换2'守",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "UU4止u",
+      "confidence": 0.004263528723512948,
+      "box": [
+        31.0,
+        0.0,
+        131.0,
+        13.0
+      ]
+    },
+    {
+      "text": "换2'守",
+      "confidence": 2.8629116059164517e-05,
+      "box": [
+        0.0,
+        0.0,
+        78.0,
+        28.0
+      ]
+    }
+  ],
+  "image_sha256": "ddc51b602b1cfd8a8da246f38067d02fd9ed4b8ffcc0a9ba194635f3eb84cc33",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

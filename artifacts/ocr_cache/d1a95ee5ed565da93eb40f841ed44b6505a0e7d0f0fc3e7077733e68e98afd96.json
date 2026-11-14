@@ -1,0 +1,103 @@
+{
+  "ocr_text": "QUIGK GASH INSTANT APPROVAL NO DEPOSIT! cash to rebiss may resclinsoltes neali tpotuourgerves is wtar rnsparcession ncls purrless: Fine Suog",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "QUIGK",
+      "confidence": 0.29176592197648576,
+      "box": [
+        318.0,
+        245.0,
+        751.0,
+        420.0
+      ]
+    },
+    {
+      "text": "GASH",
+      "confidence": 0.47405150532722473,
+      "box": [
+        349.0,
+        400.0,
+        721.0,
+        544.0
+      ]
+    },
+    {
+      "text": "INSTANT APPROVAL",
+      "confidence": 0.6636393582174249,
+      "box": [
+        368.0,
+        563.0,
+        706.0,
+        618.0
+      ]
+    },
+    {
+      "text": "NO DEPOSIT!",
+      "confidence": 0.5595956035067018,
+      "box": [
+        331.0,
+        616.0,
+        752.0,
+        708.0
+      ]
+    },
+    {
+      "text": "cash to rebiss may resclinsoltes",
+      "confidence": 0.9300874720496858,
+      "box": [
+        413.0,
+        709.0,
+        713.0,
+        751.0
+      ]
+    },
+    {
+      "text": "neali tpotuourgerves is wtar",
+      "confidence": 0.22650624571050434,
+      "box": [
+        406.0,
+        744.0,
+        674.0,
+        774.0
+      ]
+    },
+    {
+      "text": "rnsparcession ncls purrless:",
+      "confidence": 0.3936346928665497,
+      "box": [
+        404.0,
+        768.0,
+        676.0,
+        806.0
+      ]
+    },
+    {
+      "text": "Fine",
+      "confidence": 0.9109512567520142,
+      "box": [
+        372.2499121058747,
+        707.1867537178289,
+        416.7500878941253,
+        739.8132462821711
+      ]
+    },
+    {
+      "text": "Suog",
+      "confidence": 0.06924793869256973,
+      "box": [
+        687.1055728090001,
+        796.7026163409561,
+        753.8944271909999,
+        816.2973836590439
+      ]
+    }
+  ],
+  "image_sha256": "d1a95ee5ed565da93eb40f841ed44b6505a0e7d0f0fc3e7077733e68e98afd96",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

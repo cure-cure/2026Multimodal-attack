@@ -1,0 +1,43 @@
+{
+  "ocr_text": "relax D@XC918 V0:I8b Ctglrdgs CUMalg",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "relax D@XC918",
+      "confidence": 0.00403838582388642,
+      "box": [
+        83.0,
+        7.0,
+        471.0,
+        71.0
+      ]
+    },
+    {
+      "text": "V0:I8b Ctglrdgs",
+      "confidence": 0.0005157032996005851,
+      "box": [
+        0.0,
+        244.0,
+        494.0,
+        295.0
+      ]
+    },
+    {
+      "text": "CUMalg",
+      "confidence": 0.11494842820178917,
+      "box": [
+        177.0,
+        287.0,
+        341.0,
+        331.0
+      ]
+    }
+  ],
+  "image_sha256": "1e3ffc03b0397c443415c27b2de10f325e5251275bab353b6fcbc66f8b50203f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

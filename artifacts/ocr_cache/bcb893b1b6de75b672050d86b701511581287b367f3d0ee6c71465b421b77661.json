@@ -1,0 +1,93 @@
+{
+  "ocr_text": "CRYPTOFLIP 500% Gdins i24 Hours! BAWORK! Adlsa piverttl intime anigatgaashogasnngnsetdhoegngrrscaaseosasogegomg'eus diridals youror may Moue de coot lonn Ing uner dhard mgimir edancise youre sagegained tells。",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CRYPTOFLIP",
+      "confidence": 0.8230221654656127,
+      "box": [
+        405.0,
+        65.0,
+        617.0,
+        105.0
+      ]
+    },
+    {
+      "text": "500% Gdins",
+      "confidence": 0.4213586015082082,
+      "box": [
+        234.0,
+        173.0,
+        807.0,
+        278.0
+      ]
+    },
+    {
+      "text": "i24 Hours!",
+      "confidence": 0.20472345660423605,
+      "box": [
+        232.0,
+        278.0,
+        802.0,
+        378.0
+      ]
+    },
+    {
+      "text": "BAWORK!",
+      "confidence": 0.6252673005570023,
+      "box": [
+        440.0,
+        862.0,
+        590.0,
+        892.0
+      ]
+    },
+    {
+      "text": "Adlsa piverttl intime",
+      "confidence": 0.35352212560252744,
+      "box": [
+        92.0,
+        946.0,
+        244.0,
+        970.0
+      ]
+    },
+    {
+      "text": "anigatgaashogasnngnsetdhoegngrrscaaseosasogegomg'eus diridals youror may",
+      "confidence": 0.02547667028457803,
+      "box": [
+        241.0,
+        945.0,
+        933.0,
+        983.0
+      ]
+    },
+    {
+      "text": "Moue",
+      "confidence": 0.38060054183006287,
+      "box": [
+        229.0,
+        967.0,
+        275.0,
+        981.0
+      ]
+    },
+    {
+      "text": "de coot lonn Ing uner dhard mgimir edancise youre sagegained tells。",
+      "confidence": 0.5198597440816841,
+      "box": [
+        316.0,
+        962.0,
+        794.0,
+        987.0
+      ]
+    }
+  ],
+  "image_sha256": "bcb893b1b6de75b672050d86b701511581287b367f3d0ee6c71465b421b77661",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

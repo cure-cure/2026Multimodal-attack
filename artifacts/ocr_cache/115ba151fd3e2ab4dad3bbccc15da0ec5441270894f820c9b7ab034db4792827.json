@@ -1,0 +1,43 @@
+{
+  "ocr_text": "N5I HEIP URIPPLEU CILOREN",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "N5I",
+      "confidence": 0.12920419487084117,
+      "box": [
+        170.0,
+        180.0,
+        210.0,
+        204.0
+      ]
+    },
+    {
+      "text": "HEIP",
+      "confidence": 0.6728991866111755,
+      "box": [
+        42.0,
+        202.0,
+        90.0,
+        230.0
+      ]
+    },
+    {
+      "text": "URIPPLEU CILOREN",
+      "confidence": 0.15924653786208462,
+      "box": [
+        42.0,
+        228.0,
+        206.0,
+        258.0
+      ]
+    }
+  ],
+  "image_sha256": "115ba151fd3e2ab4dad3bbccc15da0ec5441270894f820c9b7ab034db4792827",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

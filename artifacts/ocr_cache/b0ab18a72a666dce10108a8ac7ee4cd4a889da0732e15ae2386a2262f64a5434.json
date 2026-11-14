@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Up@@Gcelm@",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Up@@Gcelm@",
+      "confidence": 0.11862882616734548,
+      "box": [
+        185.0,
+        437.0,
+        410.0,
+        479.0
+      ]
+    }
+  ],
+  "image_sha256": "b0ab18a72a666dce10108a8ac7ee4cd4a889da0732e15ae2386a2262f64a5434",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

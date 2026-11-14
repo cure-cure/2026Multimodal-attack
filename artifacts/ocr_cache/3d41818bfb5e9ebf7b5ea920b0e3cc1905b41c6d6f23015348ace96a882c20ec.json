@@ -1,0 +1,123 @@
+{
+  "ocr_text": "TTICROY er Magnesium Glyciinine Supplensnt IlargamefhlmOrnqwt Uon OwToHtJu [ 6 400mg Go",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "TTICROY",
+      "confidence": 0.2614216084798739,
+      "box": [
+        327.0,
+        531.0,
+        383.0,
+        545.0
+      ]
+    },
+    {
+      "text": "er",
+      "confidence": 0.0030227594065197795,
+      "box": [
+        316.0,
+        531.0,
+        383.0,
+        562.0
+      ]
+    },
+    {
+      "text": "Magnesium",
+      "confidence": 0.9914678471691195,
+      "box": [
+        253.0,
+        579.0,
+        436.0,
+        636.0
+      ]
+    },
+    {
+      "text": "Glyciinine",
+      "confidence": 0.8526956480584681,
+      "box": [
+        267.0,
+        630.0,
+        426.0,
+        687.0
+      ]
+    },
+    {
+      "text": "Supplensnt",
+      "confidence": 0.7418230700562224,
+      "box": [
+        315.0,
+        749.0,
+        383.0,
+        765.0
+      ]
+    },
+    {
+      "text": " IlargamefhlmOrnqwt",
+      "confidence": 0.14731346880129625,
+      "box": [
+        264.0,
+        762.0,
+        387.0,
+        781.0
+      ]
+    },
+    {
+      "text": "Uon OwToHtJu",
+      "confidence": 0.08186510863052436,
+      "box": [
+        299.0,
+        783.0,
+        397.0,
+        795.0
+      ]
+    },
+    {
+      "text": "[",
+      "confidence": 0.12131408028213642,
+      "box": [
+        314.0,
+        796.0,
+        340.0,
+        802.0
+      ]
+    },
+    {
+      "text": "6",
+      "confidence": 0.013891179072035575,
+      "box": [
+        346.0,
+        794.0,
+        380.0,
+        802.0
+      ]
+    },
+    {
+      "text": "400mg",
+      "confidence": 0.7312785765919465,
+      "box": [
+        308.0630587407872,
+        704.1094462711102,
+        385.9369412592128,
+        745.8905537288898
+      ]
+    },
+    {
+      "text": "Go",
+      "confidence": 0.07243758532677984,
+      "box": [
+        386.18076807948097,
+        759.5861970556988,
+        422.81923192051903,
+        775.4138029443012
+      ]
+    }
+  ],
+  "image_sha256": "3d41818bfb5e9ebf7b5ea920b0e3cc1905b41c6d6f23015348ace96a882c20ec",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

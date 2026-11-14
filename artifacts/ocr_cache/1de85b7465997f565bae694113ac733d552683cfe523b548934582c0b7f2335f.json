@@ -1,0 +1,33 @@
+{
+  "ocr_text": "NATo 皿-9999",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "NATo",
+      "confidence": 0.22238780558109283,
+      "box": [
+        487.0,
+        635.0,
+        525.0,
+        651.0
+      ]
+    },
+    {
+      "text": "皿-9999",
+      "confidence": 0.08124787999536277,
+      "box": [
+        441.0,
+        641.0,
+        578.0,
+        694.0
+      ]
+    }
+  ],
+  "image_sha256": "1de85b7465997f565bae694113ac733d552683cfe523b548934582c0b7f2335f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

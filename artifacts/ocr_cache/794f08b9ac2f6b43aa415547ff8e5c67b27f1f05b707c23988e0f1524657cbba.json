@@ -1,0 +1,63 @@
+{
+  "ocr_text": "Iuatdl0 I4@al &皿@mmlget? 习 [旧99p [@@a4SB [l3 to0 Shouttl90855a",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Iuatdl0 I4@al",
+      "confidence": 0.00030798769502924067,
+      "box": [
+        47.0,
+        0.0,
+        457.0,
+        65.0
+      ]
+    },
+    {
+      "text": "&皿@mmlget?",
+      "confidence": 0.0010688994505161041,
+      "box": [
+        32.0,
+        47.0,
+        512.0,
+        123.0
+      ]
+    },
+    {
+      "text": "习",
+      "confidence": 0.002173750584533174,
+      "box": [
+        163.0,
+        295.0,
+        183.0,
+        321.0
+      ]
+    },
+    {
+      "text": "[旧99p",
+      "confidence": 0.0035705958072805286,
+      "box": [
+        183.0,
+        287.0,
+        343.0,
+        329.0
+      ]
+    },
+    {
+      "text": "[@@a4SB [l3 to0 Shouttl90855a",
+      "confidence": 0.0032360033735015056,
+      "box": [
+        0.0,
+        322.0,
+        525.0,
+        363.0
+      ]
+    }
+  ],
+  "image_sha256": "794f08b9ac2f6b43aa415547ff8e5c67b27f1f05b707c23988e0f1524657cbba",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

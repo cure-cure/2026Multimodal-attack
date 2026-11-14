@@ -1,0 +1,53 @@
+{
+  "ocr_text": "D2 UN bigstockcom 143285840",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "D2",
+      "confidence": 0.0635750224268264,
+      "box": [
+        131.0,
+        113.0,
+        287.0,
+        175.0
+      ]
+    },
+    {
+      "text": "UN",
+      "confidence": 0.024553462035642477,
+      "box": [
+        124.0,
+        294.0,
+        154.0,
+        302.0
+      ]
+    },
+    {
+      "text": "bigstockcom",
+      "confidence": 0.9796114196054386,
+      "box": [
+        156.0,
+        290.0,
+        243.0,
+        309.0
+      ]
+    },
+    {
+      "text": "143285840",
+      "confidence": 0.9986019558248169,
+      "box": [
+        253.0,
+        291.0,
+        327.0,
+        307.0
+      ]
+    }
+  ],
+  "image_sha256": "6510345d531860a039fe45201ddd81e749f084a6860a1e1775a605174e15f322",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

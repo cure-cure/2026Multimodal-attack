@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Disability",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Disability",
+      "confidence": 0.7970124392348964,
+      "box": [
+        21.0,
+        208.0,
+        260.0,
+        289.0
+      ]
+    }
+  ],
+  "image_sha256": "470be36a38b551361fcba46ff3be7bfb2652dcefe1e35b28981ce360e2b201c5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

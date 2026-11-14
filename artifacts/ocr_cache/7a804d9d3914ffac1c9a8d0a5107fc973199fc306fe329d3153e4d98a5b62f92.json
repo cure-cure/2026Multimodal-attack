@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Tsils",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Tsils",
+      "confidence": 0.09330252001008994,
+      "box": [
+        393.0,
+        771.0,
+        457.0,
+        785.0
+      ]
+    }
+  ],
+  "image_sha256": "7a804d9d3914ffac1c9a8d0a5107fc973199fc306fe329d3153e4d98a5b62f92",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

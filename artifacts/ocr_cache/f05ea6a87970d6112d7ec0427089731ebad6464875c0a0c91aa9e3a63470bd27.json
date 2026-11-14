@@ -1,0 +1,43 @@
+{
+  "ocr_text": "SPIRITUAL ABUSE June Hunl",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SPIRITUAL",
+      "confidence": 0.991500969736545,
+      "box": [
+        28.0,
+        6.0,
+        131.0,
+        31.0
+      ]
+    },
+    {
+      "text": "ABUSE",
+      "confidence": 0.997734895978774,
+      "box": [
+        55.0,
+        29.0,
+        105.0,
+        47.0
+      ]
+    },
+    {
+      "text": "June Hunl",
+      "confidence": 0.6005977774973903,
+      "box": [
+        91.0,
+        217.0,
+        149.0,
+        230.0
+      ]
+    }
+  ],
+  "image_sha256": "f05ea6a87970d6112d7ec0427089731ebad6464875c0a0c91aa9e3a63470bd27",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

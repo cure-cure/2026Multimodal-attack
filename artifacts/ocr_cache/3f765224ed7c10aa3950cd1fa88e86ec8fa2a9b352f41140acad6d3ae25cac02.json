@@ -1,0 +1,43 @@
+{
+  "ocr_text": "TUICC UrilIt ^踏器u",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "TUICC",
+      "confidence": 0.08410128453808545,
+      "box": [
+        17.0,
+        0.0,
+        138.0,
+        18.0
+      ]
+    },
+    {
+      "text": "UrilIt",
+      "confidence": 0.008058930598424762,
+      "box": [
+        146.0,
+        0.0,
+        288.0,
+        22.0
+      ]
+    },
+    {
+      "text": "^踏器u",
+      "confidence": 2.3016096747596748e-05,
+      "box": [
+        34.0,
+        2.0,
+        358.0,
+        52.0
+      ]
+    }
+  ],
+  "image_sha256": "3f765224ed7c10aa3950cd1fa88e86ec8fa2a9b352f41140acad6d3ae25cac02",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

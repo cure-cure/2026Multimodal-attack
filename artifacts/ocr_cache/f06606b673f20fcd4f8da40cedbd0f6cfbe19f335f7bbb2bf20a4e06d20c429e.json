@@ -1,0 +1,33 @@
+{
+  "ocr_text": "U TI",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "U",
+      "confidence": 0.8470124432835888,
+      "box": [
+        508.0,
+        230.0,
+        534.0,
+        238.0
+      ]
+    },
+    {
+      "text": "TI",
+      "confidence": 0.0312955342856225,
+      "box": [
+        543.0,
+        245.0,
+        569.0,
+        259.0
+      ]
+    }
+  ],
+  "image_sha256": "f06606b673f20fcd4f8da40cedbd0f6cfbe19f335f7bbb2bf20a4e06d20c429e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

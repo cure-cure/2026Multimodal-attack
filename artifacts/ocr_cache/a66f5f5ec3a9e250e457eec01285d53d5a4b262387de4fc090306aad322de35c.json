@@ -1,0 +1,53 @@
+{
+  "ocr_text": "兽 JELUUGILON 詈 CanstockPnotocom",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "兽",
+      "confidence": 0.0005154663563802266,
+      "box": [
+        59.0,
+        35.0,
+        97.0,
+        119.0
+      ]
+    },
+    {
+      "text": "JELUUGILON",
+      "confidence": 0.017842128402798724,
+      "box": [
+        35.0,
+        106.0,
+        259.0,
+        150.0
+      ]
+    },
+    {
+      "text": "詈",
+      "confidence": 0.0006328669142506606,
+      "box": [
+        61.0,
+        139.0,
+        103.0,
+        231.0
+      ]
+    },
+    {
+      "text": "CanstockPnotocom",
+      "confidence": 0.43331624959742543,
+      "box": [
+        109.0,
+        241.0,
+        221.0,
+        254.0
+      ]
+    }
+  ],
+  "image_sha256": "a66f5f5ec3a9e250e457eec01285d53d5a4b262387de4fc090306aad322de35c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

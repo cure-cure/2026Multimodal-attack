@@ -1,0 +1,53 @@
+{
+  "ocr_text": "[B SIIIU 9 盹00|仃",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "[B",
+      "confidence": 0.2323212468843361,
+      "box": [
+        201.0,
+        0.0,
+        301.0,
+        59.0
+      ]
+    },
+    {
+      "text": "SIIIU",
+      "confidence": 0.017185233948856772,
+      "box": [
+        460.0,
+        32.0,
+        484.0,
+        38.0
+      ]
+    },
+    {
+      "text": "9 ",
+      "confidence": 0.09719716894222533,
+      "box": [
+        4.0,
+        316.0,
+        36.0,
+        324.0
+      ]
+    },
+    {
+      "text": "盹00|仃",
+      "confidence": 4.27143661453114e-06,
+      "box": [
+        35.0,
+        329.0,
+        461.0,
+        389.0
+      ]
+    }
+  ],
+  "image_sha256": "afab68cf58fa6ac0bd1e2f31d80aef294372377960c25bdf11f3b883a8fea235",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

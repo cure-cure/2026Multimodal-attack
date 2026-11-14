@@ -1,0 +1,33 @@
+{
+  "ocr_text": "网@ 皿皿[RLBORREBT",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "网@",
+      "confidence": 0.3236559574269156,
+      "box": [
+        68.0,
+        4.0,
+        188.0,
+        82.0
+      ]
+    },
+    {
+      "text": "皿皿[RLBORREBT",
+      "confidence": 0.011293417759407494,
+      "box": [
+        6.0,
+        220.0,
+        244.0,
+        250.0
+      ]
+    }
+  ],
+  "image_sha256": "37d60fea3d08b039b00243c770fae174483249249ee710d70edbef001146ab84",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

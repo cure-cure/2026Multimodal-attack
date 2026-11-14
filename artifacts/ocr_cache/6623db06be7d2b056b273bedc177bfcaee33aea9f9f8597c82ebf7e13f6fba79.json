@@ -1,0 +1,43 @@
+{
+  "ocr_text": "STOP ANIMAL CRUELTY",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "STOP",
+      "confidence": 0.9673263430595398,
+      "box": [
+        547.0,
+        159.0,
+        717.0,
+        245.0
+      ]
+    },
+    {
+      "text": "ANIMAL",
+      "confidence": 0.8501278315349473,
+      "box": [
+        510.0,
+        244.0,
+        757.0,
+        334.0
+      ]
+    },
+    {
+      "text": "CRUELTY",
+      "confidence": 0.36058832723927825,
+      "box": [
+        495.0,
+        331.0,
+        763.0,
+        419.0
+      ]
+    }
+  ],
+  "image_sha256": "6623db06be7d2b056b273bedc177bfcaee33aea9f9f8597c82ebf7e13f6fba79",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "ocr_text": "QUICK CASH Instant Approval No Depositl Everyone destioninat nry:repsiblatle NCW farned to ice larted frer trioitsi yOUII fest that or callen desibnuss; nay",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "QUICK",
+      "confidence": 0.724580837280625,
+      "box": [
+        371.0,
+        221.0,
+        708.0,
+        358.0
+      ]
+    },
+    {
+      "text": "CASH",
+      "confidence": 0.8142501711845398,
+      "box": [
+        373.0,
+        332.0,
+        692.0,
+        467.0
+      ]
+    },
+    {
+      "text": "Instant",
+      "confidence": 0.973662419447464,
+      "box": [
+        398.0,
+        460.0,
+        675.0,
+        549.0
+      ]
+    },
+    {
+      "text": "Approval",
+      "confidence": 0.9957426566772816,
+      "box": [
+        369.0,
+        539.0,
+        718.0,
+        640.0
+      ]
+    },
+    {
+      "text": "No Depositl",
+      "confidence": 0.8647539022897921,
+      "box": [
+        339.0,
+        610.0,
+        746.0,
+        718.0
+      ]
+    },
+    {
+      "text": "Everyone destioninat nry:repsiblatle",
+      "confidence": 0.7255212759341861,
+      "box": [
+        375.0,
+        777.0,
+        716.0,
+        820.0
+      ]
+    },
+    {
+      "text": "NCW farned to ice larted",
+      "confidence": 0.4944927740495087,
+      "box": [
+        366.0,
+        814.0,
+        584.0,
+        842.0
+      ]
+    },
+    {
+      "text": "frer trioitsi",
+      "confidence": 0.59941983666855,
+      "box": [
+        622.0,
+        805.0,
+        726.0,
+        838.0
+      ]
+    },
+    {
+      "text": "yOUII fest that or callen desibnuss;",
+      "confidence": 0.305099465891056,
+      "box": [
+        390.0,
+        838.0,
+        706.0,
+        868.0
+      ]
+    },
+    {
+      "text": "nay",
+      "confidence": 0.6193472146987915,
+      "box": [
+        581.2739694681101,
+        813.2145699273442,
+        623.7260305318899,
+        843.7854300726558
+      ]
+    }
+  ],
+  "image_sha256": "8fbadc93a46c6f6315d1e98ec2b51a6d4ced81278e1467b7959b6f9d2be8bf24",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Selog",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Selog",
+      "confidence": 0.3721513519399881,
+      "box": [
+        7.0,
+        15.0,
+        39.0,
+        29.0
+      ]
+    }
+  ],
+  "image_sha256": "e9d1c7bbfd6a282c09c882fce95aba2c004b2f2e1259bba63c01142f264371d6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

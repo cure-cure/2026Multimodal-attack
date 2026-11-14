@@ -1,0 +1,33 @@
+{
+  "ocr_text": "AVES PHOTOGRAPHY",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "AVES",
+      "confidence": 0.8378260265311346,
+      "box": [
+        685.0,
+        483.0,
+        737.0,
+        503.0
+      ]
+    },
+    {
+      "text": "PHOTOGRAPHY",
+      "confidence": 0.9991804233225262,
+      "box": [
+        686.0,
+        504.0,
+        789.0,
+        525.0
+      ]
+    }
+  ],
+  "image_sha256": "ea53732f88436742f1ee1326b300a6ba245ef190003d79adbc127a5026892649",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

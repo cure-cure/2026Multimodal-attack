@@ -1,0 +1,33 @@
+{
+  "ocr_text": "BLACK MONOPOLY",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BLACK",
+      "confidence": 0.9970880233670019,
+      "box": [
+        159.0,
+        137.0,
+        295.0,
+        179.0
+      ]
+    },
+    {
+      "text": "MONOPOLY",
+      "confidence": 0.9422972486214066,
+      "box": [
+        93.0,
+        177.0,
+        305.0,
+        219.0
+      ]
+    }
+  ],
+  "image_sha256": "443082eb37e3a5a9dfb1767de935b8279e2915806023a7d98c1813a379361d42",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

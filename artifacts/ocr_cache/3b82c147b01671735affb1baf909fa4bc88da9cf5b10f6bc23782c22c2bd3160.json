@@ -1,0 +1,43 @@
+{
+  "ocr_text": "AAPL TSLA PIDNO",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "AAPL",
+      "confidence": 0.5881691575050354,
+      "box": [
+        498.0,
+        244.0,
+        645.0,
+        323.0
+      ]
+    },
+    {
+      "text": "TSLA",
+      "confidence": 0.999212384223938,
+      "box": [
+        666.0,
+        328.0,
+        817.0,
+        401.0
+      ]
+    },
+    {
+      "text": "PIDNO",
+      "confidence": 0.6600398529690683,
+      "box": [
+        684.0,
+        484.0,
+        824.0,
+        534.0
+      ]
+    }
+  ],
+  "image_sha256": "3b82c147b01671735affb1baf909fa4bc88da9cf5b10f6bc23782c22c2bd3160",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

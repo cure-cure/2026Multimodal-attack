@@ -1,0 +1,53 @@
+{
+  "ocr_text": "BgIUU TR bigstockcom 8734687",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BgIUU",
+      "confidence": 0.12447639916267728,
+      "box": [
+        143.0,
+        195.0,
+        295.0,
+        259.0
+      ]
+    },
+    {
+      "text": "TR",
+      "confidence": 0.024265366074265937,
+      "box": [
+        108.0,
+        456.0,
+        142.0,
+        464.0
+      ]
+    },
+    {
+      "text": "bigstockcom",
+      "confidence": 0.866344848581177,
+      "box": [
+        141.0,
+        453.0,
+        227.0,
+        469.0
+      ]
+    },
+    {
+      "text": "8734687",
+      "confidence": 0.9925866911786073,
+      "box": [
+        235.0,
+        453.0,
+        295.0,
+        467.0
+      ]
+    }
+  ],
+  "image_sha256": "fade773a4937ccaab6d23125f3b4a8f231974086cfac7142b32ee278bf086927",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

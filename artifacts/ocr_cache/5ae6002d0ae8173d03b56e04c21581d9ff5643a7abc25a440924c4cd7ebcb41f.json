@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Life hack",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Life hack",
+      "confidence": 0.8550061404491924,
+      "box": [
+        0.0,
+        1.0,
+        155.0,
+        43.0
+      ]
+    }
+  ],
+  "image_sha256": "5ae6002d0ae8173d03b56e04c21581d9ff5643a7abc25a440924c4cd7ebcb41f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

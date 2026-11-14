@@ -1,0 +1,33 @@
+{
+  "ocr_text": "LOVE SEX; HATE SEXISM",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "LOVE SEX;",
+      "confidence": 0.8540315774742054,
+      "box": [
+        73.0,
+        178.0,
+        580.0,
+        291.0
+      ]
+    },
+    {
+      "text": "HATE SEXISM",
+      "confidence": 0.9142980973341834,
+      "box": [
+        4.0,
+        286.0,
+        648.0,
+        384.0
+      ]
+    }
+  ],
+  "image_sha256": "0ca8d42b852e31da62b05f3fb0714b628eae01364f1f116c3bfc0b8063addb23",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "APHROHOUSE TUT",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "APHROHOUSE",
+      "confidence": 0.9932225785248605,
+      "box": [
+        22.0,
+        20.0,
+        192.0,
+        46.0
+      ]
+    },
+    {
+      "text": "TUT",
+      "confidence": 0.17863809995120153,
+      "box": [
+        76.0,
+        42.0,
+        100.0,
+        50.0
+      ]
+    }
+  ],
+  "image_sha256": "ac15d697a2676517de7f8112a238da8119b9a77f1ea1652c41c19bf05a19de78",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

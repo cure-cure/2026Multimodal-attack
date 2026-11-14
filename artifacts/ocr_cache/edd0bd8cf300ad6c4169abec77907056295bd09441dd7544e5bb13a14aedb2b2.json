@@ -1,0 +1,73 @@
+{
+  "ocr_text": "Money Laundering 101 Shell Companies Anmnymizing Transactions Multiple Bank Transfers NEXTsIde",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Money Laundering 101",
+      "confidence": 0.76626219084677,
+      "box": [
+        0.0,
+        156.0,
+        600.0,
+        256.0
+      ]
+    },
+    {
+      "text": "Shell Companies",
+      "confidence": 0.6082224835332105,
+      "box": [
+        137.0,
+        354.0,
+        418.0,
+        415.0
+      ]
+    },
+    {
+      "text": "Anmnymizing",
+      "confidence": 0.9113466208327863,
+      "box": [
+        593.0,
+        425.0,
+        826.0,
+        491.0
+      ]
+    },
+    {
+      "text": "Transactions",
+      "confidence": 0.9995206494156139,
+      "box": [
+        604.0,
+        473.0,
+        813.0,
+        529.0
+      ]
+    },
+    {
+      "text": "Multiple Bank Transfers",
+      "confidence": 0.8098624496075332,
+      "box": [
+        91.0,
+        568.0,
+        473.0,
+        635.0
+      ]
+    },
+    {
+      "text": "NEXTsIde",
+      "confidence": 0.4263224516741656,
+      "box": [
+        732.0,
+        750.0,
+        842.0,
+        781.0
+      ]
+    }
+  ],
+  "image_sha256": "edd0bd8cf300ad6c4169abec77907056295bd09441dd7544e5bb13a14aedb2b2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

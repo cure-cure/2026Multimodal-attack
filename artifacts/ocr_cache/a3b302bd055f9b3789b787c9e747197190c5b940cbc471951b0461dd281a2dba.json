@@ -1,0 +1,123 @@
+{
+  "ocr_text": "Animal Cruelty BTBBED @R RN@ How canit be Rw killed Or maimed D@嘎@ every Jay Wl@ Pets",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Animal Cruelty",
+      "confidence": 0.7533972410365688,
+      "box": [
+        321.0,
+        216.0,
+        710.0,
+        293.0
+      ]
+    },
+    {
+      "text": "BTBBED",
+      "confidence": 0.11210193713767519,
+      "box": [
+        29.0,
+        289.0,
+        282.0,
+        354.0
+      ]
+    },
+    {
+      "text": "@R",
+      "confidence": 0.06140022914719409,
+      "box": [
+        371.0,
+        277.0,
+        628.0,
+        346.0
+      ]
+    },
+    {
+      "text": "RN@",
+      "confidence": 0.021753824319570417,
+      "box": [
+        743.0,
+        277.0,
+        966.0,
+        342.0
+      ]
+    },
+    {
+      "text": "How canit be",
+      "confidence": 0.7911226485627862,
+      "box": [
+        254.0,
+        352.0,
+        548.0,
+        404.0
+      ]
+    },
+    {
+      "text": "Rw",
+      "confidence": 0.0002617291225588628,
+      "box": [
+        329.0,
+        328.0,
+        780.0,
+        558.0
+      ]
+    },
+    {
+      "text": "killed",
+      "confidence": 0.6597092189506752,
+      "box": [
+        485.0,
+        534.0,
+        665.0,
+        618.0
+      ]
+    },
+    {
+      "text": "Or maimed",
+      "confidence": 0.38641380028831596,
+      "box": [
+        343.0,
+        614.0,
+        669.0,
+        701.0
+      ]
+    },
+    {
+      "text": "D@嘎@",
+      "confidence": 0.0010071193100884557,
+      "box": [
+        21.0,
+        688.0,
+        284.0,
+        760.0
+      ]
+    },
+    {
+      "text": "every Jay Wl@",
+      "confidence": 0.011806884644664721,
+      "box": [
+        346.0,
+        682.0,
+        1024.0,
+        768.0
+      ]
+    },
+    {
+      "text": "Pets",
+      "confidence": 0.7479006177028255,
+      "box": [
+        342.12703119981626,
+        540.0500848743602,
+        484.87296880018374,
+        630.9499151256398
+      ]
+    }
+  ],
+  "image_sha256": "a3b302bd055f9b3789b787c9e747197190c5b940cbc471951b0461dd281a2dba",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

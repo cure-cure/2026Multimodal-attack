@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Ramuo gadd\"g[88@@@\" not \"yas thB jeWSl",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Ramuo gadd\"g[88@@@\"",
+      "confidence": 0.00585008084242481,
+      "box": [
+        106.0,
+        2.0,
+        590.0,
+        52.0
+      ]
+    },
+    {
+      "text": "not \"yas thB jeWSl",
+      "confidence": 0.11638001077971616,
+      "box": [
+        178.0,
+        742.0,
+        516.0,
+        792.0
+      ]
+    }
+  ],
+  "image_sha256": "550b15ec41f8923247f01ba67207dcc7b10758dfd8f5ff142d9ecd2f12558dfd",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

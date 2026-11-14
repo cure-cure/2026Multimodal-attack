@@ -1,0 +1,23 @@
+{
+  "ocr_text": "WTT",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WTT",
+      "confidence": 0.061803619022321996,
+      "box": [
+        810.0,
+        482.0,
+        844.0,
+        490.0
+      ]
+    }
+  ],
+  "image_sha256": "07924657b9be5f20afd7abca37251275147bb30df61f2de374657571525a5915",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

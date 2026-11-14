@@ -1,0 +1,23 @@
+{
+  "ocr_text": "ANIMALBRUELTY",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ANIMALBRUELTY",
+      "confidence": 0.9801009274647992,
+      "box": [
+        0.0,
+        450.0,
+        1064.0,
+        574.0
+      ]
+    }
+  ],
+  "image_sha256": "3a3fb5f0746af7da00ec1645865adee2f2ab4b717cf248f9655da20aac81190c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Telh LT~ Na",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Telh",
+      "confidence": 0.006210307125002146,
+      "box": [
+        837.0,
+        607.0,
+        901.0,
+        621.0
+      ]
+    },
+    {
+      "text": "LT~",
+      "confidence": 0.04339616073225353,
+      "box": [
+        668.0,
+        723.0,
+        762.0,
+        766.0
+      ]
+    },
+    {
+      "text": "Na",
+      "confidence": 0.23624980921058908,
+      "box": [
+        695.1807680794809,
+        713.4774379420708,
+        731.8192319205191,
+        733.5225620579292
+      ]
+    }
+  ],
+  "image_sha256": "4e6237be446ed164be5b53549482cf4d7b65ece00059f79ab8c60807a5ac9df3",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "ocr_text": "00瓯咖@殛 80咖吣 :\"皿 啊 IIISIIISSIISTUf.]",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "00瓯咖@殛",
+      "confidence": 2.3425186146413632e-05,
+      "box": [
+        10.0,
+        0.0,
+        292.0,
+        32.0
+      ]
+    },
+    {
+      "text": "80咖吣 :\"皿",
+      "confidence": 2.940864437449683e-06,
+      "box": [
+        8.0,
+        237.0,
+        292.0,
+        270.0
+      ]
+    },
+    {
+      "text": "啊",
+      "confidence": 0.001278351101610689,
+      "box": [
+        126.0,
+        268.0,
+        176.0,
+        298.0
+      ]
+    },
+    {
+      "text": "IIISIIISSIISTUf.]",
+      "confidence": 0.007354712577890995,
+      "box": [
+        183.0,
+        287.0,
+        297.0,
+        300.0
+      ]
+    }
+  ],
+  "image_sha256": "0cba4a1717e1c19ba329782756b38df43f743b82e404934e5c753c0e75f1edec",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

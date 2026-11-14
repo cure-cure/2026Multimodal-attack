@@ -1,0 +1,73 @@
+{
+  "ocr_text": "$!芒 ANIMAL CRUELTY 皿 IRwesebarea R?",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "$!芒",
+      "confidence": 0.0013351076706766484,
+      "box": [
+        793.0,
+        250.0,
+        1142.0,
+        382.0
+      ]
+    },
+    {
+      "text": "ANIMAL",
+      "confidence": 0.9903725721743559,
+      "box": [
+        829.0,
+        377.0,
+        1094.0,
+        443.0
+      ]
+    },
+    {
+      "text": "CRUELTY",
+      "confidence": 0.9912899037690862,
+      "box": [
+        825.0,
+        438.0,
+        1091.0,
+        505.0
+      ]
+    },
+    {
+      "text": "皿",
+      "confidence": 0.007284008118890739,
+      "box": [
+        564.0,
+        690.0,
+        602.0,
+        714.0
+      ]
+    },
+    {
+      "text": "IRwesebarea",
+      "confidence": 0.06753284268887455,
+      "box": [
+        597.0,
+        685.0,
+        800.0,
+        730.0
+      ]
+    },
+    {
+      "text": "R?",
+      "confidence": 0.3714649016671902,
+      "box": [
+        630.0,
+        720.0,
+        716.0,
+        750.0
+      ]
+    }
+  ],
+  "image_sha256": "0d30e8a675925dce86e0b8b9baf99afb5643d64cde7420da41a927096b3d38cf",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

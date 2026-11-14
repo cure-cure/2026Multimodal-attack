@@ -1,0 +1,63 @@
+{
+  "ocr_text": "YOUREVOI I WRONG。 Suicide Youre doing it WIOng 2",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "YOUREVOI I",
+      "confidence": 0.08757729931198885,
+      "box": [
+        124.0,
+        275.0,
+        528.0,
+        325.0
+      ]
+    },
+    {
+      "text": "WRONG。",
+      "confidence": 0.2719940605430992,
+      "box": [
+        229.0,
+        323.0,
+        417.0,
+        365.0
+      ]
+    },
+    {
+      "text": "Suicide",
+      "confidence": 0.9791230289435154,
+      "box": [
+        244.0,
+        396.0,
+        412.0,
+        452.0
+      ]
+    },
+    {
+      "text": "Youre doing it WIOng",
+      "confidence": 0.32232485708011277,
+      "box": [
+        253.0,
+        453.0,
+        395.0,
+        473.0
+      ]
+    },
+    {
+      "text": "2",
+      "confidence": 0.3574732593331511,
+      "box": [
+        530.0421737147789,
+        81.56013255118994,
+        586.9578262852211,
+        106.43986744881006
+      ]
+    }
+  ],
+  "image_sha256": "99b23bad447b98c3388d9b76213fc5f7523806e1711eeec41a56bc698807d629",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

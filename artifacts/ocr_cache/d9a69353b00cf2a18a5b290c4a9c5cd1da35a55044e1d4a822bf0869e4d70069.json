@@ -1,0 +1,23 @@
+{
+  "ocr_text": "@@吮v@吣@@帼",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@@吮v@吣@@帼",
+      "confidence": 4.344566628695416e-06,
+      "box": [
+        125.0,
+        133.0,
+        321.0,
+        169.0
+      ]
+    }
+  ],
+  "image_sha256": "d9a69353b00cf2a18a5b290c4a9c5cd1da35a55044e1d4a822bf0869e4d70069",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

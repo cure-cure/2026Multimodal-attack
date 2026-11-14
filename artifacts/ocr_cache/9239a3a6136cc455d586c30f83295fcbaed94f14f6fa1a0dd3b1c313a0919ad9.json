@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Mephedrone Ur;",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Mephedrone",
+      "confidence": 0.8462600342275353,
+      "box": [
+        72.0,
+        15.0,
+        253.0,
+        59.0
+      ]
+    },
+    {
+      "text": "  Ur;",
+      "confidence": 0.1536432389587355,
+      "box": [
+        232.0,
+        92.0,
+        254.0,
+        100.0
+      ]
+    }
+  ],
+  "image_sha256": "9239a3a6136cc455d586c30f83295fcbaed94f14f6fa1a0dd3b1c313a0919ad9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

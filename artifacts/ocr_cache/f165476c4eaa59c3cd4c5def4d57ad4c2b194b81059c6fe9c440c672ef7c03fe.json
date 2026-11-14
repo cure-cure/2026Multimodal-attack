@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Yusef Q, Demo 38 Slbor_SIrnaes Y/o。",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Yusef Q, Demo",
+      "confidence": 0.6406893348954112,
+      "box": [
+        460.0,
+        636.0,
+        679.0,
+        675.0
+      ]
+    },
+    {
+      "text": "38",
+      "confidence": 0.9992975686091043,
+      "box": [
+        462.0,
+        688.0,
+        500.0,
+        718.0
+      ]
+    },
+    {
+      "text": "Slbor_SIrnaes",
+      "confidence": 0.1547526965843715,
+      "box": [
+        461.0,
+        725.0,
+        659.0,
+        765.0
+      ]
+    },
+    {
+      "text": "Y/o。",
+      "confidence": 0.20924241840839386,
+      "box": [
+        497.3447882227953,
+        682.7524678576679,
+        560.6552117772047,
+        723.2475321423321
+      ]
+    }
+  ],
+  "image_sha256": "f165476c4eaa59c3cd4c5def4d57ad4c2b194b81059c6fe9c440c672ef7c03fe",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

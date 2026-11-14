@@ -1,0 +1,43 @@
+{
+  "ocr_text": "d睢@ Religions Bu Aimi",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "d睢@",
+      "confidence": 0.0001787094690884731,
+      "box": [
+        57.0,
+        9.0,
+        381.0,
+        125.0
+      ]
+    },
+    {
+      "text": "Religions",
+      "confidence": 0.9938623808038735,
+      "box": [
+        93.0,
+        106.0,
+        356.0,
+        185.0
+      ]
+    },
+    {
+      "text": "Bu Aimi",
+      "confidence": 0.49821615972093575,
+      "box": [
+        178.0,
+        230.0,
+        278.0,
+        256.0
+      ]
+    }
+  ],
+  "image_sha256": "8ba1db0c006fddac8911f92c0d0c90b160b10e4018e82e0345139d4509230897",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

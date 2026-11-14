@@ -1,0 +1,63 @@
+{
+  "ocr_text": "IUkB IIV KOreaI WOIIIBII TB Way LB IIy IIBYOWaVBS Don Co8[ SD WIn Rn Suw DaWu DOnuuousue Of 甙",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "IUkB IIV KOreaI WOIIIBII",
+      "confidence": 0.10130496689071067,
+      "box": [
+        95.0,
+        1.0,
+        443.0,
+        39.0
+      ]
+    },
+    {
+      "text": "TB Way",
+      "confidence": 0.12118810906349071,
+      "box": [
+        51.0,
+        41.0,
+        171.0,
+        79.0
+      ]
+    },
+    {
+      "text": "LB IIy IIBYOWaVBS",
+      "confidence": 0.059534484791536675,
+      "box": [
+        183.0,
+        41.0,
+        481.0,
+        79.0
+      ]
+    },
+    {
+      "text": "Don Co8[ SD WIn Rn",
+      "confidence": 0.0002628681010075824,
+      "box": [
+        38.0,
+        278.0,
+        472.0,
+        306.0
+      ]
+    },
+    {
+      "text": "Suw DaWu DOnuuousue Of 甙",
+      "confidence": 0.00032679000938373384,
+      "box": [
+        14.0,
+        307.0,
+        506.0,
+        338.0
+      ]
+    }
+  ],
+  "image_sha256": "63606e28057bf0a679290e76737b3785e424cf47660cdcb90df40299864cc430",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

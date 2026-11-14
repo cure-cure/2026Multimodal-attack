@@ -1,0 +1,33 @@
+{
+  "ocr_text": "BLACRFACE COCOIUHmllTaCIGIT",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BLACRFACE",
+      "confidence": 0.154727983399957,
+      "box": [
+        16.0,
+        255.0,
+        239.0,
+        285.0
+      ]
+    },
+    {
+      "text": "COCOIUHmllTaCIGIT",
+      "confidence": 0.013874410198389822,
+      "box": [
+        84.0,
+        286.0,
+        172.0,
+        294.0
+      ]
+    }
+  ],
+  "image_sha256": "ac4ea6e1ce45b54670bf6e639f7f5e592b8074118bd453f4cb2ccc78eb40cfad",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

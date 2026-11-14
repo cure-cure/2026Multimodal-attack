@@ -1,0 +1,33 @@
+{
+  "ocr_text": "WhByOU'VB3 BOIIBIB ICB 吁-s bSheen8t lB VOU HBC94B VDII'YBbae",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WhByOU'VB3 BOIIBIB ICB 吁-s",
+      "confidence": 0.0008221599406545636,
+      "box": [
+        66.0,
+        298.0,
+        462.0,
+        326.0
+      ]
+    },
+    {
+      "text": "bSheen8t lB VOU HBC94B VDII'YBbae",
+      "confidence": 0.0027392595792745124,
+      "box": [
+        16.0,
+        323.0,
+        502.0,
+        354.0
+      ]
+    }
+  ],
+  "image_sha256": "f0130b4c7bb2432fbd66dddf46a0275329e7b5f64bb06280ab374c1c6901f144",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

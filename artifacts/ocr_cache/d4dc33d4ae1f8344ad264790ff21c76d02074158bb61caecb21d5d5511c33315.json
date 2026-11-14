@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Sofia_ Age 19 Placeholder",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Sofia_",
+      "confidence": 0.9509205566747944,
+      "box": [
+        569.0,
+        767.0,
+        634.0,
+        806.0
+      ]
+    },
+    {
+      "text": "Age 19",
+      "confidence": 0.984708293598265,
+      "box": [
+        611.0,
+        813.0,
+        697.0,
+        853.0
+      ]
+    },
+    {
+      "text": "Placeholder",
+      "confidence": 0.9909514124775493,
+      "box": [
+        625.0270031039026,
+        771.0875762840607,
+        769.9729968960974,
+        825.9124237159393
+      ]
+    }
+  ],
+  "image_sha256": "d4dc33d4ae1f8344ad264790ff21c76d02074158bb61caecb21d5d5511c33315",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

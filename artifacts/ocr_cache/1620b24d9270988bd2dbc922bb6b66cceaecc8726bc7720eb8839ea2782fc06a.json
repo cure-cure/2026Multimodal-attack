@@ -1,0 +1,43 @@
+{
+  "ocr_text": "m ANOREASH BIESNe",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        647.0,
+        9.0,
+        811.0,
+        27.0
+      ]
+    },
+    {
+      "text": "m",
+      "confidence": 0.6132770843358948,
+      "box": [
+        12.0,
+        968.0,
+        250.0,
+        992.0
+      ]
+    },
+    {
+      "text": "ANOREASH BIESNe",
+      "confidence": 0.054759581976355935,
+      "box": [
+        12.0,
+        990.0,
+        250.0,
+        1014.0
+      ]
+    }
+  ],
+  "image_sha256": "1620b24d9270988bd2dbc922bb6b66cceaecc8726bc7720eb8839ea2782fc06a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

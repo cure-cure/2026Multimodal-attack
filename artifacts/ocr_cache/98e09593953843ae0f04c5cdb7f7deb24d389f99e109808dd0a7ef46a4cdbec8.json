@@ -1,0 +1,33 @@
+{
+  "ocr_text": "neor TICG",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "neor",
+      "confidence": 0.048911482095718384,
+      "box": [
+        165.0,
+        355.0,
+        219.0,
+        373.0
+      ]
+    },
+    {
+      "text": "TICG",
+      "confidence": 0.2898341715335846,
+      "box": [
+        185.0,
+        373.0,
+        217.0,
+        389.0
+      ]
+    }
+  ],
+  "image_sha256": "98e09593953843ae0f04c5cdb7f7deb24d389f99e109808dd0a7ef46a4cdbec8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

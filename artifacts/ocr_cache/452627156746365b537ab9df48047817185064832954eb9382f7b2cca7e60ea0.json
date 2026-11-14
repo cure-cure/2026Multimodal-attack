@@ -1,0 +1,33 @@
+{
+  "ocr_text": "INCLUSION By Melissa Burgess",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "INCLUSION",
+      "confidence": 0.9967691617166385,
+      "box": [
+        130.0,
+        32.0,
+        254.0,
+        56.0
+      ]
+    },
+    {
+      "text": "By Melissa Burgess",
+      "confidence": 0.7203279882680855,
+      "box": [
+        42.0,
+        80.0,
+        182.0,
+        104.0
+      ]
+    }
+  ],
+  "image_sha256": "452627156746365b537ab9df48047817185064832954eb9382f7b2cca7e60ea0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

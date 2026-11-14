@@ -1,0 +1,103 @@
+{
+  "ocr_text": "9:1 Merplay homes Nell $5792.06 Som a Sitolted Clizet square $1104.05 NOW Js Contact Agent",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "9:1",
+      "confidence": 0.8972916976573527,
+      "box": [
+        369.0,
+        65.0,
+        397.0,
+        85.0
+      ]
+    },
+    {
+      "text": "Merplay homes",
+      "confidence": 0.916178533729223,
+      "box": [
+        478.0,
+        110.0,
+        614.0,
+        138.0
+      ]
+    },
+    {
+      "text": "Nell",
+      "confidence": 0.9961038827896118,
+      "box": [
+        518.0,
+        190.0,
+        568.0,
+        216.0
+      ]
+    },
+    {
+      "text": "$5792.06",
+      "confidence": 0.9999199196596615,
+      "box": [
+        367.0,
+        547.0,
+        535.0,
+        589.0
+      ]
+    },
+    {
+      "text": "Som a Sitolted",
+      "confidence": 0.7267508643408606,
+      "box": [
+        371.0,
+        598.0,
+        549.0,
+        634.0
+      ]
+    },
+    {
+      "text": "Clizet square",
+      "confidence": 0.961909369015685,
+      "box": [
+        372.0,
+        640.0,
+        536.0,
+        672.0
+      ]
+    },
+    {
+      "text": "$1104.05",
+      "confidence": 0.9312949897462842,
+      "box": [
+        371.0,
+        715.0,
+        523.0,
+        759.0
+      ]
+    },
+    {
+      "text": "NOW Js",
+      "confidence": 0.6519742217140234,
+      "box": [
+        650.0,
+        724.0,
+        738.0,
+        750.0
+      ]
+    },
+    {
+      "text": "Contact Agent",
+      "confidence": 0.9495835126683735,
+      "box": [
+        477.0,
+        795.0,
+        643.0,
+        831.0
+      ]
+    }
+  ],
+  "image_sha256": "807b11ab5582a5b56df497b77a940553edcd1e994f1bcae7b34e81b9235ebd53",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

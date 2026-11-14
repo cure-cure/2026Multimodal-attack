@@ -1,0 +1,33 @@
+{
+  "ocr_text": "SSRS5O Wshutterstockcom . 31335442",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SSRS5O",
+      "confidence": 0.04914561112779776,
+      "box": [
+        173.0,
+        135.0,
+        333.0,
+        175.0
+      ]
+    },
+    {
+      "text": "Wshutterstockcom . 31335442",
+      "confidence": 0.5500892506578942,
+      "box": [
+        121.0,
+        305.0,
+        331.0,
+        321.0
+      ]
+    }
+  ],
+  "image_sha256": "7fcb87354cab5aaf749bfb1c82c52312f4c8405e5af1914cb9d095d3a7ac281e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

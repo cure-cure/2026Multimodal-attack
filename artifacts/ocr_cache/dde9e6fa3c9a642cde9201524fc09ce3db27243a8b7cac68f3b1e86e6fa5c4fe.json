@@ -1,0 +1,53 @@
+{
+  "ocr_text": "@ Low Dose WHIAA SHCUAD VNLEES MVaMCIR",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@",
+      "confidence": 0.00046162094902651996,
+      "box": [
+        401.0,
+        470.0,
+        668.0,
+        647.0
+      ]
+    },
+    {
+      "text": "Low Dose",
+      "confidence": 0.979324628714939,
+      "box": [
+        416.0,
+        617.0,
+        608.0,
+        667.0
+      ]
+    },
+    {
+      "text": "WHIAA SHCUAD VNLEES",
+      "confidence": 0.744530053677763,
+      "box": [
+        419.0,
+        751.0,
+        574.0,
+        776.0
+      ]
+    },
+    {
+      "text": "MVaMCIR",
+      "confidence": 0.011127334155487691,
+      "box": [
+        433.0,
+        859.0,
+        571.0,
+        879.0
+      ]
+    }
+  ],
+  "image_sha256": "dde9e6fa3c9a642cde9201524fc09ce3db27243a8b7cac68f3b1e86e6fa5c4fe",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

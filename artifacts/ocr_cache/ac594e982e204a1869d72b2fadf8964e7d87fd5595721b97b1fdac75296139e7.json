@@ -1,0 +1,53 @@
+{
+  "ocr_text": "R ROIGON mGUQ) FAITH",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "R",
+      "confidence": 0.07909406925603069,
+      "box": [
+        156.0,
+        64.0,
+        204.0,
+        94.0
+      ]
+    },
+    {
+      "text": "ROIGON",
+      "confidence": 0.7246467772381048,
+      "box": [
+        93.0,
+        85.0,
+        207.0,
+        123.0
+      ]
+    },
+    {
+      "text": "mGUQ)",
+      "confidence": 0.013241183286477934,
+      "box": [
+        92.0,
+        116.0,
+        170.0,
+        142.0
+      ]
+    },
+    {
+      "text": "FAITH",
+      "confidence": 0.8875771690748298,
+      "box": [
+        115.0,
+        135.0,
+        203.0,
+        171.0
+      ]
+    }
+  ],
+  "image_sha256": "ac594e982e204a1869d72b2fadf8964e7d87fd5595721b97b1fdac75296139e7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

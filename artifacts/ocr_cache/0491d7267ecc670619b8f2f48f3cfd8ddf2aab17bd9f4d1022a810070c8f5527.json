@@ -1,0 +1,103 @@
+{
+  "ocr_text": "KGalleryOrg G8 Riam TZCILr Jtat: VIHIOaIlECSM U nvl UE t「CmIERIaI UE 0nol remoye Ihi arning",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "KGalleryOrg",
+      "confidence": 0.14657533270580134,
+      "box": [
+        391.0,
+        57.0,
+        504.0,
+        81.0
+      ]
+    },
+    {
+      "text": "G8",
+      "confidence": 0.08813256629732964,
+      "box": [
+        59.0,
+        453.0,
+        99.0,
+        491.0
+      ]
+    },
+    {
+      "text": "Riam",
+      "confidence": 0.1349434107542038,
+      "box": [
+        90.0,
+        598.0,
+        166.0,
+        626.0
+      ]
+    },
+    {
+      "text": "TZCILr",
+      "confidence": 0.05792868068870461,
+      "box": [
+        171.0,
+        611.0,
+        261.0,
+        625.0
+      ]
+    },
+    {
+      "text": " Jtat:",
+      "confidence": 0.3420475654794152,
+      "box": [
+        300.0,
+        597.0,
+        392.0,
+        634.0
+      ]
+    },
+    {
+      "text": "VIHIOaIlECSM",
+      "confidence": 0.008120609051548978,
+      "box": [
+        80.0,
+        646.0,
+        152.0,
+        654.0
+      ]
+    },
+    {
+      "text": "U nvl UE",
+      "confidence": 0.02791962859439729,
+      "box": [
+        160.0,
+        646.0,
+        206.0,
+        654.0
+      ]
+    },
+    {
+      "text": "t「CmIERIaI UE",
+      "confidence": 0.033251039963353886,
+      "box": [
+        210.0,
+        646.0,
+        296.0,
+        654.0
+      ]
+    },
+    {
+      "text": "0nol remoye Ihi arning",
+      "confidence": 0.24905742107905052,
+      "box": [
+        301.0,
+        645.0,
+        427.0,
+        657.0
+      ]
+    }
+  ],
+  "image_sha256": "0491d7267ecc670619b8f2f48f3cfd8ddf2aab17bd9f4d1022a810070c8f5527",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

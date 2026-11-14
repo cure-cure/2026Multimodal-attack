@@ -1,0 +1,113 @@
+{
+  "ocr_text": "LIGHT in the HEART Of DARKNESS EM DR & (hC Trcamen 01 Warand Terronsm SuMors Stcven AI. Silver Susan Rogers",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "LIGHT",
+      "confidence": 0.4790352861044447,
+      "box": [
+        276.0,
+        136.0,
+        589.0,
+        229.0
+      ]
+    },
+    {
+      "text": "in the HEART",
+      "confidence": 0.7583251057316971,
+      "box": [
+        318.0,
+        228.0,
+        794.0,
+        306.0
+      ]
+    },
+    {
+      "text": "Of DARKNESS",
+      "confidence": 0.6463777410571381,
+      "box": [
+        318.0,
+        309.0,
+        814.0,
+        390.0
+      ]
+    },
+    {
+      "text": "EM DR",
+      "confidence": 0.6174507658345512,
+      "box": [
+        510.0,
+        738.0,
+        774.0,
+        810.0
+      ]
+    },
+    {
+      "text": "& (hC Trcamen 01",
+      "confidence": 0.26407939262380564,
+      "box": [
+        509.0,
+        814.0,
+        773.0,
+        850.0
+      ]
+    },
+    {
+      "text": "Warand Terronsm",
+      "confidence": 0.6675481531726376,
+      "box": [
+        519.0,
+        857.0,
+        771.0,
+        893.0
+      ]
+    },
+    {
+      "text": "SuMors",
+      "confidence": 0.6311848962479031,
+      "box": [
+        638.0,
+        898.0,
+        771.0,
+        935.0
+      ]
+    },
+    {
+      "text": "Stcven AI. Silver",
+      "confidence": 0.11374305839229097,
+      "box": [
+        507.0,
+        1006.0,
+        788.0,
+        1061.0
+      ]
+    },
+    {
+      "text": "Susan",
+      "confidence": 0.9432206593716694,
+      "box": [
+        561.0,
+        1059.0,
+        665.0,
+        1101.0
+      ]
+    },
+    {
+      "text": "Rogers",
+      "confidence": 0.2810527240520451,
+      "box": [
+        656.1682473557337,
+        1051.093434546949,
+        791.8317526442663,
+        1118.906565453051
+      ]
+    }
+  ],
+  "image_sha256": "9a1ea62826591a1fdb50d60861fdfdd72a98ef85fa7fdb238270dbfa0601457f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

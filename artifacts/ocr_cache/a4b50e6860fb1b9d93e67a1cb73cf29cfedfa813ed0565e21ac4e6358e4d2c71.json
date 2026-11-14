@@ -1,0 +1,23 @@
+{
+  "ocr_text": "CanStockPnoto Com",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CanStockPnoto Com",
+      "confidence": 0.30060427279726254,
+      "box": [
+        133.0,
+        241.0,
+        243.0,
+        254.0
+      ]
+    }
+  ],
+  "image_sha256": "a4b50e6860fb1b9d93e67a1cb73cf29cfedfa813ed0565e21ac4e6358e4d2c71",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

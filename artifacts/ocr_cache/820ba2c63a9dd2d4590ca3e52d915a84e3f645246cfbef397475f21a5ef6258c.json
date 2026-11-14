@@ -1,0 +1,23 @@
+{
+  "ocr_text": "~  田  堙",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "~  田  堙",
+      "confidence": 0.014966386043935687,
+      "box": [
+        1672.0,
+        3332.0,
+        2085.0,
+        3455.0
+      ]
+    }
+  ],
+  "image_sha256": "820ba2c63a9dd2d4590ca3e52d915a84e3f645246cfbef397475f21a5ef6258c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

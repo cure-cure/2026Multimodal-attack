@@ -1,0 +1,33 @@
+{
+  "ocr_text": "40购 IN |50",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "40购",
+      "confidence": 0.020632519182703465,
+      "box": [
+        31.0,
+        113.0,
+        289.0,
+        181.0
+      ]
+    },
+    {
+      "text": "IN |50",
+      "confidence": 0.750767461614963,
+      "box": [
+        130.0,
+        176.0,
+        216.0,
+        208.0
+      ]
+    }
+  ],
+  "image_sha256": "8fd280fa5797391917187e532528bdb6bf8b6f4b34903c1739154eae52be8e88",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

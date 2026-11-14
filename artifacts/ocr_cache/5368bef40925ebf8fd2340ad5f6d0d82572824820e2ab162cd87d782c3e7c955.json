@@ -1,0 +1,23 @@
+{
+  "ocr_text": "廿!",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "廿!",
+      "confidence": 5.919785045801243e-05,
+      "box": [
+        127.0,
+        129.0,
+        167.0,
+        145.0
+      ]
+    }
+  ],
+  "image_sha256": "5368bef40925ebf8fd2340ad5f6d0d82572824820e2ab162cd87d782c3e7c955",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

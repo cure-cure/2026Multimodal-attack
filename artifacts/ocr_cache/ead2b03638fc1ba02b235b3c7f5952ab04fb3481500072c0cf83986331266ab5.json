@@ -1,0 +1,23 @@
+{
+  "ocr_text": "TOUT",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "TOUT",
+      "confidence": 0.04300489276647568,
+      "box": [
+        962.0,
+        594.0,
+        990.0,
+        602.0
+      ]
+    }
+  ],
+  "image_sha256": "ead2b03638fc1ba02b235b3c7f5952ab04fb3481500072c0cf83986331266ab5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

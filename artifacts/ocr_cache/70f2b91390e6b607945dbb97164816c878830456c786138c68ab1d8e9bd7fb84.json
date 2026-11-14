@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Someone give heran Oscar",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Someone give heran Oscar",
+      "confidence": 0.9108656418065555,
+      "box": [
+        11.0,
+        11.0,
+        312.0,
+        44.0
+      ]
+    }
+  ],
+  "image_sha256": "70f2b91390e6b607945dbb97164816c878830456c786138c68ab1d8e9bd7fb84",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

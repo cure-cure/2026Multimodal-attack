@@ -1,0 +1,43 @@
+{
+  "ocr_text": "LOV BA RELIION",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "LOV",
+      "confidence": 0.9311002453714599,
+      "box": [
+        3.0,
+        33.0,
+        204.0,
+        108.0
+      ]
+    },
+    {
+      "text": "BA",
+      "confidence": 0.39847417498140697,
+      "box": [
+        1.0,
+        95.0,
+        203.0,
+        159.0
+      ]
+    },
+    {
+      "text": "RELIION",
+      "confidence": 0.901561978373154,
+      "box": [
+        5.0,
+        147.0,
+        203.0,
+        189.0
+      ]
+    }
+  ],
+  "image_sha256": "2ca597a402a50aa28401fbb56b4e606f6a1ffb0de24d934d352a0a67058891c4",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

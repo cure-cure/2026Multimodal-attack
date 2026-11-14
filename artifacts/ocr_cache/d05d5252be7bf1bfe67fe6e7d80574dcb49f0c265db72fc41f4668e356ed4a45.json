@@ -1,0 +1,33 @@
+{
+  "ocr_text": "fdlget SIiITCr Hp WOII9",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "fdlget SIiITCr",
+      "confidence": 0.014924332541588751,
+      "box": [
+        61.0,
+        269.0,
+        454.0,
+        321.0
+      ]
+    },
+    {
+      "text": "Hp WOII9",
+      "confidence": 0.03486657491280039,
+      "box": [
+        109.0,
+        325.0,
+        401.0,
+        365.0
+      ]
+    }
+  ],
+  "image_sha256": "d05d5252be7bf1bfe67fe6e7d80574dcb49f0c265db72fc41f4668e356ed4a45",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

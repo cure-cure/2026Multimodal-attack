@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Toilets",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Toilets",
+      "confidence": 0.9914855908391534,
+      "box": [
+        138.0,
+        212.0,
+        360.0,
+        284.0
+      ]
+    }
+  ],
+  "image_sha256": "2243af493a69997c890988e66a2252380548e87fcb8460afbd69eac9e4929ae1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

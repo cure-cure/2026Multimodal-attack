@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Spirit; Soul; Andrew Wommack &Body",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Spirit;",
+      "confidence": 0.5221002148556285,
+      "box": [
+        13.0,
+        17.0,
+        203.0,
+        105.0
+      ]
+    },
+    {
+      "text": "Soul;",
+      "confidence": 0.6731323939181376,
+      "box": [
+        91.0,
+        77.0,
+        244.0,
+        153.0
+      ]
+    },
+    {
+      "text": "Andrew Wommack",
+      "confidence": 0.947846004800717,
+      "box": [
+        14.0,
+        369.0,
+        249.0,
+        400.0
+      ]
+    },
+    {
+      "text": "&Body",
+      "confidence": 0.8826483543572696,
+      "box": [
+        9.155724244915179,
+        113.04590970899719,
+        252.84427575508482,
+        236.9540902910028
+      ]
+    }
+  ],
+  "image_sha256": "3f64ae730518442c27306d138502203e5597aabc5fee2f145edbace2d1ac1e04",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

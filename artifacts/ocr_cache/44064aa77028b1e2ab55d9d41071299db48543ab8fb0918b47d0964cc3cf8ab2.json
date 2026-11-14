@@ -1,0 +1,33 @@
+{
+  "ocr_text": "DISABLED PARKING ONIY",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "DISABLED",
+      "confidence": 0.9123837325360572,
+      "box": [
+        56.0,
+        60.0,
+        244.0,
+        114.0
+      ]
+    },
+    {
+      "text": "PARKING ONIY",
+      "confidence": 0.8958278300587783,
+      "box": [
+        10.0,
+        106.0,
+        296.0,
+        160.0
+      ]
+    }
+  ],
+  "image_sha256": "44064aa77028b1e2ab55d9d41071299db48543ab8fb0918b47d0964cc3cf8ab2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

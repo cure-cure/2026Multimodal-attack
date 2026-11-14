@@ -1,0 +1,213 @@
+{
+  "ocr_text": "1947 Spal Rasurts Shord: Need Emergency Funds? Now Credit History! Mane;ar neder sity's stturieg sighand to vervpyohove juie; you Cyrle carriand negial。 Customera freet and Risadsin nender and mialor baekler。 241 Toan Discaliner warn! Latns or missed artoint。 incuir up to 20% penalty。 Casam 492 Colou lotaded pan",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "1947",
+      "confidence": 0.4737911999339172,
+      "box": [
+        273.0,
+        95.0,
+        307.0,
+        109.0
+      ]
+    },
+    {
+      "text": "Spal",
+      "confidence": 0.9991009831428528,
+      "box": [
+        403.0,
+        197.0,
+        495.0,
+        239.0
+      ]
+    },
+    {
+      "text": "Rasurts Shord:",
+      "confidence": 0.9788475495355866,
+      "box": [
+        378.0,
+        236.0,
+        508.0,
+        260.0
+      ]
+    },
+    {
+      "text": "Need Emergency Funds?",
+      "confidence": 0.7664947393903982,
+      "box": [
+        339.0,
+        307.0,
+        589.0,
+        343.0
+      ]
+    },
+    {
+      "text": "Now Credit History!",
+      "confidence": 0.8644977005435229,
+      "box": [
+        340.0,
+        338.0,
+        542.0,
+        366.0
+      ]
+    },
+    {
+      "text": "Mane;ar neder sity's stturieg",
+      "confidence": 0.7428889194263409,
+      "box": [
+        272.0,
+        416.0,
+        540.0,
+        444.0
+      ]
+    },
+    {
+      "text": "sighand to vervpyohove",
+      "confidence": 0.9222707013422096,
+      "box": [
+        270.0,
+        438.0,
+        504.0,
+        467.0
+      ]
+    },
+    {
+      "text": "juie; you Cyrle carriand",
+      "confidence": 0.3241909540261436,
+      "box": [
+        270.0,
+        462.0,
+        492.0,
+        490.0
+      ]
+    },
+    {
+      "text": "negial。",
+      "confidence": 0.8252303775568165,
+      "box": [
+        272.0,
+        486.0,
+        338.0,
+        514.0
+      ]
+    },
+    {
+      "text": "Customera freet and",
+      "confidence": 0.7249939640544054,
+      "box": [
+        272.0,
+        528.0,
+        478.0,
+        552.0
+      ]
+    },
+    {
+      "text": "Risadsin nender and mialor",
+      "confidence": 0.607646264052012,
+      "box": [
+        272.0,
+        552.0,
+        536.0,
+        580.0
+      ]
+    },
+    {
+      "text": "baekler。",
+      "confidence": 0.5706013443837307,
+      "box": [
+        272.0,
+        576.0,
+        348.0,
+        600.0
+      ]
+    },
+    {
+      "text": "241 Toan",
+      "confidence": 0.7161502753866427,
+      "box": [
+        530.0,
+        632.0,
+        614.0,
+        656.0
+      ]
+    },
+    {
+      "text": "Discaliner warn!",
+      "confidence": 0.7774731124356528,
+      "box": [
+        403.0,
+        679.0,
+        509.0,
+        695.0
+      ]
+    },
+    {
+      "text": "Latns or missed",
+      "confidence": 0.7361440251347403,
+      "box": [
+        344.0,
+        708.0,
+        486.0,
+        734.0
+      ]
+    },
+    {
+      "text": "artoint。 ",
+      "confidence": 0.6893087934729676,
+      "box": [
+        521.0,
+        711.0,
+        587.0,
+        731.0
+      ]
+    },
+    {
+      "text": "incuir up to 20% penalty。 ",
+      "confidence": 0.48430618219860155,
+      "box": [
+        344.0,
+        732.0,
+        566.0,
+        758.0
+      ]
+    },
+    {
+      "text": "Casam 492",
+      "confidence": 0.978646057906769,
+      "box": [
+        557.0,
+        769.0,
+        629.0,
+        785.0
+      ]
+    },
+    {
+      "text": "Colou lotaded",
+      "confidence": 0.5245720587654042,
+      "box": [
+        393.0,
+        893.0,
+        501.0,
+        913.0
+      ]
+    },
+    {
+      "text": "pan",
+      "confidence": 0.3672982216443187,
+      "box": [
+        484.4789396203098,
+        707.2354849069749,
+        524.5210603796902,
+        734.7645150930251
+      ]
+    }
+  ],
+  "image_sha256": "b2989de4d92f84478d23f0aae4348c26e30f882a0709ac63dead2181effa3197",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

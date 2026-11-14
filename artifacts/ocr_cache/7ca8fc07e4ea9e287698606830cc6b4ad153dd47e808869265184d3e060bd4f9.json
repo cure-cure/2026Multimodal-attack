@@ -1,0 +1,43 @@
+{
+  "ocr_text": "MAYIMA ( 2 1",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "MAYIMA (",
+      "confidence": 0.16237269466604856,
+      "box": [
+        706.0,
+        506.0,
+        985.0,
+        572.0
+      ]
+    },
+    {
+      "text": "2",
+      "confidence": 0.9963580211894261,
+      "box": [
+        901.0,
+        657.0,
+        943.0,
+        711.0
+      ]
+    },
+    {
+      "text": "1",
+      "confidence": 0.9995834069295064,
+      "box": [
+        710.0,
+        780.0,
+        740.0,
+        826.0
+      ]
+    }
+  ],
+  "image_sha256": "7ca8fc07e4ea9e287698606830cc6b4ad153dd47e808869265184d3e060bd4f9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "For Adaptalion Disabled",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "For",
+      "confidence": 0.9343998609911063,
+      "box": [
+        154.0,
+        42.0,
+        190.0,
+        68.0
+      ]
+    },
+    {
+      "text": "Adaptalion",
+      "confidence": 0.5024923421893545,
+      "box": [
+        40.43926240134208,
+        43.25160690909077,
+        164.5607375986579,
+        98.74839309090923
+      ]
+    },
+    {
+      "text": " Disabled",
+      "confidence": 0.7226044718982432,
+      "box": [
+        71.72307231792384,
+        66.02396236956189,
+        178.27692768207615,
+        119.97603763043811
+      ]
+    }
+  ],
+  "image_sha256": "b44c70ac8edc2dc791c1d8c975596fa757ba351434ea7875272e60832f918c78",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

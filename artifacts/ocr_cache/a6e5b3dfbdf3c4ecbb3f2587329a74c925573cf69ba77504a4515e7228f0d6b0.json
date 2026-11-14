@@ -1,0 +1,33 @@
+{
+  "ocr_text": "SCIENCE RELIGION",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SCIENCE",
+      "confidence": 0.9975650247769193,
+      "box": [
+        178.0,
+        34.0,
+        272.0,
+        60.0
+      ]
+    },
+    {
+      "text": "RELIGION",
+      "confidence": 0.9945301745286459,
+      "box": [
+        179.0,
+        89.0,
+        269.0,
+        109.0
+      ]
+    }
+  ],
+  "image_sha256": "a6e5b3dfbdf3c4ecbb3f2587329a74c925573cf69ba77504a4515e7228f0d6b0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

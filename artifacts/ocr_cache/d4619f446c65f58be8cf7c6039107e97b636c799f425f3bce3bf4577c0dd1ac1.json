@@ -1,0 +1,53 @@
+{
+  "ocr_text": "眄皿衄1 吣RIRT }:",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "眄皿衄1",
+      "confidence": 5.68214545637602e-06,
+      "box": [
+        11.0,
+        7.0,
+        193.0,
+        45.0
+      ]
+    },
+    {
+      "text": "吣RIRT",
+      "confidence": 4.809098244886564e-05,
+      "box": [
+        228.0,
+        12.0,
+        390.0,
+        44.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        57.0,
+        40.0,
+        154.0,
+        76.0
+      ]
+    },
+    {
+      "text": "}:",
+      "confidence": 0.0013839748455020875,
+      "box": [
+        226.0,
+        41.0,
+        393.0,
+        74.0
+      ]
+    }
+  ],
+  "image_sha256": "d4619f446c65f58be8cf7c6039107e97b636c799f425f3bce3bf4577c0dd1ac1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

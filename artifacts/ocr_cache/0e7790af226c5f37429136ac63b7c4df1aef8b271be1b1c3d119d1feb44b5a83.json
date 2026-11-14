@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Staf Terorcdr",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Staf",
+      "confidence": 0.45949363708496094,
+      "box": [
+        0.0,
+        112.0,
+        186.0,
+        223.0
+      ]
+    },
+    {
+      "text": " Terorcdr",
+      "confidence": 0.16188898504092952,
+      "box": [
+        327.0,
+        221.0,
+        597.0,
+        289.0
+      ]
+    }
+  ],
+  "image_sha256": "0e7790af226c5f37429136ac63b7c4df1aef8b271be1b1c3d119d1feb44b5a83",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

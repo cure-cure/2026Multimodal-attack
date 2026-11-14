@@ -1,0 +1,33 @@
+{
+  "ocr_text": "众 晌",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "众",
+      "confidence": 0.0003609329507492376,
+      "box": [
+        16.0,
+        142.0,
+        44.0,
+        170.0
+      ]
+    },
+    {
+      "text": "晌",
+      "confidence": 0.010260994369849785,
+      "box": [
+        14.0,
+        198.0,
+        46.0,
+        230.0
+      ]
+    }
+  ],
+  "image_sha256": "a2d49468880d23a2d9fd0b3f42f5efc99f1c0a6397241129200f81cf598be706",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

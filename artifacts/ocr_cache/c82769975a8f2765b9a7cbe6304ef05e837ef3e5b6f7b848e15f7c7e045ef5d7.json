@@ -1,0 +1,113 @@
+{
+  "ocr_text": "PROTOTYPE TEST LISE BT 2331 5811 0y2 0410 FOR RESSUT DEMA FORMCTY OCC VISA",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "PROTOTYPE",
+      "confidence": 0.7502742471067563,
+      "box": [
+        294.0,
+        348.0,
+        572.0,
+        396.0
+      ]
+    },
+    {
+      "text": "TEST",
+      "confidence": 0.983851969242096,
+      "box": [
+        592.0,
+        350.0,
+        704.0,
+        398.0
+      ]
+    },
+    {
+      "text": "LISE",
+      "confidence": 0.9304998517036438,
+      "box": [
+        431.0,
+        477.0,
+        503.0,
+        513.0
+      ]
+    },
+    {
+      "text": "BT",
+      "confidence": 0.5214826511593745,
+      "box": [
+        515.0,
+        477.0,
+        567.0,
+        513.0
+      ]
+    },
+    {
+      "text": "2331",
+      "confidence": 0.35131868720054626,
+      "box": [
+        193.0,
+        515.0,
+        337.0,
+        583.0
+      ]
+    },
+    {
+      "text": "5811 0y2 0410",
+      "confidence": 0.09952122908182284,
+      "box": [
+        358.0,
+        514.0,
+        794.0,
+        586.0
+      ]
+    },
+    {
+      "text": "FOR",
+      "confidence": 0.9965941903131178,
+      "box": [
+        188.0,
+        614.0,
+        234.0,
+        638.0
+      ]
+    },
+    {
+      "text": "RESSUT",
+      "confidence": 0.9959212462644765,
+      "box": [
+        405.0,
+        599.0,
+        549.0,
+        641.0
+      ]
+    },
+    {
+      "text": "DEMA FORMCTY OCC",
+      "confidence": 0.9583512010763023,
+      "box": [
+        201.0,
+        647.0,
+        557.0,
+        691.0
+      ]
+    },
+    {
+      "text": "VISA",
+      "confidence": 0.7319027185440063,
+      "box": [
+        685.0,
+        631.0,
+        823.0,
+        687.0
+      ]
+    }
+  ],
+  "image_sha256": "c82769975a8f2765b9a7cbe6304ef05e837ef3e5b6f7b848e15f7c7e045ef5d7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

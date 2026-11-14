@@ -1,0 +1,43 @@
+{
+  "ocr_text": "仨 _",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        3.0,
+        29.0,
+        19.0,
+        69.0
+      ]
+    },
+    {
+      "text": "仨",
+      "confidence": 0.0012091643499868715,
+      "box": [
+        0.0,
+        71.0,
+        19.0,
+        117.0
+      ]
+    },
+    {
+      "text": "_",
+      "confidence": 0.029160628424741653,
+      "box": [
+        3.0,
+        117.0,
+        17.0,
+        139.0
+      ]
+    }
+  ],
+  "image_sha256": "9821bfeeaaac9828b05d0ba284e5d8e9e0cceda4daec783fc0eea331e1ce7fc8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

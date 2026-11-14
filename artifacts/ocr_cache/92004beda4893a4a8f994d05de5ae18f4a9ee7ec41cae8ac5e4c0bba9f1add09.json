@@ -1,0 +1,43 @@
+{
+  "ocr_text": "fer Wwshutterstockcom 350094503",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "fer",
+      "confidence": 0.3669346207381394,
+      "box": [
+        178.0,
+        202.0,
+        248.0,
+        250.0
+      ]
+    },
+    {
+      "text": "Wwshutterstockcom",
+      "confidence": 0.33629937257135156,
+      "box": [
+        117.0,
+        455.0,
+        254.0,
+        469.0
+      ]
+    },
+    {
+      "text": "350094503",
+      "confidence": 0.9999682106034771,
+      "box": [
+        259.0,
+        453.0,
+        335.0,
+        469.0
+      ]
+    }
+  ],
+  "image_sha256": "92004beda4893a4a8f994d05de5ae18f4a9ee7ec41cae8ac5e4c0bba9f1add09",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

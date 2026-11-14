@@ -1,0 +1,43 @@
+{
+  "ocr_text": "皿{叩咖吣# 皿{吣 咽0皿",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "皿{叩咖吣#",
+      "confidence": 6.632811357084123e-05,
+      "box": [
+        2.0,
+        0.0,
+        246.0,
+        24.0
+      ]
+    },
+    {
+      "text": "皿{吣",
+      "confidence": 6.079756387015309e-05,
+      "box": [
+        78.0,
+        20.0,
+        172.0,
+        44.0
+      ]
+    },
+    {
+      "text": "咽0皿",
+      "confidence": 5.027991776270833e-05,
+      "box": [
+        45.0,
+        209.0,
+        207.0,
+        247.0
+      ]
+    }
+  ],
+  "image_sha256": "f69174c2800da71cb8bf82e7b595be327683fbf9ef6ddf2e9b584ec87a7adad2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

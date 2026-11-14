@@ -1,0 +1,43 @@
+{
+  "ocr_text": "When you the tutorial Skip",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "When you",
+      "confidence": 0.9879462267804163,
+      "box": [
+        18.0,
+        23.0,
+        224.0,
+        83.0
+      ]
+    },
+    {
+      "text": "the tutorial",
+      "confidence": 0.9148197389739197,
+      "box": [
+        310.0,
+        26.0,
+        532.0,
+        74.0
+      ]
+    },
+    {
+      "text": "Skip",
+      "confidence": 0.5195590853691101,
+      "box": [
+        214.41693608797448,
+        19.090257852122114,
+        319.5830639120255,
+        87.90974214787788
+      ]
+    }
+  ],
+  "image_sha256": "3143f0711710b7d1e70ef0998caaec70ae6fc5cf38e44cc69be797bdd155a868",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

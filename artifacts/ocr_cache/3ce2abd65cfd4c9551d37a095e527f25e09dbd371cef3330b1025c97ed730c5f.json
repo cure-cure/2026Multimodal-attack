@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Vcv",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Vcv ",
+      "confidence": 0.007183737121522427,
+      "box": [
+        815.0421737147789,
+        434.56927041378503,
+        865.9578262852211,
+        456.43072958621497
+      ]
+    }
+  ],
+  "image_sha256": "3ce2abd65cfd4c9551d37a095e527f25e09dbd371cef3330b1025c97ed730c5f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

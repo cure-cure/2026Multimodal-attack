@@ -1,0 +1,33 @@
+{
+  "ocr_text": "HORTAAI 三",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "HORTAAI",
+      "confidence": 0.5527629421301501,
+      "box": [
+        435.0,
+        195.0,
+        593.0,
+        237.0
+      ]
+    },
+    {
+      "text": "三",
+      "confidence": 0.015291656948996979,
+      "box": [
+        743.0,
+        937.0,
+        787.0,
+        1015.0
+      ]
+    }
+  ],
+  "image_sha256": "bd69a97a00369d8f9b15e87d7de13edf7d0ae6daa9a1a81c3ecf4fa4676ebddd",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

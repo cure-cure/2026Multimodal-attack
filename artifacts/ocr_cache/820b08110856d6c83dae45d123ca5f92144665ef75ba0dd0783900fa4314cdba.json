@@ -1,0 +1,23 @@
+{
+  "ocr_text": "9 Sarah Sllerman } Instagram",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "9 Sarah Sllerman } Instagram",
+      "confidence": 0.2624568381185349,
+      "box": [
+        5.0,
+        833.0,
+        181.0,
+        847.0
+      ]
+    }
+  ],
+  "image_sha256": "820b08110856d6c83dae45d123ca5f92144665ef75ba0dd0783900fa4314cdba",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

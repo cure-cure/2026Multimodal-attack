@@ -1,0 +1,33 @@
+{
+  "ocr_text": "YOUBORNIN SOUTH KOREA?",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "YOUBORNIN",
+      "confidence": 0.8259685497288648,
+      "box": [
+        1.0,
+        0.0,
+        247.0,
+        37.0
+      ]
+    },
+    {
+      "text": "SOUTH KOREA?",
+      "confidence": 0.9467726319829695,
+      "box": [
+        1.0,
+        29.0,
+        276.0,
+        67.0
+      ]
+    }
+  ],
+  "image_sha256": "7261b5c5dfc83d8ad43968f7e1f88614af447a5b06e46330324b0f670ea46853",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

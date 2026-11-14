@@ -1,0 +1,33 @@
+{
+  "ocr_text": "PEARL HARBOR THE ACCUSED",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "PEARL HARBOR",
+      "confidence": 0.7224093160415689,
+      "box": [
+        58.0,
+        228.0,
+        284.0,
+        258.0
+      ]
+    },
+    {
+      "text": "THE ACCUSED",
+      "confidence": 0.8558779067829727,
+      "box": [
+        70.0,
+        260.0,
+        274.0,
+        290.0
+      ]
+    }
+  ],
+  "image_sha256": "852e287cbfbc2365ef34a93e97ced2db6360c5ea6eb4d9726e057aaba3e78809",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

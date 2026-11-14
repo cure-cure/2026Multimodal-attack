@@ -1,0 +1,33 @@
+{
+  "ocr_text": "STANNO",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        54.0,
+        812.0,
+        98.0,
+        820.0
+      ]
+    },
+    {
+      "text": "STANNO",
+      "confidence": 0.630046880940887,
+      "box": [
+        100.0,
+        808.0,
+        147.0,
+        822.0
+      ]
+    }
+  ],
+  "image_sha256": "ff416c4d47621567eeae91ea462faf27c71278a80d508761ae5f6dbaba5f51c7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

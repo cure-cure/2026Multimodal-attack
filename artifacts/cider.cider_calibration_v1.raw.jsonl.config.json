@@ -1,0 +1,25 @@
+{
+  "config_id": "B-1.0-llava-detection-components-diffusion-uncalibrated",
+  "encoder_path": "/root/autodl-tmp/open-unlearning/B_deploy_updated_20261109_extracted/team_b/lite_models_fast/llava-1.5-7b-hf",
+  "diffusion_path": "/root/autodl-tmp/open-unlearning/B_deploy_updated_20261109_extracted/team_b/lite_models_fast/256x256_diffusion_uncond.pt",
+  "upstream_code": "/root/autodl-tmp/open-unlearning/B_deploy_updated_20261109_extracted/CIDER/code",
+  "device": "cuda:0",
+  "stages": [
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350
+  ],
+  "seed": 2026,
+  "threshold": null,
+  "reproduction": "adapted",
+  "encoder_mode": "detection_components",
+  "encoder_components": [
+    "vision_tower",
+    "multi_modal_projector",
+    "language_model.model.embed_tokens"
+  ]
+}

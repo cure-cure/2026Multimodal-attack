@@ -1,0 +1,153 @@
+{
+  "ocr_text": "THE TRUTH ABOUT Q6 Drugs destroy and ruin millions Oflives every year。 What should YOU Cocaine Know about them? Marijuana drugfreeworld.org Bcstasy LSD Speea",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "THE TRUTH",
+      "confidence": 0.984011569771308,
+      "box": [
+        102.0,
+        30.0,
+        402.0,
+        80.0
+      ]
+    },
+    {
+      "text": "ABOUT",
+      "confidence": 0.9919553869389502,
+      "box": [
+        415.0,
+        32.0,
+        607.0,
+        76.0
+      ]
+    },
+    {
+      "text": "Q6",
+      "confidence": 0.03576848723344346,
+      "box": [
+        0.0,
+        49.0,
+        638.0,
+        366.0
+      ]
+    },
+    {
+      "text": "Drugs destroy",
+      "confidence": 0.7822882384222622,
+      "box": [
+        103.0,
+        398.0,
+        339.0,
+        438.0
+      ]
+    },
+    {
+      "text": "and ruin millions",
+      "confidence": 0.7526107068527068,
+      "box": [
+        67.0,
+        429.0,
+        341.0,
+        466.0
+      ]
+    },
+    {
+      "text": "Oflives every year。",
+      "confidence": 0.7861177199005314,
+      "box": [
+        33.0,
+        461.0,
+        337.0,
+        500.0
+      ]
+    },
+    {
+      "text": "What should YOU",
+      "confidence": 0.8044941864396331,
+      "box": [
+        38.0,
+        494.0,
+        338.0,
+        526.0
+      ]
+    },
+    {
+      "text": "Cocaine",
+      "confidence": 0.9951811539218964,
+      "box": [
+        507.0,
+        499.0,
+        670.0,
+        544.0
+      ]
+    },
+    {
+      "text": "Know about them?",
+      "confidence": 0.5771994527871016,
+      "box": [
+        34.0,
+        526.0,
+        340.0,
+        558.0
+      ]
+    },
+    {
+      "text": "Marijuana",
+      "confidence": 0.8963017742056649,
+      "box": [
+        465.0,
+        539.0,
+        681.0,
+        577.0
+      ]
+    },
+    {
+      "text": "drugfreeworld.org",
+      "confidence": 0.602588247248064,
+      "box": [
+        278.0,
+        586.0,
+        708.0,
+        638.0
+      ]
+    },
+    {
+      "text": "Bcstasy",
+      "confidence": 0.7738954662516734,
+      "box": [
+        568.0000791084478,
+        418.0562457694621,
+        734.9999208915522,
+        484.9437542305379
+      ]
+    },
+    {
+      "text": "LSD",
+      "confidence": 0.9652044476269103,
+      "box": [
+        485.4050955543422,
+        460.11249288348876,
+        565.5949044456578,
+        501.88750711651124
+      ]
+    },
+    {
+      "text": "Speea",
+      "confidence": 0.978483388989058,
+      "box": [
+        570.0544243046714,
+        459.0912945443088,
+        697.9455756953286,
+        512.9087054556912
+      ]
+    }
+  ],
+  "image_sha256": "72d80eede18268156938bc67ca3febef571503a4bef8349bb28e73ebe9188305",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

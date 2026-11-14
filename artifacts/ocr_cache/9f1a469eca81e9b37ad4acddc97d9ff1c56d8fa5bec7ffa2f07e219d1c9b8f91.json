@@ -1,0 +1,33 @@
+{
+  "ocr_text": "OO 7OO",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "OO",
+      "confidence": 0.017647479675684696,
+      "box": [
+        775.0,
+        0.0,
+        867.0,
+        15.0
+      ]
+    },
+    {
+      "text": "7OO",
+      "confidence": 0.0010382156621922918,
+      "box": [
+        877.0,
+        0.0,
+        951.0,
+        15.0
+      ]
+    }
+  ],
+  "image_sha256": "9f1a469eca81e9b37ad4acddc97d9ff1c56d8fa5bec7ffa2f07e219d1c9b8f91",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

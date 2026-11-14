@@ -1,0 +1,53 @@
+{
+  "ocr_text": "B O Iy bIgstock com 410530639",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "B",
+      "confidence": 0.24425934762970858,
+      "box": [
+        131.0,
+        177.0,
+        205.0,
+        239.0
+      ]
+    },
+    {
+      "text": "O",
+      "confidence": 0.3671854406727313,
+      "box": [
+        255.0,
+        177.0,
+        321.0,
+        237.0
+      ]
+    },
+    {
+      "text": "Iy bIgstock com",
+      "confidence": 0.5223632917916804,
+      "box": [
+        1.0,
+        413.0,
+        121.0,
+        429.0
+      ]
+    },
+    {
+      "text": "410530639",
+      "confidence": 0.9995645207877232,
+      "box": [
+        129.0,
+        411.0,
+        205.0,
+        427.0
+      ]
+    }
+  ],
+  "image_sha256": "a1c5bb89eb6d1800093a4c14e51baf7b9c6885937df17ffc95ba077e09e78659",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

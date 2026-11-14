@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Military Props",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Military Props",
+      "confidence": 0.6518948112350148,
+      "box": [
+        3.0,
+        95.0,
+        109.0,
+        113.0
+      ]
+    }
+  ],
+  "image_sha256": "d529e7cdf2ec1c39e810d011e25c5207cff206e2a8109ebad4c1924bf65cf0e9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

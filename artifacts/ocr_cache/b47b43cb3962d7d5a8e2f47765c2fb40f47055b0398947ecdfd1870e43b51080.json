@@ -1,0 +1,43 @@
+{
+  "ocr_text": "NOI[T TEST 12341 eVl",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "NOI[T",
+      "confidence": 0.2841438326197827,
+      "box": [
+        593.0,
+        695.0,
+        635.0,
+        711.0
+      ]
+    },
+    {
+      "text": "TEST 12341",
+      "confidence": 0.5368147266672206,
+      "box": [
+        551.0,
+        707.0,
+        685.0,
+        751.0
+      ]
+    },
+    {
+      "text": "eVl",
+      "confidence": 0.05627093516994776,
+      "box": [
+        602.0,
+        748.0,
+        638.0,
+        756.0
+      ]
+    }
+  ],
+  "image_sha256": "b47b43cb3962d7d5a8e2f47765c2fb40f47055b0398947ecdfd1870e43b51080",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

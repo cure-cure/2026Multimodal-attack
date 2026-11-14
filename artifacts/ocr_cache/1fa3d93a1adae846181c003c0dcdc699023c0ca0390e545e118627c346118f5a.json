@@ -1,0 +1,33 @@
+{
+  "ocr_text": "CanstockPnotocom ReLIIN",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CanstockPnotocom",
+      "confidence": 0.46567842718318075,
+      "box": [
+        80.0,
+        241.0,
+        193.0,
+        254.0
+      ]
+    },
+    {
+      "text": "ReLIIN",
+      "confidence": 0.16610414750801492,
+      "box": [
+        30.636636030018437,
+        77.99056983686981,
+        233.36336396998155,
+        161.0094301631302
+      ]
+    }
+  ],
+  "image_sha256": "1fa3d93a1adae846181c003c0dcdc699023c0ca0390e545e118627c346118f5a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

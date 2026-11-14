@@ -1,0 +1,33 @@
+{
+  "ocr_text": "gemington 597 Takcdown Guide",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "gemington 597",
+      "confidence": 0.2732322091535055,
+      "box": [
+        35.0,
+        2.0,
+        152.0,
+        27.0
+      ]
+    },
+    {
+      "text": "Takcdown Guide",
+      "confidence": 0.53378719436983,
+      "box": [
+        35.0,
+        19.0,
+        153.0,
+        35.0
+      ]
+    }
+  ],
+  "image_sha256": "ae7fa8b29346fef706b8b8f8147b3e5a481c7b314475b5e4d3bce14a2a2009b9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

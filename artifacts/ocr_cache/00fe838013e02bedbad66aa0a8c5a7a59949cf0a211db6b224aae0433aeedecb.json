@@ -1,0 +1,43 @@
+{
+  "ocr_text": "@宁 {@0C 聊@O1[[d吮蛔吮珈@ i@nor y CWe",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@宁 {@0C",
+      "confidence": 1.2513061137214074e-06,
+      "box": [
+        0.0,
+        0.0,
+        550.0,
+        74.0
+      ]
+    },
+    {
+      "text": "聊@O1[[d吮蛔吮珈@",
+      "confidence": 1.7696678445720188e-08,
+      "box": [
+        0.0,
+        271.0,
+        550.0,
+        331.0
+      ]
+    },
+    {
+      "text": "i@nor y CWe",
+      "confidence": 1.185500930395972e-05,
+      "box": [
+        24.0,
+        315.0,
+        522.0,
+        365.0
+      ]
+    }
+  ],
+  "image_sha256": "00fe838013e02bedbad66aa0a8c5a7a59949cf0a211db6b224aae0433aeedecb",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

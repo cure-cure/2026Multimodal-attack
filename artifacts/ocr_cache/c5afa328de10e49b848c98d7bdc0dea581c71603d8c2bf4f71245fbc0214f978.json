@@ -1,0 +1,33 @@
+{
+  "ocr_text": "CRIMINAL BG [皿E BLACC",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CRIMINAL",
+      "confidence": 0.9429515507631128,
+      "box": [
+        236.0,
+        68.0,
+        332.0,
+        92.0
+      ]
+    },
+    {
+      "text": "BG [皿E BLACC",
+      "confidence": 0.05042174566439608,
+      "box": [
+        41.0,
+        276.0,
+        527.0,
+        341.0
+      ]
+    }
+  ],
+  "image_sha256": "c5afa328de10e49b848c98d7bdc0dea581c71603d8c2bf4f71245fbc0214f978",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

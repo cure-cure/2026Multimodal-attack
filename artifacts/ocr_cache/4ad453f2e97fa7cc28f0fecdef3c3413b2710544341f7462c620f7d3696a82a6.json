@@ -1,0 +1,93 @@
+{
+  "ocr_text": "THE IAWOF FINANCIALCRIME The Financial War on Terrorism A review of counterterrorist financing strategies since 2001 Nicholas Ryder",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "THE IAWOF FINANCIALCRIME",
+      "confidence": 0.43742950644532197,
+      "box": [
+        115.0,
+        72.0,
+        549.0,
+        109.0
+      ]
+    },
+    {
+      "text": "The Financial War",
+      "confidence": 0.8796343183818581,
+      "box": [
+        85.0,
+        741.0,
+        533.0,
+        806.0
+      ]
+    },
+    {
+      "text": "on Terrorism",
+      "confidence": 0.7567714343732603,
+      "box": [
+        85.0,
+        809.0,
+        385.0,
+        869.0
+      ]
+    },
+    {
+      "text": "A review of counterterrorist",
+      "confidence": 0.5488400103551541,
+      "box": [
+        88.0,
+        890.0,
+        577.0,
+        940.0
+      ]
+    },
+    {
+      "text": "financing",
+      "confidence": 0.8692266308235813,
+      "box": [
+        571.0,
+        883.0,
+        753.0,
+        950.0
+      ]
+    },
+    {
+      "text": "strategies since 2001",
+      "confidence": 0.9602892800059804,
+      "box": [
+        81.0,
+        941.0,
+        477.0,
+        1001.0
+      ]
+    },
+    {
+      "text": "Nicholas Ryder",
+      "confidence": 0.73115315733424,
+      "box": [
+        85.0,
+        1075.0,
+        371.0,
+        1137.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        845.0,
+        1258.0,
+        865.0,
+        1358.0
+      ]
+    }
+  ],
+  "image_sha256": "4ad453f2e97fa7cc28f0fecdef3c3413b2710544341f7462c620f7d3696a82a6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

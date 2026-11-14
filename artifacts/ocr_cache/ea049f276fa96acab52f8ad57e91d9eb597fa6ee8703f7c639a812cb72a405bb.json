@@ -1,0 +1,33 @@
+{
+  "ocr_text": "0 UOWO",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "0",
+      "confidence": 0.004490418032080612,
+      "box": [
+        0.0,
+        412.0,
+        68.0,
+        506.0
+      ]
+    },
+    {
+      "text": "UOWO",
+      "confidence": 0.3996320962905884,
+      "box": [
+        274.1553545944726,
+        268.16667313340764,
+        512.8446454055273,
+        382.83332686659236
+      ]
+    }
+  ],
+  "image_sha256": "ea049f276fa96acab52f8ad57e91d9eb597fa6ee8703f7c639a812cb72a405bb",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "[[0- 0哑@呗 @0四皿佃 叩@@0[}:哑皿",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "[[0- 0哑@呗",
+      "confidence": 3.249853060696715e-07,
+      "box": [
+        33.0,
+        7.0,
+        711.0,
+        71.0
+      ]
+    },
+    {
+      "text": "@0四皿佃",
+      "confidence": 2.5759202654607022e-05,
+      "box": [
+        187.0,
+        69.0,
+        553.0,
+        133.0
+      ]
+    },
+    {
+      "text": "叩@@0[}:哑皿",
+      "confidence": 6.36680518074868e-07,
+      "box": [
+        8.0,
+        424.0,
+        733.0,
+        504.0
+      ]
+    }
+  ],
+  "image_sha256": "e79fa35acdc14b9ad22a2ed540d8036c97340c3f2529ac1e74be14cc58df09d3",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

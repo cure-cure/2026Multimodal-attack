@@ -1,0 +1,63 @@
+{
+  "ocr_text": "M 99 Tn bigstockcom 127284368",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "M",
+      "confidence": 0.00070286386094498,
+      "box": [
+        167.0,
+        195.0,
+        293.0,
+        257.0
+      ]
+    },
+    {
+      "text": "99",
+      "confidence": 0.09416478721366493,
+      "box": [
+        297.0,
+        349.0,
+        321.0,
+        363.0
+      ]
+    },
+    {
+      "text": "Tn",
+      "confidence": 0.08821587351792454,
+      "box": [
+        100.0,
+        456.0,
+        128.0,
+        464.0
+      ]
+    },
+    {
+      "text": "bigstockcom",
+      "confidence": 0.853779817607406,
+      "box": [
+        131.0,
+        453.0,
+        217.0,
+        469.0
+      ]
+    },
+    {
+      "text": "127284368",
+      "confidence": 0.9983093345860303,
+      "box": [
+        227.0,
+        451.0,
+        301.0,
+        467.0
+      ]
+    }
+  ],
+  "image_sha256": "7a5695027829fadae35103f4e749702e2aff96bbece9824649bd285c9804bcc9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

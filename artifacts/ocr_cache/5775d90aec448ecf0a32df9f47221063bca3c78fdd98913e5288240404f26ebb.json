@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Shterssk Wshutterstock.com . 3593055",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Shterssk",
+      "confidence": 0.09325166837556027,
+      "box": [
+        19.0,
+        199.0,
+        284.0,
+        252.0
+      ]
+    },
+    {
+      "text": "Wshutterstock.com . 3593055",
+      "confidence": 0.41857671186344575,
+      "box": [
+        51.0,
+        453.0,
+        253.0,
+        469.0
+      ]
+    }
+  ],
+  "image_sha256": "5775d90aec448ecf0a32df9f47221063bca3c78fdd98913e5288240404f26ebb",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

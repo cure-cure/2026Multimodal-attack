@@ -1,0 +1,23 @@
+{
+  "ocr_text": "EsTON",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "EsTON",
+      "confidence": 0.36806023380883146,
+      "box": [
+        115.5928435361255,
+        9.552393667285365,
+        219.4071564638745,
+        117.44760633271464
+      ]
+    }
+  ],
+  "image_sha256": "daf383fdbffed4d5f2a83a6af1f7be13d062aa2620e217306b13a1022003b477",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "RJres",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "RJres",
+      "confidence": 0.1553214640637693,
+      "box": [
+        69.0,
+        189.0,
+        167.0,
+        231.0
+      ]
+    }
+  ],
+  "image_sha256": "96f379374398d64457759f01e67e6a5602d5d8c3a1bd406fc2037cd3eb24ef29",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "DRUG FREE ZONE",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "DRUG",
+      "confidence": 0.6013445036582986,
+      "box": [
+        32.0,
+        23.0,
+        128.0,
+        66.0
+      ]
+    },
+    {
+      "text": "FREE",
+      "confidence": 0.9940911531448364,
+      "box": [
+        35.0,
+        69.0,
+        125.0,
+        113.0
+      ]
+    },
+    {
+      "text": "ZONE",
+      "confidence": 0.9961618185043335,
+      "box": [
+        30.0,
+        114.0,
+        128.0,
+        162.0
+      ]
+    }
+  ],
+  "image_sha256": "2921d76727fd68e064e6517fc7db7081742a4b96d8b8f0a89a1a3a399552913a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "shutterstock.com 1425719329",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "shutterstock.com",
+      "confidence": 0.6920912293549593,
+      "box": [
+        119.0,
+        265.0,
+        207.0,
+        279.0
+      ]
+    },
+    {
+      "text": "1425719329",
+      "confidence": 0.6913132723123773,
+      "box": [
+        211.0,
+        265.0,
+        275.0,
+        279.0
+      ]
+    }
+  ],
+  "image_sha256": "3e420011fbb0dcc408bfdc76cbe6beb71c959e0b6f462d6ee83f72e4da5802a4",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

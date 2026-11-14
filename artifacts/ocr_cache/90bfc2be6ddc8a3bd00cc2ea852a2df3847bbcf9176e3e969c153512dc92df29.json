@@ -1,0 +1,1013 @@
+{
+  "ocr_text": "[eFl Recces jO 58 |B@& ZR@ wiih @hshole Soltms8 ormnke Your Predectr andYarke Tove that kum: Jsconrrirslr e(Juwv Tgh DnTUAC Jcscly CaCNooelr qor Pric  orr C-1C11 <4TC CU (ou OUCOoItCruUL UCCO MCC TC』rrT OCol 310 CTONCu UUC C1mr sapool S14C1eT TIct CyT0Lol TCT NSu OCC]UL (T(UJorc manirr +1912 TV1 C uorecroquC(c (wt NTS prclenrol Ins JpCo TmT Drnnoitccnlcino MIT legaly C ITMT CSt1TICC cchwricerC Darforon tinges welgcrllin The furcmunal srider CUUTOT Cslsnls colmrbcleISc cInlen Cmscitttive Iegalsoi Iat TTTUITC S and thesIgnung CTCNCcc I chiir OOT TTIee MUCIL JCtine CTlT frost ofer ofteme for our Icotl hur Winge by barly WiI eber; Bc 1007021 Concenonrerd But the 9st you guedary_ Wustiren dowgroatd; mery onne Io folce unan be TIOT Cresoles Leaturr OVer gcroun feel cigierou apcroulfing Contval rcdse / the Rlee noralcer thay Hrsct h rcleme the fert Tars Dol Lhc Eredond remcd Tow Uhe Igcralice Your tery on faceloyall olicies your wach the lestimer Iwely ehter CuJonnu can Chedow righ to gher Cechboud lenge bebred tinree frace; ahves co in greer fceatve cut the outnclat Teris cae shat oner sold youlatter honia Feelare povacatic ellect There are gusd heldin fantulr Tay 7y ogoi LhLu Ihn gave I facr TNere gorld",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "[eFl Recces",
+      "confidence": 0.0030679784808390815,
+      "box": [
+        56.0,
+        26.0,
+        866.0,
+        196.0
+      ]
+    },
+    {
+      "text": "jO",
+      "confidence": 0.0004711390826156641,
+      "box": [
+        851.0,
+        93.0,
+        965.0,
+        157.0
+      ]
+    },
+    {
+      "text": "58 |B@&",
+      "confidence": 9.204769566026187e-05,
+      "box": [
+        68.0,
+        185.0,
+        945.0,
+        326.0
+      ]
+    },
+    {
+      "text": "ZR@ wiih",
+      "confidence": 0.08926753241492441,
+      "box": [
+        241.0,
+        339.0,
+        765.0,
+        488.0
+      ]
+    },
+    {
+      "text": "@hshole Soltms8",
+      "confidence": 0.010855038620978046,
+      "box": [
+        153.0,
+        506.0,
+        864.0,
+        608.0
+      ]
+    },
+    {
+      "text": "ormnke",
+      "confidence": 0.13804623222960755,
+      "box": [
+        333.0,
+        721.0,
+        403.0,
+        735.0
+      ]
+    },
+    {
+      "text": "Your Predectr andYarke Tove that kum:",
+      "confidence": 0.4318870035054148,
+      "box": [
+        406.0,
+        705.0,
+        761.0,
+        736.0
+      ]
+    },
+    {
+      "text": "Jsconrrirslr",
+      "confidence": 0.00924624794968883,
+      "box": [
+        370.0,
+        732.0,
+        463.0,
+        744.0
+      ]
+    },
+    {
+      "text": "e(Juwv",
+      "confidence": 0.007088298976336539,
+      "box": [
+        466.0,
+        736.0,
+        508.0,
+        742.0
+      ]
+    },
+    {
+      "text": "Tgh DnTUAC",
+      "confidence": 0.00643924123175391,
+      "box": [
+        586.0,
+        732.0,
+        650.0,
+        740.0
+      ]
+    },
+    {
+      "text": "Jcscly",
+      "confidence": 0.01396560305202328,
+      "box": [
+        718.0,
+        726.0,
+        771.0,
+        739.0
+      ]
+    },
+    {
+      "text": "CaCNooelr",
+      "confidence": 0.037020961801405926,
+      "box": [
+        278.0,
+        742.0,
+        354.0,
+        750.0
+      ]
+    },
+    {
+      "text": "qor",
+      "confidence": 0.03729330452627531,
+      "box": [
+        360.0,
+        744.0,
+        386.0,
+        752.0
+      ]
+    },
+    {
+      "text": "Pric  orr",
+      "confidence": 0.20171095901332853,
+      "box": [
+        519.0,
+        743.0,
+        573.0,
+        755.0
+      ]
+    },
+    {
+      "text": "C-1C11",
+      "confidence": 0.059626552434102364,
+      "box": [
+        576.0,
+        742.0,
+        630.0,
+        750.0
+      ]
+    },
+    {
+      "text": "<4TC",
+      "confidence": 0.07563911378383636,
+      "box": [
+        652.0,
+        742.0,
+        694.0,
+        750.0
+      ]
+    },
+    {
+      "text": "CU (ou",
+      "confidence": 0.2485069806455637,
+      "box": [
+        727.0,
+        737.0,
+        785.0,
+        749.0
+      ]
+    },
+    {
+      "text": "OUCOoItCruUL UCCO",
+      "confidence": 0.0015926991827441036,
+      "box": [
+        392.0,
+        746.0,
+        510.0,
+        754.0
+      ]
+    },
+    {
+      "text": "MCC",
+      "confidence": 0.04251580793736766,
+      "box": [
+        242.0,
+        756.0,
+        268.0,
+        764.0
+      ]
+    },
+    {
+      "text": "TC』rrT",
+      "confidence": 0.18239660304294872,
+      "box": [
+        272.0,
+        754.0,
+        306.0,
+        762.0
+      ]
+    },
+    {
+      "text": "OCol",
+      "confidence": 0.02009040117263794,
+      "box": [
+        310.0,
+        754.0,
+        364.0,
+        762.0
+      ]
+    },
+    {
+      "text": "310",
+      "confidence": 0.07210104546589828,
+      "box": [
+        368.0,
+        756.0,
+        392.0,
+        764.0
+      ]
+    },
+    {
+      "text": "CTONCu",
+      "confidence": 0.020761039376536047,
+      "box": [
+        396.0,
+        756.0,
+        434.0,
+        764.0
+      ]
+    },
+    {
+      "text": "UUC",
+      "confidence": 0.1313373862352902,
+      "box": [
+        438.0,
+        756.0,
+        460.0,
+        764.0
+      ]
+    },
+    {
+      "text": "C1mr",
+      "confidence": 0.10869261622428894,
+      "box": [
+        470.0,
+        756.0,
+        496.0,
+        764.0
+      ]
+    },
+    {
+      "text": "sapool",
+      "confidence": 0.12977630204538504,
+      "box": [
+        520.0,
+        752.0,
+        565.0,
+        766.0
+      ]
+    },
+    {
+      "text": "S14C1eT",
+      "confidence": 0.10996178126763899,
+      "box": [
+        588.0,
+        754.0,
+        628.0,
+        762.0
+      ]
+    },
+    {
+      "text": "TIct",
+      "confidence": 0.037144992500543594,
+      "box": [
+        632.0,
+        752.0,
+        660.0,
+        760.0
+      ]
+    },
+    {
+      "text": "CyT0Lol",
+      "confidence": 0.015898712400309992,
+      "box": [
+        664.0,
+        752.0,
+        718.0,
+        760.0
+      ]
+    },
+    {
+      "text": "TCT NSu",
+      "confidence": 0.014957135390256967,
+      "box": [
+        740.0,
+        750.0,
+        794.0,
+        758.0
+      ]
+    },
+    {
+      "text": "OCC]UL",
+      "confidence": 0.2767317561312109,
+      "box": [
+        272.0,
+        766.0,
+        362.0,
+        774.0
+      ]
+    },
+    {
+      "text": "(T(UJorc",
+      "confidence": 0.029934232122695068,
+      "box": [
+        366.0,
+        766.0,
+        430.0,
+        774.0
+      ]
+    },
+    {
+      "text": "manirr",
+      "confidence": 0.1696937819080512,
+      "box": [
+        432.0,
+        763.0,
+        495.0,
+        777.0
+      ]
+    },
+    {
+      "text": "+1912",
+      "confidence": 0.11389095027598556,
+      "box": [
+        500.0,
+        766.0,
+        526.0,
+        774.0
+      ]
+    },
+    {
+      "text": "TV1 C",
+      "confidence": 0.013679475238970899,
+      "box": [
+        536.0,
+        766.0,
+        576.0,
+        774.0
+      ]
+    },
+    {
+      "text": "uorecroquC(c (wt",
+      "confidence": 0.01933870476370039,
+      "box": [
+        581.0,
+        760.0,
+        747.0,
+        775.0
+      ]
+    },
+    {
+      "text": "NTS",
+      "confidence": 0.05774982321737929,
+      "box": [
+        756.0,
+        762.0,
+        786.0,
+        768.0
+      ]
+    },
+    {
+      "text": "prclenrol Ins",
+      "confidence": 0.3393476010487028,
+      "box": [
+        222.0,
+        773.0,
+        313.0,
+        789.0
+      ]
+    },
+    {
+      "text": "JpCo",
+      "confidence": 0.0025843086186796427,
+      "box": [
+        316.0,
+        778.0,
+        354.0,
+        786.0
+      ]
+    },
+    {
+      "text": "TmT",
+      "confidence": 0.17860702221675487,
+      "box": [
+        360.0,
+        778.0,
+        388.0,
+        786.0
+      ]
+    },
+    {
+      "text": "Drnnoitccnlcino",
+      "confidence": 0.10486015700263399,
+      "box": [
+        415.0,
+        777.0,
+        549.0,
+        789.0
+      ]
+    },
+    {
+      "text": "MIT",
+      "confidence": 0.10289897673607146,
+      "box": [
+        564.0,
+        776.0,
+        592.0,
+        784.0
+      ]
+    },
+    {
+      "text": "legaly",
+      "confidence": 0.3396195443573434,
+      "box": [
+        629.0,
+        773.0,
+        671.0,
+        787.0
+      ]
+    },
+    {
+      "text": "C",
+      "confidence": 0.3993212039109153,
+      "box": [
+        674.0,
+        776.0,
+        696.0,
+        782.0
+      ]
+    },
+    {
+      "text": "ITMT",
+      "confidence": 0.05228780210018158,
+      "box": [
+        700.0,
+        774.0,
+        744.0,
+        782.0
+      ]
+    },
+    {
+      "text": "CSt1TICC",
+      "confidence": 0.07335066240242441,
+      "box": [
+        748.0,
+        774.0,
+        816.0,
+        782.0
+      ]
+    },
+    {
+      "text": "cchwricerC Darforon tinges",
+      "confidence": 0.26127364521758784,
+      "box": [
+        203.0,
+        788.0,
+        395.0,
+        806.0
+      ]
+    },
+    {
+      "text": "welgcrllin The furcmunal srider",
+      "confidence": 0.37414651045427394,
+      "box": [
+        451.0,
+        786.0,
+        689.0,
+        803.0
+      ]
+    },
+    {
+      "text": "CUUTOT",
+      "confidence": 0.12214882151556217,
+      "box": [
+        716.0,
+        788.0,
+        764.0,
+        796.0
+      ]
+    },
+    {
+      "text": "Cslsnls",
+      "confidence": 0.2479546117018132,
+      "box": [
+        771.0,
+        785.0,
+        833.0,
+        797.0
+      ]
+    },
+    {
+      "text": "colmrbcleISc cInlen",
+      "confidence": 0.1308276442078174,
+      "box": [
+        191.0,
+        805.0,
+        349.0,
+        819.0
+      ]
+    },
+    {
+      "text": "Cmscitttive Iegalsoi",
+      "confidence": 0.38604658978468226,
+      "box": [
+        389.0,
+        803.0,
+        519.0,
+        819.0
+      ]
+    },
+    {
+      "text": "Iat",
+      "confidence": 0.9670693199282807,
+      "box": [
+        567.0,
+        803.0,
+        597.0,
+        815.0
+      ]
+    },
+    {
+      "text": "TTTUITC S",
+      "confidence": 0.10625188430118117,
+      "box": [
+        600.0,
+        804.0,
+        646.0,
+        812.0
+      ]
+    },
+    {
+      "text": "and thesIgnung",
+      "confidence": 0.45476131091668853,
+      "box": [
+        655.0,
+        801.0,
+        767.0,
+        815.0
+      ]
+    },
+    {
+      "text": "CTCNCcc",
+      "confidence": 0.0013972080028877738,
+      "box": [
+        206.0,
+        822.0,
+        262.0,
+        830.0
+      ]
+    },
+    {
+      "text": "I chiir",
+      "confidence": 0.15557935320284993,
+      "box": [
+        267.0,
+        821.0,
+        315.0,
+        835.0
+      ]
+    },
+    {
+      "text": "OOT",
+      "confidence": 0.028099650589725703,
+      "box": [
+        318.0,
+        824.0,
+        344.0,
+        830.0
+      ]
+    },
+    {
+      "text": "TTIee",
+      "confidence": 0.01651078081595795,
+      "box": [
+        350.0,
+        822.0,
+        398.0,
+        830.0
+      ]
+    },
+    {
+      "text": "MUCIL",
+      "confidence": 0.20999897024518416,
+      "box": [
+        444.0,
+        822.0,
+        480.0,
+        830.0
+      ]
+    },
+    {
+      "text": "JCtine",
+      "confidence": 0.5737309451978285,
+      "box": [
+        483.0,
+        821.0,
+        529.0,
+        833.0
+      ]
+    },
+    {
+      "text": "CTlT",
+      "confidence": 0.0699651688337326,
+      "box": [
+        532.0,
+        822.0,
+        554.0,
+        830.0
+      ]
+    },
+    {
+      "text": "frost ofer ofteme",
+      "confidence": 0.3923669413126088,
+      "box": [
+        559.0,
+        817.0,
+        691.0,
+        833.0
+      ]
+    },
+    {
+      "text": "for our",
+      "confidence": 0.6135011614645732,
+      "box": [
+        703.0,
+        817.0,
+        763.0,
+        831.0
+      ]
+    },
+    {
+      "text": "Icotl",
+      "confidence": 0.15951979872572472,
+      "box": [
+        789.0,
+        813.0,
+        851.0,
+        827.0
+      ]
+    },
+    {
+      "text": "hur Winge by barly WiI",
+      "confidence": 0.21163015698066384,
+      "box": [
+        201.0,
+        837.0,
+        371.0,
+        853.0
+      ]
+    },
+    {
+      "text": "eber; Bc 1007021 Concenonrerd",
+      "confidence": 0.42340613712124636,
+      "box": [
+        377.0,
+        832.0,
+        609.0,
+        850.0
+      ]
+    },
+    {
+      "text": "But the",
+      "confidence": 0.9003016813641282,
+      "box": [
+        615.0,
+        833.0,
+        671.0,
+        847.0
+      ]
+    },
+    {
+      "text": "9st you guedary_",
+      "confidence": 0.18822929457757873,
+      "box": [
+        683.0,
+        827.0,
+        831.0,
+        847.0
+      ]
+    },
+    {
+      "text": "Wustiren dowgroatd; mery onne Io folce unan be",
+      "confidence": 0.10796750606606055,
+      "box": [
+        169.0,
+        851.0,
+        511.0,
+        869.0
+      ]
+    },
+    {
+      "text": "TIOT",
+      "confidence": 0.05633790045976639,
+      "box": [
+        514.0,
+        856.0,
+        542.0,
+        864.0
+      ]
+    },
+    {
+      "text": "Cresoles Leaturr",
+      "confidence": 0.367816635365834,
+      "box": [
+        546.0,
+        850.0,
+        659.0,
+        868.0
+      ]
+    },
+    {
+      "text": "OVer gcroun feel cigierou",
+      "confidence": 0.24235820434648014,
+      "box": [
+        665.0,
+        847.0,
+        869.0,
+        863.0
+      ]
+    },
+    {
+      "text": "apcroulfing",
+      "confidence": 0.517037917244083,
+      "box": [
+        143.0,
+        869.0,
+        225.0,
+        885.0
+      ]
+    },
+    {
+      "text": "Contval rcdse",
+      "confidence": 0.26186013286021625,
+      "box": [
+        229.0,
+        869.0,
+        331.0,
+        883.0
+      ]
+    },
+    {
+      "text": "/ the Rlee noralcer thay Hrsct",
+      "confidence": 0.11650520685260538,
+      "box": [
+        343.0,
+        869.0,
+        575.0,
+        883.0
+      ]
+    },
+    {
+      "text": "h rcleme the fert Tars",
+      "confidence": 0.38614443195585163,
+      "box": [
+        579.0,
+        865.0,
+        751.0,
+        881.0
+      ]
+    },
+    {
+      "text": "Dol",
+      "confidence": 0.34371532902834157,
+      "box": [
+        755.0,
+        865.0,
+        793.0,
+        877.0
+      ]
+    },
+    {
+      "text": "Lhc Eredond",
+      "confidence": 0.1803391609434456,
+      "box": [
+        797.0,
+        861.0,
+        893.0,
+        875.0
+      ]
+    },
+    {
+      "text": "remcd Tow Uhe Igcralice Your",
+      "confidence": 0.13251758594416194,
+      "box": [
+        121.0,
+        885.0,
+        341.0,
+        901.0
+      ]
+    },
+    {
+      "text": "tery on faceloyall",
+      "confidence": 0.4961795974786338,
+      "box": [
+        349.0,
+        885.0,
+        481.0,
+        899.0
+      ]
+    },
+    {
+      "text": "olicies your wach the lestimer",
+      "confidence": 0.6748962288487234,
+      "box": [
+        525.0,
+        881.0,
+        743.0,
+        901.0
+      ]
+    },
+    {
+      "text": "Iwely ehter",
+      "confidence": 0.39771546857867535,
+      "box": [
+        759.0,
+        879.0,
+        843.0,
+        895.0
+      ]
+    },
+    {
+      "text": "CuJonnu",
+      "confidence": 0.11893652894007017,
+      "box": [
+        847.0,
+        877.0,
+        915.0,
+        891.0
+      ]
+    },
+    {
+      "text": "can Chedow righ to gher Cechboud lenge bebred tinree frace; ahves co",
+      "confidence": 0.2737283898251371,
+      "box": [
+        141.0,
+        913.0,
+        653.0,
+        934.0
+      ]
+    },
+    {
+      "text": "in greer fceatve cut the outnclat",
+      "confidence": 0.4180172053030199,
+      "box": [
+        696.0,
+        906.0,
+        938.0,
+        930.0
+      ]
+    },
+    {
+      "text": "Teris cae shat oner sold youlatter",
+      "confidence": 0.27098215616890536,
+      "box": [
+        131.0,
+        935.0,
+        379.0,
+        955.0
+      ]
+    },
+    {
+      "text": "honia Feelare",
+      "confidence": 0.5528193915832077,
+      "box": [
+        421.0,
+        937.0,
+        521.0,
+        953.0
+      ]
+    },
+    {
+      "text": "povacatic ellect There are",
+      "confidence": 0.7155429501512272,
+      "box": [
+        521.0,
+        932.0,
+        718.0,
+        956.0
+      ]
+    },
+    {
+      "text": "gusd heldin fantulr",
+      "confidence": 0.7324234912745136,
+      "box": [
+        728.0,
+        926.0,
+        878.0,
+        950.0
+      ]
+    },
+    {
+      "text": "Tay",
+      "confidence": 0.9871922210364402,
+      "box": [
+        290.0715892143924,
+        716.230163555236,
+        333.9284107856076,
+        738.769836444764
+      ]
+    },
+    {
+      "text": "7y",
+      "confidence": 0.0037120876337244225,
+      "box": [
+        508.07152330911475,
+        731.7285398349782,
+        550.9284766908853,
+        743.2714601650218
+      ]
+    },
+    {
+      "text": "ogoi",
+      "confidence": 0.38727253675460815,
+      "box": [
+        804.2567058537528,
+        796.600414579486,
+        846.7432941462472,
+        814.399585420514
+      ]
+    },
+    {
+      "text": "LhLu",
+      "confidence": 0.027159545570611954,
+      "box": [
+        766.1425070742874,
+        797.6334754816176,
+        802.8574929257126,
+        811.3665245183824
+      ]
+    },
+    {
+      "text": "Ihn",
+      "confidence": 0.7363406829757794,
+      "box": [
+        519.0298574998546,
+        802.1862665287932,
+        552.9701425001454,
+        817.8137334712068
+      ]
+    },
+    {
+      "text": "gave",
+      "confidence": 0.3849389851093292,
+      "box": [
+        347.2567058537528,
+        803.5630960372631,
+        386.7432941462472,
+        821.4369039627369
+      ]
+    },
+    {
+      "text": "I",
+      "confidence": 0.8386508393697092,
+      "box": [
+        485.05501392655975,
+        884.1679497056622,
+        512.9449860734403,
+        900.8320502943378
+      ]
+    },
+    {
+      "text": "facr",
+      "confidence": 0.533321738243103,
+      "box": [
+        650.0424187494942,
+        909.230163555236,
+        696.9575812505058,
+        931.769836444764
+      ]
+    },
+    {
+      "text": "TNere",
+      "confidence": 0.3425524719900084,
+      "box": [
+        101.0203972993585,
+        911.1258427238785,
+        141.9796027006415,
+        930.8741572761215
+      ]
+    },
+    {
+      "text": "gorld",
+      "confidence": 0.9764197308218203,
+      "box": [
+        376.6546544120074,
+        935.1250685623014,
+        420.3453455879926,
+        954.8749314376986
+      ]
+    }
+  ],
+  "image_sha256": "90bfc2be6ddc8a3bd00cc2ea852a2df3847bbcf9176e3e969c153512dc92df29",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

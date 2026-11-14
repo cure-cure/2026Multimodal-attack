@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Iqwwo /1331",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Iqwwo",
+      "confidence": 0.010726100806085895,
+      "box": [
+        376.0,
+        575.0,
+        445.0,
+        591.0
+      ]
+    },
+    {
+      "text": "/1331",
+      "confidence": 0.04050709509780616,
+      "box": [
+        249.0,
+        619.0,
+        339.0,
+        663.0
+      ]
+    }
+  ],
+  "image_sha256": "84180f484651b7932970bc2be196c171f8bbbb8339a65a6829c2e3ce727cb4e0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

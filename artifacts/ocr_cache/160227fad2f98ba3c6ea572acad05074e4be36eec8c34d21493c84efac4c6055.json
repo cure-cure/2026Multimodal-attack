@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Promise me YoU wont cutagain? promise",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Promise me YoU wont",
+      "confidence": 0.5782297365665243,
+      "box": [
+        99.0,
+        451.0,
+        411.0,
+        493.0
+      ]
+    },
+    {
+      "text": "cutagain?",
+      "confidence": 0.8567952552737079,
+      "box": [
+        406.0,
+        447.0,
+        554.0,
+        499.0
+      ]
+    },
+    {
+      "text": "promise",
+      "confidence": 0.9968090490952656,
+      "box": [
+        261.0,
+        503.0,
+        375.0,
+        541.0
+      ]
+    }
+  ],
+  "image_sha256": "160227fad2f98ba3c6ea572acad05074e4be36eec8c34d21493c84efac4c6055",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

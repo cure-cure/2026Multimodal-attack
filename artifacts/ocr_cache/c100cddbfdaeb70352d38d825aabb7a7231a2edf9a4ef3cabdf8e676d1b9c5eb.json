@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Nn CIUOI SHUIaA",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Nn CIUOI SHUIaA",
+      "confidence": 0.029459192714385674,
+      "box": [
+        10.0,
+        325.0,
+        113.0,
+        334.0
+      ]
+    }
+  ],
+  "image_sha256": "c100cddbfdaeb70352d38d825aabb7a7231a2edf9a4ef3cabdf8e676d1b9c5eb",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

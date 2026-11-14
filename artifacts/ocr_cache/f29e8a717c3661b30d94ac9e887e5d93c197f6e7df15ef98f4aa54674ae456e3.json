@@ -1,0 +1,43 @@
+{
+  "ocr_text": "heBShor Withouteyelirlg 50te6娈哑酯0-m@t88 the叩etioWgagCB8g l3li+[吣吣",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "heBShor Withouteyelirlg",
+      "confidence": 0.0341047896198721,
+      "box": [
+        72.0,
+        0.0,
+        474.0,
+        52.0
+      ]
+    },
+    {
+      "text": "50te6娈哑酯0-m@t88",
+      "confidence": 4.992494383713978e-07,
+      "box": [
+        2.0,
+        276.0,
+        546.0,
+        332.0
+      ]
+    },
+    {
+      "text": "the叩etioWgagCB8g l3li+[吣吣",
+      "confidence": 1.0455778577006012e-05,
+      "box": [
+        0.0,
+        318.0,
+        550.0,
+        366.0
+      ]
+    }
+  ],
+  "image_sha256": "f29e8a717c3661b30d94ac9e887e5d93c197f6e7df15ef98f4aa54674ae456e3",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

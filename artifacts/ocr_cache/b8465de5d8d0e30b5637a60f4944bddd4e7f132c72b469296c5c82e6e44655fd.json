@@ -1,0 +1,23 @@
+{
+  "ocr_text": "COCAIIE",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "COCAIIE",
+      "confidence": 0.6646795246563572,
+      "box": [
+        163.0,
+        169.0,
+        213.0,
+        181.0
+      ]
+    }
+  ],
+  "image_sha256": "b8465de5d8d0e30b5637a60f4944bddd4e7f132c72b469296c5c82e6e44655fd",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

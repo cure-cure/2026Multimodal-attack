@@ -1,0 +1,43 @@
+{
+  "ocr_text": "v鸥 WIN,Shutterstockcom 44563264",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "v鸥",
+      "confidence": 9.599654079383955e-05,
+      "box": [
+        173.0,
+        135.0,
+        267.0,
+        173.0
+      ]
+    },
+    {
+      "text": "WIN,Shutterstockcom",
+      "confidence": 0.19084860414689625,
+      "box": [
+        121.0,
+        303.0,
+        257.0,
+        317.0
+      ]
+    },
+    {
+      "text": "44563264",
+      "confidence": 0.989362929575974,
+      "box": [
+        263.0,
+        301.0,
+        331.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "d84530341304d60ea7860fbdca1c7a6ae55ee7986d4822791710028f94fa9bd4",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

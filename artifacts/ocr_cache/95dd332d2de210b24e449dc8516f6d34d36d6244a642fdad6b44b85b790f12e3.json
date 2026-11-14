@@ -1,0 +1,23 @@
+{
+  "ocr_text": "YouTubexavier James",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "YouTubexavier James",
+      "confidence": 0.5290413659515804,
+      "box": [
+        17.0,
+        617.0,
+        151.0,
+        631.0
+      ]
+    }
+  ],
+  "image_sha256": "95dd332d2de210b24e449dc8516f6d34d36d6244a642fdad6b44b85b790f12e3",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

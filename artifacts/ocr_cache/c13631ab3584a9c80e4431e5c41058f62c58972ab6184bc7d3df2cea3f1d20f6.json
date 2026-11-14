@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Jtnut SPIRITUAL EMPATH",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Jtnut",
+      "confidence": 0.034128450380211825,
+      "box": [
+        20.0,
+        10.0,
+        44.0,
+        16.0
+      ]
+    },
+    {
+      "text": "SPIRITUAL",
+      "confidence": 0.8513467987512421,
+      "box": [
+        2.0,
+        38.0,
+        136.0,
+        64.0
+      ]
+    },
+    {
+      "text": "EMPATH",
+      "confidence": 0.9560318823365815,
+      "box": [
+        14.0,
+        65.0,
+        125.0,
+        93.0
+      ]
+    }
+  ],
+  "image_sha256": "c13631ab3584a9c80e4431e5c41058f62c58972ab6184bc7d3df2cea3f1d20f6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

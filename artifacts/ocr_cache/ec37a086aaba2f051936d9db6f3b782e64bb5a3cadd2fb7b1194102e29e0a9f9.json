@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Orthodox church W bigstockcom 303427432",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Orthodox church",
+      "confidence": 0.881579870037038,
+      "box": [
+        128.0,
+        37.0,
+        320.0,
+        68.0
+      ]
+    },
+    {
+      "text": "W bigstockcom",
+      "confidence": 0.6289058780703907,
+      "box": [
+        123.0,
+        453.0,
+        243.0,
+        469.0
+      ]
+    },
+    {
+      "text": "303427432",
+      "confidence": 0.9999334006346898,
+      "box": [
+        253.0,
+        451.0,
+        327.0,
+        467.0
+      ]
+    }
+  ],
+  "image_sha256": "ec37a086aaba2f051936d9db6f3b782e64bb5a3cadd2fb7b1194102e29e0a9f9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

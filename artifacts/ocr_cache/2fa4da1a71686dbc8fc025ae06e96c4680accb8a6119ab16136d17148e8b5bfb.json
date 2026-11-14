@@ -1,0 +1,23 @@
+{
+  "ocr_text": "罡",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "罡",
+      "confidence": 0.0024865862092172814,
+      "box": [
+        968.4781819497144,
+        773.1574177023779,
+        1009.5218180502856,
+        863.8425822976221
+      ]
+    }
+  ],
+  "image_sha256": "2fa4da1a71686dbc8fc025ae06e96c4680accb8a6119ab16136d17148e8b5bfb",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

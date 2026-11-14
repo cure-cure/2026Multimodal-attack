@@ -1,0 +1,23 @@
+{
+  "ocr_text": "hhs 167",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "hhs 167",
+      "confidence": 0.1595261075108623,
+      "box": [
+        283.0,
+        467.0,
+        325.0,
+        479.0
+      ]
+    }
+  ],
+  "image_sha256": "3a3242dd82df1f85dcc6a10934ece8230c469716cd193642cc937d0a723e9a44",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

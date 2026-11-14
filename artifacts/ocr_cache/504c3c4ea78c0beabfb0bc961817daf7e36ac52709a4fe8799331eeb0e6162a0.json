@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Obtaining the Promises Of God",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Obtaining the",
+      "confidence": 0.9136472070122543,
+      "box": [
+        98.0,
+        110.0,
+        352.0,
+        158.0
+      ]
+    },
+    {
+      "text": "Promises Of God",
+      "confidence": 0.7569630885519282,
+      "box": [
+        69.0,
+        177.0,
+        379.0,
+        219.0
+      ]
+    }
+  ],
+  "image_sha256": "504c3c4ea78c0beabfb0bc961817daf7e36ac52709a4fe8799331eeb0e6162a0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

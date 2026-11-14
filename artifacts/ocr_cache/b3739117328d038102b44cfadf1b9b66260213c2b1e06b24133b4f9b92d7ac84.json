@@ -1,0 +1,53 @@
+{
+  "ocr_text": "吣t@\"{ 咖8l吧 0##@@吣 @D WillIeaVB4.8。 Should WBhelher IaBK ?",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "吣t@\"{",
+      "confidence": 8.459856890644685e-05,
+      "box": [
+        132.0,
+        2.0,
+        460.0,
+        52.0
+      ]
+    },
+    {
+      "text": "咖8l吧 0##@@吣 ",
+      "confidence": 1.0019749226969645e-06,
+      "box": [
+        52.0,
+        44.0,
+        530.0,
+        94.0
+      ]
+    },
+    {
+      "text": "@D WillIeaVB4.8。",
+      "confidence": 0.021782982928969838,
+      "box": [
+        110.0,
+        88.0,
+        448.0,
+        139.0
+      ]
+    },
+    {
+      "text": "Should WBhelher IaBK ?",
+      "confidence": 0.09712939786609956,
+      "box": [
+        97.0,
+        750.0,
+        493.0,
+        794.0
+      ]
+    }
+  ],
+  "image_sha256": "b3739117328d038102b44cfadf1b9b66260213c2b1e06b24133b4f9b92d7ac84",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

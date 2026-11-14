@@ -1,0 +1,43 @@
+{
+  "ocr_text": "WHATIS DISCIPLESHIP? DIsCIPLEWOMAN.COM",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WHATIS",
+      "confidence": 0.8524737208936035,
+      "box": [
+        104.0,
+        154.0,
+        230.0,
+        184.0
+      ]
+    },
+    {
+      "text": "DISCIPLESHIP?",
+      "confidence": 0.9126386978717538,
+      "box": [
+        22.0,
+        192.0,
+        230.0,
+        224.0
+      ]
+    },
+    {
+      "text": "DIsCIPLEWOMAN.COM",
+      "confidence": 0.5713710178292423,
+      "box": [
+        31.0,
+        311.0,
+        205.0,
+        327.0
+      ]
+    }
+  ],
+  "image_sha256": "113b206d4d303535be018468f2e7acfc460501d0670572b2cf30ddc99a899170",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

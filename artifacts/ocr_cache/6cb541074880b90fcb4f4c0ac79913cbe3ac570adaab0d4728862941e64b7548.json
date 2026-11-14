@@ -1,0 +1,73 @@
+{
+  "ocr_text": "SECURITY YUSEFQDEMO 岳28108 Gdoltora Ioiclef 28 30VC-0",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SECURITY",
+      "confidence": 0.7232534038033972,
+      "box": [
+        399.0,
+        367.0,
+        563.0,
+        407.0
+      ]
+    },
+    {
+      "text": "YUSEFQDEMO",
+      "confidence": 0.995543608726948,
+      "box": [
+        416.0,
+        574.0,
+        558.0,
+        600.0
+      ]
+    },
+    {
+      "text": "岳28108 Gdoltora",
+      "confidence": 0.14319226844495345,
+      "box": [
+        437.0,
+        613.0,
+        535.0,
+        629.0
+      ]
+    },
+    {
+      "text": "Ioiclef",
+      "confidence": 0.22774311744268974,
+      "box": [
+        445.0,
+        631.0,
+        485.0,
+        645.0
+      ]
+    },
+    {
+      "text": "28",
+      "confidence": 0.9992449805717795,
+      "box": [
+        398.0,
+        672.0,
+        426.0,
+        696.0
+      ]
+    },
+    {
+      "text": "30VC-0",
+      "confidence": 0.2951098499907016,
+      "box": [
+        483.0569593224337,
+        626.2761315696845,
+        527.9430406775663,
+        646.7238684303155
+      ]
+    }
+  ],
+  "image_sha256": "6cb541074880b90fcb4f4c0ac79913cbe3ac570adaab0d4728862941e64b7548",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

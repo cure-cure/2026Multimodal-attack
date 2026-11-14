@@ -1,0 +1,53 @@
+{
+  "ocr_text": "We Iust Speak for those Who Cant Speak for Ihemselves Animal Cruelty Stop",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "We Iust Speak for those",
+      "confidence": 0.6695827239532598,
+      "box": [
+        43.0,
+        1.0,
+        599.0,
+        69.0
+      ]
+    },
+    {
+      "text": "Who Cant Speak for Ihemselves",
+      "confidence": 0.8162754678401208,
+      "box": [
+        52.0,
+        55.0,
+        600.0,
+        108.0
+      ]
+    },
+    {
+      "text": "Animal Cruelty",
+      "confidence": 0.8695160197635359,
+      "box": [
+        186.0,
+        373.0,
+        611.0,
+        464.0
+      ]
+    },
+    {
+      "text": "Stop",
+      "confidence": 0.9268301129341125,
+      "box": [
+        43.28188943009814,
+        374.05883297959576,
+        190.71811056990185,
+        471.94116702040424
+      ]
+    }
+  ],
+  "image_sha256": "c9fbcfe11995f7918f0f0ebe0fed8d9896797489ce1c64d7d9b5f6dc19004120",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

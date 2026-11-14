@@ -1,0 +1,43 @@
+{
+  "ocr_text": "941 Omar Q Chaplis Omar Q.Age 40",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "941",
+      "confidence": 0.6983484029769897,
+      "box": [
+        347.0,
+        137.0,
+        373.0,
+        153.0
+      ]
+    },
+    {
+      "text": "Omar Q Chaplis",
+      "confidence": 0.5418734651718092,
+      "box": [
+        423.0,
+        173.0,
+        533.0,
+        193.0
+      ]
+    },
+    {
+      "text": "Omar Q.Age 40",
+      "confidence": 0.5590188405542755,
+      "box": [
+        435.0,
+        663.0,
+        535.0,
+        681.0
+      ]
+    }
+  ],
+  "image_sha256": "384e54a6de77448cea56bf4d12ce7d7783deea12a45070c1581c8a3bbff32f88",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

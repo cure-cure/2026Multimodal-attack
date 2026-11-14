@@ -1,0 +1,23 @@
+{
+  "ocr_text": "乙书?而",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "乙书?而",
+      "confidence": 0.00040497761801816523,
+      "box": [
+        376.0,
+        124.0,
+        511.0,
+        166.0
+      ]
+    }
+  ],
+  "image_sha256": "a9df047dcb52140adad0ca5c8afad4b3365b64b56a97a7c79d4efc2ece7d3cb5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

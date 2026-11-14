@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Wounds Nursing Fundamentals Chapter 28",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Wounds",
+      "confidence": 0.5997846257447782,
+      "box": [
+        255.0,
+        49.0,
+        459.0,
+        109.0
+      ]
+    },
+    {
+      "text": "Nursing Fundamentals",
+      "confidence": 0.7318763748293422,
+      "box": [
+        223.0,
+        165.0,
+        525.0,
+        203.0
+      ]
+    },
+    {
+      "text": "Chapter 28",
+      "confidence": 0.990599330417191,
+      "box": [
+        297.0,
+        206.0,
+        449.0,
+        251.0
+      ]
+    }
+  ],
+  "image_sha256": "f28c499bd43f76e0cd7c7fdf0c62bb7404d86d1bf8d4bc3faa1dcad43114e292",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "FWRC LT",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        0.0,
+        521.0,
+        53.0,
+        541.0
+      ]
+    },
+    {
+      "text": "FWRC",
+      "confidence": 0.0005852624890394509,
+      "box": [
+        856.0,
+        526.0,
+        951.0,
+        545.0
+      ]
+    },
+    {
+      "text": "LT",
+      "confidence": 0.05303349335052428,
+      "box": [
+        1000.0,
+        542.0,
+        1022.0,
+        550.0
+      ]
+    }
+  ],
+  "image_sha256": "b656aeb950889de9b57f352f2e342a4f53175fb906a0ea9703e30763ce897e11",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

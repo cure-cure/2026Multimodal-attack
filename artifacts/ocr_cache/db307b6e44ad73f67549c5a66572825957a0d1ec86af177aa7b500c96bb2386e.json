@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Sofia Placeholder Age 19",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Sofia Placeholder",
+      "confidence": 0.974083910582102,
+      "box": [
+        242.0,
+        663.0,
+        384.0,
+        690.0
+      ]
+    },
+    {
+      "text": "Age 19",
+      "confidence": 0.928767805694373,
+      "box": [
+        282.0,
+        688.0,
+        342.0,
+        712.0
+      ]
+    }
+  ],
+  "image_sha256": "db307b6e44ad73f67549c5a66572825957a0d1ec86af177aa7b500c96bb2386e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

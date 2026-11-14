@@ -1,0 +1,33 @@
+{
+  "ocr_text": "647!5h 煦",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "647!5h",
+      "confidence": 0.014357842055392478,
+      "box": [
+        63.0,
+        51.0,
+        127.0,
+        71.0
+      ]
+    },
+    {
+      "text": "煦",
+      "confidence": 0.0021960193429211433,
+      "box": [
+        57.0,
+        81.0,
+        95.0,
+        125.0
+      ]
+    }
+  ],
+  "image_sha256": "018595563a528c7b8a262e47c4153f6d772482a9f8ae5d3367e3bacdca999353",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

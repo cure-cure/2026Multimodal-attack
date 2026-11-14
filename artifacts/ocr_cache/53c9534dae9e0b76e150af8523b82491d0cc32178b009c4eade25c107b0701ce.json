@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Solutlon to Mekicans Iavinyfor 协@ IBaUBaltBGeyal3 lanyiarl te加阳O",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Solutlon to Mekicans Iavinyfor 协@",
+      "confidence": 0.021133748304341254,
+      "box": [
+        27.0,
+        7.0,
+        807.0,
+        69.0
+      ]
+    },
+    {
+      "text": "IBaUBaltBGeyal3 lanyiarl te加阳O",
+      "confidence": 0.00025207514549235047,
+      "box": [
+        13.0,
+        65.0,
+        810.0,
+        132.0
+      ]
+    }
+  ],
+  "image_sha256": "53c9534dae9e0b76e150af8523b82491d0cc32178b009c4eade25c107b0701ce",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

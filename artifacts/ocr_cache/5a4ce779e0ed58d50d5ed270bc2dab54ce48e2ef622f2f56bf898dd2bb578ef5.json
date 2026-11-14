@@ -1,0 +1,103 @@
+{
+  "ocr_text": "20195 Most Stunning Bikinis Discoverthe years hottest new bikinis SaVe With these Searches OPEN 0",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "20195 Most",
+      "confidence": 0.7017099035160886,
+      "box": [
+        24.0,
+        214.0,
+        138.0,
+        238.0
+      ]
+    },
+    {
+      "text": "Stunning",
+      "confidence": 0.9986069396603052,
+      "box": [
+        37.0,
+        237.0,
+        122.0,
+        264.0
+      ]
+    },
+    {
+      "text": "Bikinis",
+      "confidence": 0.9867165967343356,
+      "box": [
+        49.0,
+        263.0,
+        111.0,
+        283.0
+      ]
+    },
+    {
+      "text": "Discoverthe years",
+      "confidence": 0.8955190966753903,
+      "box": [
+        23.0,
+        297.0,
+        139.0,
+        315.0
+      ]
+    },
+    {
+      "text": "hottest new bikinis",
+      "confidence": 0.541275950342146,
+      "box": [
+        15.0,
+        319.0,
+        135.0,
+        335.0
+      ]
+    },
+    {
+      "text": "SaVe With these",
+      "confidence": 0.5220554382511545,
+      "box": [
+        31.0,
+        339.0,
+        131.0,
+        355.0
+      ]
+    },
+    {
+      "text": "Searches",
+      "confidence": 0.7527530716879948,
+      "box": [
+        49.0,
+        361.0,
+        109.0,
+        377.0
+      ]
+    },
+    {
+      "text": "OPEN",
+      "confidence": 0.9835187792778015,
+      "box": [
+        63.0,
+        441.0,
+        99.0,
+        457.0
+      ]
+    },
+    {
+      "text": "0",
+      "confidence": 0.016598873847471163,
+      "box": [
+        0.0,
+        580.0,
+        231.0,
+        620.0
+      ]
+    }
+  ],
+  "image_sha256": "5a4ce779e0ed58d50d5ed270bc2dab54ce48e2ef622f2f56bf898dd2bb578ef5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "8C9 Wwshutterstockcom . 73414579",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "8C9",
+      "confidence": 0.00011345716995461716,
+      "box": [
+        94.0,
+        126.0,
+        286.0,
+        174.0
+      ]
+    },
+    {
+      "text": "Wwshutterstockcom . 73414579",
+      "confidence": 0.3938464515707404,
+      "box": [
+        121.0,
+        303.0,
+        331.0,
+        319.0
+      ]
+    }
+  ],
+  "image_sha256": "bad4ac11cc15777fc736640caf94edfa7305a16396f28301a9d665d267670c8c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

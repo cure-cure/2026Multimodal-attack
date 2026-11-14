@@ -1,0 +1,43 @@
+{
+  "ocr_text": "瓯@器]阳阳-[旧80爪C血~& 9皿/虱06]t8sl@6旦 [ses8ahoI0SBMa[ aatROltlDUBR8吮印如abaf",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "瓯@器]阳阳-[旧80爪C血~&",
+      "confidence": 6.2481639962733165e-09,
+      "box": [
+        112.0,
+        10.0,
+        482.0,
+        42.0
+      ]
+    },
+    {
+      "text": "9皿/虱06]t8sl@6旦 [ses8ahoI0SBMa[",
+      "confidence": 2.303019744189404e-06,
+      "box": [
+        14.0,
+        306.0,
+        524.0,
+        336.0
+      ]
+    },
+    {
+      "text": "aatROltlDUBR8吮印如abaf",
+      "confidence": 0.00011933674849607215,
+      "box": [
+        54.0,
+        329.0,
+        484.0,
+        362.0
+      ]
+    }
+  ],
+  "image_sha256": "e6b9fc6cd2176ae4127043029a470545d2a4a19f2da486fd0628641070d0de9d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

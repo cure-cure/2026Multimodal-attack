@@ -1,0 +1,33 @@
+{
+  "ocr_text": "[yBther, My hrother; telsa[8词她町]6@",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "[yBther, My hrother;",
+      "confidence": 0.045841354046749466,
+      "box": [
+        77.0,
+        14.0,
+        458.0,
+        67.0
+      ]
+    },
+    {
+      "text": "telsa[8词她町]6@",
+      "confidence": 3.6287212710044895e-06,
+      "box": [
+        19.0,
+        289.0,
+        527.0,
+        349.0
+      ]
+    }
+  ],
+  "image_sha256": "5ba96bc5a8947065897e4e3078df9756502f4a7742a1ec24ce680f9e16ccbe78",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

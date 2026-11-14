@@ -1,0 +1,23 @@
+{
+  "ocr_text": "DEFEND YOURSELF AND RUN",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "DEFEND YOURSELF AND RUN",
+      "confidence": 0.9626827238268507,
+      "box": [
+        21.0,
+        273.0,
+        398.0,
+        306.0
+      ]
+    }
+  ],
+  "image_sha256": "dde1cdc3e887100433640ab856c611514976a0b2b536e4a32a0a04c8e6fc5638",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

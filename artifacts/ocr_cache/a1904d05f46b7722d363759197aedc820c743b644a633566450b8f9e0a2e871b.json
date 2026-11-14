@@ -1,0 +1,63 @@
+{
+  "ocr_text": "@LELRa1 red liht '跚@ GIRLS GIRLS GIRLS Ialmarl@《 WghU8h吼",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@LELRa1 red liht '跚@",
+      "confidence": 0.0006630458768881612,
+      "box": [
+        3.0,
+        7.0,
+        667.0,
+        73.0
+      ]
+    },
+    {
+      "text": "GIRLS",
+      "confidence": 0.6761587440124176,
+      "box": [
+        242.0,
+        90.0,
+        429.0,
+        152.0
+      ]
+    },
+    {
+      "text": "GIRLS",
+      "confidence": 0.5883617976369955,
+      "box": [
+        245.0,
+        153.0,
+        429.0,
+        213.0
+      ]
+    },
+    {
+      "text": "GIRLS",
+      "confidence": 0.9946529274793368,
+      "box": [
+        243.0,
+        217.0,
+        431.0,
+        279.0
+      ]
+    },
+    {
+      "text": "Ialmarl@《 WghU8h吼",
+      "confidence": 4.45950305176891e-06,
+      "box": [
+        7.0,
+        734.0,
+        677.0,
+        800.0
+      ]
+    }
+  ],
+  "image_sha256": "a1904d05f46b7722d363759197aedc820c743b644a633566450b8f9e0a2e871b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

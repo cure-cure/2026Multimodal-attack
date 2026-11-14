@@ -1,0 +1,53 @@
+{
+  "ocr_text": "C0 P Y|GA T ANDREAS H  BITESNICH NNLBIESMCHC Or",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "C0",
+      "confidence": 0.6792648187691528,
+      "box": [
+        530.0,
+        14.0,
+        582.0,
+        38.0
+      ]
+    },
+    {
+      "text": "P Y|GA T",
+      "confidence": 0.041702367522225114,
+      "box": [
+        588.0,
+        14.0,
+        766.0,
+        38.0
+      ]
+    },
+    {
+      "text": "ANDREAS H  BITESNICH",
+      "confidence": 0.23708598585732887,
+      "box": [
+        530.0,
+        38.0,
+        766.0,
+        62.0
+      ]
+    },
+    {
+      "text": "NNLBIESMCHC Or",
+      "confidence": 0.02381715946428177,
+      "box": [
+        17.0,
+        993.0,
+        181.0,
+        1011.0
+      ]
+    }
+  ],
+  "image_sha256": "77889921615dee9c0365b7846ea7c43a8d81721064729465b10944a1afa63c78",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

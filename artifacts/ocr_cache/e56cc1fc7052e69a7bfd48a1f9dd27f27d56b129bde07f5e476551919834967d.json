@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Why Wy neighbor is rich",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Why Wy neighbor is rich",
+      "confidence": 0.8684810687131885,
+      "box": [
+        28.0,
+        3.0,
+        576.0,
+        83.0
+      ]
+    }
+  ],
+  "image_sha256": "e56cc1fc7052e69a7bfd48a1f9dd27f27d56b129bde07f5e476551919834967d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

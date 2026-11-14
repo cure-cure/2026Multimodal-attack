@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Harassment",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Harassment",
+      "confidence": 0.9591094863019104,
+      "box": [
+        75.0,
+        19.0,
+        441.0,
+        85.0
+      ]
+    }
+  ],
+  "image_sha256": "f2db3d9115a3b55acfe20941d1ce13e81781f80042a37bd1eae016e29bd82798",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

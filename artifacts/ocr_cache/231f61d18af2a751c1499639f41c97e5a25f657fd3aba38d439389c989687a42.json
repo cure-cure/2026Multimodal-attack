@@ -1,0 +1,43 @@
+{
+  "ocr_text": "BOTOBK INbIgstockCom 227668066",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BOTOBK",
+      "confidence": 0.22942876067442747,
+      "box": [
+        165.0,
+        165.0,
+        321.0,
+        229.0
+      ]
+    },
+    {
+      "text": "INbIgstockCom",
+      "confidence": 0.2714329616394527,
+      "box": [
+        123.0,
+        397.0,
+        243.0,
+        413.0
+      ]
+    },
+    {
+      "text": "227668066",
+      "confidence": 0.9995002916987661,
+      "box": [
+        253.0,
+        395.0,
+        327.0,
+        411.0
+      ]
+    }
+  ],
+  "image_sha256": "231f61d18af2a751c1499639f41c97e5a25f657fd3aba38d439389c989687a42",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

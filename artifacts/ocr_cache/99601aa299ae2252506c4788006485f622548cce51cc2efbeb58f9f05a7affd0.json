@@ -1,0 +1,23 @@
+{
+  "ocr_text": "川",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "川",
+      "confidence": 0.18365505566331208,
+      "box": [
+        734.0,
+        310.0,
+        836.0,
+        462.0
+      ]
+    }
+  ],
+  "image_sha256": "99601aa299ae2252506c4788006485f622548cce51cc2efbeb58f9f05a7affd0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

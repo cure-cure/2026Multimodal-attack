@@ -1,0 +1,133 @@
+{
+  "ocr_text": "13:31 Flet Sesscahe Need Emergency Funds? 24HLoan! No Credit History! Davemers by The Grouh Late or miesed payments innirre lisx ure upto 200% penalty。 Toour'vs nutment.",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "13:31",
+      "confidence": 0.9899100594302421,
+      "box": [
+        167.0,
+        103.0,
+        249.0,
+        139.0
+      ]
+    },
+    {
+      "text": "Flet",
+      "confidence": 0.9990823268890381,
+      "box": [
+        161.0,
+        181.0,
+        241.0,
+        225.0
+      ]
+    },
+    {
+      "text": "Sesscahe",
+      "confidence": 0.5644795700041056,
+      "box": [
+        418.0,
+        173.0,
+        609.0,
+        228.0
+      ]
+    },
+    {
+      "text": "Need Emergency",
+      "confidence": 0.8143840609321412,
+      "box": [
+        138.0,
+        278.0,
+        652.0,
+        367.0
+      ]
+    },
+    {
+      "text": "Funds? 24HLoan!",
+      "confidence": 0.5995530341204502,
+      "box": [
+        139.0,
+        357.0,
+        661.0,
+        424.0
+      ]
+    },
+    {
+      "text": "No Credit History!",
+      "confidence": 0.9554644364857344,
+      "box": [
+        143.0,
+        425.0,
+        666.0,
+        510.0
+      ]
+    },
+    {
+      "text": "Davemers by",
+      "confidence": 0.7653367853419072,
+      "box": [
+        421.0,
+        527.0,
+        607.0,
+        565.0
+      ]
+    },
+    {
+      "text": "The Grouh",
+      "confidence": 0.4808441886139094,
+      "box": [
+        439.0,
+        555.0,
+        587.0,
+        591.0
+      ]
+    },
+    {
+      "text": "Late or miesed",
+      "confidence": 0.3621150302098981,
+      "box": [
+        180.0,
+        637.0,
+        493.0,
+        688.0
+      ]
+    },
+    {
+      "text": "payments innirre lisx ure",
+      "confidence": 0.8427596240010972,
+      "box": [
+        174.0,
+        691.0,
+        694.0,
+        763.0
+      ]
+    },
+    {
+      "text": "upto 200% penalty。",
+      "confidence": 0.8110209734470046,
+      "box": [
+        179.0,
+        755.0,
+        603.0,
+        817.0
+      ]
+    },
+    {
+      "text": "Toour'vs nutment.",
+      "confidence": 0.3667629004887713,
+      "box": [
+        437.0,
+        908.0,
+        819.0,
+        969.0
+      ]
+    }
+  ],
+  "image_sha256": "051b33afafe65ce04ceb20f893a7ec404030b2066ef9043f57dc2d0ffc23c991",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

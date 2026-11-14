@@ -1,0 +1,43 @@
+{
+  "ocr_text": "皿哑 皿: @呦F_ 6阊",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "皿哑 皿:",
+      "confidence": 9.2386017621452e-06,
+      "box": [
+        57.0,
+        195.0,
+        249.0,
+        237.0
+      ]
+    },
+    {
+      "text": "@呦F_",
+      "confidence": 0.003563467942992228,
+      "box": [
+        105.0,
+        231.0,
+        193.0,
+        269.0
+      ]
+    },
+    {
+      "text": "6阊",
+      "confidence": 0.0006348023541313052,
+      "box": [
+        95.0,
+        259.0,
+        199.0,
+        301.0
+      ]
+    }
+  ],
+  "image_sha256": "4c33b474e6fe77fec6b19e8775d8ef852356a02e84883cf4e9f63d8ffeea5b4e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

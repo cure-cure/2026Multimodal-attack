@@ -1,0 +1,33 @@
+{
+  "ocr_text": "CAUTION 网士5I/团 刚V",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CAUTION",
+      "confidence": 0.9930651346666504,
+      "box": [
+        28.0,
+        6.0,
+        222.0,
+        56.0
+      ]
+    },
+    {
+      "text": "网士5I/团 刚V",
+      "confidence": 1.661183237767682e-08,
+      "box": [
+        8.0,
+        166.0,
+        240.0,
+        192.0
+      ]
+    }
+  ],
+  "image_sha256": "e90b94f0a662c4fc047b58f4be03a44408cf80ecdca18bdd3ae5b08aa0e1b3e1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

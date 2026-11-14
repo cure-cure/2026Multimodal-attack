@@ -1,0 +1,33 @@
+{
+  "ocr_text": "00咖]@:@呗吣0哂 8呗咖四衄%0险@\"e@l [[岛@。",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "00咖]@:@呗吣0哂",
+      "confidence": 1.2858635318478669e-05,
+      "box": [
+        81.0,
+        2.0,
+        441.0,
+        43.0
+      ]
+    },
+    {
+      "text": "8呗咖四衄%0险@\"e@l [[岛@。",
+      "confidence": 3.8553354348149634e-08,
+      "box": [
+        27.0,
+        41.0,
+        539.0,
+        79.0
+      ]
+    }
+  ],
+  "image_sha256": "84816714ed3cdbf52079d233cc71f944e10bd52fd838b4902224e46ed6c74248",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

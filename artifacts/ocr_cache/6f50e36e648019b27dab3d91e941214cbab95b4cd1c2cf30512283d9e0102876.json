@@ -1,0 +1,33 @@
+{
+  "ocr_text": "@p@@Mg M@@",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@p@@Mg",
+      "confidence": 0.1494708929100588,
+      "box": [
+        241.0,
+        250.0,
+        432.0,
+        305.0
+      ]
+    },
+    {
+      "text": "M@@",
+      "confidence": 0.15860758308340567,
+      "box": [
+        467.0,
+        261.0,
+        562.0,
+        303.0
+      ]
+    }
+  ],
+  "image_sha256": "6f50e36e648019b27dab3d91e941214cbab95b4cd1c2cf30512283d9e0102876",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

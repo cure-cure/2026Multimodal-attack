@@ -1,0 +1,33 @@
+{
+  "ocr_text": "PRUBLE COUVUD",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "PRUBLE",
+      "confidence": 0.13525495344468938,
+      "box": [
+        115.0,
+        41.0,
+        159.0,
+        53.0
+      ]
+    },
+    {
+      "text": "COUVUD",
+      "confidence": 0.11695456099390196,
+      "box": [
+        188.0,
+        42.0,
+        220.0,
+        50.0
+      ]
+    }
+  ],
+  "image_sha256": "ff9323ed2a230f2d68995d59232868ec6a6ad4760de50b4e841df2f703391a29",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

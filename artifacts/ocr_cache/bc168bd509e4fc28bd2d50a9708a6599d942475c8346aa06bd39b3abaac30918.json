@@ -1,0 +1,23 @@
+{
+  "ocr_text": "』皿",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "』皿",
+      "confidence": 0.0013067001665913321,
+      "box": [
+        106.0,
+        62.0,
+        1949.0,
+        503.0
+      ]
+    }
+  ],
+  "image_sha256": "bc168bd509e4fc28bd2d50a9708a6599d942475c8346aa06bd39b3abaac30918",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,693 @@
+{
+  "ocr_text": "100% ROI NORSK! cining bulirnedis ahonds Ml d sccinig comoural s35 29 Dosotln cecemodes whenfOI Nay gord The loutataimes. Fomahdsngoo unIul OwsgerIlosponatol 509, thar den Syregenicll lee Ion ang N n ddn drogleve Wherverendwe the dulrpuerarhiess mgda Ceeeocus\" ranoorenis comoperdahvrlarve inalung pestlaclion 2O0 SeRalogce CnIsVsodarye Coeddl cel hiigurle trereltminmiglor。 gana Ily Ire Iflotd al. T0 lor oimuoaitq Ily 708nehes dlle Hs hoiar 0 Te NIet eberleciwcl lloT Hed baddulnelog Oooo sO xeotnenc tores wilhondyelalnce a ltc cwvering our Mcf hn ml Tnenared Ilocl Acbersandtaiing dsrcl Deinral Hoaned 5 mTC and Ino esfemejl lutroll Dvesillon, Scawlys CT _ U Croalloomanoaln tlne anponioalondloro Mmzlsnel SONC corgarhowOfthe Curonles Tow BeN ccrsaltorndberoreolehin Snpoonly Sanpe Tionm Iheoun IStrcakenoiote TIc oopnemmrts HBISICO aarc lqn Inerr emar contce Cmns Ohiopee nlerorttdies- Q0O wiinsm TreIelal wislzlloCamep Sunncess abserriwe Douling loodos OTMf RLDOONENOCWIAD 10 Pamrer Rolsdn Hucficn O IIMrohIENNTI N S0 S B ldal Rocml Tor os Od 415C IIM Ponls aon 5 Ve w M UTamce Cho UOo M bbo Cn lowrer NN ma Soet MrMuw OCHmt H-H Mal",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "100%",
+      "confidence": 0.9754365086555481,
+      "box": [
+        299.0,
+        143.0,
+        720.0,
+        312.0
+      ]
+    },
+    {
+      "text": "ROI",
+      "confidence": 0.6475842806404841,
+      "box": [
+        330.0,
+        288.0,
+        718.0,
+        486.0
+      ]
+    },
+    {
+      "text": "NORSK!",
+      "confidence": 0.6586792098639331,
+      "box": [
+        301.0,
+        477.0,
+        725.0,
+        613.0
+      ]
+    },
+    {
+      "text": "cining",
+      "confidence": 0.14486857110010135,
+      "box": [
+        360.0,
+        611.0,
+        399.0,
+        629.0
+      ]
+    },
+    {
+      "text": "bulirnedis ahonds Ml d sccinig comoural s35 29",
+      "confidence": 0.12385198319282703,
+      "box": [
+        432.0,
+        604.0,
+        708.0,
+        630.0
+      ]
+    },
+    {
+      "text": "Dosotln cecemodes whenfOI Nay gord The loutataimes. Fomahdsngoo",
+      "confidence": 0.07548252762557042,
+      "box": [
+        306.0,
+        622.0,
+        710.0,
+        646.0
+      ]
+    },
+    {
+      "text": "unIul OwsgerIlosponatol 509, thar den Syregenicll",
+      "confidence": 0.03419059926156204,
+      "box": [
+        303.0,
+        639.0,
+        597.0,
+        658.0
+      ]
+    },
+    {
+      "text": "lee Ion ang N",
+      "confidence": 0.16683568111575828,
+      "box": [
+        605.0,
+        639.0,
+        685.0,
+        653.0
+      ]
+    },
+    {
+      "text": "n ddn drogleve",
+      "confidence": 0.4509155611973798,
+      "box": [
+        303.0,
+        653.0,
+        405.0,
+        669.0
+      ]
+    },
+    {
+      "text": "Wherverendwe the dulrpuerarhiess mgda Ceeeocus\"",
+      "confidence": 0.06706503544502639,
+      "box": [
+        414.0,
+        648.0,
+        720.0,
+        674.0
+      ]
+    },
+    {
+      "text": "ranoorenis comoperdahvrlarve inalung pestlaclion",
+      "confidence": 0.16577032891234,
+      "box": [
+        327.0,
+        668.0,
+        601.0,
+        687.0
+      ]
+    },
+    {
+      "text": "2O0 SeRalogce",
+      "confidence": 0.039819153753168565,
+      "box": [
+        605.0,
+        665.0,
+        689.0,
+        681.0
+      ]
+    },
+    {
+      "text": "CnIsVsodarye",
+      "confidence": 0.07258332825993466,
+      "box": [
+        347.0,
+        683.0,
+        421.0,
+        699.0
+      ]
+    },
+    {
+      "text": "Coeddl",
+      "confidence": 0.8978453881180681,
+      "box": [
+        433.0,
+        685.0,
+        475.0,
+        699.0
+      ]
+    },
+    {
+      "text": "cel hiigurle trereltminmiglor。",
+      "confidence": 0.03135231315528798,
+      "box": [
+        485.0,
+        680.0,
+        661.0,
+        701.0
+      ]
+    },
+    {
+      "text": "gana Ily Ire Iflotd al. T0",
+      "confidence": 0.07267337075177342,
+      "box": [
+        299.0,
+        695.0,
+        465.0,
+        713.0
+      ]
+    },
+    {
+      "text": "lor oimuoaitq Ily 708nehes",
+      "confidence": 0.04910388278371614,
+      "box": [
+        497.0,
+        695.0,
+        647.0,
+        713.0
+      ]
+    },
+    {
+      "text": "dlle Hs hoiar 0 Te NIet eberleciwcl",
+      "confidence": 0.029566520298561594,
+      "box": [
+        313.0,
+        709.0,
+        505.0,
+        727.0
+      ]
+    },
+    {
+      "text": "lloT Hed",
+      "confidence": 0.416641140649434,
+      "box": [
+        511.0,
+        713.0,
+        555.0,
+        727.0
+      ]
+    },
+    {
+      "text": "baddulnelog",
+      "confidence": 0.5777374665477788,
+      "box": [
+        567.0,
+        711.0,
+        639.0,
+        725.0
+      ]
+    },
+    {
+      "text": "Oooo",
+      "confidence": 0.02926022745668888,
+      "box": [
+        671.0,
+        714.0,
+        722.0,
+        732.0
+      ]
+    },
+    {
+      "text": "sO xeotnenc tores wilhondyelalnce a ltc cwvering our Mcf hn ml",
+      "confidence": 0.01247815209463063,
+      "box": [
+        286.0,
+        717.0,
+        672.0,
+        742.0
+      ]
+    },
+    {
+      "text": "Tnenared Ilocl Acbersandtaiing dsrcl Deinral Hoaned 5",
+      "confidence": 0.16660884366312406,
+      "box": [
+        354.0,
+        734.0,
+        668.0,
+        760.0
+      ]
+    },
+    {
+      "text": "mTC",
+      "confidence": 0.10059562311825473,
+      "box": [
+        342.0,
+        752.0,
+        377.0,
+        764.0
+      ]
+    },
+    {
+      "text": "and Ino esfemejl lutroll Dvesillon, Scawlys",
+      "confidence": 0.11548512561932725,
+      "box": [
+        379.0,
+        753.0,
+        613.0,
+        769.0
+      ]
+    },
+    {
+      "text": "CT _ U Croalloomanoaln tlne",
+      "confidence": 0.04620099091702476,
+      "box": [
+        333.0,
+        765.0,
+        493.0,
+        783.0
+      ]
+    },
+    {
+      "text": "anponioalondloro",
+      "confidence": 0.6111415297952351,
+      "box": [
+        498.0,
+        767.0,
+        599.0,
+        784.0
+      ]
+    },
+    {
+      "text": "Mmzlsnel SONC corgarhowOfthe Curonles",
+      "confidence": 0.165562719637811,
+      "box": [
+        298.0,
+        772.0,
+        546.0,
+        800.0
+      ]
+    },
+    {
+      "text": "Tow",
+      "confidence": 0.17135603840211674,
+      "box": [
+        675.0,
+        781.0,
+        711.0,
+        801.0
+      ]
+    },
+    {
+      "text": "BeN",
+      "confidence": 0.136385900178322,
+      "box": [
+        357.0,
+        793.0,
+        383.0,
+        807.0
+      ]
+    },
+    {
+      "text": "ccrsaltorndberoreolehin Snpoonly Sanpe Tionm",
+      "confidence": 0.10017339817075276,
+      "box": [
+        390.0,
+        785.0,
+        678.0,
+        812.0
+      ]
+    },
+    {
+      "text": "Iheoun IStrcakenoiote TIc oopnemmrts",
+      "confidence": 0.10088455943430792,
+      "box": [
+        326.0,
+        804.0,
+        546.0,
+        828.0
+      ]
+    },
+    {
+      "text": "HBISICO aarc lqn",
+      "confidence": 0.03548484133718276,
+      "box": [
+        553.0,
+        803.0,
+        663.0,
+        823.0
+      ]
+    },
+    {
+      "text": "Inerr emar contce Cmns Ohiopee nlerorttdies-",
+      "confidence": 0.016003355907944872,
+      "box": [
+        326.0,
+        816.0,
+        576.0,
+        842.0
+      ]
+    },
+    {
+      "text": "Q0O wiinsm",
+      "confidence": 0.41563059362993254,
+      "box": [
+        581.0,
+        819.0,
+        653.0,
+        837.0
+      ]
+    },
+    {
+      "text": "TreIelal",
+      "confidence": 0.1329545653299884,
+      "box": [
+        325.0,
+        831.0,
+        377.0,
+        850.0
+      ]
+    },
+    {
+      "text": "wislzlloCamep Sunncess abserriwe Douling loodos",
+      "confidence": 0.27431650257207446,
+      "box": [
+        410.0,
+        830.0,
+        670.0,
+        856.0
+      ]
+    },
+    {
+      "text": "OTMf RLDOONENOCWIAD",
+      "confidence": 0.04179204438357595,
+      "box": [
+        339.0,
+        861.0,
+        463.0,
+        881.0
+      ]
+    },
+    {
+      "text": "10 Pamrer Rolsdn Hucficn",
+      "confidence": 0.37259442765083384,
+      "box": [
+        481.0,
+        865.0,
+        611.0,
+        883.0
+      ]
+    },
+    {
+      "text": "O",
+      "confidence": 0.1094850561437335,
+      "box": [
+        311.0,
+        883.0,
+        333.0,
+        897.0
+      ]
+    },
+    {
+      "text": "IIMrohIENNTI",
+      "confidence": 0.025878101299883934,
+      "box": [
+        416.0,
+        884.0,
+        502.0,
+        892.0
+      ]
+    },
+    {
+      "text": "N S0",
+      "confidence": 0.09591478854417801,
+      "box": [
+        503.0,
+        883.0,
+        529.0,
+        897.0
+      ]
+    },
+    {
+      "text": "S B ldal Rocml",
+      "confidence": 0.09568061855913154,
+      "box": [
+        353.0,
+        889.0,
+        455.0,
+        908.0
+      ]
+    },
+    {
+      "text": "Tor",
+      "confidence": 0.15233167700684905,
+      "box": [
+        309.02985749985464,
+        609.152001695995,
+        346.97014250014536,
+        626.847998304005
+      ]
+    },
+    {
+      "text": "os",
+      "confidence": 0.119288641393021,
+      "box": [
+        682.1425070742874,
+        632.6204436437437,
+        725.8574929257126,
+        649.3795563562563
+      ]
+    },
+    {
+      "text": "Od",
+      "confidence": 0.12900988011176204,
+      "box": [
+        675.1055728090001,
+        669.6192501947457,
+        731.8944271909999,
+        691.3807498052543
+      ]
+    },
+    {
+      "text": "415C",
+      "confidence": 0.071046382188797,
+      "box": [
+        306.0232556568281,
+        678.152001695995,
+        348.9767443431719,
+        695.847998304005
+      ]
+    },
+    {
+      "text": "IIM",
+      "confidence": 0.2433093971106543,
+      "box": [
+        644.1055728090001,
+        685.7185264320493,
+        723.8944271909999,
+        708.2814735679507
+      ]
+    },
+    {
+      "text": "Ponls",
+      "confidence": 0.11891947477103239,
+      "box": [
+        462.29289321881345,
+        697.5169226570887,
+        494.70710678118655,
+        714.4830773429113
+      ]
+    },
+    {
+      "text": "aon",
+      "confidence": 0.004851870754123003,
+      "box": [
+        665.1055728090001,
+        698.6837722339832,
+        726.8944271909999,
+        718.3162277660168
+      ]
+    },
+    {
+      "text": "5",
+      "confidence": 0.4634892744711891,
+      "box": [
+        666.2567058537528,
+        729.6204436437437,
+        708.7432941462472,
+        746.3795563562563
+      ]
+    },
+    {
+      "text": "Ve",
+      "confidence": 0.04624359840167503,
+      "box": [
+        311.0232556568281,
+        733.152001695995,
+        353.9767443431719,
+        750.847998304005
+      ]
+    },
+    {
+      "text": "w",
+      "confidence": 0.5599168758726911,
+      "box": [
+        630.1425070742874,
+        748.537433993305,
+        656.8574929257126,
+        761.462566006695
+      ]
+    },
+    {
+      "text": "M",
+      "confidence": 0.5267911451734939,
+      "box": [
+        610.1055728090001,
+        750.4989637294583,
+        632.8944271909999,
+        762.5010362705417
+      ]
+    },
+    {
+      "text": "UTamce",
+      "confidence": 0.1115317153793529,
+      "box": [
+        311.00561108682086,
+        786.115081777618,
+        359.99438891317914,
+        806.884918222382
+      ]
+    },
+    {
+      "text": "Cho",
+      "confidence": 0.20832611516525817,
+      "box": [
+        659.1425070742874,
+        795.5620305767203,
+        703.8574929257126,
+        815.4379694232797
+      ]
+    },
+    {
+      "text": "UOo",
+      "confidence": 0.05231839452573496,
+      "box": [
+        289.0116283023494,
+        797.1258427238785,
+        329.9883716976506,
+        816.8741572761215
+      ]
+    },
+    {
+      "text": "M",
+      "confidence": 0.2647492205737798,
+      "box": [
+        291.01742975430295,
+        811.115081777618,
+        329.98257024569705,
+        831.884918222382
+      ]
+    },
+    {
+      "text": "bbo",
+      "confidence": 0.15256781513790768,
+      "box": [
+        649.1807680794809,
+        811.6138619118739,
+        697.8192319205191,
+        830.3861380881261
+      ]
+    },
+    {
+      "text": "Cn",
+      "confidence": 0.705964948794643,
+      "box": [
+        287.0077221232863,
+        823.1055728090001,
+        328.9922778767137,
+        844.8944271909999
+      ]
+    },
+    {
+      "text": "lowrer",
+      "confidence": 0.1783909203861833,
+      "box": [
+        377.0332947721385,
+        836.152001695995,
+        412.9667052278615,
+        853.847998304005
+      ]
+    },
+    {
+      "text": "NN",
+      "confidence": 0.05398080468192743,
+      "box": [
+        299.0142635744896,
+        853.115081777618,
+        341.9857364255104,
+        873.884918222382
+      ]
+    },
+    {
+      "text": "ma",
+      "confidence": 0.07809079316999454,
+      "box": [
+        642.2191311905569,
+        853.6323411106289,
+        689.7808688094431,
+        871.3676588893711
+      ]
+    },
+    {
+      "text": "Soet",
+      "confidence": 0.2965029180049896,
+      "box": [
+        608.2567058537528,
+        859.5420434103257,
+        645.7432941462472,
+        877.4579565896743
+      ]
+    },
+    {
+      "text": "MrMuw",
+      "confidence": 0.02518303569931469,
+      "box": [
+        625.0715233091147,
+        870.590944095907,
+        658.9284766908853,
+        884.409055904093
+      ]
+    },
+    {
+      "text": "OCHmt",
+      "confidence": 0.03649801689686444,
+      "box": [
+        564.0715233091147,
+        876.7536012209084,
+        626.9284766908853,
+        892.2463987790916
+      ]
+    },
+    {
+      "text": "H-H",
+      "confidence": 0.23336305755577488,
+      "box": [
+        528.0715233091147,
+        879.628609323646,
+        566.9284766908853,
+        894.371390676354
+      ]
+    },
+    {
+      "text": "Mal",
+      "confidence": 0.20349015798179682,
+      "box": [
+        451.03523617876226,
+        894.2317787204026,
+        474.96476382123774,
+        907.7682212795974
+      ]
+    }
+  ],
+  "image_sha256": "5149c556667d285c567574d25b259b7c388d10735aeebd4e890964c2f8ce2031",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

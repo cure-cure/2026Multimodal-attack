@@ -1,0 +1,43 @@
+{
+  "ocr_text": "@DGaDg]@ RGWS 乙@0% CDC0tau90",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "@DGaDg]@ RGWS",
+      "confidence": 0.017790852761317408,
+      "box": [
+        0.0,
+        0.0,
+        524.0,
+        71.0
+      ]
+    },
+    {
+      "text": "乙@0%",
+      "confidence": 0.014135611243546009,
+      "box": [
+        170.0,
+        274.0,
+        374.0,
+        322.0
+      ]
+    },
+    {
+      "text": "CDC0tau90",
+      "confidence": 0.008663038817168203,
+      "box": [
+        0.0,
+        327.0,
+        503.0,
+        366.0
+      ]
+    }
+  ],
+  "image_sha256": "2e86f5259dfb7184000a23c9bfa608d1f510ccf4a83cfdbbe917dd3c7089e92d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

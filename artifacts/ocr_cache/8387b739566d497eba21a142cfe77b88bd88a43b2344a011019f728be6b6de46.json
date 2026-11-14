@@ -1,0 +1,33 @@
+{
+  "ocr_text": "ZC 珉",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ZC",
+      "confidence": 0.9014675564205142,
+      "box": [
+        565.0,
+        429.0,
+        599.0,
+        443.0
+      ]
+    },
+    {
+      "text": "珉",
+      "confidence": 0.003935877320149217,
+      "box": [
+        537.0,
+        451.0,
+        589.0,
+        493.0
+      ]
+    }
+  ],
+  "image_sha256": "8387b739566d497eba21a142cfe77b88bd88a43b2344a011019f728be6b6de46",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

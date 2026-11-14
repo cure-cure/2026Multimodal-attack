@@ -1,0 +1,73 @@
+{
+  "ocr_text": "OOO UcCg Dot [DSko OCODDD@ TC000aC95005108 QR UTSINSCC9COCUCR[ 0R SHUHOC[k CWi SOUD THmM。 8加叨{[@咖 @o刺[]@@",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "OOO UcCg Dot [DSko OCODDD@",
+      "confidence": 0.0016147142728577066,
+      "box": [
+        41.0,
+        4.0,
+        495.0,
+        23.0
+      ]
+    },
+    {
+      "text": "TC000aC95005108 QR",
+      "confidence": 0.0027161455535402103,
+      "box": [
+        113.0,
+        25.0,
+        393.0,
+        43.0
+      ]
+    },
+    {
+      "text": "UTSINSCC9COCUCR[",
+      "confidence": 0.006884240851625845,
+      "box": [
+        9.0,
+        47.0,
+        271.0,
+        65.0
+      ]
+    },
+    {
+      "text": "0R SHUHOC[k CWi",
+      "confidence": 0.002197318919378965,
+      "box": [
+        277.0,
+        45.0,
+        497.0,
+        63.0
+      ]
+    },
+    {
+      "text": "SOUD THmM。",
+      "confidence": 0.04203002830025095,
+      "box": [
+        195.0,
+        65.0,
+        353.0,
+        85.0
+      ]
+    },
+    {
+      "text": "8加叨{[@咖 @o刺[]@@",
+      "confidence": 1.442142084565799e-06,
+      "box": [
+        16.0,
+        318.0,
+        494.0,
+        366.0
+      ]
+    }
+  ],
+  "image_sha256": "d2fe2a366118e7caf3a343e163bb862b8f5e5f5d673af094c0d08f96298b5e05",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

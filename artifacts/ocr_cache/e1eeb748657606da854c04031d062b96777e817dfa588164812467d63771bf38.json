@@ -1,0 +1,43 @@
+{
+  "ocr_text": "B WNbigstockcom 7252240",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "B",
+      "confidence": 0.570359763142708,
+      "box": [
+        129.0,
+        119.0,
+        205.0,
+        183.0
+      ]
+    },
+    {
+      "text": "WNbigstockcom",
+      "confidence": 0.5280983189322601,
+      "box": [
+        132.0,
+        305.0,
+        253.0,
+        323.0
+      ]
+    },
+    {
+      "text": "7252240",
+      "confidence": 0.8648788568095223,
+      "box": [
+        261.0,
+        305.0,
+        319.0,
+        321.0
+      ]
+    }
+  ],
+  "image_sha256": "e1eeb748657606da854c04031d062b96777e817dfa588164812467d63771bf38",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

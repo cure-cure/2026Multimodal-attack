@@ -1,0 +1,43 @@
+{
+  "ocr_text": "酏咖 Wn bigstockcom 93540923",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "酏咖",
+      "confidence": 8.524360272681473e-05,
+      "box": [
+        126.0,
+        114.0,
+        322.0,
+        186.0
+      ]
+    },
+    {
+      "text": "Wn bigstockcom",
+      "confidence": 0.4140642805088527,
+      "box": [
+        127.0,
+        303.0,
+        247.0,
+        319.0
+      ]
+    },
+    {
+      "text": "93540923",
+      "confidence": 0.9974178088632443,
+      "box": [
+        257.0,
+        303.0,
+        323.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "648685ffcf663460ecae451c65fcf741123a5e7221f40ada0e2d97fc57a9d3ca",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

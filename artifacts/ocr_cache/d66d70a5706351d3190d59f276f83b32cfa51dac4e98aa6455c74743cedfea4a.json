@@ -1,0 +1,33 @@
+{
+  "ocr_text": "BORN 眉",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BORN",
+      "confidence": 0.9241940975189209,
+      "box": [
+        77.0,
+        2.0,
+        228.0,
+        51.0
+      ]
+    },
+    {
+      "text": "眉",
+      "confidence": 0.0046219680882586545,
+      "box": [
+        76.0,
+        60.0,
+        125.0,
+        172.0
+      ]
+    }
+  ],
+  "image_sha256": "d66d70a5706351d3190d59f276f83b32cfa51dac4e98aa6455c74743cedfea4a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "3 兽I",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "3",
+      "confidence": 0.8683403423906952,
+      "box": [
+        9.0,
+        93.0,
+        53.0,
+        205.0
+      ]
+    },
+    {
+      "text": "兽I",
+      "confidence": 3.23960820440218e-05,
+      "box": [
+        50.0,
+        20.0,
+        238.0,
+        216.0
+      ]
+    }
+  ],
+  "image_sha256": "29fa4001d10536b8e79157ae1f01da1a95a869500959056b1fb0c9957bed7545",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

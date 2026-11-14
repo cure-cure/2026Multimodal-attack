@@ -1,0 +1,33 @@
+{
+  "ocr_text": "AGAINST WHITES",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "AGAINST",
+      "confidence": 0.9896221490814624,
+      "box": [
+        53.0,
+        5.0,
+        129.0,
+        21.0
+      ]
+    },
+    {
+      "text": "WHITES",
+      "confidence": 0.7912761522422043,
+      "box": [
+        57.0,
+        23.0,
+        125.0,
+        39.0
+      ]
+    }
+  ],
+  "image_sha256": "ec8683d8ff6e91286b96bc6bb7ee9086a1bfe9b71ab66fff743b9ec3699ec81d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "B咽820~旧 哑咽 K[趾吣 3A嗯",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "B咽820~旧",
+      "confidence": 2.9144495534764366e-06,
+      "box": [
+        34.0,
+        0.0,
+        268.0,
+        30.0
+      ]
+    },
+    {
+      "text": "哑咽",
+      "confidence": 0.002104433216045786,
+      "box": [
+        110.0,
+        28.0,
+        192.0,
+        58.0
+      ]
+    },
+    {
+      "text": "K[趾吣 3A嗯",
+      "confidence": 7.310333505562953e-06,
+      "box": [
+        21.0,
+        263.0,
+        281.0,
+        299.0
+      ]
+    }
+  ],
+  "image_sha256": "b8b99bf1df72ec25be3d33a5797e9c1aee6092386e8d69f07db7bfc1309441af",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

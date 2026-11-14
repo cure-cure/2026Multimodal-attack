@@ -1,0 +1,53 @@
+{
+  "ocr_text": ". ^ '` .",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": " .",
+      "confidence": 0.5659424861708169,
+      "box": [
+        7.0,
+        13.0,
+        171.0,
+        29.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        644.0,
+        10.0,
+        668.0,
+        34.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        693.0,
+        11.0,
+        713.0,
+        33.0
+      ]
+    },
+    {
+      "text": "^ '` .",
+      "confidence": 0.036918635637606695,
+      "box": [
+        531.0,
+        33.0,
+        768.0,
+        58.0
+      ]
+    }
+  ],
+  "image_sha256": "5f6a601711170c4309a239b4ec40937a571dcff40f6b1abce9c06d64d5484f11",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

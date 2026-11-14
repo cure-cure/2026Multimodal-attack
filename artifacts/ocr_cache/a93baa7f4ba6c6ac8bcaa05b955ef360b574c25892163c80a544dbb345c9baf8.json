@@ -1,0 +1,43 @@
+{
+  "ocr_text": "BBK W bigstockcom 166522775",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BBK",
+      "confidence": 0.2761410026650937,
+      "box": [
+        53.0,
+        193.0,
+        245.0,
+        257.0
+      ]
+    },
+    {
+      "text": "W bigstockcom",
+      "confidence": 0.595535180038799,
+      "box": [
+        47.0,
+        453.0,
+        167.0,
+        469.0
+      ]
+    },
+    {
+      "text": "166522775",
+      "confidence": 0.9981097186609664,
+      "box": [
+        177.0,
+        451.0,
+        251.0,
+        467.0
+      ]
+    }
+  ],
+  "image_sha256": "a93baa7f4ba6c6ac8bcaa05b955ef360b574c25892163c80a544dbb345c9baf8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

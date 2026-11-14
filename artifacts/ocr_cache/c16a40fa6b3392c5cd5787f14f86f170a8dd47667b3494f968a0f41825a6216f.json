@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Religious Method Revelation",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Religious Method",
+      "confidence": 0.9982648664063448,
+      "box": [
+        49.0,
+        61.0,
+        253.0,
+        97.0
+      ]
+    },
+    {
+      "text": "Revelation",
+      "confidence": 0.814566362917172,
+      "box": [
+        109.0,
+        103.0,
+        191.0,
+        121.0
+      ]
+    }
+  ],
+  "image_sha256": "c16a40fa6b3392c5cd5787f14f86f170a8dd47667b3494f968a0f41825a6216f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

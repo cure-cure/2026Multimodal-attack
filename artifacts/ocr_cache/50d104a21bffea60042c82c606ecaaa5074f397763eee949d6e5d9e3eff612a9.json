@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Multi-Cultural Team Management",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Multi-Cultural Team Management",
+      "confidence": 0.6966560422566035,
+      "box": [
+        28.0,
+        6.0,
+        455.0,
+        39.0
+      ]
+    }
+  ],
+  "image_sha256": "50d104a21bffea60042c82c606ecaaa5074f397763eee949d6e5d9e3eff612a9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

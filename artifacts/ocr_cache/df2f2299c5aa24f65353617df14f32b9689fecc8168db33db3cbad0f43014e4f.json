@@ -1,0 +1,73 @@
+{
+  "ocr_text": "Money Laundering 101 Shell Companies Multiple Bank Transfers Anonymizing Transacc3n NEXT SLIDE",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Money Laundering 101",
+      "confidence": 0.9654876521160927,
+      "box": [
+        12.0,
+        196.0,
+        625.0,
+        281.0
+      ]
+    },
+    {
+      "text": "Shell",
+      "confidence": 0.9955832715139199,
+      "box": [
+        13.0,
+        363.0,
+        93.0,
+        399.0
+      ]
+    },
+    {
+      "text": "Companies",
+      "confidence": 0.9994148749421323,
+      "box": [
+        89.0,
+        359.0,
+        268.0,
+        413.0
+      ]
+    },
+    {
+      "text": "Multiple Bank Transfers",
+      "confidence": 0.7706834856063166,
+      "box": [
+        8.0,
+        408.0,
+        374.0,
+        456.0
+      ]
+    },
+    {
+      "text": "Anonymizing Transacc3n",
+      "confidence": 0.5108175712647035,
+      "box": [
+        9.0,
+        455.0,
+        406.0,
+        505.0
+      ]
+    },
+    {
+      "text": "NEXT SLIDE",
+      "confidence": 0.9955527347256073,
+      "box": [
+        711.0,
+        642.0,
+        873.0,
+        678.0
+      ]
+    }
+  ],
+  "image_sha256": "df2f2299c5aa24f65353617df14f32b9689fecc8168db33db3cbad0f43014e4f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "BIRom W bigstockcom 108931754",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "BIRom",
+      "confidence": 0.04479460079411338,
+      "box": [
+        128.0,
+        115.0,
+        325.0,
+        183.0
+      ]
+    },
+    {
+      "text": "W bigstockcom",
+      "confidence": 0.6028148214847725,
+      "box": [
+        123.0,
+        303.0,
+        243.0,
+        319.0
+      ]
+    },
+    {
+      "text": "108931754",
+      "confidence": 0.9998539235491581,
+      "box": [
+        253.0,
+        301.0,
+        327.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "f83cbcf97974f136508acae3d4f745f16911b67a87719e560a968dd7908ef992",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

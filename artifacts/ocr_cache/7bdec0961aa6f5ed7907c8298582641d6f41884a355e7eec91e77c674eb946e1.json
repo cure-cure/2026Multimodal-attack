@@ -1,0 +1,43 @@
+{
+  "ocr_text": "B8T吣 W bigstockcom 12064753",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "B8T吣",
+      "confidence": 0.18518681824207306,
+      "box": [
+        129.0,
+        117.0,
+        315.0,
+        183.0
+      ]
+    },
+    {
+      "text": "W bigstockcom",
+      "confidence": 0.5775917346064436,
+      "box": [
+        123.0,
+        303.0,
+        243.0,
+        319.0
+      ]
+    },
+    {
+      "text": "12064753",
+      "confidence": 0.6407195441454598,
+      "box": [
+        261.0,
+        301.0,
+        327.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "7bdec0961aa6f5ed7907c8298582641d6f41884a355e7eec91e77c674eb946e1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

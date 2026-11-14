@@ -1,0 +1,43 @@
+{
+  "ocr_text": "RELIG 们 Jijelsrcards",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "RELIG",
+      "confidence": 0.1409327253143604,
+      "box": [
+        53.0,
+        195.0,
+        605.0,
+        451.0
+      ]
+    },
+    {
+      "text": "们",
+      "confidence": 0.0003508223767392238,
+      "box": [
+        818.0,
+        218.0,
+        944.0,
+        428.0
+      ]
+    },
+    {
+      "text": "Jijelsrcards",
+      "confidence": 0.2205436727607111,
+      "box": [
+        854.0,
+        620.0,
+        982.0,
+        646.0
+      ]
+    }
+  ],
+  "image_sha256": "99b3ad4e85d4fa10346e032fffca6a514d6841d510921e49d386f7e6ea270117",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

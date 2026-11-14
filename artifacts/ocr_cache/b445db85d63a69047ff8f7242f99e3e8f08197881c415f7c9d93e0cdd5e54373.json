@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Gaith [叮T JRR#.B'",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Gaith ",
+      "confidence": 0.46226971330022587,
+      "box": [
+        6.0,
+        40.0,
+        102.0,
+        90.0
+      ]
+    },
+    {
+      "text": "[叮T",
+      "confidence": 0.0006875857367427967,
+      "box": [
+        112.0,
+        40.0,
+        194.0,
+        90.0
+      ]
+    },
+    {
+      "text": "JRR#.B'",
+      "confidence": 0.0317478590108987,
+      "box": [
+        7.0,
+        149.0,
+        195.0,
+        185.0
+      ]
+    }
+  ],
+  "image_sha256": "b445db85d63a69047ff8f7242f99e3e8f08197881c415f7c9d93e0cdd5e54373",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

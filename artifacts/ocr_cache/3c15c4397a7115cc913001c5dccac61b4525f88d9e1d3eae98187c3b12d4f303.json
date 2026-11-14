@@ -1,0 +1,23 @@
+{
+  "ocr_text": "SEXSM",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SEXSM",
+      "confidence": 0.5823716528043216,
+      "box": [
+        110.0,
+        173.0,
+        315.0,
+        238.0
+      ]
+    }
+  ],
+  "image_sha256": "3c15c4397a7115cc913001c5dccac61b4525f88d9e1d3eae98187c3b12d4f303",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ocr_text": "8ma Crypto Flip: 500% Gdins in 24 Hours! Yous go black tup nequbel call easice;, your mifual maarl sas atreych is Or yeurbidrwals serrors daily to arhrs all gour am gangle arimits war wil Nuntom hak (cpniprtefnaulangsldlfcom) slay",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "8ma",
+      "confidence": 0.0004940560741513218,
+      "box": [
+        20.0,
+        26.0,
+        180.0,
+        126.0
+      ]
+    },
+    {
+      "text": "Crypto Flip:",
+      "confidence": 0.4928810138282293,
+      "box": [
+        327.0,
+        52.0,
+        703.0,
+        142.0
+      ]
+    },
+    {
+      "text": "500% Gdins in 24 Hours!",
+      "confidence": 0.6130999613451701,
+      "box": [
+        120.0,
+        128.0,
+        912.0,
+        206.0
+      ]
+    },
+    {
+      "text": "Yous go black tup nequbel call easice;, your mifual maarl sas atreych is",
+      "confidence": 0.21012515151428202,
+      "box": [
+        119.0,
+        900.0,
+        865.0,
+        936.0
+      ]
+    },
+    {
+      "text": "Or",
+      "confidence": 0.3131370113635977,
+      "box": [
+        139.0,
+        937.0,
+        165.0,
+        953.0
+      ]
+    },
+    {
+      "text": "yeurbidrwals serrors daily to arhrs all gour am gangle arimits war wil",
+      "confidence": 0.3925727579861341,
+      "box": [
+        163.0,
+        925.0,
+        894.0,
+        958.0
+      ]
+    },
+    {
+      "text": "Nuntom hak (cpniprtefnaulangsldlfcom)",
+      "confidence": 0.23437441001191445,
+      "box": [
+        332.0,
+        974.0,
+        694.0,
+        1000.0
+      ]
+    },
+    {
+      "text": "slay",
+      "confidence": 0.9938799738883972,
+      "box": [
+        859.1365600658949,
+        900.1747742652154,
+        912.8634399341051,
+        933.8252257347846
+      ]
+    }
+  ],
+  "image_sha256": "c2b624dfb65d67555f3f82c1b0603c03ff00895a20a57e9afb272b226fe88fd7",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

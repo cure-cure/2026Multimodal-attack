@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Ecm Chagm Bullon",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Ecm",
+      "confidence": 0.006746296821863126,
+      "box": [
+        168.0,
+        98.0,
+        222.0,
+        124.0
+      ]
+    },
+    {
+      "text": "Chagm",
+      "confidence": 0.1228817389604652,
+      "box": [
+        39.0,
+        95.0,
+        147.0,
+        155.0
+      ]
+    },
+    {
+      "text": "Bullon",
+      "confidence": 0.20592015750072012,
+      "box": [
+        68.51341170750567,
+        77.01278896108323,
+        112.48658829249433,
+        99.98721103891677
+      ]
+    }
+  ],
+  "image_sha256": "eb3f1588efb18abc10d489b4ac3d3a9e427e7c4f25b2b7f33d3bd044e73931f6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

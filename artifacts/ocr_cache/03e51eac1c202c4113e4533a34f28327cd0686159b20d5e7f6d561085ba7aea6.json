@@ -1,0 +1,233 @@
+{
+  "ocr_text": "Harassment Harassment includes Unwelcome; hostile, or offensive @onduot I includes sexual harassment。 AIl workplace harassmentis a form Of discrimination that is explicitly Prohibited by ABC Board ahd law ATTENTION UWANTED Policy",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Harassment",
+      "confidence": 0.9966063841944681,
+      "box": [
+        329.0,
+        67.0,
+        701.0,
+        129.0
+      ]
+    },
+    {
+      "text": "Harassment",
+      "confidence": 0.72937656698101,
+      "box": [
+        67.0,
+        235.0,
+        228.0,
+        265.0
+      ]
+    },
+    {
+      "text": "includes",
+      "confidence": 0.7658803900100993,
+      "box": [
+        68.0,
+        266.0,
+        184.0,
+        296.0
+      ]
+    },
+    {
+      "text": "Unwelcome;",
+      "confidence": 0.6515367473623501,
+      "box": [
+        67.0,
+        294.0,
+        228.0,
+        326.0
+      ]
+    },
+    {
+      "text": "hostile, or offensive",
+      "confidence": 0.5282798780033872,
+      "box": [
+        68.0,
+        325.0,
+        322.0,
+        356.0
+      ]
+    },
+    {
+      "text": "@onduot",
+      "confidence": 0.36543399353382466,
+      "box": [
+        68.0,
+        358.0,
+        178.0,
+        386.0
+      ]
+    },
+    {
+      "text": "I",
+      "confidence": 0.48986339090858166,
+      "box": [
+        188.0,
+        358.0,
+        220.0,
+        388.0
+      ]
+    },
+    {
+      "text": "includes sexual",
+      "confidence": 0.6813443695990742,
+      "box": [
+        68.0,
+        387.0,
+        268.0,
+        420.0
+      ]
+    },
+    {
+      "text": "harassment。 ",
+      "confidence": 0.7009647780458094,
+      "box": [
+        66.0,
+        416.0,
+        227.0,
+        452.0
+      ]
+    },
+    {
+      "text": "AIl",
+      "confidence": 0.2964420448700877,
+      "box": [
+        238.0,
+        420.0,
+        282.0,
+        448.0
+      ]
+    },
+    {
+      "text": "workplace",
+      "confidence": 0.6282641306496352,
+      "box": [
+        69.0,
+        449.0,
+        211.0,
+        485.0
+      ]
+    },
+    {
+      "text": "harassmentis a",
+      "confidence": 0.7220750361342007,
+      "box": [
+        67.0,
+        479.0,
+        268.0,
+        511.0
+      ]
+    },
+    {
+      "text": "form Of",
+      "confidence": 0.575483532106274,
+      "box": [
+        68.0,
+        510.0,
+        170.0,
+        540.0
+      ]
+    },
+    {
+      "text": "discrimination that",
+      "confidence": 0.7814787217577567,
+      "box": [
+        68.0,
+        542.0,
+        318.0,
+        572.0
+      ]
+    },
+    {
+      "text": "is explicitly",
+      "confidence": 0.7872577434819192,
+      "box": [
+        67.0,
+        571.0,
+        221.0,
+        609.0
+      ]
+    },
+    {
+      "text": "Prohibited by ABC",
+      "confidence": 0.6371702805591687,
+      "box": [
+        65.0,
+        598.0,
+        317.0,
+        641.0
+      ]
+    },
+    {
+      "text": "Board",
+      "confidence": 0.9809745431197775,
+      "box": [
+        68.0,
+        634.0,
+        148.0,
+        662.0
+      ]
+    },
+    {
+      "text": "ahd",
+      "confidence": 0.46382815679668193,
+      "box": [
+        236.0,
+        634.0,
+        290.0,
+        662.0
+      ]
+    },
+    {
+      "text": "law",
+      "confidence": 0.4674941982673786,
+      "box": [
+        68.0,
+        664.0,
+        122.0,
+        694.0
+      ]
+    },
+    {
+      "text": "ATTENTION",
+      "confidence": 0.9678773436768113,
+      "box": [
+        522.9161138650585,
+        141.57178704350017,
+        717.0838861349415,
+        258.4282129564998
+      ]
+    },
+    {
+      "text": "UWANTED",
+      "confidence": 0.7660176665701847,
+      "box": [
+        340.25995562830275,
+        209.63754339539872,
+        543.7400443716972,
+        329.3624566046013
+      ]
+    },
+    {
+      "text": "Policy",
+      "confidence": 0.9784426128220921,
+      "box": [
+        147.11675752280294,
+        627.1317018509494,
+        239.88324247719706,
+        672.8682981490506
+      ]
+    }
+  ],
+  "image_sha256": "03e51eac1c202c4113e4533a34f28327cd0686159b20d5e7f6d561085ba7aea6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

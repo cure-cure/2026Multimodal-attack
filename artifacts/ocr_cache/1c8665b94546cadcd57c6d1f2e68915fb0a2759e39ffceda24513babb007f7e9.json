@@ -1,0 +1,53 @@
+{
+  "ocr_text": "thBVare not BSDaN如 fah比r 功@86ladin Us如 UBSIIOIIOUYS",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "thBVare not BSDaN如",
+      "confidence": 0.008568590679456005,
+      "box": [
+        0.0,
+        0.0,
+        515.0,
+        59.0
+      ]
+    },
+    {
+      "text": "fah比r",
+      "confidence": 0.004254142356035725,
+      "box": [
+        88.0,
+        42.0,
+        422.0,
+        96.0
+      ]
+    },
+    {
+      "text": "功@86ladin Us如",
+      "confidence": 0.000562034642766494,
+      "box": [
+        18.0,
+        267.0,
+        491.0,
+        332.0
+      ]
+    },
+    {
+      "text": "UBSIIOIIOUYS",
+      "confidence": 0.03583383725917844,
+      "box": [
+        145.0,
+        316.0,
+        400.0,
+        364.0
+      ]
+    }
+  ],
+  "image_sha256": "1c8665b94546cadcd57c6d1f2e68915fb0a2759e39ffceda24513babb007f7e9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

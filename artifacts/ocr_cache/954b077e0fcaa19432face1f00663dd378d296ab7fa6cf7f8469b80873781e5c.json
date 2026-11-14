@@ -1,0 +1,33 @@
+{
+  "ocr_text": "lero ne",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "lero",
+      "confidence": 0.15288229286670685,
+      "box": [
+        0.0,
+        175.0,
+        55.0,
+        211.0
+      ]
+    },
+    {
+      "text": "ne",
+      "confidence": 0.08307464093566977,
+      "box": [
+        0.0,
+        207.0,
+        25.0,
+        223.0
+      ]
+    }
+  ],
+  "image_sha256": "954b077e0fcaa19432face1f00663dd378d296ab7fa6cf7f8469b80873781e5c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

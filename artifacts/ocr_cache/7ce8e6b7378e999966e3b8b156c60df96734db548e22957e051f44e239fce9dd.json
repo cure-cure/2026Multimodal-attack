@@ -1,0 +1,43 @@
+{
+  "ocr_text": "M[0 VOU Ca113 IlSCIla}acl} [@@皿8@p TK",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "M[0 VOU Ca113 IlSCIla}acl}",
+      "confidence": 0.00181624953488867,
+      "box": [
+        0.0,
+        25.0,
+        479.0,
+        69.0
+      ]
+    },
+    {
+      "text": "[@@皿8@p",
+      "confidence": 0.004123205022925035,
+      "box": [
+        89.0,
+        683.0,
+        435.0,
+        749.0
+      ]
+    },
+    {
+      "text": "TK",
+      "confidence": 0.02037447678592043,
+      "box": [
+        174.1063313266657,
+        153.05103551714942,
+        249.8936686733343,
+        222.94896448285058
+      ]
+    }
+  ],
+  "image_sha256": "7ce8e6b7378e999966e3b8b156c60df96734db548e22957e051f44e239fce9dd",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

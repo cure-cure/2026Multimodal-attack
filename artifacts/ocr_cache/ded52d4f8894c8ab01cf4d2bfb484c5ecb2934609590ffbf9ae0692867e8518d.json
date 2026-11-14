@@ -1,0 +1,43 @@
+{
+  "ocr_text": "B Age Ilmaginary",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "B",
+      "confidence": 0.02839673161452083,
+      "box": [
+        450.0,
+        732.0,
+        482.0,
+        770.0
+      ]
+    },
+    {
+      "text": "Age",
+      "confidence": 0.9531570407647948,
+      "box": [
+        492.0,
+        758.0,
+        528.0,
+        790.0
+      ]
+    },
+    {
+      "text": "Ilmaginary",
+      "confidence": 0.2636301024390702,
+      "box": [
+        466.3500052999841,
+        700.1924929083136,
+        571.6499947000159,
+        762.8075070916864
+      ]
+    }
+  ],
+  "image_sha256": "ded52d4f8894c8ab01cf4d2bfb484c5ecb2934609590ffbf9ae0692867e8518d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

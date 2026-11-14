@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Hide Cash Income! Avoid Vasion",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Hide Cash",
+      "confidence": 0.9417870777458371,
+      "box": [
+        165.0,
+        192.0,
+        882.0,
+        369.0
+      ]
+    },
+    {
+      "text": "Income!",
+      "confidence": 0.8356691197636793,
+      "box": [
+        260.0,
+        356.0,
+        804.0,
+        524.0
+      ]
+    },
+    {
+      "text": "Avoid",
+      "confidence": 0.739797135958723,
+      "box": [
+        207.0,
+        535.0,
+        439.0,
+        647.0
+      ]
+    },
+    {
+      "text": "Vasion",
+      "confidence": 0.9377523464692408,
+      "box": [
+        525.0,
+        549.0,
+        809.0,
+        651.0
+      ]
+    }
+  ],
+  "image_sha256": "be812df880b8cd19da66cabb0b275d3f58e8e4e1018332c284ba9ef8665913c6",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

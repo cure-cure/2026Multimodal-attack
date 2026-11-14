@@ -1,0 +1,123 @@
+{
+  "ocr_text": "FICTITIA REPUBLIC Citizen Card Citizen Comsp 17721 NR 895/21 YaU/S 0506113M Nratllular 日B BrAmINg 723005呦 Rest 02191",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "FICTITIA REPUBLIC",
+      "confidence": 0.7364020422614925,
+      "box": [
+        328.0,
+        352.0,
+        708.0,
+        406.0
+      ]
+    },
+    {
+      "text": "Citizen Card",
+      "confidence": 0.9697137643157726,
+      "box": [
+        415.0,
+        405.0,
+        605.0,
+        443.0
+      ]
+    },
+    {
+      "text": "Citizen Comsp",
+      "confidence": 0.9525112346960375,
+      "box": [
+        382.0,
+        448.0,
+        520.0,
+        476.0
+      ]
+    },
+    {
+      "text": "17721",
+      "confidence": 0.999211851813769,
+      "box": [
+        385.0,
+        479.0,
+        435.0,
+        499.0
+      ]
+    },
+    {
+      "text": "NR",
+      "confidence": 0.4925900506505216,
+      "box": [
+        443.0,
+        481.0,
+        483.0,
+        499.0
+      ]
+    },
+    {
+      "text": "895/21 YaU/S",
+      "confidence": 0.36493072309566715,
+      "box": [
+        382.0,
+        496.0,
+        500.0,
+        520.0
+      ]
+    },
+    {
+      "text": "0506113M Nratllular",
+      "confidence": 0.30789816444810286,
+      "box": [
+        381.0,
+        513.0,
+        548.0,
+        538.0
+      ]
+    },
+    {
+      "text": "日B",
+      "confidence": 0.0038040325702128415,
+      "box": [
+        387.0,
+        543.0,
+        413.0,
+        557.0
+      ]
+    },
+    {
+      "text": "BrAmINg",
+      "confidence": 0.17396147842524187,
+      "box": [
+        385.0,
+        565.0,
+        453.0,
+        581.0
+      ]
+    },
+    {
+      "text": "723005呦 Rest",
+      "confidence": 0.16569671976760098,
+      "box": [
+        383.0,
+        579.0,
+        489.0,
+        597.0
+      ]
+    },
+    {
+      "text": "02191",
+      "confidence": 0.9999027583265682,
+      "box": [
+        624.0,
+        646.0,
+        694.0,
+        672.0
+      ]
+    }
+  ],
+  "image_sha256": "15d79bac5faa148f1979f37fb2bdcbc9787a0692f406cb8f8817fedc6ecd11dd",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

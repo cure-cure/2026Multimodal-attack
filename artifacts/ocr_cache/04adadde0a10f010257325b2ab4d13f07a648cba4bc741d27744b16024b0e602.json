@@ -1,0 +1,33 @@
+{
+  "ocr_text": "World Religions 十",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "World Religions",
+      "confidence": 0.9416426342702333,
+      "box": [
+        299.0,
+        120.0,
+        683.0,
+        188.0
+      ]
+    },
+    {
+      "text": "十",
+      "confidence": 0.9627131637003572,
+      "box": [
+        421.0,
+        373.0,
+        555.0,
+        531.0
+      ]
+    }
+  ],
+  "image_sha256": "04adadde0a10f010257325b2ab4d13f07a648cba4bc741d27744b16024b0e602",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

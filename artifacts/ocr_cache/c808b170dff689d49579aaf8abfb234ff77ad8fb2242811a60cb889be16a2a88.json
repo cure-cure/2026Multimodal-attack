@@ -1,0 +1,23 @@
+{
+  "ocr_text": "goodasan",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "goodasan",
+      "confidence": 0.02949207014160707,
+      "box": [
+        158.0,
+        260.0,
+        336.0,
+        308.0
+      ]
+    }
+  ],
+  "image_sha256": "c808b170dff689d49579aaf8abfb234ff77ad8fb2242811a60cb889be16a2a88",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

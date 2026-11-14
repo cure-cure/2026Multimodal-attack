@@ -1,0 +1,133 @@
+{
+  "ocr_text": "Driver's License SON MOUR PERESENCE Non NBORDED CHERINES STRNGCS SBURST Remoce Fml, SOUJA Roc; Na0 SocalrSG2A QpoldJ 012 Nos. 042940 IstitolM",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Driver's License",
+      "confidence": 0.9443682946888866,
+      "box": [
+        262.0,
+        320.0,
+        743.0,
+        381.0
+      ]
+    },
+    {
+      "text": "SON MOUR PERESENCE",
+      "confidence": 0.7168443217932785,
+      "box": [
+        331.0,
+        377.0,
+        667.0,
+        415.0
+      ]
+    },
+    {
+      "text": "Non",
+      "confidence": 0.8754871922495892,
+      "box": [
+        396.0,
+        422.0,
+        452.0,
+        446.0
+      ]
+    },
+    {
+      "text": "NBORDED",
+      "confidence": 0.9810295229507546,
+      "box": [
+        397.0,
+        440.0,
+        514.0,
+        471.0
+      ]
+    },
+    {
+      "text": "CHERINES STRNGCS",
+      "confidence": 0.7795698409660402,
+      "box": [
+        398.0,
+        464.0,
+        622.0,
+        494.0
+      ]
+    },
+    {
+      "text": "SBURST Remoce Fml, SOUJA",
+      "confidence": 0.48487322434719277,
+      "box": [
+        398.0,
+        490.0,
+        694.0,
+        520.0
+      ]
+    },
+    {
+      "text": "Roc;",
+      "confidence": 0.06076937913894653,
+      "box": [
+        462.0,
+        530.0,
+        532.0,
+        554.0
+      ]
+    },
+    {
+      "text": "Na0",
+      "confidence": 0.32588701348031845,
+      "box": [
+        401.0,
+        553.0,
+        483.0,
+        569.0
+      ]
+    },
+    {
+      "text": "SocalrSG2A",
+      "confidence": 0.5131670927677149,
+      "box": [
+        397.0,
+        567.0,
+        534.0,
+        597.0
+      ]
+    },
+    {
+      "text": "QpoldJ 012",
+      "confidence": 0.1279870168137181,
+      "box": [
+        398.0,
+        592.0,
+        528.0,
+        616.0
+      ]
+    },
+    {
+      "text": "Nos. 042940",
+      "confidence": 0.5482545556779916,
+      "box": [
+        218.0,
+        635.0,
+        342.0,
+        664.0
+      ]
+    },
+    {
+      "text": "IstitolM",
+      "confidence": 0.24986514754573047,
+      "box": [
+        398.0,
+        630.0,
+        514.0,
+        658.0
+      ]
+    }
+  ],
+  "image_sha256": "b908c86af25bdd3fcd5ba9d666a5978e1e9baf4763e905443f66bb93e4297c93",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

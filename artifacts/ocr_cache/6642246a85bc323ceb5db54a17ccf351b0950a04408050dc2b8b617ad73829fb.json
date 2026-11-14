@@ -1,0 +1,33 @@
+{
+  "ocr_text": "love Someone Wifh autism",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "love Someone",
+      "confidence": 0.560013583204497,
+      "box": [
+        61.0,
+        33.0,
+        254.0,
+        75.0
+      ]
+    },
+    {
+      "text": "Wifh autism",
+      "confidence": 0.456756588421354,
+      "box": [
+        67.0,
+        181.0,
+        234.0,
+        220.0
+      ]
+    }
+  ],
+  "image_sha256": "6642246a85bc323ceb5db54a17ccf351b0950a04408050dc2b8b617ad73829fb",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

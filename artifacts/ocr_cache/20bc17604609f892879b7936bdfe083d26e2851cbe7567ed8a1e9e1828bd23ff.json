@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Ck Wiwshutterstockcom 209161657",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Ck",
+      "confidence": 0.2984547854346147,
+      "box": [
+        243.0,
+        205.0,
+        299.0,
+        247.0
+      ]
+    },
+    {
+      "text": "Wiwshutterstockcom",
+      "confidence": 0.10213223521762649,
+      "box": [
+        63.0,
+        455.0,
+        199.0,
+        469.0
+      ]
+    },
+    {
+      "text": "209161657",
+      "confidence": 0.9973686770018076,
+      "box": [
+        205.0,
+        453.0,
+        279.0,
+        469.0
+      ]
+    }
+  ],
+  "image_sha256": "20bc17604609f892879b7936bdfe083d26e2851cbe7567ed8a1e9e1828bd23ff",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

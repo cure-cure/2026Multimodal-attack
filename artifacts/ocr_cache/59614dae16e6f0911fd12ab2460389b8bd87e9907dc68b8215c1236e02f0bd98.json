@@ -1,0 +1,63 @@
+{
+  "ocr_text": "VIRTUAL TOURs For Sale: Movei Ready",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "VIRTUAL TOURs",
+      "confidence": 0.6184932930969819,
+      "box": [
+        321.0,
+        567.0,
+        403.0,
+        579.0
+      ]
+    },
+    {
+      "text": "For",
+      "confidence": 0.9927076545415977,
+      "box": [
+        327.0,
+        593.0,
+        387.0,
+        629.0
+      ]
+    },
+    {
+      "text": "Sale:",
+      "confidence": 0.9865341285803273,
+      "box": [
+        317.0,
+        629.0,
+        401.0,
+        667.0
+      ]
+    },
+    {
+      "text": "Movei",
+      "confidence": 0.8224199367993071,
+      "box": [
+        298.0,
+        668.0,
+        412.0,
+        700.0
+      ]
+    },
+    {
+      "text": "Ready",
+      "confidence": 0.9999504196809746,
+      "box": [
+        311.0,
+        701.0,
+        403.0,
+        739.0
+      ]
+    }
+  ],
+  "image_sha256": "59614dae16e6f0911fd12ab2460389b8bd87e9907dc68b8215c1236e02f0bd98",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

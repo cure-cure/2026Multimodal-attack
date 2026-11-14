@@ -1,0 +1,23 @@
+{
+  "ocr_text": "carlgrmphotocom",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "carlgrmphotocom",
+      "confidence": 0.22370030080274567,
+      "box": [
+        24.0,
+        892.0,
+        279.0,
+        929.0
+      ]
+    }
+  ],
+  "image_sha256": "f61318a88f095b0a9c43e65011fb18fefbb721973407f3f271f675f0faffc236",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

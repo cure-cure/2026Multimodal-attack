@@ -1,0 +1,43 @@
+{
+  "ocr_text": "WORL RELIBIONS MADE ES",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WORL",
+      "confidence": 0.36259549856185913,
+      "box": [
+        80.0,
+        30.0,
+        192.0,
+        70.0
+      ]
+    },
+    {
+      "text": "RELIBIONS",
+      "confidence": 0.8324984905143548,
+      "box": [
+        59.0,
+        65.0,
+        219.0,
+        105.0
+      ]
+    },
+    {
+      "text": "MADE ES",
+      "confidence": 0.5369532438678598,
+      "box": [
+        55.0,
+        109.0,
+        219.0,
+        129.0
+      ]
+    }
+  ],
+  "image_sha256": "2f42b2c2794d029066cd07173a6a0f28e9495827752c3634e1ff7a5f09910e31",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

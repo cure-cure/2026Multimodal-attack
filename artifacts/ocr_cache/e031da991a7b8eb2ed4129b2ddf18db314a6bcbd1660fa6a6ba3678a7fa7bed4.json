@@ -1,0 +1,23 @@
+{
+  "ocr_text": "youraim sucks, kid",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "youraim sucks, kid",
+      "confidence": 0.6664089185248067,
+      "box": [
+        152.0,
+        98.0,
+        316.0,
+        124.0
+      ]
+    }
+  ],
+  "image_sha256": "e031da991a7b8eb2ed4129b2ddf18db314a6bcbd1660fa6a6ba3678a7fa7bed4",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

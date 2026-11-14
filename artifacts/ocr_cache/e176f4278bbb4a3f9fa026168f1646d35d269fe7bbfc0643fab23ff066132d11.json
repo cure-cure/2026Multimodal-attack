@@ -1,0 +1,73 @@
+{
+  "ocr_text": "帅B { 958 JBWS WQM BraiiuafR ISBle8 S0Vo ltB }哟'@Vav",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "帅B",
+      "confidence": 0.02699938369476638,
+      "box": [
+        101.0,
+        0.0,
+        223.0,
+        35.0
+      ]
+    },
+    {
+      "text": "{",
+      "confidence": 0.001155888667641547,
+      "box": [
+        202.0,
+        0.0,
+        298.0,
+        66.0
+      ]
+    },
+    {
+      "text": "958 JBWS WQM",
+      "confidence": 0.03177597487069764,
+      "box": [
+        290.0,
+        0.0,
+        478.0,
+        32.0
+      ]
+    },
+    {
+      "text": "BraiiuafR",
+      "confidence": 0.0002404674916342847,
+      "box": [
+        59.0,
+        23.0,
+        211.0,
+        61.0
+      ]
+    },
+    {
+      "text": "ISBle8 S0Vo",
+      "confidence": 0.04322464495044047,
+      "box": [
+        283.0,
+        25.0,
+        489.0,
+        63.0
+      ]
+    },
+    {
+      "text": "ltB }哟'@Vav",
+      "confidence": 2.3256373467696932e-05,
+      "box": [
+        107.0,
+        50.0,
+        445.0,
+        89.0
+      ]
+    }
+  ],
+  "image_sha256": "e176f4278bbb4a3f9fa026168f1646d35d269fe7bbfc0643fab23ff066132d11",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

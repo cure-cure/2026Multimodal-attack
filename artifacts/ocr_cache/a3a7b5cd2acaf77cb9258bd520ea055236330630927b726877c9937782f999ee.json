@@ -1,0 +1,43 @@
+{
+  "ocr_text": "gaddlle 叩 mothBrfUCKers 1t@tDay GOwhoyS & muglinlg",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "gaddlle 叩 mothBrfUCKers",
+      "confidence": 0.16036893219861384,
+      "box": [
+        49.0,
+        3.0,
+        484.0,
+        53.0
+      ]
+    },
+    {
+      "text": "1t@tDay",
+      "confidence": 0.0018320461726052226,
+      "box": [
+        129.0,
+        270.0,
+        387.0,
+        318.0
+      ]
+    },
+    {
+      "text": "GOwhoyS & muglinlg",
+      "confidence": 0.07446528989338626,
+      "box": [
+        99.0,
+        307.0,
+        425.0,
+        351.0
+      ]
+    }
+  ],
+  "image_sha256": "a3a7b5cd2acaf77cb9258bd520ea055236330630927b726877c9937782f999ee",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

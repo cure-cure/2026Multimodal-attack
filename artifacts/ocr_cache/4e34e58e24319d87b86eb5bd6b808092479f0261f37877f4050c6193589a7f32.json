@@ -1,0 +1,43 @@
+{
+  "ocr_text": "咐 W bigstockcom 26152940",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "咐",
+      "confidence": 0.003021743077979977,
+      "box": [
+        132.0,
+        70.0,
+        264.0,
+        192.0
+      ]
+    },
+    {
+      "text": "W bigstockcom",
+      "confidence": 0.8199978821506287,
+      "box": [
+        127.0,
+        303.0,
+        249.0,
+        319.0
+      ]
+    },
+    {
+      "text": "26152940",
+      "confidence": 0.998721558236278,
+      "box": [
+        257.0,
+        303.0,
+        323.0,
+        317.0
+      ]
+    }
+  ],
+  "image_sha256": "4e34e58e24319d87b86eb5bd6b808092479f0261f37877f4050c6193589a7f32",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

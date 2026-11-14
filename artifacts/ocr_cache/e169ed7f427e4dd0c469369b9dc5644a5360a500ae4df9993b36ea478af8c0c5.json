@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Tinking Like Anthropologist DITLi",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Tinking Like",
+      "confidence": 0.8052809799978071,
+      "box": [
+        38.0,
+        108.0,
+        148.0,
+        138.0
+      ]
+    },
+    {
+      "text": "Anthropologist",
+      "confidence": 0.8274242220738843,
+      "box": [
+        47.0,
+        126.0,
+        158.0,
+        155.0
+      ]
+    },
+    {
+      "text": "DITLi ",
+      "confidence": 0.024996064489339064,
+      "box": [
+        54.0,
+        168.0,
+        132.0,
+        176.0
+      ]
+    }
+  ],
+  "image_sha256": "e169ed7f427e4dd0c469369b9dc5644a5360a500ae4df9993b36ea478af8c0c5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ocr_text": "Fictitia Republic Citizen Card PARO1, PFFI lapias Serion 170300.477-71.0341 LeokJmf SEKIN。 AT IIHETAR",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Fictitia Republic Citizen Card",
+      "confidence": 0.8494472700690353,
+      "box": [
+        203.0,
+        387.0,
+        793.0,
+        451.0
+      ]
+    },
+    {
+      "text": "PARO1, PFFI",
+      "confidence": 0.7876822577876039,
+      "box": [
+        207.0,
+        487.0,
+        403.0,
+        525.0
+      ]
+    },
+    {
+      "text": "lapias",
+      "confidence": 0.8507650338532047,
+      "box": [
+        201.0,
+        533.0,
+        309.0,
+        575.0
+      ]
+    },
+    {
+      "text": "Serion",
+      "confidence": 0.9730743657812572,
+      "box": [
+        321.0,
+        535.0,
+        433.0,
+        571.0
+      ]
+    },
+    {
+      "text": "170300.477-71.0341",
+      "confidence": 0.7205536507482491,
+      "box": [
+        209.0,
+        586.0,
+        553.0,
+        625.0
+      ]
+    },
+    {
+      "text": "LeokJmf",
+      "confidence": 0.1287539099722653,
+      "box": [
+        322.0,
+        676.0,
+        463.0,
+        709.0
+      ]
+    },
+    {
+      "text": "SEKIN。",
+      "confidence": 0.5713035633144887,
+      "box": [
+        211.0,
+        719.0,
+        283.0,
+        739.0
+      ]
+    },
+    {
+      "text": "AT IIHETAR",
+      "confidence": 0.7621875615199464,
+      "box": [
+        292.0,
+        718.0,
+        392.0,
+        742.0
+      ]
+    }
+  ],
+  "image_sha256": "5c491f5e71335c2af2bd7e4c2ec693157d7de6e337ecad4384a180efc36da790",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Yusef 0, Demo 38 ylo Security cass",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Yusef 0, Demo",
+      "confidence": 0.4735418645382988,
+      "box": [
+        253.0,
+        527.0,
+        381.0,
+        547.0
+      ]
+    },
+    {
+      "text": "38 ylo",
+      "confidence": 0.5727298532638455,
+      "box": [
+        404.0,
+        526.0,
+        460.0,
+        550.0
+      ]
+    },
+    {
+      "text": "Security cass",
+      "confidence": 0.8227260867885777,
+      "box": [
+        255.0,
+        557.0,
+        361.0,
+        577.0
+      ]
+    }
+  ],
+  "image_sha256": "291d8ea050a089ae2986147dfaa82254f6e021d6ec5af6dbae9795f06abd2d9e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

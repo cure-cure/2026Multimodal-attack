@@ -1,0 +1,43 @@
+{
+  "ocr_text": "SMIJ A Ie AGfee Apostles",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SMIJ A Ie",
+      "confidence": 0.010435315325355996,
+      "box": [
+        60.0,
+        68.0,
+        256.0,
+        117.0
+      ]
+    },
+    {
+      "text": "AGfee",
+      "confidence": 0.035439029258486215,
+      "box": [
+        73.0,
+        109.0,
+        247.0,
+        145.0
+      ]
+    },
+    {
+      "text": "Apostles",
+      "confidence": 0.9949341498304167,
+      "box": [
+        88.0,
+        144.0,
+        231.0,
+        187.0
+      ]
+    }
+  ],
+  "image_sha256": "3228c859e16c6a203e10389de94f35c9b4a4827b47dae42a07636b3cde1526fc",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

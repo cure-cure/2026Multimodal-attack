@@ -1,0 +1,33 @@
+{
+  "ocr_text": "RH C |1",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "RH",
+      "confidence": 0.12115586134420547,
+      "box": [
+        164.0,
+        84.0,
+        301.0,
+        144.0
+      ]
+    },
+    {
+      "text": " C |1",
+      "confidence": 0.12235980003045557,
+      "box": [
+        205.0,
+        137.0,
+        263.0,
+        155.0
+      ]
+    }
+  ],
+  "image_sha256": "5cb8da78304d60d7f1ecd836ff2f1bf67795f75f188a5b309322bcfc6a4ae114",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

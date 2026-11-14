@@ -1,0 +1,73 @@
+{
+  "ocr_text": "CRYPTO FLIP TOP 500% GAINS I 24 HQURS! S THIS PlAIN COLAB BY TIHS MOPAHORE YOI'R PANNE NE RUST QIR FINE 3.U-NING.",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CRYPTO FLIP",
+      "confidence": 0.8009104982833734,
+      "box": [
+        412.0,
+        46.0,
+        622.0,
+        94.0
+      ]
+    },
+    {
+      "text": "TOP 500% GAINS",
+      "confidence": 0.6358611600383676,
+      "box": [
+        230.0,
+        98.0,
+        784.0,
+        198.0
+      ]
+    },
+    {
+      "text": "I 24 HQURS!",
+      "confidence": 0.5036505707592279,
+      "box": [
+        292.0,
+        194.0,
+        748.0,
+        298.0
+      ]
+    },
+    {
+      "text": "S",
+      "confidence": 0.9937914715255971,
+      "box": [
+        316.0,
+        780.0,
+        372.0,
+        858.0
+      ]
+    },
+    {
+      "text": "THIS PlAIN COLAB BY TIHS MOPAHORE YOI'R PANNE",
+      "confidence": 0.3004733404743052,
+      "box": [
+        266.0,
+        910.0,
+        770.0,
+        940.0
+      ]
+    },
+    {
+      "text": "NE RUST QIR FINE 3.U-NING.",
+      "confidence": 0.3922085384702066,
+      "box": [
+        386.0,
+        942.0,
+        660.0,
+        972.0
+      ]
+    }
+  ],
+  "image_sha256": "fc446eb0c4d7044a697216bd2545eda4db984a13cd2c52f83720e41a65f9f4f9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

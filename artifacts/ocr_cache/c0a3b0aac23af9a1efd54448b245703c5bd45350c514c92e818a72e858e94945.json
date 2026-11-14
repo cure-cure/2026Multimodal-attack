@@ -1,0 +1,83 @@
+{
+  "ocr_text": "1 CANT SPEAK FOR MYSELR YOUARE MY VOICE. 8ABErV叫#BE#NT刚(阳I8",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "1",
+      "confidence": 0.4092939475726922,
+      "box": [
+        844.0,
+        42.0,
+        918.0,
+        160.0
+      ]
+    },
+    {
+      "text": "CANT SPEAK",
+      "confidence": 0.8685293820936841,
+      "box": [
+        934.0,
+        1.0,
+        1986.0,
+        221.0
+      ]
+    },
+    {
+      "text": "FOR",
+      "confidence": 0.7078229693395255,
+      "box": [
+        843.0,
+        225.0,
+        1202.0,
+        400.0
+      ]
+    },
+    {
+      "text": "MYSELR",
+      "confidence": 0.34905248792009635,
+      "box": [
+        1252.0,
+        234.0,
+        1904.0,
+        431.0
+      ]
+    },
+    {
+      "text": "YOUARE",
+      "confidence": 0.9697956520737588,
+      "box": [
+        944.0,
+        454.0,
+        1813.0,
+        699.0
+      ]
+    },
+    {
+      "text": "MY VOICE.",
+      "confidence": 0.5062172046590149,
+      "box": [
+        820.0,
+        673.0,
+        1843.0,
+        929.0
+      ]
+    },
+    {
+      "text": "8ABErV叫#BE#NT刚(阳I8",
+      "confidence": 4.6445567254202715e-06,
+      "box": [
+        0.0,
+        1855.0,
+        2034.0,
+        1990.0
+      ]
+    }
+  ],
+  "image_sha256": "c0a3b0aac23af9a1efd54448b245703c5bd45350c514c92e818a72e858e94945",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

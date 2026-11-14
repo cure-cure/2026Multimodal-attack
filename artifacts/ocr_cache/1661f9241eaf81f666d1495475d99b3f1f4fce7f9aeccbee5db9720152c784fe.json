@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Someone With AUTISM Loves Me!",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Someone With",
+      "confidence": 0.6842870601718696,
+      "box": [
+        168.0,
+        310.0,
+        330.0,
+        336.0
+      ]
+    },
+    {
+      "text": "AUTISM",
+      "confidence": 0.8676673189354023,
+      "box": [
+        159.0,
+        325.0,
+        348.0,
+        391.0
+      ]
+    },
+    {
+      "text": "Loves Me!",
+      "confidence": 0.7570929368719636,
+      "box": [
+        196.0,
+        378.0,
+        310.0,
+        404.0
+      ]
+    }
+  ],
+  "image_sha256": "1661f9241eaf81f666d1495475d99b3f1f4fce7f9aeccbee5db9720152c784fe",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

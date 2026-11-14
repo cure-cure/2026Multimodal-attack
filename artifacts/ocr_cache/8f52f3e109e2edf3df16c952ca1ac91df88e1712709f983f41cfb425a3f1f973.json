@@ -1,0 +1,43 @@
+{
+  "ocr_text": "POISDN DIC-LWgncaI FssNEIC!III",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "POISDN",
+      "confidence": 0.4556859525141861,
+      "box": [
+        20.0,
+        56.0,
+        140.0,
+        80.0
+      ]
+    },
+    {
+      "text": "DIC-LWgncaI",
+      "confidence": 0.019871462738137936,
+      "box": [
+        29.0,
+        119.0,
+        137.0,
+        135.0
+      ]
+    },
+    {
+      "text": "FssNEIC!III",
+      "confidence": 0.0036292334208693788,
+      "box": [
+        31.0,
+        133.0,
+        135.0,
+        147.0
+      ]
+    }
+  ],
+  "image_sha256": "8f52f3e109e2edf3df16c952ca1ac91df88e1712709f983f41cfb425a3f1f973",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

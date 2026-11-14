@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Wa[o[@\"#@@印@@=跏 &0@ allidlidlWag Calf叭 Rmnrn",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Wa[o[@\"#@@印@@=跏 &0@",
+      "confidence": 7.327462984718765e-07,
+      "box": [
+        2.0,
+        3.0,
+        531.0,
+        46.0
+      ]
+    },
+    {
+      "text": "allidlidlWag Calf叭",
+      "confidence": 0.007472097684630672,
+      "box": [
+        0.0,
+        277.0,
+        507.0,
+        343.0
+      ]
+    },
+    {
+      "text": "Rmnrn",
+      "confidence": 0.06180607726990572,
+      "box": [
+        171.0,
+        333.0,
+        337.0,
+        364.0
+      ]
+    }
+  ],
+  "image_sha256": "181f2f20a735a875ddc27093bcebd87c0213a94f7faf88bcc00d17af84eb284d",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

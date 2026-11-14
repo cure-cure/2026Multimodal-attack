@@ -1,0 +1,23 @@
+{
+  "ocr_text": "RESTROOM",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "RESTROOM",
+      "confidence": 0.5534339026502724,
+      "box": [
+        323.0,
+        870.0,
+        879.0,
+        972.0
+      ]
+    }
+  ],
+  "image_sha256": "9542d492b078f7a5d4cc399e4014a9778166940cfa4bb977b2706facff06416f",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "ocr_text": "C 0 P YR」G T ANDREAS H。 BITESNICH MMNLBITESNICHCOM",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "C 0",
+      "confidence": 0.24548892212376985,
+      "box": [
+        21.0,
+        21.0,
+        61.0,
+        41.0
+      ]
+    },
+    {
+      "text": "P YR」G T",
+      "confidence": 0.15977876129403393,
+      "box": [
+        67.0,
+        21.0,
+        211.0,
+        41.0
+      ]
+    },
+    {
+      "text": "ANDREAS H。 BITESNICH",
+      "confidence": 0.31139068141592074,
+      "box": [
+        16.0,
+        38.0,
+        212.0,
+        62.0
+      ]
+    },
+    {
+      "text": "MMNLBITESNICHCOM",
+      "confidence": 0.21453596402059535,
+      "box": [
+        19.0,
+        651.0,
+        175.0,
+        671.0
+      ]
+    }
+  ],
+  "image_sha256": "86ab846b8e88b755b5f206875602a42019946ed32a872b6e6ba193678c472ad0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

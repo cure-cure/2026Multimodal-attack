@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Tu1鲁",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Tu1鲁",
+      "confidence": 0.0628255307674408,
+      "box": [
+        715.0,
+        75.0,
+        1185.0,
+        147.0
+      ]
+    }
+  ],
+  "image_sha256": "c885a5adbbdf2a96b0ec70c99ac8e3b423bac37638039e8ad4670e732828e8b9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

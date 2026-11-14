@@ -1,0 +1,33 @@
+{
+  "ocr_text": "吣#邸0皿 吣0咂8熊",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "吣#邸0皿",
+      "confidence": 2.6051608557573818e-06,
+      "box": [
+        13.0,
+        0.0,
+        291.0,
+        35.0
+      ]
+    },
+    {
+      "text": "吣0咂8熊",
+      "confidence": 2.821825492987783e-06,
+      "box": [
+        19.0,
+        261.0,
+        283.0,
+        299.0
+      ]
+    }
+  ],
+  "image_sha256": "195284c269cbde39b1906940c55d3f038561ae753479db3d74db3698cb37a280",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

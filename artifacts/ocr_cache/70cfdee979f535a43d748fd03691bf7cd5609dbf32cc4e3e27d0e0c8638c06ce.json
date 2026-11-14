@@ -1,0 +1,43 @@
+{
+  "ocr_text": "ShUerswk WIN,shutterstockcom 216918361",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "ShUerswk",
+      "confidence": 0.3414740762746194,
+      "box": [
+        94.0,
+        126.0,
+        356.0,
+        174.0
+      ]
+    },
+    {
+      "text": "WIN,shutterstockcom",
+      "confidence": 0.1456880743539743,
+      "box": [
+        117.0,
+        305.0,
+        255.0,
+        319.0
+      ]
+    },
+    {
+      "text": "216918361",
+      "confidence": 0.8800958211984599,
+      "box": [
+        259.0,
+        305.0,
+        333.0,
+        319.0
+      ]
+    }
+  ],
+  "image_sha256": "70cfdee979f535a43d748fd03691bf7cd5609dbf32cc4e3e27d0e0c8638c06ce",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

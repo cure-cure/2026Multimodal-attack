@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Shutterstek WINshutterstockcom 105187166",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Shutterstek",
+      "confidence": 0.7432542284685,
+      "box": [
+        94.0,
+        152.0,
+        356.0,
+        200.0
+      ]
+    },
+    {
+      "text": "WINshutterstockcom",
+      "confidence": 0.15417083238905155,
+      "box": [
+        117.0,
+        357.0,
+        253.0,
+        371.0
+      ]
+    },
+    {
+      "text": "105187166",
+      "confidence": 0.9962340878604233,
+      "box": [
+        259.0,
+        355.0,
+        335.0,
+        371.0
+      ]
+    }
+  ],
+  "image_sha256": "6a84e5a4790a57e81beeed4f0d7562f7911a48dc112fa536b0a26b2c190be0f2",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

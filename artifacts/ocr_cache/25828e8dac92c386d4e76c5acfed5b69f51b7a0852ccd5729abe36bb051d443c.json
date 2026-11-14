@@ -1,0 +1,93 @@
+{
+  "ocr_text": "KEEM Zinc Immunesupport Ury S[0 MOATT SBIlm SOMB",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "KEEM",
+      "confidence": 0.3874976634979248,
+      "box": [
+        622.0,
+        620.0,
+        680.0,
+        644.0
+      ]
+    },
+    {
+      "text": "Zinc",
+      "confidence": 0.995499312877655,
+      "box": [
+        608.0,
+        650.0,
+        697.0,
+        703.0
+      ]
+    },
+    {
+      "text": "Immunesupport",
+      "confidence": 0.5358458176077023,
+      "box": [
+        605.0,
+        711.0,
+        697.0,
+        727.0
+      ]
+    },
+    {
+      "text": "Ury",
+      "confidence": 0.0625355337332283,
+      "box": [
+        598.0,
+        778.0,
+        646.0,
+        786.0
+      ]
+    },
+    {
+      "text": "S[0",
+      "confidence": 0.2102311328355526,
+      "box": [
+        677.0,
+        767.0,
+        703.0,
+        787.0
+      ]
+    },
+    {
+      "text": "MOATT",
+      "confidence": 0.13587347934824484,
+      "box": [
+        597.0,
+        791.0,
+        641.0,
+        803.0
+      ]
+    },
+    {
+      "text": "SBIlm",
+      "confidence": 0.2482579199261826,
+      "box": [
+        663.0,
+        795.0,
+        705.0,
+        809.0
+      ]
+    },
+    {
+      "text": "SOMB",
+      "confidence": 0.218988299369812,
+      "box": [
+        620.0863674677057,
+        723.1638810551212,
+        678.9136325322943,
+        757.8361189448788
+      ]
+    }
+  ],
+  "image_sha256": "25828e8dac92c386d4e76c5acfed5b69f51b7a0852ccd5729abe36bb051d443c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

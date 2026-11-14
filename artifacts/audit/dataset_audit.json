@@ -1,0 +1,26 @@
+{
+  "audit_version": "B-1.0.0",
+  "dataset_zip": "/root/autodl-tmp/open-unlearning/B_deploy_updated_20261109_extracted/data_sources/team_dataset_v1.zip",
+  "manifest_member": "team_dataset_v1/manifest.inputs.jsonl",
+  "sample_count": 4024,
+  "unique_sample_ids": 4024,
+  "unique_image_paths": 1787,
+  "split_counts": {
+    "base_train": 2002,
+    "fusion_train": 808,
+    "test": 609,
+    "validation": 605
+  },
+  "missing_image_count": 0,
+  "missing_image_sample_ids": [],
+  "blank_user_text_count": 0,
+  "replacement_character_count": 0,
+  "inputs_csv_count": 4024,
+  "inputs_csv_id_match": true,
+  "manifest_has_group_fields": false,
+  "inputs_csv_has_group_fields": true,
+  "b_label_row_count": 0,
+  "b_label_populated_count": 0,
+  "image_adversarial_threshold_calibration_allowed": false,
+  "chart": "artifacts/audit/actual_split_counts.png"
+}

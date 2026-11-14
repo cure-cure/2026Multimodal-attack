@@ -1,0 +1,43 @@
+{
+  "ocr_text": "1W 3 10",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "1W ",
+      "confidence": 0.0014202626515547928,
+      "box": [
+        252.0,
+        230.0,
+        364.0,
+        278.0
+      ]
+    },
+    {
+      "text": "3",
+      "confidence": 0.9925669226073195,
+      "box": [
+        382.0,
+        242.0,
+        410.0,
+        278.0
+      ]
+    },
+    {
+      "text": "10",
+      "confidence": 0.6967591940970981,
+      "box": [
+        256.0,
+        428.0,
+        286.0,
+        458.0
+      ]
+    }
+  ],
+  "image_sha256": "d8de8aa5df481e075406cd0da6366901eb5c3078d664c51e46d2cc139cb51d6e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

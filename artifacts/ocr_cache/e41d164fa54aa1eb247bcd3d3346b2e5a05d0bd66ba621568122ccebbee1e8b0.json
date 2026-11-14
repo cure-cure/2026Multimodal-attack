@@ -1,0 +1,33 @@
+{
+  "ocr_text": "WHEELCHAIR RAMP",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WHEELCHAIR",
+      "confidence": 0.9018843354113107,
+      "box": [
+        48.0,
+        126.0,
+        152.0,
+        150.0
+      ]
+    },
+    {
+      "text": "RAMP",
+      "confidence": 0.8199469447135925,
+      "box": [
+        77.0,
+        149.0,
+        123.0,
+        169.0
+      ]
+    }
+  ],
+  "image_sha256": "e41d164fa54aa1eb247bcd3d3346b2e5a05d0bd66ba621568122ccebbee1e8b0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

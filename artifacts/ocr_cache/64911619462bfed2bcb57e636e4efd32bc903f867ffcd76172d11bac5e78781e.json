@@ -1,0 +1,53 @@
+{
+  "ocr_text": "吣5皿皿皿咽 GIIINNCBUI ~皿? It",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "吣5皿皿皿咽",
+      "confidence": 3.87187367645542e-06,
+      "box": [
+        14.0,
+        18.0,
+        190.0,
+        42.0
+      ]
+    },
+    {
+      "text": "GIIINNCBUI",
+      "confidence": 0.04174316228291275,
+      "box": [
+        29.0,
+        41.0,
+        177.0,
+        61.0
+      ]
+    },
+    {
+      "text": "~皿?",
+      "confidence": 0.0009525919837238876,
+      "box": [
+        219.0,
+        21.0,
+        397.0,
+        61.0
+      ]
+    },
+    {
+      "text": "It",
+      "confidence": 0.12330805355594462,
+      "box": [
+        2.0,
+        376.0,
+        32.0,
+        384.0
+      ]
+    }
+  ],
+  "image_sha256": "64911619462bfed2bcb57e636e4efd32bc903f867ffcd76172d11bac5e78781e",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

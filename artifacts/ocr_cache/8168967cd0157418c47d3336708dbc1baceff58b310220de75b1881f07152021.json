@@ -1,0 +1,53 @@
+{
+  "ocr_text": "Hide Cash Income! fax Evasion",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Hide Cash",
+      "confidence": 0.9633073378050188,
+      "box": [
+        275.0,
+        309.0,
+        705.0,
+        417.0
+      ]
+    },
+    {
+      "text": "Income!",
+      "confidence": 0.8462075122197552,
+      "box": [
+        308.0,
+        406.0,
+        659.0,
+        519.0
+      ]
+    },
+    {
+      "text": "fax",
+      "confidence": 0.9948788018497999,
+      "box": [
+        453.0,
+        522.0,
+        554.0,
+        585.0
+      ]
+    },
+    {
+      "text": "Evasion",
+      "confidence": 0.8549089537140777,
+      "box": [
+        409.0,
+        558.0,
+        622.0,
+        639.0
+      ]
+    }
+  ],
+  "image_sha256": "8168967cd0157418c47d3336708dbc1baceff58b310220de75b1881f07152021",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "APL TSLA",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "APL",
+      "confidence": 0.9956298976419636,
+      "box": [
+        181.0,
+        294.0,
+        374.0,
+        404.0
+      ]
+    },
+    {
+      "text": "TSLA",
+      "confidence": 0.9982219338417053,
+      "box": [
+        349.0,
+        583.0,
+        484.0,
+        644.0
+      ]
+    }
+  ],
+  "image_sha256": "aea3e8b44043ba71e01c03b1dd1dfaaebf6252ea8899ee8dcac29162f6e6d1a1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

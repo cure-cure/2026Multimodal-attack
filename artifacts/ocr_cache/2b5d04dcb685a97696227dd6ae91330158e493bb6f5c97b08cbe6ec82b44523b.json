@@ -1,0 +1,43 @@
+{
+  "ocr_text": "唧吮皿哪卿Co衄o皿0 Erlo咖:[咖旧&咖咖呵 va[03} [0[阳r[",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "唧吮皿哪卿Co衄o皿0",
+      "confidence": 5.057582430489254e-08,
+      "box": [
+        6.0,
+        2.0,
+        401.0,
+        57.0
+      ]
+    },
+    {
+      "text": "Erlo咖:[咖旧&咖咖呵",
+      "confidence": 4.309307133347715e-08,
+      "box": [
+        5.0,
+        299.0,
+        401.0,
+        337.0
+      ]
+    },
+    {
+      "text": "va[03} [0[阳r[",
+      "confidence": 1.6785017315157164e-05,
+      "box": [
+        36.0,
+        582.0,
+        362.0,
+        614.0
+      ]
+    }
+  ],
+  "image_sha256": "2b5d04dcb685a97696227dd6ae91330158e493bb6f5c97b08cbe6ec82b44523b",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "皿呸@-皿 N峦皿 沁#茈)",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "皿呸@-皿",
+      "confidence": 0.003599310824181967,
+      "box": [
+        4.0,
+        74.0,
+        298.0,
+        122.0
+      ]
+    },
+    {
+      "text": "N峦皿",
+      "confidence": 0.00015421092962592285,
+      "box": [
+        7.0,
+        108.0,
+        295.0,
+        153.0
+      ]
+    },
+    {
+      "text": "沁#茈)",
+      "confidence": 1.041934524437238e-06,
+      "box": [
+        2.0,
+        138.0,
+        298.0,
+        212.0
+      ]
+    }
+  ],
+  "image_sha256": "1650b61b8c2ac4d655c084f85d275d6635aac5ce21b6cc657df512d63c152e67",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "FOR SALE",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "FOR",
+      "confidence": 0.9976962840392776,
+      "box": [
+        246.0,
+        433.0,
+        387.0,
+        509.0
+      ]
+    },
+    {
+      "text": "SALE",
+      "confidence": 0.9479275345802307,
+      "box": [
+        233.0,
+        495.0,
+        397.0,
+        555.0
+      ]
+    }
+  ],
+  "image_sha256": "8ed3486d2466d99da00ffa1ec9e9f65c085a3a594b0df0d943774bc0dd4c3a72",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

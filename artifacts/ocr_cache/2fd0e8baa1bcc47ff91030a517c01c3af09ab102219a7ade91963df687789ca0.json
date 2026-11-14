@@ -1,0 +1,23 @@
+{
+  "ocr_text": "WINshutterstockcom . 1439679527",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "WINshutterstockcom . 1439679527",
+      "confidence": 0.31159313094300706,
+      "box": [
+        187.0,
+        453.0,
+        413.0,
+        469.0
+      ]
+    }
+  ],
+  "image_sha256": "2fd0e8baa1bcc47ff91030a517c01c3af09ab102219a7ade91963df687789ca0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

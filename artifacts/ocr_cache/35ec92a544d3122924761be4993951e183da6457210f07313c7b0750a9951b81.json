@@ -1,0 +1,53 @@
+{
+  "ocr_text": "raslta ta+凹 trational \"maleStilan yafl REST",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "raslta ta+凹",
+      "confidence": 0.004021571542049613,
+      "box": [
+        21.0,
+        293.0,
+        233.0,
+        333.0
+      ]
+    },
+    {
+      "text": "trational",
+      "confidence": 0.2689126672094502,
+      "box": [
+        51.0,
+        329.0,
+        185.0,
+        365.0
+      ]
+    },
+    {
+      "text": "\"maleStilan yafl",
+      "confidence": 0.0295072526804737,
+      "box": [
+        13.0,
+        361.0,
+        242.0,
+        400.0
+      ]
+    },
+    {
+      "text": "REST",
+      "confidence": 0.8636970520019531,
+      "box": [
+        12.513411707505668,
+        125.30081896054826,
+        86.48658829249433,
+        151.69918103945176
+      ]
+    }
+  ],
+  "image_sha256": "35ec92a544d3122924761be4993951e183da6457210f07313c7b0750a9951b81",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

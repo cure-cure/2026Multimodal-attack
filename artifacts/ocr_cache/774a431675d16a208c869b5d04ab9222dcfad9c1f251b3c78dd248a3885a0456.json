@@ -1,0 +1,23 @@
+{
+  "ocr_text": "PErr",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "PErr",
+      "confidence": 0.012530891224741936,
+      "box": [
+        44.0,
+        98.0,
+        140.0,
+        122.0
+      ]
+    }
+  ],
+  "image_sha256": "774a431675d16a208c869b5d04ab9222dcfad9c1f251b3c78dd248a3885a0456",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

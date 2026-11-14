@@ -1,0 +1,33 @@
+{
+  "ocr_text": "Forsale| 459-352-1236",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Forsale|",
+      "confidence": 0.18669813413892505,
+      "box": [
+        278.0,
+        502.0,
+        1024.0,
+        746.0
+      ]
+    },
+    {
+      "text": "459-352-1236",
+      "confidence": 0.780856304581269,
+      "box": [
+        368.0,
+        710.0,
+        776.0,
+        786.0
+      ]
+    }
+  ],
+  "image_sha256": "83c0c9e8c64f39e316cc9deda5210de2b450fd774d1e7831def7d92dafb5c142",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

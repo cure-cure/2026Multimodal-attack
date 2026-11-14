@@ -1,0 +1,23 @@
+{
+  "ocr_text": "SEXSMP",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SEXSMP",
+      "confidence": 0.12231153156843907,
+      "box": [
+        13.0,
+        83.0,
+        187.0,
+        121.0
+      ]
+    }
+  ],
+  "image_sha256": "98c8f7c02491804ed97ba16830cfc7986caf9c4fb6a0f70afd236ddcfd70c5c5",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

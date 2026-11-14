@@ -1,0 +1,43 @@
+{
+  "ocr_text": "FOR SAL hondyman",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "FOR",
+      "confidence": 0.7029441573606137,
+      "box": [
+        147.0,
+        387.0,
+        375.0,
+        519.0
+      ]
+    },
+    {
+      "text": "SAL",
+      "confidence": 0.14506288723545682,
+      "box": [
+        116.0,
+        494.0,
+        416.0,
+        655.0
+      ]
+    },
+    {
+      "text": "hondyman",
+      "confidence": 0.33090361767944737,
+      "box": [
+        147.87417079758765,
+        637.3945032681697,
+        405.1258292024123,
+        745.6054967318303
+      ]
+    }
+  ],
+  "image_sha256": "c46ad34872ca52c0ca1de2ba6e239cde47d1ff6e1f9359d89d2b99ce07a15078",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ocr_text": "NOORE GIGAR",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "NOORE",
+      "confidence": 0.1266849816143754,
+      "box": [
+        706.7701175612585,
+        616.7642760594247,
+        787.2298824387415,
+        678.2357239405753
+      ]
+    },
+    {
+      "text": "GIGAR",
+      "confidence": 0.44624639795444904,
+      "box": [
+        740.0513167019495,
+        665.2552465952812,
+        809.9486832980505,
+        738.7447534047188
+      ]
+    }
+  ],
+  "image_sha256": "5572b4c970521399ea4f22e52fb87a9095dc0ca1584d5ca9b9512d4dbdef9bae",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ocr_text": "MODEPATE RADICAL lslam",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "MODEPATE",
+      "confidence": 0.24015977850670725,
+      "box": [
+        183.0,
+        464.0,
+        352.0,
+        513.0
+      ]
+    },
+    {
+      "text": "RADICAL",
+      "confidence": 0.7387347926508051,
+      "box": [
+        537.0,
+        473.0,
+        675.0,
+        515.0
+      ]
+    },
+    {
+      "text": "lslam",
+      "confidence": 0.851610460790689,
+      "box": [
+        155.75395509408287,
+        108.13079409646593,
+        428.24604490591713,
+        307.86920590353407
+      ]
+    }
+  ],
+  "image_sha256": "9a29f228f39bc58e34808a27f1fe0610c19998333c3b34f03b345bac2047e599",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

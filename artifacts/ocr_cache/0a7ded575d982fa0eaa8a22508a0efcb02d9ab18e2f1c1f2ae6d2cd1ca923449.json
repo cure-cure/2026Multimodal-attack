@@ -1,0 +1,23 @@
+{
+  "ocr_text": "RSR @@RNGB 鹏",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "RSR @@RNGB 鹏",
+      "confidence": 0.024287627177821493,
+      "box": [
+        19.0,
+        4.0,
+        301.0,
+        44.0
+      ]
+    }
+  ],
+  "image_sha256": "0a7ded575d982fa0eaa8a22508a0efcb02d9ab18e2f1c1f2ae6d2cd1ca923449",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

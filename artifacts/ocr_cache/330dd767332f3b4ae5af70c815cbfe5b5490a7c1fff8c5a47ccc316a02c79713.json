@@ -1,0 +1,33 @@
+{
+  "ocr_text": "〈卿 』00~刚阳",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "〈卿",
+      "confidence": 0.0012837863802839947,
+      "box": [
+        55.0,
+        1.0,
+        195.0,
+        61.0
+      ]
+    },
+    {
+      "text": "』00~刚阳",
+      "confidence": 3.6653760547400627e-06,
+      "box": [
+        2.0,
+        218.0,
+        250.0,
+        250.0
+      ]
+    }
+  ],
+  "image_sha256": "330dd767332f3b4ae5af70c815cbfe5b5490a7c1fff8c5a47ccc316a02c79713",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

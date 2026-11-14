@@ -1,0 +1,33 @@
+{
+  "ocr_text": "鼍  工 理  蹩  命",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": " ",
+      "confidence": 0.45501448175486203,
+      "box": [
+        842.0,
+        35.0,
+        946.0,
+        102.0
+      ]
+    },
+    {
+      "text": "鼍  工 理  蹩  命",
+      "confidence": 0.005228990071432004,
+      "box": [
+        2038.0,
+        1212.0,
+        2607.0,
+        1344.0
+      ]
+    }
+  ],
+  "image_sha256": "fb06dd83a0bf8e8a77aa414beace85d6d3e84f1b2819b85e6ee2770f058897bf",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

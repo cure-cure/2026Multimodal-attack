@@ -1,0 +1,53 @@
+{
+  "ocr_text": "OXIORD conceptualizing terrorism ANTHONY RICHARDS",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "OXIORD",
+      "confidence": 0.23259863909667675,
+      "box": [
+        139.0,
+        31.0,
+        193.0,
+        47.0
+      ]
+    },
+    {
+      "text": "conceptualizing",
+      "confidence": 0.735925539085558,
+      "box": [
+        57.0,
+        107.0,
+        275.0,
+        147.0
+      ]
+    },
+    {
+      "text": "terrorism",
+      "confidence": 0.9927441425770794,
+      "box": [
+        56.0,
+        136.0,
+        270.0,
+        186.0
+      ]
+    },
+    {
+      "text": "ANTHONY RICHARDS",
+      "confidence": 0.951587714406802,
+      "box": [
+        85.0,
+        449.0,
+        249.0,
+        469.0
+      ]
+    }
+  ],
+  "image_sha256": "dd2fa9f2cc12965a1b0bec133ecc0b2ec2d56e4eab80fee30ef4a11ee142e7a1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

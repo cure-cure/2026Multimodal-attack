@@ -1,0 +1,113 @@
+{
+  "ocr_text": "Froaonid Sinyestf Cllplolines 2010 htp: .rglstiomelvisstes.coml /6175/2011/ 1009 RO Overnight! No Risk! Hecode It Iol Rirsl Cistecation of Ishing,sive real investment, the, saltwiac in bogined for the willl-hdssctres; Reen Rlsk。 Are and the 50% co bleat inurnglly。 Senels on spatiilliy a brorich, does the nexrand plaxs to alant - ' 02,0000). Glglninresccont ichsive pervice tros lanles。 Woll we infioitios.",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Froaonid Sinyestf Cllplolines",
+      "confidence": 0.1896188256390031,
+      "box": [
+        139.0,
+        195.0,
+        285.0,
+        211.0
+      ]
+    },
+    {
+      "text": "2010 htp: .rglstiomelvisstes.coml /6175/2011/",
+      "confidence": 0.3147836588804749,
+      "box": [
+        149.0,
+        221.0,
+        415.0,
+        241.0
+      ]
+    },
+    {
+      "text": "1009 RO",
+      "confidence": 0.7152472771168681,
+      "box": [
+        189.0,
+        288.0,
+        823.0,
+        444.0
+      ]
+    },
+    {
+      "text": "Overnight! No Risk!",
+      "confidence": 0.7537085818947248,
+      "box": [
+        243.0,
+        455.0,
+        773.0,
+        545.0
+      ]
+    },
+    {
+      "text": "Hecode It Iol Rirsl",
+      "confidence": 0.38613400817301247,
+      "box": [
+        128.0,
+        598.0,
+        324.0,
+        626.0
+      ]
+    },
+    {
+      "text": "Cistecation of Ishing,sive real investment, the, saltwiac in bogined for the willl-hdssctres;",
+      "confidence": 0.49365592581420925,
+      "box": [
+        156.0,
+        630.0,
+        884.0,
+        659.0
+      ]
+    },
+    {
+      "text": "Reen Rlsk。",
+      "confidence": 0.8259424908941932,
+      "box": [
+        157.0,
+        659.0,
+        249.0,
+        679.0
+      ]
+    },
+    {
+      "text": "Are and the 50% co bleat inurnglly。",
+      "confidence": 0.42641322470508136,
+      "box": [
+        156.0,
+        698.0,
+        450.0,
+        726.0
+      ]
+    },
+    {
+      "text": "Senels on spatiilliy a brorich, does the nexrand plaxs to alant - ' 02,0000).",
+      "confidence": 0.35694938951362243,
+      "box": [
+        156.0,
+        730.0,
+        766.0,
+        756.0
+      ]
+    },
+    {
+      "text": "Glglninresccont ichsive pervice tros lanles。 Woll we infioitios.",
+      "confidence": 0.3736888600823501,
+      "box": [
+        154.0,
+        762.0,
+        658.0,
+        790.0
+      ]
+    }
+  ],
+  "image_sha256": "2b77d1aaa580ae2c9b954a0c98be066187f4174dc3ed5316fa87fe49989cda02",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

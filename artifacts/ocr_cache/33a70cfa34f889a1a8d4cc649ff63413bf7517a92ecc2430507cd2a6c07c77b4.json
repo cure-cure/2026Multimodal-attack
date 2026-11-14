@@ -1,0 +1,23 @@
+{
+  "ocr_text": "今",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "今",
+      "confidence": 0.0015480750440236002,
+      "box": [
+        560.0,
+        370.0,
+        861.0,
+        637.0
+      ]
+    }
+  ],
+  "image_sha256": "33a70cfa34f889a1a8d4cc649ff63413bf7517a92ecc2430507cd2a6c07c77b4",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

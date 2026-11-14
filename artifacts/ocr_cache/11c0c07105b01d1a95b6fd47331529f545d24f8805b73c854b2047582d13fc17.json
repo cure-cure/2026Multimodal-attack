@@ -1,0 +1,43 @@
+{
+  "ocr_text": "如 S@B het@l 9r}8@吣@皿]@Swteh {0(@咖叻@凹",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "如 S@B het@l",
+      "confidence": 0.014019252061728339,
+      "box": [
+        267.0,
+        12.0,
+        555.0,
+        73.0
+      ]
+    },
+    {
+      "text": "9r}8@吣@皿]@Swteh",
+      "confidence": 0.000284603222361539,
+      "box": [
+        157.0,
+        450.0,
+        632.0,
+        500.0
+      ]
+    },
+    {
+      "text": "{0(@咖叻@凹",
+      "confidence": 1.0568205896697406e-05,
+      "box": [
+        228.0,
+        492.0,
+        562.0,
+        540.0
+      ]
+    }
+  ],
+  "image_sha256": "11c0c07105b01d1a95b6fd47331529f545d24f8805b73c854b2047582d13fc17",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

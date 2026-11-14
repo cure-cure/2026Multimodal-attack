@@ -1,0 +1,53 @@
+{
+  "ocr_text": "QUIC CASII N0 CQLLATERAL! Interest rates may esceed 400% APR after 2 weeks。",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "QUIC CASII",
+      "confidence": 0.13624217523249527,
+      "box": [
+        341.0,
+        603.0,
+        681.0,
+        695.0
+      ]
+    },
+    {
+      "text": "N0 CQLLATERAL!",
+      "confidence": 0.31967436382418923,
+      "box": [
+        324.0,
+        686.0,
+        702.0,
+        760.0
+      ]
+    },
+    {
+      "text": "Interest rates may esceed",
+      "confidence": 0.9227890440087628,
+      "box": [
+        333.0,
+        781.0,
+        687.0,
+        821.0
+      ]
+    },
+    {
+      "text": "400% APR after 2 weeks。",
+      "confidence": 0.552779292746199,
+      "box": [
+        344.0,
+        820.0,
+        680.0,
+        850.0
+      ]
+    }
+  ],
+  "image_sha256": "d79022df83eea6642a425b0dd5457b9d76c494cdc452eca046a649cd6828f494",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

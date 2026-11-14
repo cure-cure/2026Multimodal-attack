@@ -1,0 +1,53 @@
+{
+  "ocr_text": "U amsloMarly pUill",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "U",
+      "confidence": 0.06147193272593854,
+      "box": [
+        148.0,
+        318.0,
+        194.0,
+        350.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        618.0,
+        356.0,
+        656.0,
+        380.0
+      ]
+    },
+    {
+      "text": "amsloMarly",
+      "confidence": 0.023360213535451004,
+      "box": [
+        227.0,
+        359.0,
+        595.0,
+        425.0
+      ]
+    },
+    {
+      "text": "pUill",
+      "confidence": 0.21009500646009635,
+      "box": [
+        96.56408368276452,
+        314.5314402592756,
+        158.43591631723547,
+        359.4685597407244
+      ]
+    }
+  ],
+  "image_sha256": "30ef36caeeca64b1c16d57b70c1a4569af0c48225af2500b11012d8ccd1969d0",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

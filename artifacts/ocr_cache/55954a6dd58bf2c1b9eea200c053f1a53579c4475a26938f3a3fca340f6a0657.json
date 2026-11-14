@@ -1,0 +1,63 @@
+{
+  "ocr_text": "SUSO@C[SaO@WCeRfImd; IOIonymder SIBCIC Clothiny; FSlnedale[珈 DIC@nle598ameara 吣@皿@皿mnahor Ca4Cas1a",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "SUSO@C[SaO@WCeRfImd;",
+      "confidence": 0.002824644343680708,
+      "box": [
+        72.0,
+        0.0,
+        467.0,
+        45.0
+      ]
+    },
+    {
+      "text": "IOIonymder SIBCIC Clothiny;",
+      "confidence": 0.17107575352373244,
+      "box": [
+        42.0,
+        32.0,
+        494.0,
+        82.0
+      ]
+    },
+    {
+      "text": "FSlnedale[珈",
+      "confidence": 0.0031064036438233304,
+      "box": [
+        83.0,
+        233.0,
+        433.0,
+        277.0
+      ]
+    },
+    {
+      "text": "DIC@nle598ameara",
+      "confidence": 0.0051308362452826455,
+      "box": [
+        52.0,
+        268.0,
+        479.0,
+        320.0
+      ]
+    },
+    {
+      "text": "吣@皿@皿mnahor Ca4Cas1a",
+      "confidence": 0.00028618045912920625,
+      "box": [
+        30.0,
+        314.0,
+        490.0,
+        362.0
+      ]
+    }
+  ],
+  "image_sha256": "55954a6dd58bf2c1b9eea200c053f1a53579c4475a26938f3a3fca340f6a0657",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

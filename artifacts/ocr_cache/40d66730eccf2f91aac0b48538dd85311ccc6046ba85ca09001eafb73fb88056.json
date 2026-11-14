@@ -1,0 +1,33 @@
+{
+  "ocr_text": "CTLUTCSIGI NQBRAND 5",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "CTLUTCSIGI",
+      "confidence": 0.0796109357693533,
+      "box": [
+        488.0,
+        688.0,
+        546.0,
+        696.0
+      ]
+    },
+    {
+      "text": "NQBRAND 5",
+      "confidence": 0.5480341645936827,
+      "box": [
+        437.0,
+        695.0,
+        591.0,
+        739.0
+      ]
+    }
+  ],
+  "image_sha256": "40d66730eccf2f91aac0b48538dd85311ccc6046ba85ca09001eafb73fb88056",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

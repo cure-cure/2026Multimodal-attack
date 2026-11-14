@@ -1,0 +1,43 @@
+{
+  "ocr_text": "Sam Person I0#2025 XYZ",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Sam Person",
+      "confidence": 0.9992711536423192,
+      "box": [
+        478.0,
+        728.0,
+        602.0,
+        758.0
+      ]
+    },
+    {
+      "text": "",
+      "confidence": 0.0,
+      "box": [
+        367.0,
+        669.0,
+        415.0,
+        866.0
+      ]
+    },
+    {
+      "text": "I0#2025 XYZ",
+      "confidence": 0.4031971685157075,
+      "box": [
+        472.0,
+        768.0,
+        612.0,
+        798.0
+      ]
+    }
+  ],
+  "image_sha256": "85b5571a690085fa109c384f544189e196194ffc19ad1c42b9c8cf89eacff263",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

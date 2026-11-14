@@ -1,0 +1,43 @@
+{
+  "ocr_text": "[ M R",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "[",
+      "confidence": 0.47674270265964935,
+      "box": [
+        30.0,
+        24.0,
+        80.0,
+        72.0
+      ]
+    },
+    {
+      "text": "M",
+      "confidence": 0.02578150324832884,
+      "box": [
+        300.0,
+        28.0,
+        324.0,
+        68.0
+      ]
+    },
+    {
+      "text": "R",
+      "confidence": 0.13057614856038313,
+      "box": [
+        307.0,
+        161.0,
+        335.0,
+        181.0
+      ]
+    }
+  ],
+  "image_sha256": "2950ee0239d7d5437469cf51488674ce37c4752fd2ed4f33b62453597cac85b8",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

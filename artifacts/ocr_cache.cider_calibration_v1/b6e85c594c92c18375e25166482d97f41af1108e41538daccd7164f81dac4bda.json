@@ -1,0 +1,23 @@
+{
+  "ocr_text": "』o唧",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "』o唧",
+      "confidence": 0.00019608232651428624,
+      "box": [
+        78.08460847688576,
+        121.99384970411853,
+        218.91539152311424,
+        217.00615029588147
+      ]
+    }
+  ],
+  "image_sha256": "b6e85c594c92c18375e25166482d97f41af1108e41538daccd7164f81dac4bda",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

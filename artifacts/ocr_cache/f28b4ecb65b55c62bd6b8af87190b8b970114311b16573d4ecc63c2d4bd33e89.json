@@ -1,0 +1,23 @@
+{
+  "ocr_text": "IW",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "IW",
+      "confidence": 0.03500394704971146,
+      "box": [
+        1175.0,
+        465.0,
+        1272.0,
+        520.0
+      ]
+    }
+  ],
+  "image_sha256": "f28b4ecb65b55c62bd6b8af87190b8b970114311b16573d4ecc63c2d4bd33e89",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

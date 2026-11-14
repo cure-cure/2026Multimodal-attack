@@ -1,0 +1,63 @@
+{
+  "ocr_text": "DISABILITY RIGHTS ARE HUMAN RIGHTS",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "DISABILITY",
+      "confidence": 0.9763990997018387,
+      "box": [
+        25.0,
+        13.0,
+        203.0,
+        55.0
+      ]
+    },
+    {
+      "text": "RIGHTS",
+      "confidence": 0.9960245138916081,
+      "box": [
+        76.0,
+        44.0,
+        202.0,
+        86.0
+      ]
+    },
+    {
+      "text": "ARE",
+      "confidence": 0.9968386884360092,
+      "box": [
+        89.0,
+        85.0,
+        195.0,
+        145.0
+      ]
+    },
+    {
+      "text": "HUMAN",
+      "confidence": 0.9990263600194792,
+      "box": [
+        79.0,
+        141.0,
+        199.0,
+        181.0
+      ]
+    },
+    {
+      "text": "RIGHTS",
+      "confidence": 0.9952520429317352,
+      "box": [
+        77.0,
+        175.0,
+        203.0,
+        217.0
+      ]
+    }
+  ],
+  "image_sha256": "53c56dc3c0ca3ade9feab772cfeccf9f29ba6c93617cd1f9c6f901442650ca2a",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

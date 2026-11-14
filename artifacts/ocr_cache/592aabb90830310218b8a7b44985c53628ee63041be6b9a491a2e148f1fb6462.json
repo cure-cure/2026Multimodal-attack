@@ -1,0 +1,43 @@
+{
+  "ocr_text": "岛@ D@I8 W@RR@(C@D。 [0@kC @ VOW @ap 血@皿0q 加8",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "岛@ D@I8 W@RR@(C@D。",
+      "confidence": 1.3744637177344733e-05,
+      "box": [
+        28.0,
+        6.0,
+        700.0,
+        58.0
+      ]
+    },
+    {
+      "text": "[0@kC @ VOW @ap 血@皿0q",
+      "confidence": 1.6389198239258225e-05,
+      "box": [
+        62.0,
+        63.0,
+        690.0,
+        116.0
+      ]
+    },
+    {
+      "text": "加8",
+      "confidence": 0.0008090949032028205,
+      "box": [
+        236.0,
+        478.0,
+        542.0,
+        646.0
+      ]
+    }
+  ],
+  "image_sha256": "592aabb90830310218b8a7b44985c53628ee63041be6b9a491a2e148f1fb6462",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

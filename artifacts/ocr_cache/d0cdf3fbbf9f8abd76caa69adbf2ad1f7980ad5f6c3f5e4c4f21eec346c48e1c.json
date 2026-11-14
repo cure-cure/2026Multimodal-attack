@@ -1,0 +1,43 @@
+{
+  "ocr_text": "UUUISBT BD佃C im0邱",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "UUUISBT",
+      "confidence": 0.04445458327148673,
+      "box": [
+        67.0,
+        43.0,
+        263.0,
+        99.0
+      ]
+    },
+    {
+      "text": "BD佃C",
+      "confidence": 1.615410110389348e-05,
+      "box": [
+        217.0,
+        193.0,
+        541.0,
+        255.0
+      ]
+    },
+    {
+      "text": "im0邱",
+      "confidence": 0.01629524491727352,
+      "box": [
+        1.0,
+        445.0,
+        35.0,
+        458.0
+      ]
+    }
+  ],
+  "image_sha256": "d0cdf3fbbf9f8abd76caa69adbf2ad1f7980ad5f6c3f5e4c4f21eec346c48e1c",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

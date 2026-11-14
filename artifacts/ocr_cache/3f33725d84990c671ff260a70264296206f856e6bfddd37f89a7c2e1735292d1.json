@@ -1,0 +1,23 @@
+{
+  "ocr_text": "yr?OIF5-yJI e.Rrr",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "yr?OIF5-yJI e.Rrr",
+      "confidence": 0.001212491915637581,
+      "box": [
+        191.0,
+        429.0,
+        331.0,
+        447.0
+      ]
+    }
+  ],
+  "image_sha256": "3f33725d84990c671ff260a70264296206f856e6bfddd37f89a7c2e1735292d1",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

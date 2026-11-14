@@ -1,0 +1,23 @@
+{
+  "ocr_text": "DRUGS",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "DRUGS",
+      "confidence": 0.9096446872110429,
+      "box": [
+        71.0,
+        45.0,
+        123.0,
+        61.0
+      ]
+    }
+  ],
+  "image_sha256": "24a0be2c177a8a34fe62bfdb77d3390400b0e290c8e606e8c0e8ed79a8879348",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

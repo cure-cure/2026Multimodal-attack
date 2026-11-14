@@ -1,0 +1,43 @@
+{
+  "ocr_text": ". ASI {明S f",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": ". ASI",
+      "confidence": 0.005653111198434108,
+      "box": [
+        227.0,
+        277.0,
+        331.0,
+        315.0
+      ]
+    },
+    {
+      "text": "{明S",
+      "confidence": 0.00021607391477643223,
+      "box": [
+        647.0,
+        277.0,
+        753.0,
+        313.0
+      ]
+    },
+    {
+      "text": "f",
+      "confidence": 0.01559798284517383,
+      "box": [
+        497.0,
+        433.0,
+        513.0,
+        455.0
+      ]
+    }
+  ],
+  "image_sha256": "4e4eb7654424c6d5b6f48469572542e41eddd98e45977df8cca26ca30a3083d9",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ocr_text": "Why did religion develop?",
+  "ocr_status": "success",
+  "regions": [
+    {
+      "text": "Why did religion develop?",
+      "confidence": 0.6277083493072523,
+      "box": [
+        31.0,
+        115.0,
+        213.0,
+        136.0
+      ]
+    }
+  ],
+  "image_sha256": "fabedce04fbe9be6144b5f01779a6b6939e7e42d93457d78e0bd22852e4b8d56",
+  "engine": "EasyOCR",
+  "engine_version": "1.7.2",
+  "languages": [
+    "ch_sim",
+    "en"
+  ]
+}
