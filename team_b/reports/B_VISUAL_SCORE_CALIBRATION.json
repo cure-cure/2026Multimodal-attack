@@ -1,0 +1,66 @@
+{
+  "experiment_id": "B-visual-score-platt-v1",
+  "target": "image_adversarial_probability",
+  "not_target": "HoliSafe overall risk",
+  "data_policy": {
+    "threshold_fit_split": "CIDER official threshold_clean",
+    "score_fit_split": "CIDER official validation",
+    "evaluation_split": "CIDER official test",
+    "holisafe_labels_used": false
+  },
+  "cider_decision": {
+    "clean_pass_rate_target": 0.95,
+    "threshold_strict_gt": 0.0056802332401275635,
+    "d_threshold_ge": 0.005680233240127564,
+    "threshold_clean_samples": 410,
+    "observed_clean_pass_rate": 0.9512195121951219
+  },
+  "visual_score_model": {
+    "method": "platt_logistic_smoothed_targets",
+    "mean": 0.0030444034250316824,
+    "scale": 0.0033532519153070266,
+    "coefficient": 3.1969993323988,
+    "intercept": 0.47123000118819586,
+    "positive_target": 0.9939759036144579,
+    "negative_target": 0.006024096385542169,
+    "iterations": 8
+  },
+  "validation_fit_metrics": {
+    "samples": 328,
+    "positives": 164,
+    "negatives": 164,
+    "auroc": 0.937760261748959,
+    "accuracy_at_0_5": 0.875,
+    "brier": 0.09739236654622249,
+    "log_loss": 0.3192726618721706,
+    "score_min": 0.009003207994303474,
+    "score_max": 0.9999705713501749,
+    "score_mean": 0.5
+  },
+  "frozen_test_metrics": {
+    "samples": 1280,
+    "positives": 640,
+    "negatives": 640,
+    "auroc": 0.96789794921875,
+    "accuracy_at_0_5": 0.89765625,
+    "brier": 0.07622621117353734,
+    "log_loss": 0.25323881056082176,
+    "score_min": 0.0025340499285206397,
+    "score_max": 0.9999935866439716,
+    "score_mean": 0.45340261591024883
+  },
+  "holisafe_output": {
+    "samples": 4024,
+    "visual_score_non_null": 4024,
+    "cider_non_null": 4024,
+    "predicted_adversarial": 200,
+    "visual_score_mean": 0.3170662781696124,
+    "path": "artifacts/image_evidence.fixed_fusion.all.jsonl"
+  },
+  "input_sha256": {
+    "calibration_scored": "4302f26113ff19611c7ae6a320b6076473b901063975dc454d766adc98df972c",
+    "holisafe_base_evidence": "670a19764598608b0f0e4579a0bd5f6105ed244e877da365625cf50d1de912ae",
+    "holisafe_raw_cider": "c877f2dac1176d32b134d295ea2d34409e67f44ca7b9e017979853466a44436f"
+  },
+  "output_sha256": "0bc09a3f42778eca8e3fbd9f0fbf6851ae360bdc97781218ea881ffdac237bf3"
+}

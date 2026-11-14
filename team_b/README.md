@@ -61,6 +61,20 @@ python scripts/build_calibrated_evidence.py --include-splits test \
 
 `analyze_b_labels.py` 的双轴默认输入包含本地受限 HoliSafe 文件；公开仓库不提供这些输入，可通过命令行参数指定受控环境中的路径。
 
+生成供 D 固定融合直接消费的 HoliSafe 全量图像证据：
+
+```bash
+python scripts/build_holisafe_fixed_fusion_evidence.py
+```
+
+输出位于 `../artifacts/image_evidence.fixed_fusion.all.jsonl`，实验参数和冻结测试指标见
+`reports/B_VISUAL_SCORE_CALIBRATION.json`。脚本同时兼容独立 `team_b` 部署布局，
+此时输出位于 `artifacts/`。CIDER 判定阈值只使用官方 `threshold_clean`；
+`visual_score` 的 Platt 转换只拟合官方 `validation`，官方 `test` 仅作冻结评估；
+程序不读取 HoliSafe 标签。该分数表示图像对抗风险概率，不是 HoliSafe 整体风险，
+也不能单独替代多模态融合结论。
+
+
 ## 测试
 
 ```bash
