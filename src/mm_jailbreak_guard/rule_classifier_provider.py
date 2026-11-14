@@ -7,11 +7,11 @@ from .rule_baseline import scan_with_rules
 # 必须导入 tokenize，否则加载 joblib 模型时会报找不到该函数的错误
 from .text_utils import tokenize
 
-_MODEL_PATH = Path(__file__).resolve().parents[2] / "models" / "text_classifier_v1.joblib"
+_MODEL_PATH = Path(__file__).resolve().parents[2] / "models" / "text_classifier_v2.joblib"
 
 class RuleClassifierTextProvider:
     name = "C Rule + sklearn TF-IDF"
-    version = "rule-baseline+tfidf-nb/v1"
+    version = "rule-baseline+tfidf-nb/v2"
 
     def __init__(self) -> None:
         if not _MODEL_PATH.is_file():
