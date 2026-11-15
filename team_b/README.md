@@ -2,7 +2,7 @@
 
 本目录是课程任务 B 的公开可复现实现，只做检测与防御。它提供 CIDER 图文相似度变化、EasyOCR 中英文区域、高斯/频域辅助特征、图片哈希缓存、数据审计和 D `ImageEvidence` 适配。
 
-公开仓库不包含 HoliSafe 图片、逐样本 OCR/文本、模型权重、缓存或完整原始结果。聚合结果见 [双标签轴报告](reports/B_DUAL_AXIS_ANALYSIS.md)。
+公开范围尚待组长确认。逐样本 OCR/文本、校园衍生输出、缓存和完整原始结果不应被视为已获公开授权；核对清单见 [B_PUBLICATION_SCOPE_REVIEW.md](reports/B_PUBLICATION_SCOPE_REVIEW.md)。聚合结果见 [双标签轴报告](reports/B_DUAL_AXIS_ANALYSIS.md)。
 
 ## 结论与标签边界
 
@@ -19,7 +19,9 @@
 | 95% clean-pass 阈值 | test | Recall 0.4000，FPR 0.0000 |
 | 整体风险相关性 | HoliSafe 3,415 条有标签样本 | 各 B 信号 AUROC 约 0.48–0.54 |
 
-限制：CIDER 官方 validation/test 的 4 张对抗图片完全重复，只更换 HarmBench 请求；因此 test 是 request-holdout 迁移结果，不证明对全新攻击图片的泛化。整体安全仍应由 B 图像证据与 C 文本证据交给 D 融合。
+限制：CIDER 官方 validation/test 共享 1 条请求、4 张图片，并形成 4 组完全相同的图文对。因此 test 既不是“完全请求留出”，也不是 image-holdout；这里只按“存在已量化重叠的官方划分迁移评测”报告，不证明对全新攻击图片的泛化。整体安全仍应由 B 图像证据与 C 文本证据交给 D 融合。
+
+CIDER 的固定来源、实际权重版本和运行/冻结校验见 [`provenance/CIDER_SOURCE_ATTACHMENT.md`](provenance/CIDER_SOURCE_ATTACHMENT.md) 与 [`reports/B_CIDER_RUN_FREEZE_RECORD.json`](reports/B_CIDER_RUN_FREEZE_RECORD.json)。
 
 ## 环境与上游代码
 

@@ -11,7 +11,7 @@ Threshold `0.00568023` with strict `>`; observed clean pass rate 95.12% on 410 c
 | validation | 328 | 0.9378 | 0.9375 | 0.7104 | 0.4268 | 0.0061 |
 | test | 1280 | 0.9679 | 0.9720 | 0.7000 | 0.4000 | 0.0000 |
 
-Important limitation: the four adversarial images in the official validation and test folders have identical bytes; only the HarmBench requests differ. The test row is therefore request-holdout transfer performance, not image-holdout generalization. Clean images do not overlap. Do not combine these splits into one D handoff manifest or describe 1,280 pairs as 1,280 independent images.
+Important limitation: validation/test share 1 request, 4 images, and 4 completely identical image-text pairs. The test row is therefore neither a complete request holdout nor an image holdout; it is an official-split transfer evaluation with measured overlap. Do not combine these splits into one D handoff manifest or describe 1,280 pairs as 1,280 independent images.
 
 ## Overall-risk axis (HoliSafe)
 

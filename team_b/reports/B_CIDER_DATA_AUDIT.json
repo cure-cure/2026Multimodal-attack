@@ -9,17 +9,26 @@
     "threshold_clean": {
       "pairs": 410,
       "unique_images": 10,
-      "labels": {"clean": 410, "adversarial": 0}
+      "labels": {
+        "clean": 410,
+        "adversarial": 0
+      }
     },
     "validation": {
       "pairs": 328,
       "unique_images": 8,
-      "labels": {"clean": 164, "adversarial": 164}
+      "labels": {
+        "clean": 164,
+        "adversarial": 164
+      }
     },
     "test": {
       "pairs": 1280,
       "unique_images": 8,
-      "labels": {"clean": 640, "adversarial": 640}
+      "labels": {
+        "clean": 640,
+        "adversarial": 640
+      }
     }
   },
   "cross_split_audit": {
@@ -27,6 +36,8 @@
     "threshold_clean_test_image_overlap": 0,
     "validation_test_image_overlap": 4,
     "validation_test_overlap_all_adversarial": true,
-    "interpretation": "The official test changes harmful requests but reuses all four adversarial image byte sequences from validation. Treat test metrics as request-holdout transfer, not image-holdout generalization."
+    "interpretation": "Validation/test share 1 request, 4 images, and 4 completely identical image-text pairs. Test is neither a complete request holdout nor an image holdout; treat it as an official-split transfer evaluation with measured overlap.",
+    "shared_request_count": 1,
+    "identical_image_text_pair_count": 4
   }
 }

@@ -1,0 +1,47 @@
+{
+  "record_version": "B-cider-run-freeze-1.0",
+  "upstream": {
+    "repository": "https://github.com/PandragonXIII/CIDER",
+    "commit": "3c08d7e2d52e27b47d1e428a030e8ffda5efae3e",
+    "tree": "2ca454d00bdeddad272397feb905f576bae1be52",
+    "reproduction": "adapted"
+  },
+  "weights": {
+    "llava_repository": "llava-hf/llava-1.5-7b-hf",
+    "llava_revision": "b234b804b114d9e37bb655e11cbbb5f5e971b7a9",
+    "llava_mode": "detection_components",
+    "diffusion_source": "https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion_uncond.pt",
+    "diffusion_sha256": "a37c32fffd316cd494cf3f35b339936debdc1576dad13fe57c42399a5dbc78b1"
+  },
+  "runtime": {
+    "device": "cuda:0",
+    "seed": 2026,
+    "stages": [50, 100, 150, 200, 250, 300, 350],
+    "config_id": "B-1.0-llava-detection-components-diffusion-uncalibrated",
+    "pip_freeze_sha256": "ab816c3a6634b130399232fa1adca58bcd391726dbf2eafeb6185134e7ea341d",
+    "execution_timestamp_note": "Original runner did not emit a start timestamp; artifact mtimes are retained below instead of inventing one."
+  },
+  "artifact_mtimes": {
+    "holisafe_raw_cider": "2026-11-09T12:39:33+08:00",
+    "calibration_raw_cider": "2026-11-11T15:46:45+08:00",
+    "calibration_scored": "2026-11-11T15:51:17+08:00",
+    "fixed_fusion_evidence": "2026-11-14T23:15:42+08:00"
+  },
+  "freeze_protocol": {
+    "threshold_source": "CIDER official threshold_clean only",
+    "threshold": 0.0056802332401275635,
+    "comparison": "strict_gt",
+    "clean_pass_rate_target": 0.95,
+    "score_calibration_source": "CIDER official validation only",
+    "score_calibration": "Platt logistic with smoothed targets",
+    "frozen_evaluation_source": "CIDER official test",
+    "holisafe_labels_used": false,
+    "overlap_warning": "validation/test share 1 request, 4 images, and 4 completely identical image-text pairs; test is neither a complete request holdout nor an image holdout"
+  },
+  "artifacts": {
+    "calibration_raw": {"rows": 2018, "sha256": "fe1be9de41853025144361a8d54f5a84b594afdc66302271ce6ca940a8accd8a"},
+    "calibration_scored": {"rows": 2018, "sha256": "4302f26113ff19611c7ae6a320b6076473b901063975dc454d766adc98df972c"},
+    "holisafe_raw": {"rows": 4024, "sha256": "c877f2dac1176d32b134d295ea2d34409e67f44ca7b9e017979853466a44436f"},
+    "fixed_fusion_evidence": {"rows": 4024, "sha256": "0bc09a3f42778eca8e3fbd9f0fbf6851ae360bdc97781218ea881ffdac237bf3"}
+  }
+}

@@ -141,6 +141,27 @@ def adversarial_axis(args):
             "handcrafted_unique_image_level": compare(list(unique.values()), FEATURES),
             "unique_images": len(unique),
         }
+    validation = [row for row in manifest.values() if row["split"] == "validation"]
+    test = [row for row in manifest.values() if row["split"] == "test"]
+    validation_images = {cider[row["sample_id"]]["image_sha256"] for row in validation}
+    test_images = {cider[row["sample_id"]]["image_sha256"] for row in test}
+    validation_requests = {row["user_text"] for row in validation}
+    test_requests = {row["user_text"] for row in test}
+    validation_pairs = {
+        (cider[row["sample_id"]]["image_sha256"], row["user_text"]) for row in validation
+    }
+    test_pairs = {
+        (cider[row["sample_id"]]["image_sha256"], row["user_text"]) for row in test
+    }
+    report["cross_split_overlap_audit"] = {
+        "shared_request_count": len(validation_requests & test_requests),
+        "shared_image_count": len(validation_images & test_images),
+        "identical_image_text_pair_count": len(validation_pairs & test_pairs),
+        "interpretation": (
+            "The test split is neither a complete request holdout nor an image holdout; "
+            "report it only as an official-split transfer evaluation with measured overlap."
+        ),
+    }
     scored = [{"sample_id": row["sample_id"], "split": row["split"],
                "image_adv_label": row["label"], "statistic": row["cider_statistic"],
                "threshold": threshold, "prediction": int(row["cider_statistic"] > threshold),
@@ -191,6 +212,12 @@ def render(report):
         item = attack[split]["cider_pair_level"]
         lines.append(f"| {split} | {item['samples']} | {item['auroc']:.4f} | {item['average_precision']:.4f} | "
                      f"{item['accuracy']:.4f} | {item['recall']:.4f} | {item['fpr']:.4f} |")
+    overlap = attack["cross_split_overlap_audit"]
+    lines += ["", "Important limitation: validation/test share "
+              f"{overlap['shared_request_count']} request, {overlap['shared_image_count']} images, and "
+              f"{overlap['identical_image_text_pair_count']} completely identical image-text pairs. "
+              "The test split is therefore neither a complete request holdout nor an image holdout; "
+              "it is an official-split transfer evaluation with measured overlap.", ""]
     lines += ["", "## Overall-risk axis (HoliSafe)", "",
               f"Exploratory comparison on {broad['samples']} labeled pairs "
               f"({broad['positives']} unsafe, {broad['negatives']} safe).", "",

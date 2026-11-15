@@ -66,3 +66,14 @@ team_b/outputs/
 team_b/ocr_cache*/
 team_b/*.zip
 
+
+# Task B per-sample/restricted derivatives: do not add new copies before the
+# group lead approves a publication scope. Existing tracked files are listed
+# in team_b/reports/B_PUBLICATION_SCOPE_REVIEW.md and are not silently deleted.
+/artifacts/ocr*.jsonl
+/artifacts/ocr_cache*/
+/artifacts/*campus12*
+/artifacts/features*.jsonl
+/artifacts/image_evidence*.jsonl
+/artifacts/cider*.jsonl
+/artifacts/manifest.inputs.grouped.jsonl

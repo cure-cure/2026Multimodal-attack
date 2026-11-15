@@ -280,6 +280,12 @@
         }
       },
       "unique_images": 8
+    },
+    "cross_split_overlap_audit": {
+      "shared_request_count": 1,
+      "shared_image_count": 4,
+      "identical_image_text_pair_count": 4,
+      "interpretation": "The test split is neither a complete request holdout nor an image holdout; report it only as an official-split transfer evaluation with measured overlap."
     }
   },
   "holisafe_overall_risk_axis": {

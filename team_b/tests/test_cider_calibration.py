@@ -29,8 +29,8 @@ class CiderCalibrationChecks(unittest.TestCase):
         for name, prefix in (("valset.csv", "v"), ("testset.csv", "t")):
             with (root / "data/text" / name).open("w", encoding="utf-8", newline="") as stream:
                 writer = csv.writer(stream)
-                writer.writerow([f"{prefix} standard", "standard", "harmful", "", "", "", f"{prefix}-id"])
-                writer.writerow([f"{prefix} ignored", "copyright", "copyright", "", "", "", f"{prefix}-ignored"])
+                writer.writerow([f"{prefix} standard", "standard", "harmful", "", "", f"{prefix}-id"])
+                writer.writerow([f"{prefix} ignored", "copyright", "copyright", "", "", f"{prefix}-ignored"])
 
     def test_query_filter_and_package(self):
         with tempfile.TemporaryDirectory() as folder:
@@ -38,7 +38,10 @@ class CiderCalibrationChecks(unittest.TestCase):
             repo, output = base / "repo", base / "out"
             self.make_repo(repo)
             output.mkdir()
-            self.assertEqual(len(read_standard_queries(repo / "data/text/valset.csv")), 1)
+            queries = read_standard_queries(repo / "data/text/valset.csv")
+            self.assertEqual(len(queries), 1)
+            self.assertEqual(queries[0]["upstream_behavior_id"], "v-id")
+            self.assertEqual(queries[0]["legacy_id_component"], "row-1")
             result = build_package(repo, output, "fixture")
             self.assertEqual(result["sample_count"], 5)
             self.assertEqual(result["unique_image_count"], 5)
@@ -49,6 +52,13 @@ class CiderCalibrationChecks(unittest.TestCase):
             with (output / "fixture/labels_for_B.csv").open(encoding="utf-8-sig") as stream:
                 labels = list(csv.DictReader(stream))
             self.assertEqual({row["image_adv_label"] for row in labels}, {"0", "1"})
+            with (output / "fixture/id_mapping.csv").open(encoding="utf-8-sig") as stream:
+                mappings = list(csv.DictReader(stream))
+            self.assertEqual(len(mappings), 5)
+            self.assertEqual({row["upstream_behavior_id"] for row in mappings}, {"v-id", "t-id"})
+            validation = next(row for row in rows if row["split"] == "validation")
+            mapped = next(row for row in mappings if row["sample_id"] == validation["sample_id"])
+            self.assertEqual(mapped["legacy_id_component"], "row-1")
             self.assertTrue((output / "fixture.zip").is_file())
 
 

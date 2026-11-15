@@ -34,17 +34,24 @@ def read_standard_queries(path: Path) -> list[dict]:
     queries = []
     with path.open("r", encoding="utf-8-sig", newline="") as stream:
         for row_number, row in enumerate(csv.reader(stream), 1):
-            if len(row) < 2:
+            if len(row) < 6:
                 raise ValueError(f"Malformed CIDER text row: {path}:{row_number}")
             if row[1].strip() != "standard":
                 continue
             text = row[0].strip()
             if not text:
                 raise ValueError(f"Blank standard query: {path}:{row_number}")
-            behavior_id = row[6].strip() if len(row) > 6 and row[6].strip() else f"row-{row_number}"
+            # The pinned CIDER CSV files have no header. HarmBench _ID is
+            # column 6 (zero-based index 5), not column 7.
+            behavior_id = row[5].strip()
+            if not behavior_id:
+                raise ValueError(f"Blank upstream _ID: {path}:{row_number}")
             queries.append({
                 "text": text,
-                "behavior_id": behavior_id,
+                "upstream_behavior_id": behavior_id,
+                # Preserve existing BC... IDs and emit a mapping instead of
+                # silently re-numbering already generated results.
+                "legacy_id_component": f"row-{row_number}",
                 "source_row": row_number,
             })
     if not queries:
@@ -100,6 +107,7 @@ def build_package(source_repo: Path, output_parent: Path, package_name: str) -> 
     inputs: list[dict] = []
     labels: list[dict] = []
     provenance: list[dict] = []
+    id_mappings: list[dict] = []
     copied: dict[str, dict] = {}
 
     def register_image(path: Path, upstream_split: str, forced_label: int | None = None) -> dict:
@@ -133,7 +141,7 @@ def build_package(source_repo: Path, output_parent: Path, package_name: str) -> 
         for image_path in image_paths:
             image = register_image(image_path, split, forced_label)
             for query in queries:
-                sid = stable_id(split, image["image_sha256"], query["behavior_id"], query["text"])
+                sid = stable_id(split, image["image_sha256"], query["legacy_id_component"], query["text"])
                 manifest = {
                     "sample_id": sid,
                     "image_path": image["image_path"],
@@ -157,10 +165,17 @@ def build_package(source_repo: Path, output_parent: Path, package_name: str) -> 
                     "upstream_image": image["upstream_image"],
                     "upstream_text_file": f"data/text/{'testset' if split == 'test' else 'valset'}.csv",
                     "upstream_text_row": query["source_row"],
-                    "behavior_id": query["behavior_id"],
+                    "behavior_id": query["upstream_behavior_id"],
+                    "legacy_id_component": query["legacy_id_component"],
                     "pair_mode": "combine",
                     "label_evidence": "CIDER documented clean_/prompt_constrained_ filename convention",
                     "source_commit": UPSTREAM_COMMIT,
+                })
+                id_mappings.append({
+                    "sample_id": sid, "upstream_behavior_id": query["upstream_behavior_id"],
+                    "upstream_text_file": f"data/text/{'testset' if split == 'test' else 'valset'}.csv",
+                    "upstream_text_row": query["source_row"],
+                    "legacy_id_component": query["legacy_id_component"],
                 })
 
     # Upstream threshold selection combines ten clean images with valset queries.
@@ -173,7 +188,7 @@ def build_package(source_repo: Path, output_parent: Path, package_name: str) -> 
     for path in clean_paths:
         image = register_image(path, "threshold_clean", forced_label=0)
         for query in val_queries:
-            sid = stable_id("threshold_clean", image["image_sha256"], query["behavior_id"], query["text"])
+            sid = stable_id("threshold_clean", image["image_sha256"], query["legacy_id_component"], query["text"])
             manifest = {
                 "sample_id": sid,
                 "image_path": image["image_path"],
@@ -194,9 +209,16 @@ def build_package(source_repo: Path, output_parent: Path, package_name: str) -> 
                 "upstream_image": image["upstream_image"],
                 "upstream_text_file": "data/text/valset.csv",
                 "upstream_text_row": query["source_row"],
-                "behavior_id": query["behavior_id"], "pair_mode": "combine",
+                "behavior_id": query["upstream_behavior_id"],
+                "legacy_id_component": query["legacy_id_component"], "pair_mode": "combine",
                 "label_evidence": "CIDER official threshold-selection clean directory",
                 "source_commit": UPSTREAM_COMMIT,
+            })
+            id_mappings.append({
+                "sample_id": sid, "upstream_behavior_id": query["upstream_behavior_id"],
+                "upstream_text_file": "data/text/valset.csv",
+                "upstream_text_row": query["source_row"],
+                "legacy_id_component": query["legacy_id_component"],
             })
 
     add_pairs(source_data / "img" / "valset", "validation", val_queries)
@@ -225,7 +247,11 @@ def build_package(source_repo: Path, output_parent: Path, package_name: str) -> 
     ])
     write_csv(root / "provenance.csv", provenance, [
         "sample_id", "upstream_image", "upstream_text_file", "upstream_text_row",
-        "behavior_id", "pair_mode", "label_evidence", "source_commit",
+        "behavior_id", "legacy_id_component", "pair_mode", "label_evidence", "source_commit",
+    ])
+    write_csv(root / "id_mapping.csv", id_mappings, [
+        "sample_id", "upstream_behavior_id", "upstream_text_file",
+        "upstream_text_row", "legacy_id_component",
     ])
     write_csv(root / "sources.csv", [{
         "source_id": "SRC_CIDER_OFFICIAL", "source_name": "CIDER official repository data",
@@ -246,6 +272,8 @@ def build_package(source_repo: Path, output_parent: Path, package_name: str) -> 
         "source_commit": UPSTREAM_COMMIT,
         "pair_mode": "combine",
         "query_filter": "column 2 equals standard",
+        "upstream_id_column": {"one_based": 6, "zero_based": 5, "name": "_ID"},
+        "sample_id_policy": "preserve existing BC IDs; see id_mapping.csv",
         "sample_count": len(manifests),
         "unique_image_count": len(copied),
         "standard_query_counts": {"validation": len(val_queries), "test": len(test_queries)},
