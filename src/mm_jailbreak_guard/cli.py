@@ -16,6 +16,7 @@ from .handoff import validate_handoff
 from .pipeline import image_decision
 from .learned_fusion import load_fusion_engine, train_bundle
 from .training_io import adapt_manifest, file_digest, validate_training_manifests
+from .week5 import add_week5_batch_command
 
 
 def _add_upstream_arguments(parser: argparse.ArgumentParser) -> None:
@@ -32,6 +33,7 @@ def build_parser() -> argparse.ArgumentParser:
         prog="mm-guard", description="第十题 D 模块：多证据融合与系统集成"
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
+    add_week5_batch_command(subparsers)
     collect = subparsers.add_parser("collect-evidence", help="调用B/C提供方，冻结可追溯的证据JSONL供后续融合")
     collect.add_argument("--manifest", required=True)
     _add_upstream_arguments(collect)
@@ -92,6 +94,7 @@ def build_parser() -> argparse.ArgumentParser:
     web_parser.add_argument("--host", default="127.0.0.1")
     web_parser.add_argument("--port", type=int, default=8000)
     web_parser.add_argument("--records", default="runtime/detections.jsonl")
+    web_parser.add_argument("--replay-manifest", help="按清单编号回放 B/C 已计算的证据")
     web_parser.set_defaults(handler=_web)
     return parser
 
@@ -302,7 +305,16 @@ def _compare(args: argparse.Namespace) -> int:
 def _web(args: argparse.Namespace) -> int:
     from .web import run_server
 
-    run_server(_pipeline(args), args.host, args.port, args.records)
+    replay = None
+    if args.replay_manifest:
+        if args.host not in {"localhost", "127.0.0.1"}:
+            raise ValueError("证据回放仅支持本机地址")
+        if not args.image_evidence or not args.text_evidence:
+            raise ValueError("证据回放需同时提供 B 和 C 的离线证据")
+        validate_handoff(args.replay_manifest, args.image_evidence, args.text_evidence)
+        path, rows = _load_manifest(args.replay_manifest)
+        replay = {row["sample_id"]: _request_from_record(row, path) for row in rows}
+    run_server(_pipeline(args), args.host, args.port, args.records, replay=replay)
     return 0
 
 

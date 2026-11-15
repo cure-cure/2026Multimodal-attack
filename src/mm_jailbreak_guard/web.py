@@ -64,7 +64,8 @@ def _field_text(fields: dict[str, dict[str, Any]], name: str) -> str:
     return bytes(field["data"]).decode("utf-8", errors="replace").strip()
 
 
-def make_handler(pipeline: DetectionPipeline, audit_log: JsonlAuditLog):
+def make_handler(pipeline: DetectionPipeline, audit_log: JsonlAuditLog, *,
+                 replay: dict[str, DetectionRequest] | None = None):
     class Handler(BaseHTTPRequestHandler):
         server_version = "MMGuard/0.1"
 
@@ -84,7 +85,10 @@ def make_handler(pipeline: DetectionPipeline, audit_log: JsonlAuditLog):
 
         def do_GET(self) -> None:
             if self.path == "/api/status":
-                self._json(HTTPStatus.OK, pipeline.status())
+                status = pipeline.status()
+                if replay is not None:
+                    status["replay"] = {"count": len(replay), "example_id": next(iter(replay), None)}
+                self._json(HTTPStatus.OK, status)
                 return
             if self.path.startswith("/api/records"):
                 self._json(HTTPStatus.OK, {"records": audit_log.recent(10)})
@@ -140,7 +144,14 @@ def make_handler(pipeline: DetectionPipeline, audit_log: JsonlAuditLog):
 
                 image_field = fields.get("image")
                 image_name: str | None = None
-                if image_field and image_field.get("filename"):
+                has_upload = bool(image_field and image_field.get("filename"))
+                if replay is not None:
+                    if user_text or has_upload:
+                        raise ValueError("证据回放只接受样本编号，请清空新上传的图文")
+                    request = replay.get(sample_id)
+                    if request is None:
+                        raise ValueError("该样本编号不在回放清单中")
+                elif has_upload:
                     image_name = Path(str(image_field["filename"])).name
                     suffix = Path(image_name).suffix.casefold()
                     if suffix not in ALLOWED_IMAGE_EXTENSIONS:
@@ -156,20 +167,19 @@ def make_handler(pipeline: DetectionPipeline, audit_log: JsonlAuditLog):
                         handle.write(image_bytes)
                         temp_path = handle.name
 
-                request = DetectionRequest(
-                    sample_id=sample_id,
-                    user_text=user_text,
-                    image_path=temp_path,
-                    image_name=image_name,
-                )
+                if replay is None:
+                    request = DetectionRequest(sample_id, user_text, temp_path, image_name)
                 report = pipeline.detect(request, mode=_field_text(fields, "mode") or "full")
                 payload = report.as_dict(include_upstream=True)
+                if replay is not None:
+                    payload["replay"] = True
+                    payload["request"]["image_path"] = None
                 audit_log.append(
                     {
                         "sample_id": sample_id,
-                        "image_name": image_name,
+                        "image_name": request.image_name,
                         "user_text_sha256": hashlib.sha256(
-                            user_text.encode("utf-8")
+                            request.user_text.encode("utf-8")
                         ).hexdigest(),
                         "result": report.as_prediction_record(),
                     }
@@ -205,9 +215,11 @@ def run_server(
     host: str,
     port: int,
     records_path: str | Path,
+    *,
+    replay: dict[str, DetectionRequest] | None = None,
 ) -> None:
     audit_log = JsonlAuditLog(records_path)
-    server = ThreadingHTTPServer((host, port), make_handler(pipeline, audit_log))
+    server = ThreadingHTTPServer((host, port), make_handler(pipeline, audit_log, replay=replay))
     print(f"本地演示已启动：http://{host}:{port}")
     print("按 Ctrl+C 停止。检测记录不保存原始图片或原始文字。")
     try:

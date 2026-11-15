@@ -38,9 +38,13 @@ class WebRequestTests(unittest.TestCase):
                 learned = LearnedFusionEngine(train_bundle(training, validation, pipeline.fusion_engine.bundle,
                                                           provenance={}, epochs=150))
                 fixed = pipeline.fusion_engine
-                for algorithm, mode in ((a, m) for a in ('fixed', 'learned') for m in ('image_only', 'text_only', 'full')):
-                    pipeline.fusion_engine = fixed if algorithm == 'fixed' else learned
-                    fields = {"sample_id": "mock-002", "user_text": "模拟风险占位", "mode": mode}
+                week5 = FusionEngine(FusionBundle.load(ROOT / "configs/fusion_config.week5_fixed.json"))
+                cases = [(engine, mode, "mock-002", 1) for engine in (fixed, learned, week5)
+                         for mode in ("image_only", "text_only", "full")]
+                cases.extend([(week5, "text_only", "mock-005", 1), (week5, "full", "mock-005", None)])
+                for engine, mode, sample_id, expected_prediction in cases:
+                    pipeline.fusion_engine = engine
+                    fields = {"sample_id": sample_id, "user_text": "模拟风险占位", "mode": mode}
                     body = "".join(f'--check\r\nContent-Disposition: form-data; name="{key}"\r\n\r\n{value}\r\n'
                                    for key, value in fields.items()) + "--check--\r\n"
                     request = Request(base + "/api/detect", data=body.encode("utf-8"),
@@ -48,8 +52,8 @@ class WebRequestTests(unittest.TestCase):
                     with urlopen(request, timeout=5) as response:
                         result = json.load(response)["fusion"]
                     self.assertEqual(result["mode"], mode)
-                    self.assertEqual(result["prediction"], 1)
-                    expected = pipeline.detect(DetectionRequest("mock-002", "模拟风险占位"), mode).fusion
+                    self.assertEqual(result["prediction"], expected_prediction)
+                    expected = pipeline.detect(DetectionRequest(sample_id, "模拟风险占位"), mode).fusion
                     self.assertEqual(result["prediction"], expected.prediction)
                     self.assertEqual(result["risk_score"], expected.risk_score)
                     if mode == "image_only":

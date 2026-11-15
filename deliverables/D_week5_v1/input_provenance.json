@@ -1,0 +1,10 @@
+{
+  "B_commit": "d588eb5f5e35b00431b09be7900f39b15b1c06de",
+  "A_manifest_basis": "B 上游主数据分组清单，该文件未含真值；仅选原有 validation 划分，不重新分组或划分",
+  "B_manifest_sha256": "faa0fb323e561a541c706a65850a046f3d0a1bff6bfa9259a57f1839e6a35748",
+  "B_image_evidence_sha256": "0bc09a3f42778eca8e3fbd9f0fbf6851ae360bdc97781218ea881ffdac237bf3",
+  "C_archive_sha256": "340cc6566e9afb9d0a0977141e353e0a64bb735b2b07066acbb484f25fbfa0e9",
+  "C_member": "C_Pure_HoliSafe_Evidence_For_D/pure_c_val_v2.jsonl",
+  "C_member_sha256": "52225c5e128f0f42962878cfca005faf4880006f1bb5fc97bfd008a1d832080a",
+  "run_input_policy": "只运行主验证集；未运行融合训练、主测试或校园补充测试；从真实预计算证据开始回放"
+}

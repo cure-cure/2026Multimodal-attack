@@ -49,4 +49,4 @@ python -m mm_jailbreak_guard batch --manifest data/manifest.test.jsonl --image-e
 
 已实现固定加权融合、手写逻辑回归、启发式关联特征、异常处理及批量/页面框架。`train-fusion`在fusion_train训练、validation/val选阈值；`adapt-manifest`读取A分组CSV生成新清单；`collect-evidence`缓存B/C输出；compare的--baseline-config支持同证据固定融合对照。`fit`仍为独立网格搜索实验工具，不代替train-fusion。课件对应仍待核验，算法见[融合路线](docs/FUSION_ROADMAP.md)。
 
-运行 `python scripts/check_d_workflow.py` 可生成outputs/D_mock/learned.json及模拟预测。页面脚本支持 `-ConfigPath outputs/D_mock/learned.json`。真实B/C接入、真实稳定分数训练、评测指标及真实演示尚未完成。A维护数据及真值并统一评测；D不实现B/C算法、不重新划分数据。输出和日志分别写入outputs/、runtime/，均被忽略。
+运行 `python scripts/check_d_workflow.py` 可生成 `outputs/D_mock/learned.json` 及模拟预测。页面脚本支持 `-ConfigPath outputs/D_mock/learned.json`。第五周已用 B、C 的真实离线证据完成固定融合与网页回放，见[运行说明](docs/WEEK5_D_DELIVERY.md)和[给 A 的交付](deliverables/D_week5_v1/)。真实融合训练留到第六周；A 维护真值并统一评测。运行时输出仍保存到被忽略的 `outputs/` 与 `runtime/`。

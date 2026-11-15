@@ -60,7 +60,7 @@ function renderResult(report) {
     setText("#threshold-label", `${rule.statistic_name}: ${rule.statistic.toFixed(3)}；风险条件 ${rule.comparison === "ge" ? "≥" : "≤"} ${rule.threshold}`);
   }
   const rule = fusion.decision_rule;
-  const elapsed = typeof report.elapsed_ms === "number" ? `；处理耗时 ${report.elapsed_ms.toFixed(1)} ms` : "";
+  const elapsed = typeof report.elapsed_ms === "number" ? `；${report.replay ? "回放与判定" : "处理"}耗时 ${report.elapsed_ms.toFixed(1)} ms` : "";
   if (rule && rule.logit_contributions) {
     const names = {user_text_score: "用户文字", ocr_text_score: "OCR文字", combined_text_score: "组合文字", visual_score: "图像", cross_modal_score: "协同"};
     const contributions = Object.entries(rule.logit_contributions).map(([key, value]) => {
@@ -91,6 +91,15 @@ async function loadStatus() {
   try {
     const response = await fetch("/api/status");
     const status = await response.json();
+    if (status.replay) {
+      setText("#mode-note", "按编号回放已计算的图像和文字证据；切换模式可查看两侧和融合判定。");
+      setText("#sample-note", `本地回放清单包含 ${status.replay.count} 条样本`);
+      document.querySelector("#sample-id").value = status.replay.example_id || "";
+      textArea.disabled = true;
+      imageInput.disabled = true;
+      document.querySelector("#image-field").hidden = true;
+      document.querySelector("#text-field").hidden = true;
+    }
     for (const name of ["B", "C", "D"]) {
       const row = document.querySelector(`[data-module="${name}"]`);
       const item = status[name];

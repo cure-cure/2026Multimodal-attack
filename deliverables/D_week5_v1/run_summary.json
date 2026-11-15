@@ -1,0 +1,91 @@
+{
+  "run_id": "D-week5-v1",
+  "data_kind": "real",
+  "status": "complete_coverage",
+  "finished_at_utc": "2026-11-15T08:26:38.470803+00:00",
+  "sample_count": 605,
+  "split_counts": {
+    "validation": 605
+  },
+  "decision_counts": {
+    "image_only": 605,
+    "text_only": 605,
+    "full": 605
+  },
+  "abstained_counts": {
+    "image_only": 0,
+    "text_only": 0,
+    "full": 0
+  },
+  "ocr_status_counts": {
+    "success": 263,
+    "no_text": 342
+  },
+  "module_versions": {
+    "B": [
+      "B-1.2.0-cider-platt-v1"
+    ],
+    "C": [
+      "rule-baseline+tfidf-nb/v2"
+    ]
+  },
+  "text_provider": null,
+  "fusion_config": {
+    "config_id": "D-week5-fixed-v1",
+    "trained_on_split": null,
+    "algorithm": "manual_weighted_late_fusion",
+    "visual_weight_cap": 0.2,
+    "modes": {
+      "image_only": {
+        "threshold": 0.5,
+        "weights": {
+          "visual_score": 1.0
+        }
+      },
+      "text_only": {
+        "threshold": 0.5,
+        "weights": {
+          "user_text_score": 0.4,
+          "ocr_text_score": 0.3,
+          "combined_text_score": 0.3
+        }
+      },
+      "user_text_only": {
+        "threshold": 0.5,
+        "weights": {
+          "user_text_score": 1.0
+        }
+      },
+      "user_text_ocr": {
+        "threshold": 0.5,
+        "weights": {
+          "user_text_score": 0.35,
+          "ocr_text_score": 0.25,
+          "combined_text_score": 0.25,
+          "cross_modal_score": 0.15
+        }
+      },
+      "full": {
+        "threshold": 0.5,
+        "weights": {
+          "user_text_score": 0.25,
+          "ocr_text_score": 0.2,
+          "combined_text_score": 0.25,
+          "visual_score": 0.1,
+          "cross_modal_score": 0.2
+        }
+      }
+    },
+    "selection": {
+      "status": "predeclared_unvalidated_baseline",
+      "require_both_sides": true,
+      "note": "沿用第四周示例参数，未使用真实标签或测试集调参。第五周仅作验证集初次集成基线，不能称为正式冻结配置。"
+    }
+  },
+  "input_sha256": {
+    "manifest": "33365fc72638ed9355317480450a1c1d711eca77dd4c560da95f8993540ff131",
+    "image_evidence": "bbd706a9d5076da857a8275c2e87bda7865d112c2296c66c7ed6ea101995cbb9",
+    "text_evidence": "52225c5e128f0f42962878cfca005faf4880006f1bb5fc97bfd008a1d832080a",
+    "config": "53875f85b9c98ee928915ad7b006ba2ae066ee413f58da963206f80ecbee35f6"
+  }
+}

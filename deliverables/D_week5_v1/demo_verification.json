@@ -1,0 +1,44 @@
+{
+  "replay_sample_count": 605,
+  "checks": [
+    {
+      "sample_id": "S0259059B680F",
+      "ocr_status": "success",
+      "mode": "image_only",
+      "batch_matches_replay": true
+    },
+    {
+      "sample_id": "S0259059B680F",
+      "ocr_status": "success",
+      "mode": "text_only",
+      "batch_matches_replay": true
+    },
+    {
+      "sample_id": "S0259059B680F",
+      "ocr_status": "success",
+      "mode": "full",
+      "batch_matches_replay": true
+    },
+    {
+      "sample_id": "S03CEC96B0D85",
+      "ocr_status": "no_text",
+      "mode": "image_only",
+      "batch_matches_replay": true
+    },
+    {
+      "sample_id": "S03CEC96B0D85",
+      "ocr_status": "no_text",
+      "mode": "text_only",
+      "batch_matches_replay": true
+    },
+    {
+      "sample_id": "S03CEC96B0D85",
+      "ocr_status": "no_text",
+      "mode": "full",
+      "batch_matches_replay": true
+    }
+  ],
+  "unknown_id_rejected": true,
+  "new_text_rejected": true,
+  "scope": "local HTTP test using real offline B/C evidence; no new-image inference"
+}

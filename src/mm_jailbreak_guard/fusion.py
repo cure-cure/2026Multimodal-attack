@@ -227,6 +227,20 @@ class FusionEngine:
             for name, weight in config.weights.items()
             if weight > 0 and features.get(name) is not None
         }
+        if (mode == "full" and self.bundle.selection.get("require_both_sides") is True
+                and ("visual_score" not in usable or not TEXT_FEATURES.intersection(usable))):
+            return FusionResult(
+                sample_id=request.sample_id,
+                label_name="insufficient_evidence",
+                prediction=None,
+                risk_score=None,
+                threshold=config.threshold,
+                mode=mode,
+                component_scores=features,
+                effective_weights={},
+                warnings=tuple(warnings + ["完整融合需要有效图像分数和至少一项有效文本分数同时参与"]),
+                fusion_config_id=self.bundle.config_id,
+            )
         total_weight = sum(usable.values())
         if mode == "image_only" and image.cider is not None:
             c = image.cider
