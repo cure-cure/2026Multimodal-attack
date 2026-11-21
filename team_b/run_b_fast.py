@@ -67,12 +67,13 @@ class FastLiteDetector(LiteDetector):
             "prediction": None if threshold is None else int(value > threshold),
             "comparison": "gt", "seed": seed, "image_sha256": digest,
             "visual_cache_hit": cache_hit, "config_id": cfg["config_id"],
-            "reproduction": "adapted", "module_version": "B-1.0.0-fast-lite",
+            "reproduction": "adapted",
+            "module_version": cfg.get("module_version", "B-2.0.0-week5-stable"),
             "elapsed_ms": round((time.perf_counter() - started) * 1000, 3),
         }
 
 
 if __name__ == "__main__":
     run_b.Detector = FastLiteDetector
-    run_b.VERSION = "B-1.0.0-fast-lite"
+    run_b.VERSION = "B-2.0.0-week5-stable"
     run_b.main()

@@ -1,0 +1,24 @@
+{
+  "config_id": "B-2.0-week5-stable-cider-validation-balanced",
+  "encoder_path": "lite_models_fast/llava-1.5-7b-hf",
+  "diffusion_path": "lite_models_fast/256x256_diffusion_uncond.pt",
+  "upstream_code": "../CIDER/code",
+  "device": "cuda:0",
+  "stages": [50, 100, 150, 200, 250, 300, 350],
+  "seed": 2026,
+  "threshold": 0.0022773519158363342,
+  "reproduction": "adapted",
+  "encoder_mode": "detection_components",
+  "encoder_components": [
+    "vision_tower",
+    "multi_modal_projector",
+    "language_model.model.embed_tokens"
+  ],
+  "threshold_selection": {
+    "split": "CIDER official validation",
+    "objective": "max balanced_accuracy; ties F1, recall, lower FPR, lower threshold",
+    "comparison": "strict_gt",
+    "test_used_for_selection": false
+  },
+  "interface_policy": "freeze ImageEvidence; no new fusion features"
+}

@@ -1,6 +1,8 @@
 # Task B publication-scope review
 
-Status: **pending group-lead approval**.
+Status: **v2/week5 derived artifacts synced by explicit repository-update request; broader publication scope remains pending group-lead approval**.
+
+Update 2026-11-22: `artifacts/v2/` and `artifacts/week5/` are intentionally included with their code, metrics, predictions, cached OCR/features/evidence and reproducibility records. Model weights, original restricted images and private dataset packages remain excluded.
 
 No presence in Git history or in this working tree should be interpreted as permission to publish course data or derived per-sample content. Before the next public release, the group lead must decide whether each category may stay public, be shared only inside the team, or be removed from the public branch (including history if required).
 
