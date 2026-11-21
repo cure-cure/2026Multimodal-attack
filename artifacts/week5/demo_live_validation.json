@@ -1,0 +1,57 @@
+{
+  "status": "exact_match",
+  "samples": 4,
+  "max_absolute_statistic_delta": 0.0,
+  "prediction_matches": 4,
+  "elapsed_ms": {
+    "min": 426.206,
+    "max": 1162.475,
+    "mean": 612.9399999999999
+  },
+  "comparisons": [
+    {
+      "sample_id": "BCF3F9E6DA5A3D5E",
+      "category": "TP",
+      "expected_statistic": 0.005324371159076691,
+      "live_statistic": 0.005324371159076691,
+      "absolute_delta": 0.0,
+      "prediction": 1,
+      "prediction_match": true,
+      "elapsed_ms": 1162.475,
+      "module_version": "B-2.0.0-week5-stable"
+    },
+    {
+      "sample_id": "BC559D98EC189826",
+      "category": "TN",
+      "expected_statistic": -0.0003700926899909973,
+      "live_statistic": -0.0003700926899909973,
+      "absolute_delta": 0.0,
+      "prediction": 0,
+      "prediction_match": true,
+      "elapsed_ms": 436.53,
+      "module_version": "B-2.0.0-week5-stable"
+    },
+    {
+      "sample_id": "BC151F2110240175",
+      "category": "FP",
+      "expected_statistic": 0.002816487103700638,
+      "live_statistic": 0.002816487103700638,
+      "absolute_delta": 0.0,
+      "prediction": 1,
+      "prediction_match": true,
+      "elapsed_ms": 426.549,
+      "module_version": "B-2.0.0-week5-stable"
+    },
+    {
+      "sample_id": "BCA852CA67E9ADA4",
+      "category": "FN",
+      "expected_statistic": 0.0015381313860416412,
+      "live_statistic": 0.0015381313860416412,
+      "absolute_delta": 0.0,
+      "prediction": 0,
+      "prediction_match": true,
+      "elapsed_ms": 426.206,
+      "module_version": "B-2.0.0-week5-stable"
+    }
+  ]
+}

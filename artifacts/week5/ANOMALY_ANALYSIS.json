@@ -1,0 +1,627 @@
+{
+  "analysis_version": "B-week5-anomaly-v1",
+  "cider_threshold": 0.0022773519158363342,
+  "cider_confusion_by_split": {
+    "validation": {
+      "samples": 328,
+      "TP": 150,
+      "TN": 141,
+      "FP": 23,
+      "FN": 14
+    },
+    "test": {
+      "samples": 1280,
+      "TP": 553,
+      "TN": 606,
+      "FP": 34,
+      "FN": 87
+    }
+  },
+  "cider_error_count": 158,
+  "nearest_threshold_errors": [
+    {
+      "sample_id": "BC0AE37AE4B38996",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.0022728368639945984,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -4.51505184173584e-06
+    },
+    {
+      "sample_id": "BC9C4EA1794E7922",
+      "split": "test",
+      "category": "FP",
+      "statistic": 0.0022840946912765503,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": 6.7427754402160645e-06
+    },
+    {
+      "sample_id": "BC5ACAC40A5EB4A2",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.0022688843309879303,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -8.46758484840393e-06
+    },
+    {
+      "sample_id": "BCDEA12C6100CA00",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.0022668689489364624,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -1.0482966899871826e-05
+    },
+    {
+      "sample_id": "BC2D5003AC81809B",
+      "split": "test",
+      "category": "FP",
+      "statistic": 0.0022879987955093384,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": 1.064687967300415e-05
+    },
+    {
+      "sample_id": "BC45DC1977E090F5",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.0022639334201812744,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -1.3418495655059814e-05
+    },
+    {
+      "sample_id": "BC94ADE53C1163ED",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.0022556111216545105,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -2.174079418182373e-05
+    },
+    {
+      "sample_id": "BCA5E7DB0B9BE8EB",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.002245582640171051,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -3.17692756652832e-05
+    },
+    {
+      "sample_id": "BCCB0BC1E5030705",
+      "split": "test",
+      "category": "FP",
+      "statistic": 0.0023144036531448364,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": 3.70517373085022e-05
+    },
+    {
+      "sample_id": "BC04190DB30DAAE9",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.0022274553775787354,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -4.989653825759888e-05
+    },
+    {
+      "sample_id": "BCEFE8602016DA4C",
+      "split": "validation",
+      "category": "FN",
+      "statistic": 0.0022154077887535095,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -6.194412708282471e-05
+    },
+    {
+      "sample_id": "BC30DD5B384FC0BC",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.002198055386543274,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -7.92965292930603e-05
+    },
+    {
+      "sample_id": "BC9CE67609684FC7",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.0021977275609970093,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -7.962435483932495e-05
+    },
+    {
+      "sample_id": "BC81142E6EEDF800",
+      "split": "validation",
+      "category": "FP",
+      "statistic": 0.0023578256368637085,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": 8.047372102737427e-05
+    },
+    {
+      "sample_id": "BC1489785C9266F0",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.002191329374909401,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -8.602254092693329e-05
+    },
+    {
+      "sample_id": "BCD673EE5E270AF1",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.0021768510341644287,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.00010050088167190552
+    },
+    {
+      "sample_id": "BC88031C803E95B4",
+      "split": "validation",
+      "category": "FP",
+      "statistic": 0.0023793205618858337,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": 0.00010196864604949951
+    },
+    {
+      "sample_id": "BC5A0681D4F17155",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.0021709278225898743,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.00010642409324645996
+    },
+    {
+      "sample_id": "BC57C5B90EBCB116",
+      "split": "test",
+      "category": "FP",
+      "statistic": 0.0023906677961349487,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": 0.0001133158802986145
+    },
+    {
+      "sample_id": "BC136244B5AF071B",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.0021173059940338135,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.00016004592180252075
+    }
+  ],
+  "largest_margin_errors": [
+    {
+      "sample_id": "BC31233C722E028D",
+      "split": "validation",
+      "category": "FP",
+      "statistic": 0.0060350485146045685,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": 0.0037576965987682343
+    },
+    {
+      "sample_id": "BCE3EA153B23951D",
+      "split": "test",
+      "category": "FN",
+      "statistic": -0.001463286578655243,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.003740638494491577
+    },
+    {
+      "sample_id": "BC02705FE945D417",
+      "split": "test",
+      "category": "FN",
+      "statistic": -0.001110948622226715,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.0033883005380630493
+    },
+    {
+      "sample_id": "BCA8B32F585292D2",
+      "split": "validation",
+      "category": "FN",
+      "statistic": -0.001110464334487915,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.0033878162503242493
+    },
+    {
+      "sample_id": "BCAF2E978104E269",
+      "split": "validation",
+      "category": "FP",
+      "statistic": 0.005662202835083008,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": 0.0033848509192466736
+    },
+    {
+      "sample_id": "BC492DA9D330A0F9",
+      "split": "validation",
+      "category": "FP",
+      "statistic": 0.005452919751405716,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": 0.0031755678355693817
+    },
+    {
+      "sample_id": "BCD130F822E5AA23",
+      "split": "test",
+      "category": "FN",
+      "statistic": -0.0005976036190986633,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.0028749555349349976
+    },
+    {
+      "sample_id": "BC8A5561A63FC46B",
+      "split": "validation",
+      "category": "FP",
+      "statistic": 0.005111139267683029,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": 0.002833787351846695
+    },
+    {
+      "sample_id": "BC89E0C30D6BC60E",
+      "split": "test",
+      "category": "FN",
+      "statistic": -0.0004456043243408203,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.0027229562401771545
+    },
+    {
+      "sample_id": "BC0DAB68FB68D468",
+      "split": "validation",
+      "category": "FP",
+      "statistic": 0.004969432950019836,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": 0.002692081034183502
+    },
+    {
+      "sample_id": "BC0E6160956F7517",
+      "split": "test",
+      "category": "FN",
+      "statistic": -0.0003757402300834656,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.0026530921459198
+    },
+    {
+      "sample_id": "BC203812EA5359DD",
+      "split": "test",
+      "category": "FN",
+      "statistic": -0.0002381354570388794,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.0025154873728752136
+    },
+    {
+      "sample_id": "BCFE52C57368075B",
+      "split": "validation",
+      "category": "FP",
+      "statistic": 0.004724510014057159,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": 0.002447158098220825
+    },
+    {
+      "sample_id": "BCC31FA496083BF7",
+      "split": "test",
+      "category": "FN",
+      "statistic": -5.176663398742676e-05,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.002329118549823761
+    },
+    {
+      "sample_id": "BCC526554502447D",
+      "split": "validation",
+      "category": "FN",
+      "statistic": -3.203004598617554e-05,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.0023093819618225098
+    },
+    {
+      "sample_id": "BC455001F6639F89",
+      "split": "validation",
+      "category": "FN",
+      "statistic": -4.112720489501953e-06,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.002281464636325836
+    },
+    {
+      "sample_id": "BC4425DCE0408668",
+      "split": "test",
+      "category": "FN",
+      "statistic": 6.983056664466858e-05,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.0022075213491916656
+    },
+    {
+      "sample_id": "BC2FF9004CF1DDEC",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.0001347772777080536,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.0021425746381282806
+    },
+    {
+      "sample_id": "BCFCE77920366417",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.00015307962894439697,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.0021242722868919373
+    },
+    {
+      "sample_id": "BCA01BF86CEA81D3",
+      "split": "test",
+      "category": "FN",
+      "statistic": 0.00015752017498016357,
+      "threshold": 0.0022773519158363342,
+      "signed_margin": -0.0021198317408561707
+    }
+  ],
+  "handcrafted_feature_extremes": {
+    "gaussian_residual_mae": {
+      "distribution": {
+        "n": 4024,
+        "min": 0.0017682742327451706,
+        "q25": 0.010780260898172855,
+        "median": 0.016155066899955273,
+        "mean": 0.017913706754748553,
+        "q75": 0.023256700485944748,
+        "max": 0.06643456220626831
+      },
+      "lowest": [
+        {
+          "sample_id": "SA9C5EC49F3CF",
+          "value": 0.0017682742327451706
+        },
+        {
+          "sample_id": "SEAF76382B142",
+          "value": 0.0017682742327451706
+        },
+        {
+          "sample_id": "S6A2A04E0BA40",
+          "value": 0.0021122382022440434
+        },
+        {
+          "sample_id": "S006E32DF3D37",
+          "value": 0.0022831405512988567
+        },
+        {
+          "sample_id": "S67D9060F3DBA",
+          "value": 0.002685197861865163
+        }
+      ],
+      "highest": [
+        {
+          "sample_id": "S045B28192285",
+          "value": 0.06643456220626831
+        },
+        {
+          "sample_id": "SFF2D8338664F",
+          "value": 0.06643456220626831
+        },
+        {
+          "sample_id": "S1DE1408CD88F",
+          "value": 0.06160161644220352
+        },
+        {
+          "sample_id": "SB6FB2827293D",
+          "value": 0.06160161644220352
+        },
+        {
+          "sample_id": "SF1AB9829F7A0",
+          "value": 0.06160161644220352
+        }
+      ],
+      "interpretation": "Extreme texture/frequency values are review cues, not attack labels."
+    },
+    "gaussian_residual_rmse": {
+      "distribution": {
+        "n": 4024,
+        "min": 0.00536385178565979,
+        "q25": 0.02501007542014122,
+        "median": 0.03440491296350956,
+        "mean": 0.03660193936023065,
+        "q75": 0.04576432704925537,
+        "max": 0.10689964145421982
+      },
+      "lowest": [
+        {
+          "sample_id": "SDAD8C5B39763",
+          "value": 0.00536385178565979
+        },
+        {
+          "sample_id": "SE4FDD2C2340A",
+          "value": 0.00536385178565979
+        },
+        {
+          "sample_id": "SA9C5EC49F3CF",
+          "value": 0.005392609629780054
+        },
+        {
+          "sample_id": "SEAF76382B142",
+          "value": 0.005392609629780054
+        },
+        {
+          "sample_id": "S2572726C22BA",
+          "value": 0.005409345496445894
+        }
+      ],
+      "highest": [
+        {
+          "sample_id": "S1DE1408CD88F",
+          "value": 0.10689964145421982
+        },
+        {
+          "sample_id": "SB6FB2827293D",
+          "value": 0.10689964145421982
+        },
+        {
+          "sample_id": "SF1AB9829F7A0",
+          "value": 0.10689964145421982
+        },
+        {
+          "sample_id": "S045B28192285",
+          "value": 0.1028372049331665
+        },
+        {
+          "sample_id": "SFF2D8338664F",
+          "value": 0.1028372049331665
+        }
+      ],
+      "interpretation": "Extreme texture/frequency values are review cues, not attack labels."
+    },
+    "high_frequency_ratio": {
+      "distribution": {
+        "n": 4024,
+        "min": 0.003251423593610525,
+        "q25": 0.017908502370119095,
+        "median": 0.032439518719911575,
+        "mean": 0.04581603199654587,
+        "q75": 0.055828243494033813,
+        "max": 0.44226929545402527
+      },
+      "lowest": [
+        {
+          "sample_id": "S5C5E1F92D870",
+          "value": 0.003251423593610525
+        },
+        {
+          "sample_id": "SE176A2B8D9C1",
+          "value": 0.003251423593610525
+        },
+        {
+          "sample_id": "S24C1FD5355B4",
+          "value": 0.003921065479516983
+        },
+        {
+          "sample_id": "SB7C64A933C05",
+          "value": 0.003921065479516983
+        },
+        {
+          "sample_id": "S7ED106E56307",
+          "value": 0.00407709926366806
+        }
+      ],
+      "highest": [
+        {
+          "sample_id": "S37A5C6E351E1",
+          "value": 0.44226929545402527
+        },
+        {
+          "sample_id": "S66E00417F520",
+          "value": 0.44226929545402527
+        },
+        {
+          "sample_id": "S7EEDC3B05911",
+          "value": 0.44226929545402527
+        },
+        {
+          "sample_id": "SB944B19202F1",
+          "value": 0.383421391248703
+        },
+        {
+          "sample_id": "S1891F2ADB271",
+          "value": 0.3676212728023529
+        }
+      ],
+      "interpretation": "Extreme texture/frequency values are review cues, not attack labels."
+    },
+    "spectral_centroid": {
+      "distribution": {
+        "n": 4024,
+        "min": 0.014682972803711891,
+        "q25": 0.032748714089393616,
+        "median": 0.04498926177620888,
+        "mean": 0.052415655036206925,
+        "q75": 0.06334306299686432,
+        "max": 0.24526095390319824
+      },
+      "lowest": [
+        {
+          "sample_id": "S5C5E1F92D870",
+          "value": 0.014682972803711891
+        },
+        {
+          "sample_id": "SE176A2B8D9C1",
+          "value": 0.014682972803711891
+        },
+        {
+          "sample_id": "S24C1FD5355B4",
+          "value": 0.015159396454691887
+        },
+        {
+          "sample_id": "SB7C64A933C05",
+          "value": 0.015159396454691887
+        },
+        {
+          "sample_id": "S7B8527AE410E",
+          "value": 0.015330587513744831
+        }
+      ],
+      "highest": [
+        {
+          "sample_id": "S37A5C6E351E1",
+          "value": 0.24526095390319824
+        },
+        {
+          "sample_id": "S66E00417F520",
+          "value": 0.24526095390319824
+        },
+        {
+          "sample_id": "S7EEDC3B05911",
+          "value": 0.24526095390319824
+        },
+        {
+          "sample_id": "S546F29A7DD88",
+          "value": 0.2263605296611786
+        },
+        {
+          "sample_id": "S5DD01B1B7F56",
+          "value": 0.2263605296611786
+        }
+      ],
+      "interpretation": "Extreme texture/frequency values are review cues, not attack labels."
+    }
+  },
+  "ocr_status": {
+    "no_text": 2192,
+    "success": 1832
+  },
+  "ordinary_transform_sensitivity": {
+    "gaussian_blur_r2": {
+      "gaussian_residual_mae": {
+        "mean_delta": -0.000669738898674647,
+        "mean_absolute_delta": 0.000669738898674647,
+        "max_absolute_delta": 0.0018898621201515198
+      },
+      "gaussian_residual_rmse": {
+        "mean_delta": -0.0011756634339690208,
+        "mean_absolute_delta": 0.0011756634339690208,
+        "max_absolute_delta": 0.0027153752744197845
+      },
+      "high_frequency_ratio": {
+        "mean_delta": -0.0028547512677808604,
+        "mean_absolute_delta": 0.0028547512677808604,
+        "max_absolute_delta": 0.009352892637252808
+      },
+      "spectral_centroid": {
+        "mean_delta": -0.0014353608712553978,
+        "mean_absolute_delta": 0.0014353608712553978,
+        "max_absolute_delta": 0.004691995680332184
+      }
+    },
+    "jpeg_quality_50": {
+      "gaussian_residual_mae": {
+        "mean_delta": 8.586181017259757e-05,
+        "mean_absolute_delta": 8.586181017259757e-05,
+        "max_absolute_delta": 0.0001588268205523491
+      },
+      "gaussian_residual_rmse": {
+        "mean_delta": 2.174622689684232e-05,
+        "mean_absolute_delta": 3.913401936491331e-05,
+        "max_absolute_delta": 9.701773524284363e-05
+      },
+      "high_frequency_ratio": {
+        "mean_delta": -3.5421689972281456e-05,
+        "mean_absolute_delta": 5.874868171910445e-05,
+        "max_absolute_delta": 0.0003959238529205322
+      },
+      "spectral_centroid": {
+        "mean_delta": -1.5864924838145573e-05,
+        "mean_absolute_delta": 3.404465193549792e-05,
+        "max_absolute_delta": 0.0002074018120765686
+      }
+    }
+  },
+  "interpretation_boundaries": [
+    "CIDER FP/FN is defined by image-adversarial truth, not whether user text is harmful.",
+    "Gaussian/frequency extremes can be caused by natural texture, blur, resizing, or compression.",
+    "OCR no_text means successful OCR with no retained region; it is not a processing failure.",
+    "The handcrafted overall-risk classifier is diagnostic only because its frozen balanced accuracy is near chance."
+  ]
+}

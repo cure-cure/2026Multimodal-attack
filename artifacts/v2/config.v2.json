@@ -1,0 +1,93 @@
+{
+  "module_version": "B-2.0.0-stable-fixed-splits",
+  "cache_policy": "reuse_unchanged; no OCR, feature, or CIDER inference rerun",
+  "fixed_split_counts": {
+    "base_train": 2002,
+    "fusion_train": 808,
+    "validation": 605,
+    "test": 609
+  },
+  "cider_threshold": 0.0022773519158363342,
+  "cider_comparison": "strict_gt (D export uses ge(nextafter(threshold,+inf)))",
+  "handcrafted_classifier": {
+    "type": "class_balanced_logistic_regression_numpy",
+    "features": [
+      "gaussian_residual_mae",
+      "gaussian_residual_rmse",
+      "high_frequency_ratio",
+      "spectral_centroid"
+    ],
+    "training_mean": [
+      0.01773713696766626,
+      0.03682408743788238,
+      0.04440550298590983,
+      0.05148821617369647
+    ],
+    "training_scale": [
+      0.009555281486333304,
+      0.01681176632607764,
+      0.04533232339772381,
+      0.02709449672752811
+    ],
+    "standardized_coefficients": [
+      0.11772257050036479,
+      -0.14062400517824108,
+      0.1379369261587921,
+      -0.11216127179197732
+    ],
+    "intercept": 0.003556242530568399,
+    "probability_threshold_strict_gt": 0.4601327909992561
+  },
+  "ocr": {
+    "source": "artifacts/ocr.filtered.all.jsonl",
+    "engine": "EasyOCR 1.7.2",
+    "languages": [
+      "ch_sim",
+      "en"
+    ],
+    "confidence_filter": 0.2,
+    "cache_directory_reused": "artifacts/ocr_cache"
+  },
+  "feature_configuration": {
+    "analysis_size": 256,
+    "gaussian_kernel_size": 5,
+    "gaussian_sigma": 1.0,
+    "fft_high_frequency_cutoff": 0.25,
+    "padding": "reflect",
+    "resize": "Pillow bilinear"
+  },
+  "input_sha256": {
+    "manifest": "faa0fb323e561a541c706a65850a046f3d0a1bff6bfa9259a57f1839e6a35748",
+    "features": "a45d9eabf5cf81903713b27eb79bb7ad68b29d88b8ad1c6e374239ddcfdb865e",
+    "ocr": "63aff71d24a9e8548b9530512e1d09564cf69fee5fc19de90d840b2f7a360828",
+    "evidence": "0bc09a3f42778eca8e3fbd9f0fbf6851ae360bdc97781218ea881ffdac237bf3",
+    "holisafe_cider": "c877f2dac1176d32b134d295ea2d34409e67f44ca7b9e017979853466a44436f",
+    "calibration_scored": "4302f26113ff19611c7ae6a320b6076473b901063975dc454d766adc98df972c",
+    "labels_c": "f7e0a1fdd7e3e00b08ff70ef4e07bedd2f731729ec854fe8cdf6ccda05dab80c",
+    "labels_d": "f48a8e4ce7efb6ddbf4f77ca844e70eec11b7d825638e41d8f0fdde97222529b"
+  },
+  "outputs": [
+    "CIDER_THRESHOLD_V2.json",
+    "HANDCRAFTED_SAFETY_CLASSIFIER_V2.json",
+    "cider_predictions.calibration_v2.jsonl",
+    "config.v2.json",
+    "features.base_train.jsonl",
+    "features.fusion_train.jsonl",
+    "features.test.jsonl",
+    "features.validation.jsonl",
+    "handcrafted_safety_predictions.v2.jsonl",
+    "image_evidence.base_train.jsonl",
+    "image_evidence.fusion_train.jsonl",
+    "image_evidence.test.jsonl",
+    "image_evidence.validation.jsonl",
+    "manifest.base_train.jsonl",
+    "manifest.fusion_train.jsonl",
+    "manifest.test.jsonl",
+    "manifest.validation.jsonl",
+    "ocr.base_train.jsonl",
+    "ocr.fusion_train.jsonl",
+    "ocr.test.jsonl",
+    "ocr.validation.jsonl"
+  ],
+  "manifest_note": "Split manifests preserve grouped fields required by the D validator."
+}

@@ -1,0 +1,21 @@
+{
+  "version": "B-week5-stable-v1",
+  "interface_changed": false,
+  "new_fusion_features": [],
+  "demo_categories": [
+    "TP",
+    "TN",
+    "FP",
+    "FN"
+  ],
+  "input_sha256": {
+    "calibration_manifest": "4f53e48db02ad1df01a2f2524879bf91868e1c0cd79e7267e0b8e0c0a6d73b0d",
+    "calibration_predictions": "355f159301ff61f144aa32a51285e863903e0880efc0219a685bf9b2bb99103a",
+    "calibration_features": "0baa0f91394a253bf0eff9521b0d3ebeaa1f3fec6446a06edb7d1a8b455918ab",
+    "calibration_ocr": "dcc74c6bfbbdf4200e80464cca08a3a07be74a0955e7eaa0874b3e4bd55d39cd",
+    "holisafe_features": "a45d9eabf5cf81903713b27eb79bb7ad68b29d88b8ad1c6e374239ddcfdb865e",
+    "holisafe_ocr": "63aff71d24a9e8548b9530512e1d09564cf69fee5fc19de90d840b2f7a360828",
+    "robustness": "80b845a5f332f907f39d09d14e4407e928462aadaec0282c0e0ea9b9768ec19e",
+    "config": "f6af34b3db02fc5ab014d17de52e99bda63e9e8f6826a3bffb715d321c3e3b12"
+  }
+}

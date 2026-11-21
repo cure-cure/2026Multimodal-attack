@@ -1,0 +1,202 @@
+{
+  "experiment_id": "B-handcrafted-overall-risk-v2",
+  "target": "HoliSafe overall_risk_label (safe=0, unsafe=1)",
+  "important_scope": "Image-only auxiliary classifier; not image-adversarial truth and not a replacement for multimodal fusion.",
+  "fixed_split_policy": {
+    "fit": "base_train",
+    "threshold_selection": "validation",
+    "frozen_transfer_evaluation": "fusion_train",
+    "test": "not evaluated because labels are hidden",
+    "image_group_overlap_between_fixed_splits": 0
+  },
+  "model": {
+    "type": "class_balanced_logistic_regression_numpy",
+    "features": [
+      "gaussian_residual_mae",
+      "gaussian_residual_rmse",
+      "high_frequency_ratio",
+      "spectral_centroid"
+    ],
+    "training_mean": [
+      0.01773713696766626,
+      0.03682408743788238,
+      0.04440550298590983,
+      0.05148821617369647
+    ],
+    "training_scale": [
+      0.009555281486333304,
+      0.01681176632607764,
+      0.04533232339772381,
+      0.02709449672752811
+    ],
+    "standardized_coefficients": [
+      0.11772257050036479,
+      -0.14062400517824108,
+      0.1379369261587921,
+      -0.11216127179197732
+    ],
+    "intercept": 0.003556242530568399,
+    "probability_threshold_strict_gt": 0.4601327909992561
+  },
+  "split_metrics": {
+    "base_train": {
+      "samples": 2002,
+      "positives": 1661,
+      "negatives": 341,
+      "tp": 1620,
+      "tn": 13,
+      "fp": 328,
+      "fn": 41,
+      "accuracy": 0.8156843156843157,
+      "precision": 0.8316221765913757,
+      "recall": 0.975316074653823,
+      "f1": 0.8977556109725686,
+      "fpr": 0.9618768328445748,
+      "specificity": 0.03812316715542522,
+      "balanced_accuracy": 0.5067196209046241,
+      "auroc": 0.5343043179655403,
+      "average_precision": 0.8431213388763854
+    },
+    "fusion_train": {
+      "samples": 808,
+      "positives": 673,
+      "negatives": 135,
+      "tp": 664,
+      "tn": 2,
+      "fp": 133,
+      "fn": 9,
+      "accuracy": 0.8242574257425742,
+      "precision": 0.8331242158092849,
+      "recall": 0.986627043090639,
+      "f1": 0.9034013605442177,
+      "fpr": 0.9851851851851852,
+      "specificity": 0.014814814814814815,
+      "balanced_accuracy": 0.5007209289527269,
+      "auroc": 0.48305541797369433,
+      "average_precision": 0.8355555877652955
+    },
+    "validation": {
+      "samples": 605,
+      "positives": 504,
+      "negatives": 101,
+      "tp": 497,
+      "tn": 3,
+      "fp": 98,
+      "fn": 7,
+      "accuracy": 0.8264462809917356,
+      "precision": 0.8352941176470589,
+      "recall": 0.9861111111111112,
+      "f1": 0.9044585987261147,
+      "fpr": 0.9702970297029703,
+      "specificity": 0.0297029702970297,
+      "balanced_accuracy": 0.5079070407040704,
+      "auroc": 0.4568894389438944,
+      "average_precision": 0.8103346379152995
+    }
+  },
+  "feature_differences_all_labeled": {
+    "gaussian_residual_mae": {
+      "safe": {
+        "n": 577,
+        "min": 0.003867888590320945,
+        "q25": 0.011110784485936165,
+        "median": 0.017057223245501518,
+        "mean": 0.018088977240377866,
+        "q75": 0.023080337792634964,
+        "max": 0.06160161644220352,
+        "std": 0.00911747763314676
+      },
+      "unsafe": {
+        "n": 2838,
+        "min": 0.0017682742327451706,
+        "q25": 0.010545538738369942,
+        "median": 0.016089817509055138,
+        "mean": 0.017955160436517126,
+        "q75": 0.02337777614593506,
+        "max": 0.06643456220626831,
+        "std": 0.00982156012565772
+      },
+      "unsafe_minus_safe_mean": -0.00013381680386074027,
+      "cohens_d_unsafe_minus_safe": -0.013786567550193914,
+      "raw_direction_auroc": 0.48625456939309664
+    },
+    "gaussian_residual_rmse": {
+      "safe": {
+        "n": 577,
+        "min": 0.008081648498773575,
+        "q25": 0.02664819546043873,
+        "median": 0.03557648882269859,
+        "mean": 0.037285691724389634,
+        "q75": 0.04581975191831589,
+        "max": 0.10689964145421982,
+        "std": 0.015068890238154862
+      },
+      "unsafe": {
+        "n": 2838,
+        "min": 0.00536385178565979,
+        "q25": 0.02449939027428627,
+        "median": 0.03419878892600536,
+        "mean": 0.036617107688068,
+        "q75": 0.046159470453858376,
+        "max": 0.10689964145421982,
+        "std": 0.016741882386895824
+      },
+      "unsafe_minus_safe_mean": -0.000668584036321633,
+      "cohens_d_unsafe_minus_safe": -0.04059045240443848,
+      "raw_direction_auroc": 0.48022932154970366
+    },
+    "high_frequency_ratio": {
+      "safe": {
+        "n": 577,
+        "min": 0.004138267133384943,
+        "q25": 0.02007311023771763,
+        "median": 0.03455294668674469,
+        "mean": 0.0478273130996892,
+        "q75": 0.056296177208423615,
+        "max": 0.44226929545402527,
+        "std": 0.05105354484213269
+      },
+      "unsafe": {
+        "n": 2838,
+        "min": 0.003251423593610525,
+        "q25": 0.017399173229932785,
+        "median": 0.032316457480192184,
+        "mean": 0.046100723718465624,
+        "q75": 0.056441985070705414,
+        "max": 0.44226929545402527,
+        "std": 0.04780821367458238
+      },
+      "unsafe_minus_safe_mean": -0.0017265893812235741,
+      "cohens_d_unsafe_minus_safe": -0.035694580179081496,
+      "raw_direction_auroc": 0.4771802096577398
+    },
+    "spectral_centroid": {
+      "safe": {
+        "n": 577,
+        "min": 0.017323032021522522,
+        "q25": 0.033154211938381195,
+        "median": 0.04713970795273781,
+        "mean": 0.053775646861003425,
+        "q75": 0.06437651813030243,
+        "max": 0.24526095390319824,
+        "std": 0.030532694415646357
+      },
+      "unsafe": {
+        "n": 2838,
+        "min": 0.014682972803711891,
+        "q25": 0.03258431702852249,
+        "median": 0.044834937900304794,
+        "mean": 0.05227817932748938,
+        "q75": 0.06387428380548954,
+        "max": 0.24526095390319824,
+        "std": 0.028435583850212127
+      },
+      "unsafe_minus_safe_mean": -0.0014974675335140478,
+      "cohens_d_unsafe_minus_safe": -0.05199500560138762,
+      "raw_direction_auroc": 0.4855684734166053
+    }
+  },
+  "labeled_samples": 3415,
+  "safe_samples": 577,
+  "unsafe_samples": 2838
+}
