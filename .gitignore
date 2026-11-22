@@ -57,3 +57,6 @@ README_从零操作.md
 # C 模块本地环境与模型
 venv/
 models/
+
+# C 模块本地生成的训练数据（33MB，由 prepare_guard_data.py 重建）
+data/

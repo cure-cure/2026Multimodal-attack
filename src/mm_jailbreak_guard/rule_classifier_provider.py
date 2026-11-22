@@ -1,62 +1,87 @@
+# src/mm_jailbreak_guard/rule_classifier_provider.py
 from __future__ import annotations
 from pathlib import Path
+import os
 import joblib
 
 from .contracts import DetectionRequest, EvidenceItem, ImageEvidence, TextEvidence
 from .rule_baseline import scan_with_rules
-# 必须导入 tokenize，否则加载 joblib 模型时会报找不到该函数的错误
-from .text_utils import tokenize
 
-_MODEL_PATH = Path(__file__).resolve().parents[2] / "models" / "text_classifier_v2.joblib"
+# 这两个 import 不是为了在本文件里调用，而是 joblib 反序列化模型时按名字回查：
+# v2 模型引用 tokenize，v3 引用 tokenize_drop_space。删掉任何一个都会让对应版本加载失败。
+from .text_utils import tokenize, tokenize_drop_space  # noqa: F401
+
+MODEL_PATH = Path(__file__).resolve().parents[2] / "models" / "text_classifier_v3.joblib"
+
+VALID_MODES = ("combined", "pure_rule", "pure_classifier")
+
 
 class RuleClassifierTextProvider:
     name = "C Rule + sklearn TF-IDF"
-    version = "rule-baseline+tfidf-nb/v2"
+    version = "rule-baseline+tfidf-nb/v3"
 
     def __init__(self) -> None:
-        if not _MODEL_PATH.is_file():
-            raise FileNotFoundError(f"模型不存在：{_MODEL_PATH}。请先运行 python train_text_classifier.py")
-        self._pipeline = joblib.load(_MODEL_PATH)
+        # 读取环境变量，决定输出模式：combined (默认) / pure_rule / pure_classifier
+        self.mode = os.environ.get("C_PROVIDER_MODE", "combined").strip().lower()
+
+        # 拼错模式名时必须在构造阶段就报清楚，否则会落到 combined 分支
+        # 却没有加载 self._pipeline，最后抛 AttributeError，排查成本很高
+        if self.mode not in VALID_MODES:
+            raise ValueError(
+                f"C_PROVIDER_MODE 只能是 {' / '.join(VALID_MODES)}，收到 {self.mode!r}"
+            )
+
+        if self.mode in ("combined", "pure_classifier"):
+            if not MODEL_PATH.is_file():
+                raise FileNotFoundError(f"模型不存在：{MODEL_PATH}")
+            self._pipeline = joblib.load(MODEL_PATH)
+
+        if self.mode == "pure_rule":
+            self.version = "rule-baseline/v1"
+        elif self.mode == "pure_classifier":
+            self.version = "tfidf-nb/v3"
 
     def _score_text(self, text: str) -> tuple[float, list[EvidenceItem]]:
         text = text.strip()
         if not text:
             return 0.0, []
 
+        evidence = []
+
+        # 纯分类器模式
+        if self.mode == "pure_classifier":
+            clf_proba = float(self._pipeline.predict_proba([text])[0][1])
+            evidence.append(
+                EvidenceItem(source="text_classifier", description=f"TF-IDF 概率 {clf_proba:.3f}", score=clf_proba))
+            return clf_proba, evidence
+
+        # 纯规则模式
+        if self.mode == "pure_rule":
+            rule_score, rule_hits = scan_with_rules(text)
+            for h in rule_hits:
+                evidence.append(
+                    EvidenceItem(source="rule_baseline", description=f"规则命中：{h.rule_name}", score=h.score))
+            return rule_score, evidence
+
+        # 混合模式（默认）
         rule_score, rule_hits = scan_with_rules(text)
         clf_proba = float(self._pipeline.predict_proba([text])[0][1])
-
-        evidence = [
-            EvidenceItem(
-                source="rule_baseline",
-                description=f"规则命中：{h.rule_name} → “{h.matched_text}”",
-                score=h.score,
-            ) for h in rule_hits
-        ]
+        for h in rule_hits:
+            evidence.append(EvidenceItem(source="rule_baseline", description=f"规则命中：{h.rule_name}", score=h.score))
         evidence.append(
-            EvidenceItem(
-                source="text_classifier",
-                description=f"自主 TF-IDF+NB 风险概率 {clf_proba:.3f}",
-                score=clf_proba,
-            )
-        )
+            EvidenceItem(source="text_classifier", description=f"TF-IDF 概率 {clf_proba:.3f}", score=clf_proba))
         return max(rule_score, clf_proba), evidence
 
     def analyze(self, request: DetectionRequest, image_evidence: ImageEvidence) -> TextEvidence:
         user_score, user_evidence = self._score_text(request.user_text)
 
         ocr_text = image_evidence.ocr_text if image_evidence.available else ""
-        ocr_ready = (
-                image_evidence.available
-                and image_evidence.ocr_status == "success"
-                and bool(ocr_text.strip())
-        )
+        ocr_ready = (image_evidence.available and image_evidence.ocr_status == "success" and bool(ocr_text.strip()))
 
         ocr_score = None
         combined_score = None
         evidence = list(user_evidence)
 
-        # 严格遵循接口规范：OCR 不可用时，相关分数保持 None
         if ocr_ready:
             ocr_score, ocr_evidence = self._score_text(ocr_text)
             evidence.extend(ocr_evidence)
@@ -74,6 +99,7 @@ class RuleClassifierTextProvider:
             warnings=() if ocr_ready else ("OCR 不可用或未成功，OCR/组合分数设为 null",),
             module_version=self.version,
         )
+
 
 def create_provider() -> RuleClassifierTextProvider:
     return RuleClassifierTextProvider()
