@@ -1,6 +1,7 @@
 # train_qwen3guard_lora.py
 """使用 PEFT 对本地 Qwen3Guard-Gen-0.6B 进行 LoRA 微调（极速版）"""
 import json
+import os
 from pathlib import Path
 
 import torch
@@ -15,10 +16,12 @@ from transformers import (
 )
 
 # ========== 1. 配置 ==========
-MODEL_NAME = "./models/Qwen3Guard-Gen-0.6B"
-DATA_PATH = "data/guard_train.json"
-OUTPUT_DIR = "models/qwen3guard-lora-adapter"
-MAX_LENGTH = 256  # 【修改点1】从 512 降到 256，速度翻倍
+MODEL_NAME = os.environ.get("QWEN_MODEL", "./models/Qwen3Guard-Gen-0.6B")
+DATA_PATH = os.environ.get("LORA_DATA", "data/guard_train.json")
+OUTPUT_DIR = os.environ.get("LORA_OUT", "models/qwen3guard-lora-adapter")
+N_SAMPLES = int(os.environ.get("LORA_SAMPLES", "1000"))
+MAX_STEPS = int(os.environ.get("LORA_MAX_STEPS", "-1"))
+MAX_LENGTH = 256
 
 # ========== 2. 加载模型与分词器 ==========
 print("正在加载本地模型...")
@@ -58,7 +61,7 @@ with open(DATA_PATH, "r", encoding="utf-8") as f:
     raw_data = json.load(f)
 
 # 【修改点2】只取前 1000 条数据，极速验证
-raw_data = raw_data[:1000]
+raw_data = raw_data[:N_SAMPLES]
 print(f"截取训练数据量: {len(raw_data)} 条")
 
 dataset = Dataset.from_list(raw_data)
@@ -86,6 +89,8 @@ training_args = TrainingArguments(
     report_to="none",
     remove_unused_columns=False,
     dataloader_num_workers=0,           # 避免 Windows 下的多进程报错
+    max_steps=MAX_STEPS,
+    logging_first_step=True,
 )
 
 data_collator = DataCollatorForLanguageModeling(
