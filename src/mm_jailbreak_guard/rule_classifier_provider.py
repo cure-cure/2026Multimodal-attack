@@ -10,6 +10,8 @@ from .text_utils import tokenize
 
 _MODEL_PATH = Path(__file__).resolve().parents[2] / "models" / "text_classifier_v2.joblib"
 
+VALID_MODES = ("combined", "pure_rule", "pure_classifier")
+
 
 class RuleClassifierTextProvider:
     name = "C Rule + sklearn TF-IDF"
@@ -17,7 +19,14 @@ class RuleClassifierTextProvider:
 
     def __init__(self) -> None:
         # 读取环境变量，决定输出模式：combined (默认) / pure_rule / pure_classifier
-        self.mode = os.environ.get("C_PROVIDER_MODE", "combined").lower()
+        self.mode = os.environ.get("C_PROVIDER_MODE", "combined").strip().lower()
+
+        # 拼错模式名时必须在构造阶段就报清楚，否则会落到 combined 分支
+        # 却没有加载 self._pipeline，最后抛 AttributeError，排查成本很高
+        if self.mode not in VALID_MODES:
+            raise ValueError(
+                f"C_PROVIDER_MODE 只能是 {' / '.join(VALID_MODES)}，收到 {self.mode!r}"
+            )
 
         if self.mode in ("combined", "pure_classifier"):
             if not _MODEL_PATH.is_file():
