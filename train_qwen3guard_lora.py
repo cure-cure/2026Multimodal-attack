@@ -2,7 +2,18 @@
 """使用 PEFT 对本地 Qwen3Guard-Gen-0.6B 进行 LoRA 微调（极速版）"""
 import json
 import os
+import sys
 from pathlib import Path
+
+# ---- 编码兜底（Windows 中文控制台）----
+# cp950/cp936 下把 stdout 接到管道（如 Tee-Object）时，打印简体字会抛
+# UnicodeEncodeError 直接中断训练。这里统一改成 utf-8 并把无法编码的字符替换掉，
+# 保证「重定向日志」不会让脚本崩在第一条 print 上。
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:  # 老版本解释器或被重定向到不支持的对象时忽略
+        pass
 
 import torch
 from datasets import Dataset

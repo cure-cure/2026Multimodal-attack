@@ -1,10 +1,27 @@
 # eval_lora_adapter.py
+import os
+import sys
+
+# ---- 编码兜底（Windows 中文控制台）----
+# 原因同 train_qwen3guard_lora.py：cp950 下打印简体字会抛 UnicodeEncodeError。
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 import torch
 from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers.utils import logging as hf_logging
 
-BASE_MODEL = "./models/Qwen3Guard-Gen-0.6B"
-ADAPTER_DIR = "models/qwen3guard-lora-adapter"
+# 关掉权重加载进度条：它走 stderr，被 PowerShell 的 2>&1 包成 NativeCommandError，
+# 日志开头会出现一段像"报错"的噪声，交给 A 时容易被误判成跑失败。
+hf_logging.disable_progress_bar()
+hf_logging.set_verbosity_error()
+
+BASE_MODEL = os.environ.get("QWEN_MODEL", "./models/Qwen3Guard-Gen-0.6B")
+ADAPTER_DIR = os.environ.get("ADAPTER_DIR", "models/qwen3guard-lora-adapter")
 
 tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL, trust_remote_code=True)
 if tokenizer.pad_token is None:
@@ -40,4 +57,5 @@ base = AutoModelForCausalLM.from_pretrained(BASE_MODEL, dtype=torch.bfloat16, de
 lora_model = PeftModel.from_pretrained(base, ADAPTER_DIR)
 
 for text in test_cases:
-    print(f"输入: {text}\n输出:\n{generate(lora_model, text)}\n")
+    # 每条之间加分隔线：PowerShell 的 Tee-Object 会吃掉空行，只有空行会粘在一起
+    print(f"输入: {text}\n输出:\n{generate(lora_model, text)}\n{'-' * 50}")
