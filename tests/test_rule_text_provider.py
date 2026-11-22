@@ -7,7 +7,7 @@
    非法 C_PROVIDER_MODE 在构造阶段就报错。
 
 最后一条是冻结版本的回归锁：在 A 的 605 条验证集上，combined@0.5 必须仍是
-F1 0.5056 / FPR 0.2772。数据文件不在时自动跳过（换机器 clone 下来也能跑其余用例）。
+F1 0.7232 / FPR 0.3069。数据文件不在时自动跳过（换机器 clone 下来也能跑其余用例）。
 """
 from __future__ import annotations
 
@@ -154,9 +154,9 @@ def test_evidence_sources_are_declared(providers) -> None:
 
 
 @pytest.mark.parametrize("mode,version", [
-    ("combined", "rule-baseline+tfidf-nb/v2"),
+    ("combined", "rule-baseline+tfidf-nb/v3"),
     ("pure_rule", "rule-baseline/v1"),
-    ("pure_classifier", "tfidf-nb/v2"),
+    ("pure_classifier", "tfidf-nb/v3"),
 ])
 def test_module_version_per_mode(providers, mode: str, version: str) -> None:
     image = ImageEvidence.unavailable("T-5", "OCR 不可用")
@@ -197,8 +197,8 @@ def test_frozen_validation_metrics(providers) -> None:
         else:
             tn += 1
 
-    assert (tp, fp, fn, tn) == (180, 28, 324, 73)
+    assert (tp, fp, fn, tn) == (303, 31, 201, 70)
     precision = tp / (tp + fp)
     recall = tp / (tp + fn)
-    assert round(2 * precision * recall / (precision + recall), 4) == 0.5056
-    assert round(fp / (fp + tn), 4) == 0.2772
+    assert round(2 * precision * recall / (precision + recall), 4) == 0.7232
+    assert round(fp / (fp + tn), 4) == 0.3069

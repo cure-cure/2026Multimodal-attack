@@ -109,7 +109,10 @@ def main() -> int:
                 f"均值={statistics.fmean(values):.4f} 中位={statistics.median(values):.4f} "
                 f"最小={min(values):.3f} 最大={max(values):.3f}")
 
-    model_path = PROJECT_ROOT / "models" / "text_classifier_v2.joblib"
+    # 从 provider 读实际模型路径，别在这里写死文件名——升版本时极易漏改，
+    # 会导致输出的 sha256 与实际打分用的模型不一致（v3 时就踩过一次）。
+    from mm_jailbreak_guard.rule_classifier_provider import MODEL_PATH as model_path
+
     print(f"模式          : {args.mode}")
     print(f"模块版本      : {evidence_rows[0]['module_version'] if evidence_rows else 'n/a'}")
     print(f"样本数        : {len(evidence_rows)}  用时 {elapsed:.2f}s "

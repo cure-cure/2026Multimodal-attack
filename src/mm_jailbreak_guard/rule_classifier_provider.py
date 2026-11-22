@@ -6,16 +6,19 @@ import joblib
 
 from .contracts import DetectionRequest, EvidenceItem, ImageEvidence, TextEvidence
 from .rule_baseline import scan_with_rules
-from .text_utils import tokenize
 
-_MODEL_PATH = Path(__file__).resolve().parents[2] / "models" / "text_classifier_v2.joblib"
+# 这两个 import 不是为了在本文件里调用，而是 joblib 反序列化模型时按名字回查：
+# v2 模型引用 tokenize，v3 引用 tokenize_drop_space。删掉任何一个都会让对应版本加载失败。
+from .text_utils import tokenize, tokenize_drop_space  # noqa: F401
+
+MODEL_PATH = Path(__file__).resolve().parents[2] / "models" / "text_classifier_v3.joblib"
 
 VALID_MODES = ("combined", "pure_rule", "pure_classifier")
 
 
 class RuleClassifierTextProvider:
     name = "C Rule + sklearn TF-IDF"
-    version = "rule-baseline+tfidf-nb/v2"
+    version = "rule-baseline+tfidf-nb/v3"
 
     def __init__(self) -> None:
         # 读取环境变量，决定输出模式：combined (默认) / pure_rule / pure_classifier
@@ -29,14 +32,14 @@ class RuleClassifierTextProvider:
             )
 
         if self.mode in ("combined", "pure_classifier"):
-            if not _MODEL_PATH.is_file():
-                raise FileNotFoundError(f"模型不存在：{_MODEL_PATH}")
-            self._pipeline = joblib.load(_MODEL_PATH)
+            if not MODEL_PATH.is_file():
+                raise FileNotFoundError(f"模型不存在：{MODEL_PATH}")
+            self._pipeline = joblib.load(MODEL_PATH)
 
         if self.mode == "pure_rule":
             self.version = "rule-baseline/v1"
         elif self.mode == "pure_classifier":
-            self.version = "tfidf-nb/v2"
+            self.version = "tfidf-nb/v3"
 
     def _score_text(self, text: str) -> tuple[float, list[EvidenceItem]]:
         text = text.strip()
