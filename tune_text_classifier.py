@@ -69,9 +69,12 @@ if VAL_MANIFEST.is_file():
             "independent_val_f1": round(f1_score(val_labels, pred, pos_label=1), 4),
             "independent_val_recall": round(recall_score(val_labels, pred, pos_label=1), 4)
         }
-        with open("outputs/C_package/config_v2.json", "w", encoding="utf-8") as f:
+        config_path = Path("outputs/C_package/config_v2.json")
+        # outputs/ 不进 git，换机器时目录不存在，这里必须先建，否则模型存完才崩
+        config_path.parent.mkdir(parents=True, exist_ok=True)
+        with config_path.open("w", encoding="utf-8") as f:
             json.dump(config, f, indent=2, ensure_ascii=False)
-        print("真实的 config_v2.json 已更新")
+        print(f"真实的 {config_path} 已更新")
     else:
         print("警告：A 的验证集里没有找到 label 字段，无法进行独立评估。")
 else:
