@@ -1,0 +1,42 @@
+{
+  "B_commit": "ef3b49d88e28fab9ddcb94c60815e0a306145a19",
+  "label_source": "B retained A labels_for_C.csv and labels_for_D.csv values in overall_risk_label; never use prediction or unsafe_probability as truth",
+  "partitions": {
+    "fusion_train": {
+      "manifest_sha256": "609d55d0cf8db6a2fe7549c0a4d3c233405d7ac2f111bb1fc3580331a930a0f6",
+      "B_evidence_sha256": "6b5f4df3a4acd053cf88bd1e6a087fc11e8f9126a8106586c2604b7f9a4d151c",
+      "C_archive_sha256": "01e56c25e249067acfeb1f55217561fdc77845a2038d26eaddcbc27715f48b4c",
+      "C_member": "fusion_train.text_evidence.combined.jsonl",
+      "C_evidence_sha256": "9a0bc294bff225c6474b8bf50686558ed2f82a790eb484b73e9e07f5d56a3a5e",
+      "count": 808,
+      "label_counts": {
+        "1": 673,
+        "0": 135
+      }
+    },
+    "validation": {
+      "manifest_sha256": "33365fc72638ed9355317480450a1c1d711eca77dd4c560da95f8993540ff131",
+      "B_evidence_sha256": "20b7be3b4dca16e7c61cfa7b2490a8ddec8b41058c4c5aaad5e2e66cdb4c9eb0",
+      "C_archive_sha256": "5f0007569babfc11fe7bd407c38f5d920fcf3188fb385a1b6197d11371697297",
+      "C_member": "C_week6_for_D/val.text_evidence.combined.jsonl",
+      "C_evidence_sha256": "df50b6f9017ba2f3207a096fc74fae7125531dfac6eb87bed728c39beb9a53ee",
+      "count": 605,
+      "label_counts": {
+        "1": 504,
+        "0": 101
+      }
+    },
+    "test": {
+      "manifest_sha256": "b73606549c4e8f50410a6095ab3c48797f8c921464ffe08e3cc6ca23ec071505",
+      "B_evidence_sha256": "42cf7667176aa8f3dc69b180f7be2b0d97d262d427b6c402e89522f765a43306",
+      "C_archive_sha256": "5f0007569babfc11fe7bd407c38f5d920fcf3188fb385a1b6197d11371697297",
+      "C_member": "C_week6_for_D/test.text_evidence.combined.jsonl",
+      "C_evidence_sha256": "c40baa1959270a32643ceb960a3a834663b6e987dd75cb5b82b2c3a6595dac67",
+      "count": 609,
+      "label_counts": {
+        "null": 609
+      }
+    }
+  },
+  "test_truth_used": false
+}

@@ -1,0 +1,47 @@
+{
+  "batch_vs_compare_records": 7284,
+  "A_reader_passed": true,
+  "A_test_freeze_format_passed": true,
+  "real_http_checks": [
+    {
+      "sample_id": "S0259059B680F",
+      "ocr_status": "success",
+      "mode": "image_only",
+      "web_equals_batch": true
+    },
+    {
+      "sample_id": "S0259059B680F",
+      "ocr_status": "success",
+      "mode": "text_only",
+      "web_equals_batch": true
+    },
+    {
+      "sample_id": "S0259059B680F",
+      "ocr_status": "success",
+      "mode": "full",
+      "web_equals_batch": true
+    },
+    {
+      "sample_id": "S03CEC96B0D85",
+      "ocr_status": "no_text",
+      "mode": "image_only",
+      "web_equals_batch": true
+    },
+    {
+      "sample_id": "S03CEC96B0D85",
+      "ocr_status": "no_text",
+      "mode": "text_only",
+      "web_equals_batch": true
+    },
+    {
+      "sample_id": "S03CEC96B0D85",
+      "ocr_status": "no_text",
+      "mode": "full",
+      "web_equals_batch": true
+    }
+  ],
+  "unknown_id_and_changed_input_rejected": true,
+  "upstream_version_change_rejected": true,
+  "B_or_C_failure_full_abstains": true,
+  "demo_type": "offline_real_evidence_replay"
+}

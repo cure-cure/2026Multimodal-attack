@@ -6,6 +6,7 @@
 
 ## 成员从这里开始
 
+- **[D 第六周交付与 README](deliverables/D_week6_v1/README.md)**：808 条真实证据融合训练、605 条验证选阈值、冻结后 609 条测试预测及固定/学习融合对照。[下载完整运行包](deliverables/D_week6_v1/D_week6_candidate_for_A.zip)
 - [D 第五周运行和演示](docs/WEEK5_D_DELIVERY.md)：605 条 HoliSafe 验证样本的真实固定融合。
 - [D 第五周给 A 的交付](deliverables/D_week5_v1/)：三种模式的逐条预测、日志、来源和评测说明。[下载 ZIP](deliverables/D_week5_v1/D_week5_v1_for_A.zip)
 - [D第四周本地交付与复现](docs/WEEK4_D_DELIVERY.md)：自主训练、A数据适配、证据缓存和固定/训练融合对比。
@@ -18,7 +19,7 @@
 - [模拟交接包](examples/handoff/README.md)：含正常、风险、OCR失败和模块失败样例。
 - [第四周统一评测说明](docs/WEEK4_EVALUATION.md)：预测格式、评测口径、覆盖率和测试集冻结要求。
 
-D 已使用 B、C 对真实样本预先计算的证据，跑通固定融合、批量预测和网页回放。准确率、误报和漏报由 A 使用真值评测。手写逻辑回归训练已通过软件测试，真实融合训练与课件对应确认仍待完成。
+D 已使用 B、C 对真实样本预先计算的证据，完成固定融合与手写逻辑回归训练、验证集阈值选择、冻结测试预测、批量预测和网页回放。第六周候选使用 B-2.0.0-stable-fixed-splits 与 C v3；测试集成绩由 A 使用私有真值统一评测。第六周 README 区分验证结果和最终测试成绩，并列出当前局限。算法与课件的对应仍待确认，新图文的实时 B/C 推理尚未验收。
 
 ## 快速检查
 

@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-11-23T06:20:48.839612+00:00",
+  "model_config_sha256": "f70582d69dee7917a0108b9c41dea4c2fa09bf4580639d8b599d76534405fbe0",
+  "fixed_config_sha256": "53875f85b9c98ee928915ad7b006ba2ae066ee413f58da963206f80ecbee35f6",
+  "config_id": "logistic-dd04267d5f107864",
+  "B_version": "B-2.0.0-stable-fixed-splits",
+  "C_version": "rule-baseline+tfidf-nb/v3",
+  "thresholds": {
+    "text_only": 0.5727544384264274,
+    "full": 0.553103125411251
+  },
+  "selection": "preexisting balanced_accuracy then F1 then nearest 0.5",
+  "train_count": 808,
+  "validation_count": 605,
+  "test_used_for_selection": false,
+  "validation_metrics_role": "threshold_selection_diagnostic",
+  "course_mapping": "pending_verification"
+}

@@ -1,0 +1,13 @@
+{
+  "frozen": true,
+  "run_id": "D-week6-Cv3-learned",
+  "module": "D",
+  "target": "image_adversarial",
+  "mode": "image_only",
+  "score_field": null,
+  "threshold": null,
+  "model_version": "logistic-dd04267d5f107864",
+  "frozen_at": "2026-11-23T06:20:48.839612+00:00",
+  "test_used_for_selection": false,
+  "model_config_sha256": "f70582d69dee7917a0108b9c41dea4c2fa09bf4580639d8b599d76534405fbe0"
+}

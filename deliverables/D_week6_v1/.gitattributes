@@ -1,0 +1,2 @@
+# Preserve frozen artifacts byte-for-byte across Windows/Linux checkouts.
+* -text

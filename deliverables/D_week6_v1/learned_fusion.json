@@ -1,0 +1,184 @@
+{
+  "algorithm": "D_manual_logistic_fusion_v1",
+  "schema_version": 1,
+  "models": {
+    "text_only": {
+      "features": [
+        "user_text_score",
+        "ocr_text_score",
+        "combined_text_score"
+      ],
+      "means": [
+        0.5276337304200447,
+        0.4122219545212904,
+        0.32515372447277613
+      ],
+      "weights": [
+        1.4327492431387163,
+        -0.2815835319527196,
+        0.45371951453090703,
+        0.0,
+        0.11556922958572798,
+        0.11556922958572798
+      ],
+      "bias": -0.8358003653135081,
+      "threshold": 0.5727544384264274,
+      "loss_history": [
+        0.6931471805599441,
+        0.6847018325191878,
+        0.678812628075015,
+        0.6743732948734265,
+        0.6710030991619867,
+        0.668436535740389,
+        0.6664773592908882,
+        0.6649784448134858,
+        0.663829030911966,
+        0.66294555344227,
+        0.6622648526496575,
+        0.6617391032871638,
+        0.6613320225606297
+      ],
+      "observed_counts": [
+        808,
+        343,
+        343
+      ]
+    },
+    "full": {
+      "features": [
+        "user_text_score",
+        "ocr_text_score",
+        "combined_text_score",
+        "visual_score",
+        "cross_modal_score"
+      ],
+      "means": [
+        0.5276337304200447,
+        0.4122219545212904,
+        0.32515372447277613,
+        0.32386413285915594,
+        0.23998523512722245
+      ],
+      "weights": [
+        1.4353096896384299,
+        -0.272788057978181,
+        0.4563870447388029,
+        -0.27043331186432656,
+        0.16178266383386777,
+        0.0,
+        0.08472363572476298,
+        0.08472363572476298,
+        0.0,
+        0.08472363572476298
+      ],
+      "bias": -0.8019612899703574,
+      "threshold": 0.553103125411251,
+      "loss_history": [
+        0.6931471805599441,
+        0.6838198447050168,
+        0.6775812485159209,
+        0.6729988076793468,
+        0.6695813645175878,
+        0.6670103187621049,
+        0.6650630691239624,
+        0.6635801193113265,
+        0.6624454434398455,
+        0.6615736630102866,
+        0.6609013749914233,
+        0.6603811477657342,
+        0.6599772840259309
+      ],
+      "observed_counts": [
+        808,
+        343,
+        343,
+        808,
+        343
+      ]
+    }
+  },
+  "baseline": {
+    "config_id": "D-week5-fixed-v1",
+    "trained_on_split": null,
+    "algorithm": "manual_weighted_late_fusion",
+    "visual_weight_cap": 0.2,
+    "modes": {
+      "image_only": {
+        "threshold": 0.5,
+        "weights": {
+          "visual_score": 1.0
+        }
+      },
+      "text_only": {
+        "threshold": 0.5,
+        "weights": {
+          "user_text_score": 0.4,
+          "ocr_text_score": 0.3,
+          "combined_text_score": 0.3
+        }
+      },
+      "user_text_only": {
+        "threshold": 0.5,
+        "weights": {
+          "user_text_score": 1.0
+        }
+      },
+      "user_text_ocr": {
+        "threshold": 0.5,
+        "weights": {
+          "user_text_score": 0.35,
+          "ocr_text_score": 0.25,
+          "combined_text_score": 0.25,
+          "cross_modal_score": 0.15
+        }
+      },
+      "full": {
+        "threshold": 0.5,
+        "weights": {
+          "user_text_score": 0.25,
+          "ocr_text_score": 0.2,
+          "combined_text_score": 0.25,
+          "visual_score": 0.1,
+          "cross_modal_score": 0.2
+        }
+      }
+    },
+    "selection": {
+      "status": "predeclared_unvalidated_baseline",
+      "require_both_sides": true,
+      "note": "沿用第四周示例参数，未使用真实标签或测试集调参。第五周仅作验证集初次集成基线，不能称为正式冻结配置。"
+    }
+  },
+  "provenance": {
+    "train_split": "fusion_train",
+    "threshold_split": "validation",
+    "train_count": 808,
+    "validation_count": 605,
+    "test_set_used": false,
+    "module_versions": {
+      "B": [
+        "B-2.0.0-stable-fixed-splits"
+      ],
+      "C": [
+        "rule-baseline+tfidf-nb/v3"
+      ]
+    },
+    "input_sha256": {
+      "0:fusion_train.jsonl": "c57ee7101b770d7136c1846fb7a4fddc75469dafcd05548074c06f5ba2a01649",
+      "1:validation.jsonl": "ce861cc5cb0aff1b73018341609e7b0d9302f7b47bbfe74515023cd41a4eac50",
+      "2:fusion_config.week5_fixed.json": "53875f85b9c98ee928915ad7b006ba2ae066ee413f58da963206f80ecbee35f6",
+      "3:image_evidence.fusion_train.jsonl": "6b5f4df3a4acd053cf88bd1e6a087fc11e8f9126a8106586c2604b7f9a4d151c",
+      "4:fusion_train.jsonl": "9a0bc294bff225c6474b8bf50686558ed2f82a790eb484b73e9e07f5d56a3a5e",
+      "5:image_evidence.validation.jsonl": "20b7be3b4dca16e7c61cfa7b2490a8ddec8b41058c4c5aaad5e2e66cdb4c9eb0",
+      "6:validation.jsonl": "df50b6f9017ba2f3207a096fc74fae7125531dfac6eb87bed728c39beb9a53ee"
+    },
+    "note": "只记录软件训练；真实效果须由A用冻结测试协议评测"
+  },
+  "training_options": {
+    "epochs": 600,
+    "learning_rate": 0.2,
+    "l2": 0.01
+  },
+  "course_mapping": "pending_verification",
+  "config_id": "logistic-dd04267d5f107864"
+}

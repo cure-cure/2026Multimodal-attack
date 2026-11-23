@@ -1,0 +1,11 @@
+{
+  "standalone_package_startup": "passed",
+  "unit_tests": 59,
+  "unit_test_result": "OK",
+  "validation_count": 605,
+  "fusion_train_count": 808,
+  "test_prediction_count": 609,
+  "test_metrics_computed": false,
+  "course_mapping": "pending_verification",
+  "live_raw_image_inference": "not_validated"
+}

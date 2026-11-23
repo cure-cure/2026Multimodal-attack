@@ -1,6 +1,6 @@
 # D 模块运行说明
 
-当前D交付包含第四周自主训练代码和系统框架，依据最新《题目十分工与DDL计划.md》。项目入口见[README](README.md)，详细训练与接入命令见[第四周交付](docs/WEEK4_D_DELIVERY.md)。
+当前 D 交付包含自主训练代码、统一接口及第六周冻结候选，依据最新《题目十分工与DDL计划.md》。项目入口见[README](README.md)，第六周运行包、评测与复现说明见[第六周交付](deliverables/D_week6_v1/README.md)，基础接入命令见[第四周交付](docs/WEEK4_D_DELIVERY.md)。
 
 ## 环境与示例
 
@@ -49,4 +49,4 @@ python -m mm_jailbreak_guard batch --manifest data/manifest.test.jsonl --image-e
 
 已实现固定加权融合、手写逻辑回归、启发式关联特征、异常处理及批量/页面框架。`train-fusion`在fusion_train训练、validation/val选阈值；`adapt-manifest`读取A分组CSV生成新清单；`collect-evidence`缓存B/C输出；compare的--baseline-config支持同证据固定融合对照。`fit`仍为独立网格搜索实验工具，不代替train-fusion。课件对应仍待核验，算法见[融合路线](docs/FUSION_ROADMAP.md)。
 
-运行 `python scripts/check_d_workflow.py` 可生成 `outputs/D_mock/learned.json` 及模拟预测。页面脚本支持 `-ConfigPath outputs/D_mock/learned.json`。第五周已用 B、C 的真实离线证据完成固定融合与网页回放，见[运行说明](docs/WEEK5_D_DELIVERY.md)和[给 A 的交付](deliverables/D_week5_v1/)。真实融合训练留到第六周；A 维护真值并统一评测。运行时输出仍保存到被忽略的 `outputs/` 与 `runtime/`。
+运行 `python scripts/check_d_workflow.py` 可生成 `outputs/D_mock/learned.json` 及模拟预测。页面脚本支持 `-ConfigPath outputs/D_mock/learned.json`。第五周真实固定融合与网页回放保留于[第五周交付](deliverables/D_week5_v1/)。第六周已完成 808 条融合训练、605 条验证选阈值及冻结后的 609 条测试预测，见[第六周 README](deliverables/D_week6_v1/README.md)。A 使用私有测试真值统一评测；验证指标不代表最终测试成绩。运行时临时输出仍保存到被忽略的 `outputs/` 与 `runtime/`，冻结交付位于 `deliverables/`。
